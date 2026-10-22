@@ -7,75 +7,139 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
-/* Layout: lista de jogos como um painel de cotações. Cada linha abre a
-   tabela de lojas e o gráfico de histórico logo abaixo, sem trocar de página. */
+/* Layout: barra fixa no topo, filtros em chips, grade de capas. Cada card termina
+   numa faixa de preço (desconto e loja à esquerda, preço à direita). O clique abre
+   uma janela com a tabela de lojas e o gráfico de histórico. */
 :root {
-  --bg: #f6f3f4;
-  --surface: #ffffff;
-  --line: #e3dcdf;
-  --fg: #1c171a;
-  --muted: #6b6268;
-  --accent: #c8102e;
-  --on-accent: #ffffff;
-  --good: #1b7f4b;
-  --s2: #3b6fd4;
-  --s3: #a86f00;
+  --bg: #0d1320;
+  --surface: #151d2e;
+  --surface-2: #1b2538;
+  --line: #25304a;
+  --fg: #e9eef7;
+  --muted: #8e9bb4;
+  --accent: #ff5566;
+  --on-accent: #1a0a0c;
+  --good: #3ddc97;
+  --on-good: #05231a;
+  --s2: #7fa8ff;
+  --s3: #e0b04a;
+  /* a barra do topo é escura nos dois temas */
+  --bar: #090d16;
+  --bar-fg: #e9eef7;
+  --bar-accent: #ff5566;
+  --bar-field: rgba(255, 255, 255, 0.07);
+  --bar-line: rgba(255, 255, 255, 0.14);
   --font-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
   --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
-  color-scheme: light;
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #121014;
-    --surface: #1b181d;
-    --line: #2d272f;
-    --fg: #f2edf0;
-    --muted: #a39ba6;
-    --accent: #ff5566;
-    --on-accent: #1a0a0c;
-    --good: #4fd08a;
-    --s2: #7fa8ff;
-    --s3: #e0b04a;
-    color-scheme: dark;
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #edf1f7;
+    --surface: #ffffff;
+    --surface-2: #f2f5fa;
+    --line: #d9e0ec;
+    --fg: #131a2a;
+    --muted: #5d6a82;
+    --accent: #c8102e;
+    --on-accent: #ffffff;
+    --good: #12794a;
+    --on-good: #ffffff;
+    --s2: #3b6fd4;
+    --s3: #a86f00;
+    color-scheme: light;
   }
 }
-:root[data-theme="dark"] {
-  --bg: #121014;
-  --surface: #1b181d;
-  --line: #2d272f;
-  --fg: #f2edf0;
-  --muted: #a39ba6;
-  --accent: #ff5566;
-  --on-accent: #1a0a0c;
-  --good: #4fd08a;
-  --s2: #7fa8ff;
-  --s3: #e0b04a;
-  color-scheme: dark;
+:root[data-theme="light"] {
+  --bg: #edf1f7;
+  --surface: #ffffff;
+  --surface-2: #f2f5fa;
+  --line: #d9e0ec;
+  --fg: #131a2a;
+  --muted: #5d6a82;
+  --accent: #c8102e;
+  --on-accent: #ffffff;
+  --good: #12794a;
+  --on-good: #ffffff;
+  --s2: #3b6fd4;
+  --s3: #a86f00;
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
   font: 15px/1.5 var(--font-body);
-  padding-block: 24px 48px;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  background: var(--bar);
+  z-index: 30;
+}
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.gutter {
+  max-width: 1240px;
+  margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
-.wrap { max-width: 860px; margin: 0 auto; display: grid; gap: 20px; }
-button, input, select { font: inherit; color: inherit; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-.top { display: grid; gap: 4px; }
-.brand {
-  font: 700 clamp(28px, 6vw, 40px)/1.05 var(--font-display);
-  letter-spacing: -0.02em;
-  margin: 0;
+/* barra do topo */
+.bar {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 20;
+  background: var(--bar);
+  border-bottom: 1px solid var(--bar-line);
 }
-.brand span { color: var(--accent); }
-.tagline { margin: 0; color: var(--muted); max-width: 56ch; }
+.bar .gutter { display: flex; align-items: center; gap: 14px 20px; padding-block: 12px; }
+.logo {
+  font: 700 25px/1 var(--font-display);
+  letter-spacing: -0.02em;
+  color: var(--bar-fg);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.logo span { color: var(--bar-accent); }
+.search {
+  flex: 1 1 auto;
+  max-width: 420px;
+  display: flex; align-items: center; gap: 8px;
+  background: var(--bar-field);
+  border: 1px solid var(--bar-line);
+  border-radius: 6px;
+  padding: 0 10px;
+  color: var(--bar-fg);
+  min-width: 0;
+}
+.search svg { flex: none; opacity: 0.7; }
+.search input {
+  flex: 1; min-width: 0;
+  background: none; border: 0; outline: 0;
+  padding: 9px 0;
+  color: var(--bar-fg);
+}
+.search input::placeholder { color: color-mix(in srgb, var(--bar-fg) 55%, transparent); }
+.search:focus-within { border-color: var(--bar-accent); }
+.cur {
+  margin-left: auto;
+  color: var(--bar-fg);
+  font: 500 12px/1.1 var(--font-data);
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.cur small { display: block; opacity: 0.6; font-size: 11px; }
+@media (max-width: 480px) { .cur { display: none; } .logo { font-size: 21px; } }
+
+main.gutter { display: grid; gap: 16px; padding-block: 20px 56px; }
 
 .notice {
   border: 1px dashed var(--accent);
@@ -86,59 +150,151 @@ button, input, select { font: inherit; color: inherit; }
 }
 .notice strong { color: var(--accent); }
 
-.controls { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: center; }
-.field {
+/* filtros */
+.toolbar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
   background: var(--surface);
   border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 8px; min-width: 0; }
+.chips + .chips { padding-left: 18px; border-left: 1px solid var(--line); }
+@media (max-width: 560px) { .chips + .chips { padding-left: 0; border-left: 0; } }
+.chip {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
   border-radius: 6px;
-  padding: 9px 11px;
+  padding: 6px 11px;
+  font-size: 13.5px;
+  cursor: pointer;
+  color: var(--muted);
+}
+.chip:hover { color: var(--fg); }
+.chip[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+.sort { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
+.sort select {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 6px 8px;
+  color: var(--fg);
+}
+@media (max-width: 560px) { .sort { margin-left: 0; width: 100%; } .sort select { flex: 1; } }
+
+.group {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+.group h2 { margin: 0; font: 600 16px var(--font-body); }
+.count {
+  font: 500 12.5px var(--font-data);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 9px;
+  color: var(--muted);
+}
+.stamp { margin-left: auto; color: var(--muted); font-size: 12.5px; text-align: right; }
+
+/* grade de capas */
+.grid {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr));
+}
+.empty { grid-column: 1 / -1; padding: 32px 16px; text-align: center; color: var(--muted); }
+.card {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  padding: 0; text-align: left; cursor: pointer;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card:hover { border-color: color-mix(in srgb, var(--accent) 60%, var(--line)); }
+.cover { position: relative; display: block; aspect-ratio: 460 / 215; max-width: 100%; background: var(--surface-2); overflow: hidden; }
+.cover img, .ph { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.ph {
+  display: grid; place-items: center;
+  font: 700 38px var(--font-display);
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.82);
+}
+.flag {
+  position: absolute; left: 8px; bottom: 8px;
+  background: var(--good); color: var(--on-good);
+  font: 600 11px/1.5 var(--font-body);
+  letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 1px 7px; border-radius: 3px;
+}
+.titlerow { display: flex; align-items: center; gap: 8px; padding: 10px 12px 8px; }
+.name { flex: 1; min-width: 0; font: 600 15px/1.3 var(--font-body); overflow-wrap: anywhere; }
+.chev { flex: none; color: var(--muted); }
+.strip {
+  margin-top: auto;
+  display: flex; align-items: center; gap: 12px;
+  padding: 9px 12px 10px;
+  border-top: 1px solid var(--line);
   min-width: 0;
 }
-#q { flex: 1 1 220px; }
-#sort { flex: 0 0 auto; }
-.check { display: flex; gap: 8px; align-items: center; cursor: pointer; user-select: none; font-size: 14px; }
-.check input { accent-color: var(--accent); width: 16px; height: 16px; margin: 0; }
-.meta { margin-left: auto; color: var(--muted); font-size: 13px; }
-
-.list { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); overflow: hidden; }
-.item + .item { border-top: 1px solid var(--line); }
-.row {
-  width: 100%;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 4px 16px;
-  align-items: center;
-  text-align: left;
-  background: none;
-  border: 0;
-  padding: 14px 16px;
-  cursor: pointer;
-}
-.row:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
-.name { font: 700 19px/1.2 var(--font-display); letter-spacing: -0.01em; overflow-wrap: anywhere; }
-.sub { grid-column: 1; color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: center; }
-.tag {
-  font-size: 11.5px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
-  color: var(--good);
-  border: 1px solid currentColor; border-radius: 4px; padding: 0 6px;
-}
-.price-box { grid-column: 2; grid-row: 1 / span 2; display: flex; align-items: center; gap: 10px; justify-content: flex-end; }
-.old { font: 500 13px var(--font-data); color: var(--muted); text-decoration: line-through; font-variant-numeric: tabular-nums; }
-.price { font: 500 20px var(--font-data); font-variant-numeric: tabular-nums; }
+.strip.low { background: color-mix(in srgb, var(--good) 20%, var(--surface)); }
+.cutcol { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; min-width: 0; }
 .cut {
   font: 500 13px var(--font-data);
   background: var(--accent); color: var(--on-accent);
-  border-radius: 4px; padding: 2px 6px; min-width: 3.4em; text-align: center;
+  border-radius: 4px; padding: 1px 7px;
 }
 .cut.none { background: transparent; color: var(--muted); border: 1px solid var(--line); }
-.unavailable { color: var(--muted); font-size: 14px; }
-@media (max-width: 520px) {
-  .price-box { flex-direction: column-reverse; align-items: flex-end; gap: 4px; }
-  .old { display: none; }
-}
+.shop { font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+.pricecol { margin-left: auto; display: flex; flex-direction: column; align-items: flex-end; line-height: 1.25; }
+.price { font: 500 19px var(--font-data); font-variant-numeric: tabular-nums; }
+.old { font: 500 12px var(--font-data); color: var(--muted); text-decoration: line-through; font-variant-numeric: tabular-nums; }
+.more { flex: none; color: var(--muted); font-size: 12px; text-align: right; }
+.nostore { color: var(--muted); font-size: 13.5px; }
 
-.detail { padding: 4px 16px 18px; display: grid; gap: 18px; border-top: 1px dashed var(--line); background: color-mix(in srgb, var(--bg) 55%, var(--surface)); }
-.detail h3 { margin: 14px 0 8px; font: 600 12px var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.foot { color: var(--muted); font-size: 12.5px; max-width: 72ch; margin: 0; }
+
+/* janela de detalhes */
+.overlay {
+  position: fixed; inset: 0; z-index: 40;
+  background: rgba(4, 7, 13, 0.72);
+  display: grid; place-items: center;
+  padding-top: max(16px, env(safe-area-inset-top, 0px));
+  padding-bottom: max(16px, env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.panel {
+  position: relative;
+  width: min(680px, 100%);
+  max-height: 100%;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.close {
+  position: absolute; top: 10px; right: 10px; z-index: 2;
+  width: 34px; height: 34px;
+  display: grid; place-items: center;
+  background: rgba(4, 7, 13, 0.7); color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px; cursor: pointer;
+}
+.panel .cover { border-radius: 10px 10px 0 0; max-height: 240px; width: 100%; }
+.dbody { padding: 14px 18px 20px; display: grid; gap: 18px; }
+.dbody h2 { margin: 0; font: 700 24px/1.15 var(--font-display); letter-spacing: -0.01em; overflow-wrap: anywhere; }
+.dbody h3 { margin: 0 0 8px; font: 600 12px var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
 .scroll { overflow-x: auto; }
 table { border-collapse: collapse; width: 100%; font-size: 14px; }
 th { text-align: left; font-weight: 500; color: var(--muted); font-size: 12.5px; padding: 0 12px 6px 0; white-space: nowrap; }
@@ -147,48 +303,73 @@ td.num { font-family: var(--font-data); }
 td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
 .best td:first-child { font-weight: 600; }
 .best-flag { color: var(--good); font-size: 12px; font-weight: 600; margin-left: 6px; }
-
 .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
 .legend i { display: inline-block; width: 18px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
 .chart { width: 100%; min-width: 0; }
 .chart svg { display: block; }
 .ax { stroke: var(--line); stroke-width: 1; }
-.grid { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 4; }
+.gridline { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 4; }
 .tick { fill: var(--muted); font: 11px var(--font-data); }
 .series { fill: none; stroke-width: 2; stroke-linejoin: round; }
 .dot { stroke: var(--surface); stroke-width: 2; }
-.stats { display: flex; flex-wrap: wrap; gap: 6px 24px; font-size: 13.5px; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px 24px; font-size: 13.5px; margin-top: 8px; }
 .stats b { font-family: var(--font-data); font-weight: 500; font-variant-numeric: tabular-nums; }
-.note { color: var(--muted); font-size: 13.5px; margin: 0; }
-
-.empty { padding: 28px 16px; text-align: center; color: var(--muted); }
-.foot { color: var(--muted); font-size: 12.5px; max-width: 70ch; }
+.note {
+  margin: 0; padding: 12px 14px;
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px;
+  color: var(--muted); font-size: 13.5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .card { transition: border-color 0.15s; }
+}
 </style>
 
-<div class="wrap">
-  <header class="top">
-    <h1 class="brand">baixou<span>game</span></h1>
-    <p class="tagline">Preços de jogos de PC em reais, com o histórico de cada um. Veja se a promoção de hoje é boa de verdade.</p>
-  </header>
+<header class="bar">
+  <div class="gutter">
+    <a class="logo" href="./" aria-label="baixougame, página inicial">baixou<span>game</span></a>
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.6"/><path d="M10.6 10.6 14 14"/></svg>
+      <input id="q" type="search" placeholder="Buscar jogo" aria-label="Buscar jogo" autocomplete="off">
+    </label>
+    <span class="cur" title="Preços em reais">R$<small>BRL</small></span>
+  </div>
+</header>
 
+<main class="gutter">
   <div id="notice" class="notice" hidden></div>
 
-  <div class="controls">
-    <input id="q" class="field" type="search" placeholder="Buscar jogo" aria-label="Buscar jogo" autocomplete="off">
-    <select id="sort" class="field" aria-label="Ordenar por">
-      <option value="cut">Maior desconto</option>
-      <option value="price">Menor preço</option>
-      <option value="name">Nome (A–Z)</option>
-    </select>
-    <label class="check field"><input id="deals" type="checkbox"> Só em promoção</label>
-    <span id="meta" class="meta"></span>
+  <section class="toolbar" aria-label="Filtros">
+    <div id="chips-offer" class="chips" role="group" aria-label="Tipo de oferta"></div>
+    <div id="chips-store" class="chips" role="group" aria-label="Loja" hidden></div>
+    <label class="sort">Ordenar por
+      <select id="sort">
+        <option value="cut">Maior desconto</option>
+        <option value="price">Menor preço</option>
+        <option value="name">Nome (A–Z)</option>
+      </select>
+    </label>
+  </section>
+
+  <div class="group">
+    <h2>Todos os jogos</h2>
+    <span id="count" class="count">0</span>
+    <span id="stamp" class="stamp"></span>
   </div>
 
-  <ul id="list" class="list" aria-live="polite">
+  <ul id="grid" class="grid" aria-live="polite">
     <li class="empty">Carregando preços…</li>
   </ul>
 
-  <p class="foot">Os preços vêm das lojas e podem mudar a qualquer momento. Confira o valor final na página da loja antes de comprar. Projeto independente, sem vínculo com as lojas listadas.</p>
+  <p class="foot">Os preços vêm das lojas e podem mudar a qualquer momento. Confira o valor final na página da loja antes de comprar. Projeto independente, sem vínculo com as lojas listadas. As capas pertencem aos seus respectivos donos.</p>
+</main>
+
+<div id="modal" class="overlay" hidden>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="m-title">
+    <button id="m-close" class="close" type="button" aria-label="Fechar">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M2 2l10 10M12 2 2 12"/></svg>
+    </button>
+    <div id="m-body"></div>
+  </div>
 </div>
 
 <script>
@@ -218,8 +399,12 @@ function build(make, attrs, kids) {
 const h = (tag, attrs, ...kids) => build(() => document.createElement(tag), attrs, kids);
 const sv = (tag, attrs, ...kids) => build(() => document.createElementNS(NS, tag), attrs, kids);
 
-const state = { data: null, open: null, q: '', sort: 'cut', deals: false, today: null };
+const OFFER_CHIPS = [['all', 'Todos'], ['deals', 'Em promoção'], ['low', 'No menor preço']];
 const SERIES_COLORS = ['var(--accent)', 'var(--s2)', 'var(--s3)'];
+const state = { data: null, q: '', sort: 'cut', offer: 'all', store: null, today: null, modal: null };
+let resizer = null;
+
+const storeName = key => (state.data.stores && state.data.stores[key]) || key;
 
 function bestOf(game) {
   let best = null;
@@ -228,10 +413,18 @@ function bestOf(game) {
   }
   return best;
 }
-function lowOf(game) {
+function offerOf(game) {
+  if (state.store) {
+    const info = (game.stores || {})[state.store];
+    return info ? { key: state.store, ...info } : null;
+  }
+  return bestOf(game);
+}
+function lowOf(game, only) {
   let low = null;
   for (const e of game.history || []) {
     for (const [key, price] of Object.entries(e.p)) {
+      if (only && key !== only) continue;
       if (!low || price < low.price) low = { key, price, date: e.d };
     }
   }
@@ -242,56 +435,118 @@ function highOf(game) {
   for (const e of game.history || []) for (const price of Object.values(e.p)) if (high == null || price > high) high = price;
   return high;
 }
-const storeName = key => (state.data.stores && state.data.stores[key]) || key;
+function isLow(game, offer) {
+  const low = lowOf(game, state.store);
+  return !!(offer && low && (game.history || []).length >= 2 && offer.price <= low.price + 0.005);
+}
 
 function visibleGames() {
   const q = norm(state.q.trim());
   let games = state.data.games.filter(g => !q || norm(g.name).includes(q));
-  if (state.deals) games = games.filter(g => { const b = bestOf(g); return b && b.cut > 0; });
-  const withPrice = games.filter(bestOf);
-  const without = games.filter(g => !bestOf(g));
+  if (state.store) games = games.filter(g => offerOf(g));
+  if (state.offer === 'deals') games = games.filter(g => { const o = offerOf(g); return o && o.cut > 0; });
+  if (state.offer === 'low') games = games.filter(g => isLow(g, offerOf(g)));
+  const withPrice = games.filter(offerOf), without = games.filter(g => !offerOf(g));
+  const byName = (a, b) => a.name.localeCompare(b.name, 'pt-BR');
   const by = {
-    cut: (a, b) => bestOf(b).cut - bestOf(a).cut || bestOf(a).price - bestOf(b).price,
-    price: (a, b) => bestOf(a).price - bestOf(b).price,
-    name: (a, b) => a.name.localeCompare(b.name, 'pt-BR'),
+    cut: (a, b) => offerOf(b).cut - offerOf(a).cut || offerOf(a).price - offerOf(b).price,
+    price: (a, b) => offerOf(a).price - offerOf(b).price,
+    name: byName,
   }[state.sort];
-  return [...withPrice.sort(by), ...without.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'))];
+  return [...withPrice.sort(by), ...without.sort(byName)];
 }
 
-function renderRow(game) {
-  const best = bestOf(game);
-  const low = lowOf(game);
-  const isOpen = state.open === game.appid;
-  const atLow = best && low && (game.history || []).length >= 2 && best.price <= low.price + 0.005;
-  const detailId = `d-${game.appid}`;
-
-  const priceBox = best
-    ? h('span', { class: 'price-box' },
-        best.cut > 0 ? h('span', { class: 'old' }, money(best.regular)) : null,
-        h('span', { class: 'price' }, money(best.price)),
-        h('span', { class: best.cut > 0 ? 'cut' : 'cut none' }, best.cut > 0 ? `−${best.cut}%` : '0%'))
-    : h('span', { class: 'price-box unavailable' }, 'Sem preço no Brasil');
-
-  const sub = h('span', { class: 'sub' },
-    best ? h('span', {}, `Melhor preço na ${storeName(best.key)}`) : null,
-    atLow ? h('span', { class: 'tag' }, 'Menor preço registrado') : null);
-
-  const row = h('button', {
-    class: 'row', type: 'button', 'aria-expanded': String(isOpen), 'aria-controls': detailId,
-    onclick: () => { state.open = isOpen ? null : game.appid; render(); },
-  }, h('span', { class: 'name' }, game.name), priceBox, sub);
-
-  const item = h('li', { class: 'item' }, row);
-  if (isOpen) item.append(renderDetail(game, detailId));
-  return item;
+/* capa: tenta a imagem da loja e cai num bloco colorido com as iniciais */
+const coverUrls = id => [
+  `https://cdn.cloudflare.steamstatic.com/steam/apps/${id}/header.jpg`,
+  `https://cdn.akamai.steamstatic.com/steam/apps/${id}/header.jpg`,
+];
+function cover(game) {
+  let hue = 0;
+  for (const ch of game.name) hue = (hue * 31 + ch.charCodeAt(0)) % 360;
+  const initials = game.name.split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0].toUpperCase()).join('');
+  const ph = h('span', { class: 'ph', style: `background:linear-gradient(135deg,hsl(${hue} 42% 30%),hsl(${(hue + 40) % 360} 48% 16%))` }, initials);
+  const box = h('span', { class: 'cover' }, ph);
+  const urls = coverUrls(game.appid);
+  let i = 0;
+  const img = h('img', { alt: '', loading: 'lazy', decoding: 'async', width: 460, height: 215, referrerpolicy: 'no-referrer' });
+  img.addEventListener('error', () => { i++; if (i < urls.length) img.src = urls[i]; else img.remove(); });
+  img.src = urls[0];
+  box.append(img);
+  return box;
 }
 
-function renderDetail(game, id) {
+function renderCard(game) {
+  const offer = offerOf(game);
+  const low = isLow(game, offer);
+  const strip = offer
+    ? h('span', { class: low ? 'strip low' : 'strip' },
+        h('span', { class: 'cutcol' },
+          h('span', { class: offer.cut > 0 ? 'cut' : 'cut none' }, offer.cut > 0 ? `−${offer.cut}%` : '0%'),
+          h('span', { class: 'shop' }, storeName(offer.key))),
+        h('span', { class: 'pricecol' },
+          h('span', { class: 'price' }, money(offer.price)),
+          offer.cut > 0 ? h('span', { class: 'old' }, money(offer.regular)) : null),
+        h('span', { class: 'more' }, 'detalhes ›'))
+    : h('span', { class: 'strip' }, h('span', { class: 'nostore' }, 'Sem preço no Brasil'));
+
+  const cv = cover(game);
+  if (low) cv.append(h('span', { class: 'flag' }, 'Menor preço registrado'));
+
+  const chev = sv('svg', { class: 'chev', width: 14, height: 14, viewBox: '0 0 14 14', fill: 'none', stroke: 'currentColor', 'stroke-width': 1.8, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'aria-hidden': 'true' },
+    sv('path', { d: 'M3 5l4 4 4-4' }));
+
+  const btn = h('button', { class: 'card', type: 'button', 'aria-haspopup': 'dialog' },
+    cv, h('span', { class: 'titlerow' }, h('span', { class: 'name' }, game.name), chev), strip);
+  btn.addEventListener('click', () => openModal(game, btn));
+  return h('li', {}, btn);
+}
+
+function renderGrid() {
+  const games = visibleGames();
+  document.getElementById('grid').replaceChildren(...(games.length
+    ? games.map(renderCard)
+    : [h('li', { class: 'empty' }, 'Nenhum jogo encontrado. Tente outro nome ou outro filtro.')]));
+  document.getElementById('count').textContent = games.length;
+}
+
+/* chips de filtro: criados uma vez e só atualizados, para não perder o foco */
+function makeChips() {
+  const chip = (label, value, group) => h('button', { class: 'chip', type: 'button', 'data-group': group, 'data-value': value, 'aria-pressed': 'false' }, label);
+  const offerBox = document.getElementById('chips-offer');
+  offerBox.append(...OFFER_CHIPS.map(([v, label]) => chip(label, v, 'offer')));
+
+  const keys = Object.keys(state.data.stores || {}).filter(k => state.data.games.some(g => g.stores && g.stores[k]));
+  const storeBox = document.getElementById('chips-store');
+  if (keys.length > 1) {
+    storeBox.hidden = false;
+    storeBox.append(chip('Todas as lojas', '', 'store'), ...keys.map(k => chip(storeName(k), k, 'store')));
+  }
+  document.querySelector('.toolbar').addEventListener('click', e => {
+    const b = e.target.closest('.chip');
+    if (!b) return;
+    if (b.dataset.group === 'offer') state.offer = b.dataset.value;
+    else state.store = b.dataset.value || null;
+    syncChips();
+    renderGrid();
+  });
+  syncChips();
+}
+function syncChips() {
+  for (const b of document.querySelectorAll('.chip')) {
+    const on = b.dataset.group === 'offer' ? state.offer === b.dataset.value : (state.store || '') === b.dataset.value;
+    b.setAttribute('aria-pressed', String(on));
+  }
+}
+
+/* janela de detalhes */
+function renderDetail(game) {
   const stores = Object.entries(game.stores || {}).sort((a, b) => a[1].price - b[1].price);
   const low = lowOf(game), high = highOf(game);
   const history = game.history || [];
+  const keys = chartKeys(game);
 
-  const table = h('div', { class: 'scroll' },
+  const table = stores.length ? h('div', { class: 'scroll' },
     h('table', {},
       h('thead', {}, h('tr', {}, ...['Loja', 'Preço', 'Preço cheio', 'Desconto', ''].map(t => h('th', {}, t)))),
       h('tbody', {}, ...stores.map(([key, info], i) =>
@@ -303,26 +558,27 @@ function renderDetail(game, id) {
           h('td', {}, info.url && info.url !== '#'
             ? h('a', { href: info.url, target: '_blank', rel: 'noopener' }, 'Ir à loja')
             : null)))
-      )));
+      ))) : h('p', { class: 'note' }, 'Este jogo não tem preço em reais nas lojas acompanhadas.');
 
-  const chartBox = h('div', { class: 'chart' });
-  const legend = h('div', { class: 'legend' }, ...chartKeys(game).map((key, i) =>
-    h('span', {}, h('i', { style: `background:${SERIES_COLORS[i % SERIES_COLORS.length]}` }), storeName(key))));
+  let history_block;
+  if (history.length < 2) {
+    history_block = h('p', { class: 'note' }, `O histórico deste jogo começa em ${history[0] ? dmy(history[0].d) : 'breve'}. As variações de preço aparecem aqui conforme forem acontecendo.`);
+  } else {
+    history_block = h('div', {},
+      keys.length > 1 ? h('div', { class: 'legend' }, ...keys.map((k, i) =>
+        h('span', {}, h('i', { style: `background:${SERIES_COLORS[i % SERIES_COLORS.length]}` }), storeName(k)))) : null,
+      h('div', { class: 'chart' }),
+      low ? h('div', { class: 'stats' },
+        h('span', {}, 'Menor preço registrado: ', h('b', {}, money(low.price)), ` em ${dmy(low.date)} (${storeName(low.key)})`),
+        high != null ? h('span', {}, 'Maior: ', h('b', {}, money(high))) : null) : null);
+  }
 
-  const stats = low ? h('div', { class: 'stats' },
-    h('span', {}, 'Menor preço registrado: ', h('b', {}, money(low.price)), ` em ${dmy(low.date)} (${storeName(low.key)})`),
-    high != null ? h('span', {}, 'Maior: ', h('b', {}, money(high))) : null) : null;
-
-  const note = history.length < 2
-    ? h('p', { class: 'note' }, `O histórico deste jogo começa em ${history[0] ? dmy(history[0].d) : 'breve'}. As variações aparecem aqui conforme o preço mudar.`)
-    : null;
-
-  const el = h('div', { class: 'detail', id: id },
-    h('div', {}, h('h3', {}, 'Preço por loja'), table),
-    h('div', {}, h('h3', {}, 'Histórico de preço'), chartKeys(game).length > 1 ? legend : null, chartBox, stats, note));
-  requestAnimationFrame(() => drawChart(chartBox, game));
-  if ('ResizeObserver' in window) new ResizeObserver(() => drawChart(chartBox, game)).observe(chartBox);
-  return el;
+  return h('div', {},
+    cover(game),
+    h('div', { class: 'dbody' },
+      h('h2', { id: 'm-title' }, game.name),
+      h('div', {}, h('h3', {}, 'Preço por loja'), table),
+      h('div', {}, h('h3', {}, 'Histórico de preço'), history_block)));
 }
 
 function chartKeys(game) {
@@ -330,7 +586,6 @@ function chartKeys(game) {
   for (const e of game.history || []) for (const k of Object.keys(e.p)) if (!keys.includes(k)) keys.push(k);
   return keys;
 }
-
 function niceStep(raw) {
   const pow = Math.pow(10, Math.floor(Math.log10(raw)));
   const f = raw / pow;
@@ -339,14 +594,14 @@ function niceStep(raw) {
 
 function drawChart(box, game) {
   const history = game.history || [];
-  const width = Math.max(260, Math.floor(box.clientWidth || 0));
   if (!history.length || !box.clientWidth) return;
+  const width = Math.max(260, Math.floor(box.clientWidth));
   const height = 220, m = { l: 58, r: 12, t: 10, b: 26 };
   const pw = width - m.l - m.r, ph = height - m.t - m.b;
 
   const prices = history.flatMap(e => Object.values(e.p));
   let min = Math.min(...prices), max = Math.max(...prices);
-  if (min === max) { min = max * 0.8; }
+  if (min === max) min = max * 0.8;
   const step = niceStep((max - min) / 4);
   const lo = Math.max(0, Math.floor(min / step) * step), hi = Math.ceil(max / step) * step;
 
@@ -360,71 +615,95 @@ function drawChart(box, game) {
     'aria-label': `Histórico de preço de ${game.name} em reais` });
 
   for (let v = lo; v <= hi + step / 2; v += step) {
-    svg.append(sv('line', { class: 'grid', x1: m.l, x2: width - m.r, y1: Y(v), y2: Y(v) }));
+    svg.append(sv('line', { class: 'gridline', x1: m.l, x2: width - m.r, y1: Y(v), y2: Y(v) }));
     svg.append(sv('text', { class: 'tick', x: m.l - 8, y: Y(v) + 4, 'text-anchor': 'end' }, BRL0.format(v)));
   }
   svg.append(sv('line', { class: 'ax', x1: m.l, x2: width - m.r, y1: m.t + ph, y2: m.t + ph }));
 
-  const dayAt = f => { const t = x0 + span * f; return new Date(t * 864e5).toISOString().slice(0, 10); };
+  const dayAt = f => new Date((x0 + span * f) * 864e5).toISOString().slice(0, 10);
   [[0, 'start'], [0.5, 'middle'], [1, 'end']].forEach(([f, anchor]) => {
     svg.append(sv('text', { class: 'tick', x: m.l + pw * f, y: height - 6, 'text-anchor': anchor }, dm(dayAt(f))));
   });
 
   chartKeys(game).forEach((key, i) => {
-    const color = SERIES_COLORS[i % SERIES_COLORS.length];
     const pts = history.filter(e => e.p[key] != null).map(e => [dayNum(e.d), e.p[key]]);
     if (!pts.length) return;
     let d = `M${X(pts[0][0])},${Y(pts[0][1])}`;
     for (let j = 1; j < pts.length; j++) d += ` H${X(pts[j][0])} V${Y(pts[j][1])}`;
     d += ` H${X(xEnd)}`;
-    svg.append(sv('path', { class: 'series', d, style: `stroke:${color}` }));
+    svg.append(sv('path', { class: 'series', d, style: `stroke:${SERIES_COLORS[i % SERIES_COLORS.length]}` }));
   });
 
   const low = lowOf(game);
-  if (low && history.length > 1) {
-    svg.append(sv('circle', { class: 'dot', cx: X(dayNum(low.date)), cy: Y(low.price), r: 5, style: 'fill:var(--good)' }));
-  } else if (history.length === 1) {
-    svg.append(sv('circle', { class: 'dot', cx: X(x0), cy: Y(prices[0]), r: 5, style: 'fill:var(--accent)' }));
-  }
-
+  if (low) svg.append(sv('circle', { class: 'dot', cx: X(dayNum(low.date)), cy: Y(low.price), r: 5, style: 'fill:var(--good)' }));
   box.replaceChildren(svg);
 }
 
-function render() {
-  const list = document.getElementById('list');
-  const games = visibleGames();
-  list.replaceChildren(...(games.length
-    ? games.map(renderRow)
-    : [h('li', { class: 'empty' }, 'Nenhum jogo encontrado. Tente outro nome ou desmarque "Só em promoção".')]));
-  document.getElementById('meta').textContent = `${games.length} ${games.length === 1 ? 'jogo' : 'jogos'}`;
+function openModal(game, trigger) {
+  state.modal = { game, trigger };
+  const body = document.getElementById('m-body');
+  body.replaceChildren(renderDetail(game));
+  document.getElementById('modal').hidden = false;
+  document.body.style.overflow = 'hidden';
+  document.getElementById('m-close').focus();
+  const box = body.querySelector('.chart');
+  if (box) {
+    requestAnimationFrame(() => drawChart(box, game));
+    if ('ResizeObserver' in window) { resizer = new ResizeObserver(() => drawChart(box, game)); resizer.observe(box); }
+  }
+}
+function closeModal() {
+  if (!state.modal) return;
+  document.getElementById('modal').hidden = true;
+  document.body.style.overflow = '';
+  if (resizer) { resizer.disconnect(); resizer = null; }
+  const { trigger } = state.modal;
+  state.modal = null;
+  if (trigger && document.contains(trigger)) trigger.focus();
+}
+
+function wireModal() {
+  const overlay = document.getElementById('modal');
+  document.getElementById('m-close').addEventListener('click', closeModal);
+  overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
+  document.addEventListener('keydown', e => {
+    if (!state.modal) return;
+    if (e.key === 'Escape') { closeModal(); return; }
+    if (e.key !== 'Tab') return;
+    const f = [...overlay.querySelectorAll('button, a[href]')].filter(el => !el.disabled);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
 }
 
 async function boot() {
-  const list = document.getElementById('list');
+  const grid = document.getElementById('grid');
   try {
     const res = await fetch('data/games.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error(res.status);
     state.data = await res.json();
   } catch (err) {
-    list.replaceChildren(h('li', { class: 'empty' }, 'Não foi possível carregar os preços agora. Tente de novo em instantes.'));
+    grid.replaceChildren(h('li', { class: 'empty' }, 'Não foi possível carregar os preços agora. Tente de novo em instantes.'));
     return;
   }
   const when = new Date(state.data.updated);
   state.today = when.toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' });
   const stamp = when.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
-  document.querySelector('.tagline').append(` Atualizado em ${stamp.replace(',', ' às')}.`);
+  document.getElementById('stamp').textContent = `Atualizado em ${stamp.replace(',', ' às')}`;
 
   if (state.data.sample) {
     const n = document.getElementById('notice');
-    n.append(h('strong', {}, 'Dados de exemplo. '), 'Os preços e o histórico abaixo são inventados, só para mostrar o layout. Quando o script de atualização rodar, eles são trocados pelos preços reais da Steam Brasil.');
+    n.append(h('strong', {}, 'Dados de exemplo. '), 'Os preços e o histórico abaixo são inventados, só para mostrar o layout. Quando o script de atualização rodar, eles são trocados pelos preços reais.');
     n.hidden = false;
   }
 
-  document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; render(); });
-  document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
-  document.getElementById('deals').addEventListener('change', e => { state.deals = e.target.checked; render(); });
-  state.open = (visibleGames()[0] || {}).appid || null;
-  render();
+  document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; renderGrid(); });
+  document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; renderGrid(); });
+  makeChips();
+  wireModal();
+  renderGrid();
 }
 boot();
 </script>
