@@ -21,7 +21,20 @@ Para testar no seu computador: `python scripts/update_prices.py` e depois `pytho
 
 ## Adicionar jogos
 
-Inclua uma linha em `data/watchlist.json`. O `appid` é o número na URL da página do jogo na Steam (`store.steampowered.com/app/<appid>/`).
+**Automático:** a cada execução o script olha as promoções em destaque da Steam Brasil (promoções, mais vendidos, oferta do dia) e cadastra em `data/discovered.json` os jogos com desconto grande que ainda não estão no site. Ele confere se é mesmo um jogo pago (DLC, trilha sonora e demo ficam de fora). Os jogos novos aparecem no site na mesma execução e entram no resumo do workflow na aba Actions.
+
+Os limites ficam no topo de `scripts/update_prices.py`:
+
+| Constante | Padrão | O que faz |
+|---|---|---|
+| `DISCOVER` | `True` | `False` desliga a descoberta |
+| `MIN_DISCOUNT` | `50` | desconto mínimo (%) para cadastrar |
+| `MAX_NEW_PER_RUN` | `10` | máximo de jogos novos por execução |
+| `MAX_GAMES` | `300` | máximo total de jogos no site |
+
+Para tirar um jogo descoberto e impedir que ele volte, coloque o `appid` dele em `data/ignored.json` (por exemplo `[1234567, 7654321]`). Na próxima execução ele sai do site.
+
+**Manual:** inclua uma linha em `data/watchlist.json`. O `appid` é o número na URL da página do jogo na Steam (`store.steampowered.com/app/<appid>/`). Essa lista é só sua: o script nunca escreve nela.
 
 ## Links de afiliado (Nuuvem Co-Op)
 
@@ -52,5 +65,6 @@ Confira os termos de uso de cada loja antes de coletar os dados dela.
 ## Avisos
 
 - O endereço de preços da Steam usado aqui (`store.steampowered.com/api/appdetails`) não é uma API oficial documentada. Ele pode mudar ou limitar requisições. O script já espera 2 segundos entre lotes.
-- O script não foi testado contra a Steam de verdade neste ambiente, só contra uma resposta simulada. Rode o workflow uma vez e confira o resultado.
+- A coleta de preços já rodou de verdade no seu GitHub. A descoberta de jogos foi testada só com respostas simuladas: rode o workflow uma vez e confira a seção "Jogos novos" no resumo da execução. Se a Steam mudar a vitrine, a descoberta falha sozinha e a coleta de preços continua normal.
+- A vitrine da Steam mostra poucas promoções por vez (algumas dezenas). Os jogos novos entram aos poucos, conforme as promoções mudam ao longo dos dias.
 - O GitHub pode pausar workflows agendados de repositórios públicos sem atividade por 60 dias. Se isso acontecer, reative em Actions.
