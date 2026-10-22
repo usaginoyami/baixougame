@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T14:32:34+00:00",
+ "updated": "2026-10-22T17:52:44+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -111,6 +111,26 @@
    }
   },
   {
+   "appid": 1693980,
+   "history": [
+    {
+     "d": "2026-10-22",
+     "p": {
+      "steam": 249.0
+     }
+    }
+   ],
+   "name": "Dead Space",
+   "stores": {
+    "steam": {
+     "price": 249.0,
+     "regular": 249.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1693980/"
+    }
+   }
+  },
+  {
    "appid": 1245620,
    "history": [
     {
@@ -138,14 +158,20 @@
      "p": {
       "steam": 98.95
      }
+    },
+    {
+     "d": "2026-10-22",
+     "p": {
+      "steam": 74.95
+     }
     }
    ],
    "name": "Grand Theft Auto V Enhanced",
    "stores": {
     "steam": {
-     "price": 98.95,
-     "regular": 224.9,
-     "cut": 56,
+     "price": 74.95,
+     "regular": 149.9,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/3240220/"
     }
    }
@@ -178,14 +204,20 @@
      "p": {
       "steam": 24.99
      }
+    },
+    {
+     "d": "2026-10-22",
+     "p": {
+      "steam": 249.99
+     }
     }
    ],
    "name": "Hogwarts Legacy",
    "stores": {
     "steam": {
-     "price": 24.99,
+     "price": 249.99,
      "regular": 249.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/990080/"
     }
    }
@@ -218,14 +250,20 @@
      "p": {
       "steam": 74.97
      }
+    },
+    {
+     "d": "2026-10-22",
+     "p": {
+      "steam": 299.9
+     }
     }
    ],
    "name": "Red Dead Redemption 2",
    "stores": {
     "steam": {
-     "price": 74.97,
+     "price": 299.9,
      "regular": 299.9,
-     "cut": 75,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1174180/"
     }
    }
