@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "appid": 990080,
+  "name": "Hogwarts Legacy",
+  "added": "2026-10-21",
+  "via": "specials"
+ },
+ {
+  "appid": 2050650,
+  "name": "Resident Evil 4",
+  "added": "2026-10-21",
+  "via": "specials"
+ },
+ {
+  "appid": 1066890,
+  "name": "Automobilista 2",
+  "added": "2026-10-21",
+  "via": "3"
+ },
+ {
+  "appid": 3240220,
+  "name": "Grand Theft Auto V Enhanced",
+  "added": "2026-10-21",
+  "via": "specials"
+ }
+]
