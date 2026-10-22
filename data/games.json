@@ -1,12 +1,13 @@
 {
- "updated": "2026-10-22T02:41:03+00:00",
+ "updated": "2026-10-22T14:32:34+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
   "steam": "Steam"
  },
  "link_stores": {
-  "nuuvem": "Nuuvem"
+  "nuuvem": "Nuuvem",
+  "gmg": "Green Man Gaming"
  },
  "games": [
   {
