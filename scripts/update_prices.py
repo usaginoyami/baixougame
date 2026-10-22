@@ -36,7 +36,7 @@ TZ = ZoneInfo("America/Sao_Paulo")
 USER_AGENT = "baixougame/1.0"
 
 # Descoberta automática de jogos
-DISCOVER = True         # False desliga a descoberta
+DISCOVER = os.environ.get("BAIXOUGAME_DISCOVER", "1") != "0"  # False desliga a descoberta
 MIN_DISCOUNT = 50       # só cadastra jogos com pelo menos esse desconto (%)
 MAX_NEW_PER_RUN = 10    # limite de jogos novos por execução
 MAX_GAMES = 300         # limite total de jogos no site (manuais + descobertos)

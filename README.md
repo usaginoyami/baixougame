@@ -34,7 +34,17 @@ Os limites ficam no topo de `scripts/update_prices.py`:
 
 Para tirar um jogo descoberto e impedir que ele volte, coloque o `appid` dele em `data/ignored.json` (por exemplo `[1234567, 7654321]`). Na próxima execução ele sai do site.
 
-**Manual:** inclua uma linha em `data/watchlist.json`. O `appid` é o número na URL da página do jogo na Steam (`store.steampowered.com/app/<appid>/`). Essa lista é só sua: o script nunca escreve nela.
+**Manual, só com o nome (mais fácil):**
+
+1. No GitHub, abra a aba **Actions** e clique em **Adicionar jogo**.
+2. Clique em **Run workflow**, digite o nome do jogo (ou o link da Steam, ou o appid) e confirme. Para vários, separe com `;` (por exemplo `Hades; Celeste`).
+3. Em cerca de um minuto o jogo aparece no site, com o nome oficial, a capa e o preço.
+
+O script procura o jogo na Steam Brasil e confere que é mesmo um jogo (trilha sonora, DLC, demo e jogo gratuito ficam de fora). Se o nome bater com mais de um jogo, ele **não escolhe por você**: a execução termina em vermelho e o resumo (na página da execução) lista as opções com o appid de cada uma. Rode de novo com o appid ou com o nome exato. Se o jogo estava em `data/ignored.json`, ele sai de lá, porque você pediu.
+
+Para usar no seu computador: `python scripts/add_game.py "Hades"` e depois `python scripts/update_prices.py`.
+
+**Manual, editando o arquivo:** inclua uma linha em `data/watchlist.json`. O `appid` é o número na URL da página do jogo na Steam (`store.steampowered.com/app/<appid>/`). Essa lista é sua: o script só escreve nela quando você pede um jogo pelo "Adicionar jogo" (ou por `add_game.py`), e nunca apaga nada.
 
 ## Links de afiliado (Nuuvem e Green Man Gaming)
 

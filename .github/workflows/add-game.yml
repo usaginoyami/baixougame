@@ -1,0 +1,55 @@
+name: Adicionar jogo
+
+on:
+  workflow_dispatch:
+    inputs:
+      nome:
+        description: "Nome do jogo (ou link da Steam, ou appid). Vários: separe com ;"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+# Fila única com a atualização diária, para os dois não mexerem nos dados ao mesmo tempo.
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cadastrar o jogo
+        id: add
+        continue-on-error: true
+        env:
+          NOME: ${{ inputs.nome }}
+        run: python scripts/add_game.py "$NOME"
+
+      - name: Buscar preços
+        env:
+          BAIXOUGAME_DISCOVER: "0"
+        run: python scripts/update_prices.py
+
+      - name: Salvar alterações
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "Adiciona jogo manualmente"
+            git push
+          fi
+
+      - name: Avisar se algum nome não entrou
+        if: steps.add.outcome == 'failure'
+        run: |
+          echo "Algum jogo não foi cadastrado. Abra o resumo desta execução para ver o motivo."
+          exit 1

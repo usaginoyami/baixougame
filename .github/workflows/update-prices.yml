@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# Fila única com o workflow "Adicionar jogo", para não mexerem nos dados ao mesmo tempo.
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
