@@ -30,6 +30,10 @@ TZ = ZoneInfo("America/Sao_Paulo")
 # fetch_steam() e registre aqui (veja o README).
 STORE_NAMES = {"steam": "Steam"}
 
+# Lojas que só ganham um botão com o seu link de afiliado, sem preço no site.
+# O link de cada jogo vai em data/watchlist.json, no campo "links".
+LINK_STORES = {"nuuvem": "Nuuvem"}
+
 
 def fetch_steam(appids):
     """Devolve {appid: {price, regular, cut, url}} para os jogos que têm preço."""
@@ -96,6 +100,12 @@ def main():
         game = previous.get(appid, {"appid": appid, "history": []})
         game["name"] = item["name"]
 
+        links = {k: v for k, v in (item.get("links") or {}).items() if k in LINK_STORES and str(v).startswith(("http://", "https://"))}
+        if links:
+            game["links"] = links
+        else:
+            game.pop("links", None)
+
         stores = {}
         if appid in steam:
             stores["steam"] = steam[appid]
@@ -115,6 +125,7 @@ def main():
         "currency": "BRL",
         "sample": False,
         "stores": STORE_NAMES,
+        "link_stores": LINK_STORES,
         "games": games,
     }
     OUT.write_text(

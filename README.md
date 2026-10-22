@@ -23,6 +23,22 @@ Para testar no seu computador: `python scripts/update_prices.py` e depois `pytho
 
 Inclua uma linha em `data/watchlist.json`. O `appid` é o número na URL da página do jogo na Steam (`store.steampowered.com/app/<appid>/`).
 
+## Links de afiliado (Nuuvem Co-Op)
+
+A Nuuvem não oferece API nem feed público de preços, e os termos de uso dela proíbem coletar dados do site com robôs. Por isso o baixougame **não mostra preços da Nuuvem**. O que dá para fazer é um botão "Ver na Nuuvem" com o seu link de afiliado:
+
+1. Entre no programa Nuuvem Co-Op (pela Rakuten) e espere a aprovação.
+2. No painel de afiliado, crie o link do jogo.
+3. Em `data/watchlist.json`, adicione o campo `links` no jogo:
+
+```json
+{"appid": 1145360, "name": "Hades", "links": {"nuuvem": "https://seu-link-de-afiliado"}}
+```
+
+4. Na próxima atualização (ou rodando o workflow na mão), o botão aparece na janela de detalhes do jogo e o aviso de links de afiliado aparece no rodapé.
+
+Leia as regras do programa antes de divulgar os links.
+
 ## Adicionar outras lojas
 
 O site já mostra várias lojas na tabela e no gráfico. Para somar uma loja:

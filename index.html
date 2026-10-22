@@ -319,6 +319,14 @@ td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
   background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px;
   color: var(--muted); font-size: 13.5px;
 }
+.links { display: flex; flex-wrap: wrap; gap: 8px; }
+.linkbtn {
+  display: inline-block; padding: 8px 14px;
+  border: 1px solid var(--accent); border-radius: 6px;
+  color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none;
+}
+.linkbtn:hover { background: var(--accent); color: var(--on-accent); }
+.links-note { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
 @media (prefers-reduced-motion: no-preference) {
   .card { transition: border-color 0.15s; }
 }
@@ -361,6 +369,7 @@ td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
   </ul>
 
   <p class="foot">Os preços vêm das lojas e podem mudar a qualquer momento. Confira o valor final na página da loja antes de comprar. Projeto independente, sem vínculo com as lojas listadas. As capas pertencem aos seus respectivos donos.</p>
+  <p id="aff" class="foot" hidden>Alguns botões levam a lojas parceiras por links de afiliado. Se você comprar por eles, o baixougame pode receber uma comissão, sem custo extra para você.</p>
 </main>
 
 <div id="modal" class="overlay" hidden>
@@ -573,11 +582,20 @@ function renderDetail(game) {
         high != null ? h('span', {}, 'Maior: ', h('b', {}, money(high))) : null) : null);
   }
 
+  const linkStoreName = key => (state.data.link_stores && state.data.link_stores[key]) || key;
+  const linkEntries = Object.entries(game.links || {}).filter(([, url]) => /^https?:\/\//i.test(url));
+  const linksBlock = linkEntries.length ? h('div', {},
+    h('h3', {}, 'Ver também em'),
+    h('div', { class: 'links' }, ...linkEntries.map(([key, url]) =>
+      h('a', { class: 'linkbtn', href: url, target: '_blank', rel: 'sponsored noopener' }, `Ver na ${linkStoreName(key)}`))),
+    h('p', { class: 'links-note' }, 'Link de afiliado. O preço não aparece aqui, confira na loja.')) : null;
+
   return h('div', {},
     cover(game),
     h('div', { class: 'dbody' },
       h('h2', { id: 'm-title' }, game.name),
       h('div', {}, h('h3', {}, 'Preço por loja'), table),
+      linksBlock,
       h('div', {}, h('h3', {}, 'Histórico de preço'), history_block)));
 }
 
@@ -692,6 +710,8 @@ async function boot() {
   state.today = when.toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' });
   const stamp = when.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
   document.getElementById('stamp').textContent = `Atualizado em ${stamp.replace(',', ' às')}`;
+
+  document.getElementById('aff').hidden = !state.data.games.some(g => g.links && Object.keys(g.links).length);
 
   if (state.data.sample) {
     const n = document.getElementById('notice');
