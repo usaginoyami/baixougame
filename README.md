@@ -36,21 +36,23 @@ Para tirar um jogo descoberto e impedir que ele volte, coloque o `appid` dele em
 
 **Manual:** inclua uma linha em `data/watchlist.json`. O `appid` é o número na URL da página do jogo na Steam (`store.steampowered.com/app/<appid>/`). Essa lista é só sua: o script nunca escreve nela.
 
-## Links de afiliado (Nuuvem Co-Op)
+## Links de afiliado (Nuuvem e Green Man Gaming)
 
-A Nuuvem não oferece API nem feed público de preços, e os termos de uso dela proíbem coletar dados do site com robôs. Por isso o baixougame **não mostra preços da Nuuvem**. O que dá para fazer é um botão "Ver na Nuuvem" com o seu link de afiliado:
+A Nuuvem não oferece API nem feed público de preços, e os termos de uso dela proíbem coletar dados do site com robôs. Os termos da Green Man Gaming exigem autorização escrita para uso comercial do site. Por isso o baixougame **não mostra preços dessas lojas**. O que dá para fazer é um botão "Ver na Nuuvem" ou "Ver na Green Man Gaming" com o seu link de afiliado:
 
-1. Entre no programa Nuuvem Co-Op (pela Rakuten) e espere a aprovação.
+1. Entre no programa de afiliados da loja e espere a aprovação: Nuuvem Co-Op (pela Rakuten) ou Green Man Gaming (pelo Impact).
 2. No painel de afiliado, crie o link do jogo.
-3. Em `data/watchlist.json`, adicione o campo `links` no jogo:
+3. Em `data/watchlist.json`, adicione o campo `links` no jogo (`nuuvem` e/ou `gmg`):
 
 ```json
-{"appid": 1145360, "name": "Hades", "links": {"nuuvem": "https://seu-link-de-afiliado"}}
+{"appid": 1145360, "name": "Hades", "links": {"nuuvem": "https://seu-link-da-nuuvem", "gmg": "https://seu-link-da-gmg"}}
 ```
 
 4. Na próxima atualização (ou rodando o workflow na mão), o botão aparece na janela de detalhes do jogo e o aviso de links de afiliado aparece no rodapé.
 
-Leia as regras do programa antes de divulgar os links.
+Só os jogos de `data/watchlist.json` recebem botões. Para pôr link num jogo descoberto automaticamente, copie o `appid` e o nome dele de `data/discovered.json` para a `watchlist.json` e adicione o `links` lá.
+
+Leia as regras de cada programa antes de divulgar os links.
 
 ## Adicionar outras lojas
 

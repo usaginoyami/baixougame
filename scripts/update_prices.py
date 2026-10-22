@@ -47,7 +47,7 @@ STORE_NAMES = {"steam": "Steam"}
 
 # Lojas que só ganham um botão com o seu link de afiliado, sem preço no site.
 # O link de cada jogo vai em data/watchlist.json, no campo "links".
-LINK_STORES = {"nuuvem": "Nuuvem"}
+LINK_STORES = {"nuuvem": "Nuuvem", "gmg": "Green Man Gaming"}
 
 
 def fetch_json(url, timeout=30):
