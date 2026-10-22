@@ -1,0 +1,430 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>baixougame</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: lista de jogos como um painel de cotações. Cada linha abre a
+   tabela de lojas e o gráfico de histórico logo abaixo, sem trocar de página. */
+:root {
+  --bg: #f6f3f4;
+  --surface: #ffffff;
+  --line: #e3dcdf;
+  --fg: #1c171a;
+  --muted: #6b6268;
+  --accent: #c8102e;
+  --on-accent: #ffffff;
+  --good: #1b7f4b;
+  --s2: #3b6fd4;
+  --s3: #a86f00;
+  --font-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121014;
+    --surface: #1b181d;
+    --line: #2d272f;
+    --fg: #f2edf0;
+    --muted: #a39ba6;
+    --accent: #ff5566;
+    --on-accent: #1a0a0c;
+    --good: #4fd08a;
+    --s2: #7fa8ff;
+    --s3: #e0b04a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121014;
+  --surface: #1b181d;
+  --line: #2d272f;
+  --fg: #f2edf0;
+  --muted: #a39ba6;
+  --accent: #ff5566;
+  --on-accent: #1a0a0c;
+  --good: #4fd08a;
+  --s2: #7fa8ff;
+  --s3: #e0b04a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 15px/1.5 var(--font-body);
+  padding-block: 24px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 860px; margin: 0 auto; display: grid; gap: 20px; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.top { display: grid; gap: 4px; }
+.brand {
+  font: 700 clamp(28px, 6vw, 40px)/1.05 var(--font-display);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+.brand span { color: var(--accent); }
+.tagline { margin: 0; color: var(--muted); max-width: 56ch; }
+
+.notice {
+  border: 1px dashed var(--accent);
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13.5px;
+  min-width: 0;
+}
+.notice strong { color: var(--accent); }
+
+.controls { display: flex; flex-wrap: wrap; gap: 10px 12px; align-items: center; }
+.field {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 9px 11px;
+  min-width: 0;
+}
+#q { flex: 1 1 220px; }
+#sort { flex: 0 0 auto; }
+.check { display: flex; gap: 8px; align-items: center; cursor: pointer; user-select: none; font-size: 14px; }
+.check input { accent-color: var(--accent); width: 16px; height: 16px; margin: 0; }
+.meta { margin-left: auto; color: var(--muted); font-size: 13px; }
+
+.list { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); overflow: hidden; }
+.item + .item { border-top: 1px solid var(--line); }
+.row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 4px 16px;
+  align-items: center;
+  text-align: left;
+  background: none;
+  border: 0;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+.row:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.name { font: 700 19px/1.2 var(--font-display); letter-spacing: -0.01em; overflow-wrap: anywhere; }
+.sub { grid-column: 1; color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: center; }
+.tag {
+  font-size: 11.5px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--good);
+  border: 1px solid currentColor; border-radius: 4px; padding: 0 6px;
+}
+.price-box { grid-column: 2; grid-row: 1 / span 2; display: flex; align-items: center; gap: 10px; justify-content: flex-end; }
+.old { font: 500 13px var(--font-data); color: var(--muted); text-decoration: line-through; font-variant-numeric: tabular-nums; }
+.price { font: 500 20px var(--font-data); font-variant-numeric: tabular-nums; }
+.cut {
+  font: 500 13px var(--font-data);
+  background: var(--accent); color: var(--on-accent);
+  border-radius: 4px; padding: 2px 6px; min-width: 3.4em; text-align: center;
+}
+.cut.none { background: transparent; color: var(--muted); border: 1px solid var(--line); }
+.unavailable { color: var(--muted); font-size: 14px; }
+@media (max-width: 520px) {
+  .price-box { flex-direction: column-reverse; align-items: flex-end; gap: 4px; }
+  .old { display: none; }
+}
+
+.detail { padding: 4px 16px 18px; display: grid; gap: 18px; border-top: 1px dashed var(--line); background: color-mix(in srgb, var(--bg) 55%, var(--surface)); }
+.detail h3 { margin: 14px 0 8px; font: 600 12px var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th { text-align: left; font-weight: 500; color: var(--muted); font-size: 12.5px; padding: 0 12px 6px 0; white-space: nowrap; }
+td { padding: 8px 12px 8px 0; border-top: 1px solid var(--line); white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.num { font-family: var(--font-data); }
+td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
+.best td:first-child { font-weight: 600; }
+.best-flag { color: var(--good); font-size: 12px; font-weight: 600; margin-left: 6px; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+.legend i { display: inline-block; width: 18px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
+.chart { width: 100%; min-width: 0; }
+.chart svg { display: block; }
+.ax { stroke: var(--line); stroke-width: 1; }
+.grid { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 4; }
+.tick { fill: var(--muted); font: 11px var(--font-data); }
+.series { fill: none; stroke-width: 2; stroke-linejoin: round; }
+.dot { stroke: var(--surface); stroke-width: 2; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px 24px; font-size: 13.5px; }
+.stats b { font-family: var(--font-data); font-weight: 500; font-variant-numeric: tabular-nums; }
+.note { color: var(--muted); font-size: 13.5px; margin: 0; }
+
+.empty { padding: 28px 16px; text-align: center; color: var(--muted); }
+.foot { color: var(--muted); font-size: 12.5px; max-width: 70ch; }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1 class="brand">baixou<span>game</span></h1>
+    <p class="tagline">Preços de jogos de PC em reais, com o histórico de cada um. Veja se a promoção de hoje é boa de verdade.</p>
+  </header>
+
+  <div id="notice" class="notice" hidden></div>
+
+  <div class="controls">
+    <input id="q" class="field" type="search" placeholder="Buscar jogo" aria-label="Buscar jogo" autocomplete="off">
+    <select id="sort" class="field" aria-label="Ordenar por">
+      <option value="cut">Maior desconto</option>
+      <option value="price">Menor preço</option>
+      <option value="name">Nome (A–Z)</option>
+    </select>
+    <label class="check field"><input id="deals" type="checkbox"> Só em promoção</label>
+    <span id="meta" class="meta"></span>
+  </div>
+
+  <ul id="list" class="list" aria-live="polite">
+    <li class="empty">Carregando preços…</li>
+  </ul>
+
+  <p class="foot">Os preços vêm das lojas e podem mudar a qualquer momento. Confira o valor final na página da loja antes de comprar. Projeto independente, sem vínculo com as lojas listadas.</p>
+</div>
+
+<script>
+const BRL = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
+const BRL0 = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 });
+const money = n => BRL.format(n);
+const dmy = s => { const [y, m, d] = s.split('-'); return `${d}/${m}/${y}`; };
+const dm = s => { const [, m, d] = s.split('-'); return `${d}/${m}`; };
+const dayNum = s => { const [y, m, d] = s.split('-').map(Number); return Date.UTC(y, m - 1, d) / 864e5; };
+const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+const NS = 'http://www.w3.org/2000/svg';
+function build(make, attrs, kids) {
+  const el = make();
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v === false || v == null) continue;
+    if (k === 'class') el.setAttribute('class', v);
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const kid of kids.flat()) {
+    if (kid == null || kid === false) continue;
+    el.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+  }
+  return el;
+}
+const h = (tag, attrs, ...kids) => build(() => document.createElement(tag), attrs, kids);
+const sv = (tag, attrs, ...kids) => build(() => document.createElementNS(NS, tag), attrs, kids);
+
+const state = { data: null, open: null, q: '', sort: 'cut', deals: false, today: null };
+const SERIES_COLORS = ['var(--accent)', 'var(--s2)', 'var(--s3)'];
+
+function bestOf(game) {
+  let best = null;
+  for (const [key, info] of Object.entries(game.stores || {})) {
+    if (!best || info.price < best.price) best = { key, ...info };
+  }
+  return best;
+}
+function lowOf(game) {
+  let low = null;
+  for (const e of game.history || []) {
+    for (const [key, price] of Object.entries(e.p)) {
+      if (!low || price < low.price) low = { key, price, date: e.d };
+    }
+  }
+  return low;
+}
+function highOf(game) {
+  let high = null;
+  for (const e of game.history || []) for (const price of Object.values(e.p)) if (high == null || price > high) high = price;
+  return high;
+}
+const storeName = key => (state.data.stores && state.data.stores[key]) || key;
+
+function visibleGames() {
+  const q = norm(state.q.trim());
+  let games = state.data.games.filter(g => !q || norm(g.name).includes(q));
+  if (state.deals) games = games.filter(g => { const b = bestOf(g); return b && b.cut > 0; });
+  const withPrice = games.filter(bestOf);
+  const without = games.filter(g => !bestOf(g));
+  const by = {
+    cut: (a, b) => bestOf(b).cut - bestOf(a).cut || bestOf(a).price - bestOf(b).price,
+    price: (a, b) => bestOf(a).price - bestOf(b).price,
+    name: (a, b) => a.name.localeCompare(b.name, 'pt-BR'),
+  }[state.sort];
+  return [...withPrice.sort(by), ...without.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'))];
+}
+
+function renderRow(game) {
+  const best = bestOf(game);
+  const low = lowOf(game);
+  const isOpen = state.open === game.appid;
+  const atLow = best && low && (game.history || []).length >= 2 && best.price <= low.price + 0.005;
+  const detailId = `d-${game.appid}`;
+
+  const priceBox = best
+    ? h('span', { class: 'price-box' },
+        best.cut > 0 ? h('span', { class: 'old' }, money(best.regular)) : null,
+        h('span', { class: 'price' }, money(best.price)),
+        h('span', { class: best.cut > 0 ? 'cut' : 'cut none' }, best.cut > 0 ? `−${best.cut}%` : '0%'))
+    : h('span', { class: 'price-box unavailable' }, 'Sem preço no Brasil');
+
+  const sub = h('span', { class: 'sub' },
+    best ? h('span', {}, `Melhor preço na ${storeName(best.key)}`) : null,
+    atLow ? h('span', { class: 'tag' }, 'Menor preço registrado') : null);
+
+  const row = h('button', {
+    class: 'row', type: 'button', 'aria-expanded': String(isOpen), 'aria-controls': detailId,
+    onclick: () => { state.open = isOpen ? null : game.appid; render(); },
+  }, h('span', { class: 'name' }, game.name), priceBox, sub);
+
+  const item = h('li', { class: 'item' }, row);
+  if (isOpen) item.append(renderDetail(game, detailId));
+  return item;
+}
+
+function renderDetail(game, id) {
+  const stores = Object.entries(game.stores || {}).sort((a, b) => a[1].price - b[1].price);
+  const low = lowOf(game), high = highOf(game);
+  const history = game.history || [];
+
+  const table = h('div', { class: 'scroll' },
+    h('table', {},
+      h('thead', {}, h('tr', {}, ...['Loja', 'Preço', 'Preço cheio', 'Desconto', ''].map(t => h('th', {}, t)))),
+      h('tbody', {}, ...stores.map(([key, info], i) =>
+        h('tr', { class: i === 0 && stores.length > 1 ? 'best' : '' },
+          h('td', {}, storeName(key), i === 0 && stores.length > 1 ? h('span', { class: 'best-flag' }, 'menor preço') : null),
+          h('td', { class: 'num' }, money(info.price)),
+          h('td', { class: 'num' }, info.cut > 0 ? money(info.regular) : '–'),
+          h('td', { class: 'num' }, info.cut > 0 ? `−${info.cut}%` : '–'),
+          h('td', {}, info.url && info.url !== '#'
+            ? h('a', { href: info.url, target: '_blank', rel: 'noopener' }, 'Ir à loja')
+            : null)))
+      )));
+
+  const chartBox = h('div', { class: 'chart' });
+  const legend = h('div', { class: 'legend' }, ...chartKeys(game).map((key, i) =>
+    h('span', {}, h('i', { style: `background:${SERIES_COLORS[i % SERIES_COLORS.length]}` }), storeName(key))));
+
+  const stats = low ? h('div', { class: 'stats' },
+    h('span', {}, 'Menor preço registrado: ', h('b', {}, money(low.price)), ` em ${dmy(low.date)} (${storeName(low.key)})`),
+    high != null ? h('span', {}, 'Maior: ', h('b', {}, money(high))) : null) : null;
+
+  const note = history.length < 2
+    ? h('p', { class: 'note' }, `O histórico deste jogo começa em ${history[0] ? dmy(history[0].d) : 'breve'}. As variações aparecem aqui conforme o preço mudar.`)
+    : null;
+
+  const el = h('div', { class: 'detail', id: id },
+    h('div', {}, h('h3', {}, 'Preço por loja'), table),
+    h('div', {}, h('h3', {}, 'Histórico de preço'), chartKeys(game).length > 1 ? legend : null, chartBox, stats, note));
+  requestAnimationFrame(() => drawChart(chartBox, game));
+  if ('ResizeObserver' in window) new ResizeObserver(() => drawChart(chartBox, game)).observe(chartBox);
+  return el;
+}
+
+function chartKeys(game) {
+  const keys = [];
+  for (const e of game.history || []) for (const k of Object.keys(e.p)) if (!keys.includes(k)) keys.push(k);
+  return keys;
+}
+
+function niceStep(raw) {
+  const pow = Math.pow(10, Math.floor(Math.log10(raw)));
+  const f = raw / pow;
+  return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * pow;
+}
+
+function drawChart(box, game) {
+  const history = game.history || [];
+  const width = Math.max(260, Math.floor(box.clientWidth || 0));
+  if (!history.length || !box.clientWidth) return;
+  const height = 220, m = { l: 58, r: 12, t: 10, b: 26 };
+  const pw = width - m.l - m.r, ph = height - m.t - m.b;
+
+  const prices = history.flatMap(e => Object.values(e.p));
+  let min = Math.min(...prices), max = Math.max(...prices);
+  if (min === max) { min = max * 0.8; }
+  const step = niceStep((max - min) / 4);
+  const lo = Math.max(0, Math.floor(min / step) * step), hi = Math.ceil(max / step) * step;
+
+  const x0 = dayNum(history[0].d);
+  const xEnd = Math.max(dayNum(history[history.length - 1].d), state.today ? dayNum(state.today) : 0);
+  const span = Math.max(1, xEnd - x0);
+  const X = d => m.l + ((d - x0) / span) * pw;
+  const Y = p => m.t + (1 - (p - lo) / (hi - lo)) * ph;
+
+  const svg = sv('svg', { width, height, viewBox: `0 0 ${width} ${height}`, role: 'img',
+    'aria-label': `Histórico de preço de ${game.name} em reais` });
+
+  for (let v = lo; v <= hi + step / 2; v += step) {
+    svg.append(sv('line', { class: 'grid', x1: m.l, x2: width - m.r, y1: Y(v), y2: Y(v) }));
+    svg.append(sv('text', { class: 'tick', x: m.l - 8, y: Y(v) + 4, 'text-anchor': 'end' }, BRL0.format(v)));
+  }
+  svg.append(sv('line', { class: 'ax', x1: m.l, x2: width - m.r, y1: m.t + ph, y2: m.t + ph }));
+
+  const dayAt = f => { const t = x0 + span * f; return new Date(t * 864e5).toISOString().slice(0, 10); };
+  [[0, 'start'], [0.5, 'middle'], [1, 'end']].forEach(([f, anchor]) => {
+    svg.append(sv('text', { class: 'tick', x: m.l + pw * f, y: height - 6, 'text-anchor': anchor }, dm(dayAt(f))));
+  });
+
+  chartKeys(game).forEach((key, i) => {
+    const color = SERIES_COLORS[i % SERIES_COLORS.length];
+    const pts = history.filter(e => e.p[key] != null).map(e => [dayNum(e.d), e.p[key]]);
+    if (!pts.length) return;
+    let d = `M${X(pts[0][0])},${Y(pts[0][1])}`;
+    for (let j = 1; j < pts.length; j++) d += ` H${X(pts[j][0])} V${Y(pts[j][1])}`;
+    d += ` H${X(xEnd)}`;
+    svg.append(sv('path', { class: 'series', d, style: `stroke:${color}` }));
+  });
+
+  const low = lowOf(game);
+  if (low && history.length > 1) {
+    svg.append(sv('circle', { class: 'dot', cx: X(dayNum(low.date)), cy: Y(low.price), r: 5, style: 'fill:var(--good)' }));
+  } else if (history.length === 1) {
+    svg.append(sv('circle', { class: 'dot', cx: X(x0), cy: Y(prices[0]), r: 5, style: 'fill:var(--accent)' }));
+  }
+
+  box.replaceChildren(svg);
+}
+
+function render() {
+  const list = document.getElementById('list');
+  const games = visibleGames();
+  list.replaceChildren(...(games.length
+    ? games.map(renderRow)
+    : [h('li', { class: 'empty' }, 'Nenhum jogo encontrado. Tente outro nome ou desmarque "Só em promoção".')]));
+  document.getElementById('meta').textContent = `${games.length} ${games.length === 1 ? 'jogo' : 'jogos'}`;
+}
+
+async function boot() {
+  const list = document.getElementById('list');
+  try {
+    const res = await fetch('data/games.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error(res.status);
+    state.data = await res.json();
+  } catch (err) {
+    list.replaceChildren(h('li', { class: 'empty' }, 'Não foi possível carregar os preços agora. Tente de novo em instantes.'));
+    return;
+  }
+  const when = new Date(state.data.updated);
+  state.today = when.toLocaleDateString('sv-SE', { timeZone: 'America/Sao_Paulo' });
+  const stamp = when.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+  document.querySelector('.tagline').append(` Atualizado em ${stamp.replace(',', ' às')}.`);
+
+  if (state.data.sample) {
+    const n = document.getElementById('notice');
+    n.append(h('strong', {}, 'Dados de exemplo. '), 'Os preços e o histórico abaixo são inventados, só para mostrar o layout. Quando o script de atualização rodar, eles são trocados pelos preços reais da Steam Brasil.');
+    n.hidden = false;
+  }
+
+  document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; render(); });
+  document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
+  document.getElementById('deals').addEventListener('change', e => { state.deals = e.target.checked; render(); });
+  state.open = (visibleGames()[0] || {}).appid || null;
+  render();
+}
+boot();
+</script>

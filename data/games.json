@@ -1,0 +1,681 @@
+{
+ "updated": "2026-10-21T12:00:00+00:00",
+ "currency": "BRL",
+ "sample": true,
+ "stores": {
+  "steam": "Steam",
+  "exemplo": "Loja exemplo"
+ },
+ "games": [
+  {
+   "appid": 2379780,
+   "name": "Balatro",
+   "stores": {
+    "steam": {
+     "price": 22.99,
+     "regular": 32.99,
+     "cut": 33,
+     "url": "https://store.steampowered.com/app/2379780/"
+    },
+    "exemplo": {
+     "price": 20.99,
+     "regular": 32.99,
+     "cut": 38,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 32.99,
+      "exemplo": 32.99
+     }
+    },
+    {
+     "d": "2026-07-14",
+     "p": {
+      "steam": 16.99,
+      "exemplo": 14.99
+     }
+    },
+    {
+     "d": "2026-07-20",
+     "p": {
+      "steam": 32.99,
+      "exemplo": 32.99
+     }
+    },
+    {
+     "d": "2026-08-27",
+     "p": {
+      "steam": 24.99,
+      "exemplo": 23.99
+     }
+    },
+    {
+     "d": "2026-09-09",
+     "p": {
+      "steam": 32.99,
+      "exemplo": 32.99
+     }
+    },
+    {
+     "d": "2026-10-09",
+     "p": {
+      "steam": 22.99,
+      "exemplo": 20.99
+     }
+    }
+   ]
+  },
+  {
+   "appid": 1086940,
+   "name": "Baldur's Gate 3",
+   "stores": {
+    "steam": {
+     "price": 159.99,
+     "regular": 199.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/1086940/"
+    },
+    "exemplo": {
+     "price": 149.99,
+     "regular": 199.9,
+     "cut": 25,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 199.99,
+      "exemplo": 199.9
+     }
+    },
+    {
+     "d": "2026-07-04",
+     "p": {
+      "steam": 119.99,
+      "exemplo": 109.99
+     }
+    },
+    {
+     "d": "2026-07-09",
+     "p": {
+      "steam": 199.99,
+      "exemplo": 199.9
+     }
+    },
+    {
+     "d": "2026-08-05",
+     "p": {
+      "steam": 49.99,
+      "exemplo": 49.99
+     }
+    },
+    {
+     "d": "2026-08-11",
+     "p": {
+      "steam": 199.99,
+      "exemplo": 199.9
+     }
+    },
+    {
+     "d": "2026-09-05",
+     "p": {
+      "steam": 79.99,
+      "exemplo": 69.99
+     }
+    },
+    {
+     "d": "2026-09-13",
+     "p": {
+      "steam": 199.99,
+      "exemplo": 199.9
+     }
+    },
+    {
+     "d": "2026-10-18",
+     "p": {
+      "steam": 159.99,
+      "exemplo": 149.99
+     }
+    }
+   ]
+  },
+  {
+   "appid": 504230,
+   "name": "Celeste",
+   "stores": {
+    "steam": {
+     "price": 14.99,
+     "regular": 36.99,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/504230/"
+    },
+    "exemplo": {
+     "price": 12.99,
+     "regular": 36.99,
+     "cut": 65,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 36.99,
+      "exemplo": 36.99
+     }
+    },
+    {
+     "d": "2026-07-13",
+     "p": {
+      "steam": 22.99,
+      "exemplo": 20.99
+     }
+    },
+    {
+     "d": "2026-07-26",
+     "p": {
+      "steam": 36.99,
+      "exemplo": 36.99
+     }
+    },
+    {
+     "d": "2026-08-17",
+     "p": {
+      "steam": 22.99,
+      "exemplo": 20.99
+     }
+    },
+    {
+     "d": "2026-08-29",
+     "p": {
+      "steam": 36.99,
+      "exemplo": 36.99
+     }
+    },
+    {
+     "d": "2026-09-19",
+     "p": {
+      "steam": 9.25,
+      "exemplo": 9.25
+     }
+    },
+    {
+     "d": "2026-09-24",
+     "p": {
+      "steam": 36.99,
+      "exemplo": 36.99
+     }
+    },
+    {
+     "d": "2026-10-16",
+     "p": {
+      "steam": 14.99,
+      "exemplo": 12.99
+     }
+    }
+   ]
+  },
+  {
+   "appid": 1091500,
+   "name": "Cyberpunk 2077",
+   "stores": {
+    "steam": {
+     "price": 119.99,
+     "regular": 199.99,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/1091500/"
+    },
+    "exemplo": {
+     "price": 109.99,
+     "regular": 199.9,
+     "cut": 45,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 199.99,
+      "exemplo": 199.9
+     }
+    },
+    {
+     "d": "2026-07-14",
+     "p": {
+      "steam": 49.99,
+      "exemplo": 49.99
+     }
+    },
+    {
+     "d": "2026-07-27",
+     "p": {
+      "steam": 199.99,
+      "exemplo": 199.9
+     }
+    },
+    {
+     "d": "2026-08-20",
+     "p": {
+      "steam": 133.99,
+      "exemplo": 123.99
+     }
+    },
+    {
+     "d": "2026-08-28",
+     "p": {
+      "steam": 199.99,
+      "exemplo": 199.9
+     }
+    },
+    {
+     "d": "2026-09-18",
+     "p": {
+      "steam": 119.99,
+      "exemplo": 109.99
+     }
+    },
+    {
+     "d": "2026-10-01",
+     "p": {
+      "steam": 199.99,
+      "exemplo": 199.9
+     }
+    },
+    {
+     "d": "2026-10-18",
+     "p": {
+      "steam": 119.99,
+      "exemplo": 109.99
+     }
+    }
+   ]
+  },
+  {
+   "appid": 1245620,
+   "name": "Elden Ring",
+   "stores": {
+    "steam": {
+     "price": 137.99,
+     "regular": 229.99,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/1245620/"
+    },
+    "exemplo": {
+     "price": 126.99,
+     "regular": 229.9,
+     "cut": 45,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 229.99,
+      "exemplo": 229.9
+     }
+    },
+    {
+     "d": "2026-07-10",
+     "p": {
+      "steam": 172.99,
+      "exemplo": 160.99
+     }
+    },
+    {
+     "d": "2026-07-15",
+     "p": {
+      "steam": 229.99,
+      "exemplo": 229.9
+     }
+    },
+    {
+     "d": "2026-08-06",
+     "p": {
+      "steam": 57.99,
+      "exemplo": 57.99
+     }
+    },
+    {
+     "d": "2026-08-12",
+     "p": {
+      "steam": 229.99,
+      "exemplo": 229.9
+     }
+    },
+    {
+     "d": "2026-08-31",
+     "p": {
+      "steam": 172.99,
+      "exemplo": 160.99
+     }
+    },
+    {
+     "d": "2026-09-12",
+     "p": {
+      "steam": 229.99,
+      "exemplo": 229.9
+     }
+    },
+    {
+     "d": "2026-10-12",
+     "p": {
+      "steam": 137.99,
+      "exemplo": 126.99
+     }
+    }
+   ]
+  },
+  {
+   "appid": 1145360,
+   "name": "Hades",
+   "stores": {
+    "steam": {
+     "price": 55.99,
+     "regular": 73.99,
+     "cut": 25,
+     "url": "https://store.steampowered.com/app/1145360/"
+    },
+    "exemplo": {
+     "price": 51.99,
+     "regular": 73.99,
+     "cut": 30,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 73.99,
+      "exemplo": 73.99
+     }
+    },
+    {
+     "d": "2026-07-04",
+     "p": {
+      "steam": 29.99,
+      "exemplo": 25.99
+     }
+    },
+    {
+     "d": "2026-07-15",
+     "p": {
+      "steam": 73.99,
+      "exemplo": 73.99
+     }
+    },
+    {
+     "d": "2026-08-11",
+     "p": {
+      "steam": 44.99,
+      "exemplo": 40.99
+     }
+    },
+    {
+     "d": "2026-08-20",
+     "p": {
+      "steam": 73.99,
+      "exemplo": 73.99
+     }
+    },
+    {
+     "d": "2026-09-11",
+     "p": {
+      "steam": 18.99,
+      "exemplo": 18.99
+     }
+    },
+    {
+     "d": "2026-09-23",
+     "p": {
+      "steam": 73.99,
+      "exemplo": 73.99
+     }
+    },
+    {
+     "d": "2026-10-18",
+     "p": {
+      "steam": 55.99,
+      "exemplo": 51.99
+     }
+    }
+   ]
+  },
+  {
+   "appid": 367520,
+   "name": "Hollow Knight",
+   "stores": {
+    "steam": {
+     "price": 46.99,
+     "regular": 46.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/367520/"
+    },
+    "exemplo": {
+     "price": 46.99,
+     "regular": 46.99,
+     "cut": 0,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 46.99,
+      "exemplo": 46.99
+     }
+    },
+    {
+     "d": "2026-07-06",
+     "p": {
+      "steam": 37.99,
+      "exemplo": 35.99
+     }
+    },
+    {
+     "d": "2026-07-11",
+     "p": {
+      "steam": 46.99,
+      "exemplo": 46.99
+     }
+    },
+    {
+     "d": "2026-08-11",
+     "p": {
+      "steam": 28.99,
+      "exemplo": 25.99
+     }
+    },
+    {
+     "d": "2026-08-25",
+     "p": {
+      "steam": 46.99,
+      "exemplo": 46.99
+     }
+    },
+    {
+     "d": "2026-09-07",
+     "p": {
+      "steam": 11.99,
+      "exemplo": 11.99
+     }
+    },
+    {
+     "d": "2026-09-14",
+     "p": {
+      "steam": 46.99,
+      "exemplo": 46.99
+     }
+    },
+    {
+     "d": "2026-10-09",
+     "p": {
+      "steam": 18.99,
+      "exemplo": 16.99
+     }
+    },
+    {
+     "d": "2026-10-17",
+     "p": {
+      "steam": 46.99,
+      "exemplo": 46.99
+     }
+    }
+   ]
+  },
+  {
+   "appid": 1174180,
+   "name": "Red Dead Redemption 2",
+   "stores": {
+    "steam": {
+     "price": 187.99,
+     "regular": 249.99,
+     "cut": 25,
+     "url": "https://store.steampowered.com/app/1174180/"
+    },
+    "exemplo": {
+     "price": 174.99,
+     "regular": 249.9,
+     "cut": 30,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 249.99,
+      "exemplo": 249.9
+     }
+    },
+    {
+     "d": "2026-07-02",
+     "p": {
+      "steam": 99.99,
+      "exemplo": 87.99
+     }
+    },
+    {
+     "d": "2026-07-09",
+     "p": {
+      "steam": 249.99,
+      "exemplo": 249.9
+     }
+    },
+    {
+     "d": "2026-08-01",
+     "p": {
+      "steam": 62.99,
+      "exemplo": 62.99
+     }
+    },
+    {
+     "d": "2026-08-11",
+     "p": {
+      "steam": 249.99,
+      "exemplo": 249.9
+     }
+    },
+    {
+     "d": "2026-09-05",
+     "p": {
+      "steam": 62.99,
+      "exemplo": 62.99
+     }
+    },
+    {
+     "d": "2026-09-15",
+     "p": {
+      "steam": 249.99,
+      "exemplo": 249.9
+     }
+    },
+    {
+     "d": "2026-10-19",
+     "p": {
+      "steam": 187.99,
+      "exemplo": 174.99
+     }
+    }
+   ]
+  },
+  {
+   "appid": 413150,
+   "name": "Stardew Valley",
+   "stores": {
+    "steam": {
+     "price": 24.99,
+     "regular": 24.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/413150/"
+    },
+    "exemplo": {
+     "price": 24.99,
+     "regular": 24.99,
+     "cut": 0,
+     "url": "#"
+    }
+   },
+   "history": [
+    {
+     "d": "2026-06-24",
+     "p": {
+      "steam": 24.99,
+      "exemplo": 24.99
+     }
+    },
+    {
+     "d": "2026-07-12",
+     "p": {
+      "steam": 12.99,
+      "exemplo": 11.99
+     }
+    },
+    {
+     "d": "2026-07-23",
+     "p": {
+      "steam": 24.99,
+      "exemplo": 24.99
+     }
+    },
+    {
+     "d": "2026-08-20",
+     "p": {
+      "steam": 16.99,
+      "exemplo": 15.99
+     }
+    },
+    {
+     "d": "2026-08-25",
+     "p": {
+      "steam": 24.99,
+      "exemplo": 24.99
+     }
+    },
+    {
+     "d": "2026-10-01",
+     "p": {
+      "steam": 10.0,
+      "exemplo": 8.75
+     }
+    },
+    {
+     "d": "2026-10-13",
+     "p": {
+      "steam": 24.99,
+      "exemplo": 24.99
+     }
+    }
+   ]
+  }
+ ]
+}
