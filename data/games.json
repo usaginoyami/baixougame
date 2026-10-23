@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:38:18+00:00",
+ "updated": "2026-10-23T04:38:52+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -87,6 +87,26 @@
      "regular": 59.99,
      "cut": 75,
      "url": "https://store.steampowered.com/app/504230/"
+    }
+   }
+  },
+  {
+   "appid": 1903340,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 199.0
+     }
+    }
+   ],
+   "name": "Clair Obscur: Expedition 33",
+   "stores": {
+    "steam": {
+     "price": 199.0,
+     "regular": 199.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1903340/"
     }
    }
   },
