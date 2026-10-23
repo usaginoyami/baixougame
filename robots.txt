@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://usaginoyami.github.io/baixougame/sitemap.xml

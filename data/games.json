@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T14:15:58+00:00",
+ "updated": "2026-10-23T16:37:09+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -28,7 +28,8 @@
      "cut": 70,
      "url": "https://store.steampowered.com/app/1066890/"
     }
-   }
+   },
+   "slug": "automobilista-2"
   },
   {
    "appid": 2379780,
@@ -48,7 +49,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/2379780/"
     }
-   }
+   },
+   "slug": "balatro"
   },
   {
    "appid": 1086940,
@@ -68,7 +70,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/1086940/"
     }
-   }
+   },
+   "slug": "baldurs-gate-3"
   },
   {
    "appid": 504230,
@@ -88,7 +91,8 @@
      "cut": 75,
      "url": "https://store.steampowered.com/app/504230/"
     }
-   }
+   },
+   "slug": "celeste"
   },
   {
    "appid": 1903340,
@@ -108,7 +112,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/1903340/"
     }
-   }
+   },
+   "slug": "clair-obscur-expedition-33"
   },
   {
    "appid": 1091500,
@@ -128,7 +133,8 @@
      "cut": 70,
      "url": "https://store.steampowered.com/app/1091500/"
     }
-   }
+   },
+   "slug": "cyberpunk-2077"
   },
   {
    "appid": 381210,
@@ -148,7 +154,8 @@
      "cut": 60,
      "url": "https://store.steampowered.com/app/381210/"
     }
-   }
+   },
+   "slug": "dead-by-daylight"
   },
   {
    "appid": 1693980,
@@ -168,7 +175,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/1693980/"
     }
-   }
+   },
+   "slug": "dead-space"
   },
   {
    "appid": 3017860,
@@ -188,7 +196,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/3017860/"
     }
-   }
+   },
+   "slug": "doom-the-dark-ages"
   },
   {
    "appid": 1245620,
@@ -208,7 +217,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/1245620/"
     }
-   }
+   },
+   "slug": "elden-ring"
   },
   {
    "appid": 3259780,
@@ -228,7 +238,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/3259780/"
     }
-   }
+   },
+   "slug": "final-fantasy-resonance"
   },
   {
    "appid": 3240220,
@@ -254,7 +265,8 @@
      "cut": 50,
      "url": "https://store.steampowered.com/app/3240220/"
     }
-   }
+   },
+   "slug": "grand-theft-auto-v-enhanced"
   },
   {
    "appid": 1145360,
@@ -274,7 +286,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/1145360/"
     }
-   }
+   },
+   "slug": "hades"
   },
   {
    "appid": 990080,
@@ -300,7 +313,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/990080/"
     }
-   }
+   },
+   "slug": "hogwarts-legacy"
   },
   {
    "appid": 367520,
@@ -320,7 +334,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/367520/"
     }
-   }
+   },
+   "slug": "hollow-knight"
   },
   {
    "appid": 903950,
@@ -340,7 +355,8 @@
      "cut": 67,
      "url": "https://store.steampowered.com/app/903950/"
     }
-   }
+   },
+   "slug": "last-oasis"
   },
   {
    "appid": 287390,
@@ -360,7 +376,8 @@
      "cut": 90,
      "url": "https://store.steampowered.com/app/287390/"
     }
-   }
+   },
+   "slug": "metro-last-light-redux"
   },
   {
    "appid": 275850,
@@ -380,7 +397,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/275850/"
     }
-   }
+   },
+   "slug": "no-mans-sky"
   },
   {
    "appid": 3357650,
@@ -400,7 +418,8 @@
      "cut": 20,
      "url": "https://store.steampowered.com/app/3357650/"
     }
-   }
+   },
+   "slug": "pragmata"
   },
   {
    "appid": 1174180,
@@ -426,7 +445,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/1174180/"
     }
-   }
+   },
+   "slug": "red-dead-redemption-2"
   },
   {
    "appid": 952060,
@@ -446,7 +466,8 @@
      "cut": 80,
      "url": "https://store.steampowered.com/app/952060/"
     }
-   }
+   },
+   "slug": "resident-evil-3"
   },
   {
    "appid": 2050650,
@@ -466,7 +487,8 @@
      "cut": 75,
      "url": "https://store.steampowered.com/app/2050650/"
     }
-   }
+   },
+   "slug": "resident-evil-4"
   },
   {
    "appid": 3764200,
@@ -486,7 +508,8 @@
      "cut": 30,
      "url": "https://store.steampowered.com/app/3764200/"
     }
-   }
+   },
+   "slug": "resident-evil-requiem"
   },
   {
    "appid": 2124490,
@@ -506,7 +529,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/2124490/"
     }
-   }
+   },
+   "slug": "silent-hill-2"
   },
   {
    "appid": 2947440,
@@ -526,7 +550,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/2947440/"
     }
-   }
+   },
+   "slug": "silent-hill-f"
   },
   {
    "appid": 413150,
@@ -546,7 +571,8 @@
      "cut": 0,
      "url": "https://store.steampowered.com/app/413150/"
     }
-   }
+   },
+   "slug": "stardew-valley"
   },
   {
    "appid": 1449690,
@@ -566,7 +592,8 @@
      "cut": 90,
      "url": "https://store.steampowered.com/app/1449690/"
     }
-   }
+   },
+   "slug": "the-walking-dead-the-telltale-definitive-series"
   },
   {
    "appid": 2183900,
@@ -586,7 +613,8 @@
      "cut": 75,
      "url": "https://store.steampowered.com/app/2183900/"
     }
-   }
+   },
+   "slug": "warhammer-40-000-space-marine-2"
   }
  ]
 }
