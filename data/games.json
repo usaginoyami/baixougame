@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:43:56+00:00",
+ "updated": "2026-10-23T04:44:11+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -565,6 +565,26 @@
      "regular": 134.99,
      "cut": 90,
      "url": "https://store.steampowered.com/app/1449690/"
+    }
+   }
+  },
+  {
+   "appid": 2183900,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 49.97
+     }
+    }
+   ],
+   "name": "Warhammer 40,000: Space Marine 2",
+   "stores": {
+    "steam": {
+     "price": 49.97,
+     "regular": 199.9,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/2183900/"
     }
    }
   }
