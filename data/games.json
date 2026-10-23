@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:38:52+00:00",
+ "updated": "2026-10-23T04:39:34+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -405,6 +405,26 @@
      "regular": 169.0,
      "cut": 75,
      "url": "https://store.steampowered.com/app/2050650/"
+    }
+   }
+  },
+  {
+   "appid": 2124490,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 349.9
+     }
+    }
+   ],
+   "name": "SILENT HILL 2",
+   "stores": {
+    "steam": {
+     "price": 349.9,
+     "regular": 349.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2124490/"
     }
    }
   },
