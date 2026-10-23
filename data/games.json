@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:41:29+00:00",
+ "updated": "2026-10-23T04:41:53+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -167,6 +167,26 @@
      "regular": 249.0,
      "cut": 0,
      "url": "https://store.steampowered.com/app/1693980/"
+    }
+   }
+  },
+  {
+   "appid": 3017860,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "DOOM: The Dark Ages",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3017860/"
     }
    }
   },
