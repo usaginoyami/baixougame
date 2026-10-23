@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:21:01+00:00",
+ "updated": "2026-10-23T17:29:16+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -10,6 +10,28 @@
   "gmg": "Green Man Gaming"
  },
  "games": [
+  {
+   "appid": 3768760,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 299.0
+     }
+    }
+   ],
+   "name": "007 First Light",
+   "stores": {
+    "steam": {
+     "price": 299.0,
+     "regular": 299.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3768760/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_alt_assets_4.jpg",
+   "slug": "007-first-light"
+  },
   {
    "appid": 2288340,
    "history": [
@@ -121,12 +143,78 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg"
   },
   {
+   "appid": 1478500,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "Big Walk",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1478500/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/62eeee1507dbac905e128a62f2ce690550238db0/header.jpg",
+   "slug": "big-walk"
+  },
+  {
    "appid": 1400830,
    "history": [],
    "name": "Billie Bust Up",
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1400830/d35a4cf4688c39e03524496896add1ae607dd32a/header.jpg",
    "slug": "billie-bust-up"
+  },
+  {
+   "appid": 1588550,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 88.99
+     }
+    }
+   ],
+   "name": "Cairn",
+   "stores": {
+    "steam": {
+     "price": 88.99,
+     "regular": 88.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1588550/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/header.jpg",
+   "slug": "cairn"
+  },
+  {
+   "appid": 4435490,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 299.0
+     }
+    }
+   ],
+   "name": "Call of Duty®: Modern Warfare® 4",
+   "stores": {
+    "steam": {
+     "price": 299.0,
+     "regular": 299.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4435490/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg",
+   "slug": "call-of-duty-modern-warfare-4"
   },
   {
    "appid": 885150,
@@ -149,6 +237,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/885150/header.jpg",
    "slug": "capcom-beat-em-up-bundle"
+  },
+  {
+   "appid": 4231820,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 169.9
+     }
+    }
+   ],
+   "name": "Castlevania: Belmont's Curse",
+   "stores": {
+    "steam": {
+     "price": 169.9,
+     "regular": 169.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4231820/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/6b65aec2c398006aea8b76e1463cc34d0e4ba68b/header.jpg",
+   "slug": "castlevania-belmonts-curse"
   },
   {
    "appid": 234080,
@@ -437,6 +547,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg"
   },
   {
+   "appid": 2057760,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 73.99
+     }
+    }
+   ],
+   "name": "Esoteric Ebb",
+   "stores": {
+    "steam": {
+     "price": 73.99,
+     "regular": 73.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2057760/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/3fc3e737678a0d5db6816609bec2c9c6f2c11a88/header.jpg",
+   "slug": "esoteric-ebb"
+  },
+  {
    "appid": 3259780,
    "history": [
     {
@@ -479,6 +611,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3108510/5bac08d825533706ae33cfc776a60c61d2121b7f/header.jpg",
    "slug": "flyknight-enhanced-edition"
+  },
+  {
+   "appid": 2483190,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 299.0
+     }
+    }
+   ],
+   "name": "Forza Horizon 6",
+   "stores": {
+    "steam": {
+     "price": 299.0,
+     "regular": 299.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2483190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/bd1e762f4720cb68af365f2e41d002f14dd74fbf/header_alt_assets_5.jpg",
+   "slug": "forza-horizon-6"
   },
   {
    "appid": 3240220,
@@ -529,6 +683,50 @@
    },
    "slug": "hades",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg"
+  },
+  {
+   "appid": 3219630,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 124.99
+     }
+    }
+   ],
+   "name": "Halloween: The Game",
+   "stores": {
+    "steam": {
+     "price": 124.99,
+     "regular": 124.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3219630/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/153ed105c4b409fe689783e4f9b6aad72c152646/header.jpg",
+   "slug": "halloween-the-game"
+  },
+  {
+   "appid": 2806050,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 249.0
+     }
+    }
+   ],
+   "name": "Halo: Campaign Evolved",
+   "stores": {
+    "steam": {
+     "price": 249.0,
+     "regular": 249.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2806050/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
+   "slug": "halo-campaign-evolved"
   },
   {
    "appid": 990080,
@@ -627,6 +825,28 @@
    "slug": "lords-of-the-fallen-ii"
   },
   {
+   "appid": 3787240,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 339.9
+     }
+    }
+   ],
+   "name": "MARVEL Tōkon: Fighting Souls",
+   "stores": {
+    "steam": {
+     "price": 339.9,
+     "regular": 339.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3787240/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg",
+   "slug": "marvel-tokon-fighting-souls"
+  },
+  {
    "appid": 2306740,
    "history": [
     {
@@ -693,6 +913,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/eab057a82c52b9d60f383fc2a63e2c4024f0e734/header_alt_assets_1.jpg"
   },
   {
+   "appid": 2416450,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 88.99
+     }
+    }
+   ],
+   "name": "MOUSE: P.I. For Hire",
+   "stores": {
+    "steam": {
+     "price": 88.99,
+     "regular": 88.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2416450/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header.jpg",
+   "slug": "mouse-p-i-for-hire"
+  },
+  {
    "appid": 1488490,
    "history": [
     {
@@ -735,6 +977,28 @@
    },
    "slug": "no-mans-sky",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg"
+  },
+  {
+   "appid": 292000,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 66.74
+     }
+    }
+   ],
+   "name": "No More Room in Hell 2",
+   "stores": {
+    "steam": {
+     "price": 66.74,
+     "regular": 88.99,
+     "cut": 25,
+     "url": "https://store.steampowered.com/app/292000/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/e05df0c7c70fcf4f56944d0a0c24ff2534b6ab60/header_alt_assets_5.jpg",
+   "slug": "no-more-room-in-hell-2"
   },
   {
    "appid": 2273420,
@@ -1037,6 +1301,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg"
   },
   {
+   "appid": 1636440,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 284.9
+     }
+    }
+   ],
+   "name": "SILENT HILL: Townfall",
+   "stores": {
+    "steam": {
+     "price": 284.9,
+     "regular": 284.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1636440/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header.jpg",
+   "slug": "silent-hill-townfall"
+  },
+  {
    "appid": 2333000,
    "history": [
     {
@@ -1087,6 +1373,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045720/bb659b93138f2881c155b84c8896463acc041e9f/header.jpg",
    "slug": "squadron-42"
+  },
+  {
+   "appid": 2075800,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 199.0
+     }
+    }
+   ],
+   "name": "STAR WARS Zero Company™",
+   "stores": {
+    "steam": {
+     "price": 199.0,
+     "regular": 199.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2075800/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/2c7d5dad080c4888faaa03c4a955136c50f5bfae/header.jpg",
+   "slug": "star-wars-zero-companytm"
   },
   {
    "appid": 4078430,
