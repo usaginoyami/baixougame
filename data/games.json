@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:10:56+00:00",
+ "updated": "2026-10-23T17:15:36+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -127,6 +127,50 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1400830/d35a4cf4688c39e03524496896add1ae607dd32a/header.jpg",
    "slug": "billie-bust-up"
+  },
+  {
+   "appid": 885150,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 89.0
+     }
+    }
+   ],
+   "name": "Capcom Beat 'Em Up Bundle",
+   "stores": {
+    "steam": {
+     "price": 89.0,
+     "regular": 89.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/885150/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/885150/header.jpg",
+   "slug": "capcom-beat-em-up-bundle"
+  },
+  {
+   "appid": 234080,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 49.99
+     }
+    }
+   ],
+   "name": "Castlevania: Lords of Shadow – Ultimate Edition",
+   "stores": {
+    "steam": {
+     "price": 49.99,
+     "regular": 49.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/234080/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234080/header.jpg",
+   "slug": "castlevania-lords-of-shadow-ultimate-edition"
   },
   {
    "appid": 504230,
@@ -281,6 +325,50 @@
    },
    "slug": "dead-space",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg"
+  },
+  {
+   "appid": 631510,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 129.0
+     }
+    }
+   ],
+   "name": "Devil May Cry HD Collection",
+   "stores": {
+    "steam": {
+     "price": 129.0,
+     "regular": 129.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/631510/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/header.jpg",
+   "slug": "devil-may-cry-hd-collection"
+  },
+  {
+   "appid": 1148590,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 9.95
+     }
+    }
+   ],
+   "name": "DOOM 64",
+   "stores": {
+    "steam": {
+     "price": 9.95,
+     "regular": 9.95,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1148590/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1148590/header.jpg",
+   "slug": "doom-64"
   },
   {
    "appid": 3017860,
@@ -539,6 +627,50 @@
    "slug": "lords-of-the-fallen-ii"
   },
   {
+   "appid": 2306740,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 299.9
+     }
+    }
+   ],
+   "name": "METAL GEAR SOLID: MASTER COLLECTION Vol.1 BONUS CONTENT",
+   "stores": {
+    "steam": {
+     "price": 299.9,
+     "regular": 299.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2306740/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2306740/header.jpg",
+   "slug": "metal-gear-solid-master-collection-vol-1-bonus-content"
+  },
+  {
+   "appid": 3859630,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 284.9
+     }
+    }
+   ],
+   "name": "METAL GEAR SOLID: MASTER COLLECTION Vol.2",
+   "stores": {
+    "steam": {
+     "price": 284.9,
+     "regular": 284.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3859630/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/31d5f5ef4a143bf915429e307f37cab6e2939678/header.jpg",
+   "slug": "metal-gear-solid-master-collection-vol-2"
+  },
+  {
    "appid": 287390,
    "history": [
     {
@@ -647,6 +779,116 @@
    },
    "slug": "pragmata",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/e32e168b25ed68a0cf6264c220c07e96c2abfb56/header.jpg"
+  },
+  {
+   "appid": 33320,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "Prince of Persia: The Forgotten Sands™",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/33320/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33320/header.jpg",
+   "slug": "prince-of-persia-the-forgotten-sandstm"
+  },
+  {
+   "appid": 13530,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "Prince of Persia: The Two Thrones™",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/13530/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13530/header.jpg",
+   "slug": "prince-of-persia-the-two-thronestm"
+  },
+  {
+   "appid": 13500,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "Prince of Persia: Warrior Within™",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/13500/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/header.jpg",
+   "slug": "prince-of-persia-warrior-withintm"
+  },
+  {
+   "appid": 19980,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "Prince of Persia®",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/19980/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/19980/header.jpg",
+   "slug": "prince-of-persia"
+  },
+  {
+   "appid": 13600,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "Prince of Persia®: The Sands of Time",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/13600/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg",
+   "slug": "prince-of-persia-the-sands-of-time"
   },
   {
    "appid": 1174180,
@@ -815,6 +1057,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/2ce661be5b6e60b8fcc92ecdf3f9dc2dca2a9037/header.jpg",
    "slug": "silver-pines"
+  },
+  {
+   "appid": 1338770,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 129.9
+     }
+    }
+   ],
+   "name": "Sniper Ghost Warrior Contracts 2",
+   "stores": {
+    "steam": {
+     "price": 129.9,
+     "regular": 129.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1338770/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1338770/header.jpg",
+   "slug": "sniper-ghost-warrior-contracts-2"
   },
   {
    "appid": 4045720,
