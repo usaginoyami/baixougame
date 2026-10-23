@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:57:16+00:00",
+ "updated": "2026-10-23T18:05:49+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -195,6 +195,50 @@
    "slug": "billie-bust-up"
   },
   {
+   "appid": 2406770,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 101.99
+     }
+    }
+   ],
+   "name": "Bodycam",
+   "stores": {
+    "steam": {
+     "price": 101.99,
+     "regular": 101.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2406770/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/8d2765de57931435f802fa6757ad6920aea8646a/header_alt_assets_0.jpg",
+   "slug": "bodycam"
+  },
+  {
+   "appid": 696180,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 28.99
+     }
+    }
+   ],
+   "name": "Bullet Witch",
+   "stores": {
+    "steam": {
+     "price": 28.99,
+     "regular": 28.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/696180/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/696180/header.jpg",
+   "slug": "bullet-witch"
+  },
+  {
    "appid": 1588550,
    "history": [
     {
@@ -327,6 +371,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg"
   },
   {
+   "appid": 1133760,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 90.0
+     }
+    }
+   ],
+   "name": "CHRONO CROSS: THE RADICAL DREAMERS EDITION",
+   "stores": {
+    "steam": {
+     "price": 90.0,
+     "regular": 90.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1133760/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133760/header.jpg",
+   "slug": "chrono-cross-the-radical-dreamers-edition"
+  },
+  {
    "appid": 1903340,
    "history": [
     {
@@ -393,6 +459,28 @@
    "slug": "control-resonant"
   },
   {
+   "appid": 268910,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 36.99
+     }
+    }
+   ],
+   "name": "Cuphead",
+   "stores": {
+    "steam": {
+     "price": 36.99,
+     "regular": 36.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/268910/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
+   "slug": "cuphead"
+  },
+  {
    "appid": 1091500,
    "history": [
     {
@@ -413,6 +501,28 @@
    },
    "slug": "cyberpunk-2077",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg"
+  },
+  {
+   "appid": 335300,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 154.9
+     }
+    }
+   ],
+   "name": "DARK SOULS™ II: Scholar of the First Sin",
+   "stores": {
+    "steam": {
+     "price": 154.9,
+     "regular": 154.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/335300/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335300/header.jpg",
+   "slug": "dark-soulstm-ii-scholar-of-the-first-sin"
   },
   {
    "appid": 374320,
@@ -503,6 +613,14 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg"
   },
   {
+   "appid": 1422450,
+   "history": [],
+   "name": "Deadlock",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/aa249c5e8cc8f90941bd1dbdc311773cd1afe065/header.jpg",
+   "slug": "deadlock"
+  },
+  {
    "appid": 1850570,
    "history": [
     {
@@ -545,6 +663,50 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/header.jpg",
    "slug": "devil-may-cry-hd-collection"
+  },
+  {
+   "appid": 403640,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 89.99
+     }
+    }
+   ],
+   "name": "Dishonored 2",
+   "stores": {
+    "steam": {
+     "price": 89.99,
+     "regular": 89.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/403640/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/header.jpg",
+   "slug": "dishonored-2"
+  },
+  {
+   "appid": 614570,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 89.99
+     }
+    }
+   ],
+   "name": "Dishonored®: Death of the Outsider™",
+   "stores": {
+    "steam": {
+     "price": 89.99,
+     "regular": 89.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/614570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614570/header.jpg",
+   "slug": "dishonored-death-of-the-outsidertm"
   },
   {
    "appid": 1148590,
@@ -591,6 +753,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg"
   },
   {
+   "appid": 2054970,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 169.0
+     }
+    }
+   ],
+   "name": "Dragon's Dogma 2",
+   "stores": {
+    "steam": {
+     "price": 169.0,
+     "regular": 169.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2054970/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg",
+   "slug": "dragons-dogma-2"
+  },
+  {
    "appid": 4019220,
    "history": [
     {
@@ -611,6 +795,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg",
    "slug": "dressmaker"
+  },
+  {
+   "appid": 2384580,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 349.0
+     }
+    }
+   ],
+   "name": "DYNASTY WARRIORS: ORIGINS",
+   "stores": {
+    "steam": {
+     "price": 349.0,
+     "regular": 349.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2384580/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2384580/header.jpg",
+   "slug": "dynasty-warriors-origins"
   },
   {
    "appid": 1245620,
@@ -699,6 +905,50 @@
    },
    "slug": "final-fantasy-resonance",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg"
+  },
+  {
+   "appid": 595520,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 165.99
+     }
+    }
+   ],
+   "name": "FINAL FANTASY XII THE ZODIAC AGE",
+   "stores": {
+    "steam": {
+     "price": 165.99,
+     "regular": 165.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/595520/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/595520/header.jpg",
+   "slug": "final-fantasy-xii-the-zodiac-age"
+  },
+  {
+   "appid": 2515020,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 219.9
+     }
+    }
+   ],
+   "name": "FINAL FANTASY XVI",
+   "stores": {
+    "steam": {
+     "price": 219.9,
+     "regular": 219.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2515020/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/header.jpg",
+   "slug": "final-fantasy-xvi"
   },
   {
    "appid": 3108510,
@@ -1051,6 +1301,28 @@
    "slug": "lead-the-dragon"
   },
   {
+   "appid": 550,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 33.99
+     }
+    }
+   ],
+   "name": "Left 4 Dead 2",
+   "stores": {
+    "steam": {
+     "price": 33.99,
+     "regular": 33.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/550/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+   "slug": "left-4-dead-2"
+  },
+  {
    "appid": 2719590,
    "history": [],
    "name": "Light No Fire",
@@ -1287,6 +1559,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/eab057a82c52b9d60f383fc2a63e2c4024f0e734/header_alt_assets_1.jpg"
   },
   {
+   "appid": 2584270,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 159.0
+     }
+    }
+   ],
+   "name": "Mortal Shell II",
+   "stores": {
+    "steam": {
+     "price": 159.0,
+     "regular": 159.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2584270/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/bfb38c9ef1c00bad92fa3992de1a737ef2e67923/header_alt_assets_4.jpg",
+   "slug": "mortal-shell-ii"
+  },
+  {
    "appid": 2416450,
    "history": [
     {
@@ -1419,6 +1713,28 @@
    "slug": "over-the-hill"
   },
   {
+   "appid": 4115450,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 229.9
+     }
+    }
+   ],
+   "name": "Phantom Blade Zero",
+   "stores": {
+    "steam": {
+     "price": 229.9,
+     "regular": 229.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4115450/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg",
+   "slug": "phantom-blade-zero"
+  },
+  {
    "appid": 3357650,
    "history": [
     {
@@ -1439,6 +1755,28 @@
    },
    "slug": "pragmata",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/e32e168b25ed68a0cf6264c220c07e96c2abfb56/header.jpg"
+  },
+  {
+   "appid": 480490,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 89.99
+     }
+    }
+   ],
+   "name": "Prey",
+   "stores": {
+    "steam": {
+     "price": 89.99,
+     "regular": 89.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/480490/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/480490/9ed715575a2205350e937e5e6d25b3e8a494605e/header.jpg",
+   "slug": "prey"
   },
   {
    "appid": 33320,
@@ -1549,6 +1887,50 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg",
    "slug": "prince-of-persia-the-sands-of-time"
+  },
+  {
+   "appid": 548570,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 119.99
+     }
+    }
+   ],
+   "name": "RAGE 2",
+   "stores": {
+    "steam": {
+     "price": 119.99,
+     "regular": 119.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/548570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548570/header.jpg",
+   "slug": "rage-2"
+  },
+  {
+   "appid": 242550,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 89.99
+     }
+    }
+   ],
+   "name": "Rayman® Legends",
+   "stores": {
+    "steam": {
+     "price": 89.99,
+     "regular": 89.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/242550/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242550/baa48d04ecc914d5f193550c640c8450ddf67065/header.jpg",
+   "slug": "rayman-legends"
   },
   {
    "appid": 2668510,
@@ -1829,6 +2211,28 @@
    "slug": "sniper-ghost-warrior-contracts-2"
   },
   {
+   "appid": 2975950,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 109.99
+     }
+    }
+   ],
+   "name": "Solasta II",
+   "stores": {
+    "steam": {
+     "price": 109.99,
+     "regular": 109.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2975950/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975950/154758dcb5b2de9464a46fa54b8973bca5c1522f/header.jpg",
+   "slug": "solasta-ii"
+  },
+  {
    "appid": 4045720,
    "history": [],
    "name": "Squadron 42",
@@ -1903,6 +2307,50 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg"
   },
   {
+   "appid": 1716740,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "Starfield",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1716740/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/header.jpg",
+   "slug": "starfield"
+  },
+  {
+   "appid": 3489700,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "Stellar Blade™",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3489700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/header.jpg",
+   "slug": "stellar-bladetm"
+  },
+  {
    "appid": 489830,
    "history": [
     {
@@ -1975,6 +2423,50 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_alt_assets_1.jpg",
    "slug": "the-witcher-3-wild-hunt-remastered"
+  },
+  {
+   "appid": 250320,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 50.0
+     }
+    }
+   ],
+   "name": "The Wolf Among Us",
+   "stores": {
+    "steam": {
+     "price": 50.0,
+     "regular": 50.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/250320/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250320/header.jpg",
+   "slug": "the-wolf-among-us"
+  },
+  {
+   "appid": 3558670,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 259.0
+     }
+    }
+   ],
+   "name": "Tomb Raider: Legacy of Atlantis",
+   "stores": {
+    "steam": {
+     "price": 259.0,
+     "regular": 259.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3558670/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558670/d0d4229807e9bd939c2374cb94a1264aa1386398/header.jpg",
+   "slug": "tomb-raider-legacy-of-atlantis"
   },
   {
    "appid": 1967610,
