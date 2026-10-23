@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T16:47:51+00:00",
+ "updated": "2026-10-23T17:00:02+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -10,6 +10,28 @@
   "gmg": "Green Man Gaming"
  },
  "games": [
+  {
+   "appid": 2288340,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 309.5
+     }
+    }
+   ],
+   "name": "ACE COMBAT 8: WINGS OF THEVE",
+   "stores": {
+    "steam": {
+     "price": 309.5,
+     "regular": 309.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2288340/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg",
+   "slug": "ace-combat-8-wings-of-theve"
+  },
   {
    "appid": 1066890,
    "history": [
@@ -121,6 +143,50 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg"
   },
   {
+   "appid": 1551980,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 149.9
+     }
+    }
+   ],
+   "name": "Clive Barker's Hellraiser: Revival",
+   "stores": {
+    "steam": {
+     "price": 149.9,
+     "regular": 149.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1551980/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/d1e7111b93b6a8b3eb029908887648348c2c55e6/header.jpg",
+   "slug": "clive-barkers-hellraiser-revival"
+  },
+  {
+   "appid": 3669870,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 229.99
+     }
+    }
+   ],
+   "name": "CONTROL Resonant",
+   "stores": {
+    "steam": {
+     "price": 229.99,
+     "regular": 229.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3669870/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/1e0c76e4253d347bb1304c3f213570251d924edf/header.jpg",
+   "slug": "control-resonant"
+  },
+  {
    "appid": 1091500,
    "history": [
     {
@@ -209,6 +275,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg"
   },
   {
+   "appid": 4019220,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 53.47
+     }
+    }
+   ],
+   "name": "Dressmaker",
+   "stores": {
+    "steam": {
+     "price": 53.47,
+     "regular": 53.47,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4019220/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg",
+   "slug": "dressmaker"
+  },
+  {
    "appid": 1245620,
    "history": [
     {
@@ -251,6 +339,28 @@
    },
    "slug": "final-fantasy-resonance",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg"
+  },
+  {
+   "appid": 3108510,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 19.95
+     }
+    }
+   ],
+   "name": "FlyKnight Enhanced Edition",
+   "stores": {
+    "steam": {
+     "price": 19.95,
+     "regular": 19.95,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3108510/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3108510/5bac08d825533706ae33cfc776a60c61d2121b7f/header.jpg",
+   "slug": "flyknight-enhanced-edition"
   },
   {
    "appid": 3240220,
@@ -397,6 +507,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/eab057a82c52b9d60f383fc2a63e2c4024f0e734/header_alt_assets_1.jpg"
   },
   {
+   "appid": 1488490,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 86.99
+     }
+    }
+   ],
+   "name": "Nivalis Nights",
+   "stores": {
+    "steam": {
+     "price": 86.99,
+     "regular": 86.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1488490/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488490/28e511ff46672f9649744961fd6edbf19df75265/header.jpg",
+   "slug": "nivalis-nights"
+  },
+  {
    "appid": 275850,
    "history": [
     {
@@ -417,6 +549,28 @@
    },
    "slug": "no-mans-sky",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg"
+  },
+  {
+   "appid": 2273420,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 35.79
+     }
+    }
+   ],
+   "name": "Peeping Dorm Manager",
+   "stores": {
+    "steam": {
+     "price": 35.79,
+     "regular": 35.79,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2273420/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2273420/8d10b25dc3b5f75598e47087c2dda935d0f2c7f5/header.jpg",
+   "slug": "peeping-dorm-manager"
   },
   {
    "appid": 3357650,
@@ -579,6 +733,58 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg"
   },
   {
+   "appid": 2333000,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 67.99
+     }
+    }
+   ],
+   "name": "Silver Pines",
+   "stores": {
+    "steam": {
+     "price": 67.99,
+     "regular": 67.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2333000/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/2ce661be5b6e60b8fcc92ecdf3f9dc2dca2a9037/header.jpg",
+   "slug": "silver-pines"
+  },
+  {
+   "appid": 4045720,
+   "history": [],
+   "name": "Squadron 42",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045720/bb659b93138f2881c155b84c8896463acc041e9f/header.jpg",
+   "slug": "squadron-42"
+  },
+  {
+   "appid": 4078430,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 229.9
+     }
+    }
+   ],
+   "name": "STAR WARS: Galactic Racer™",
+   "stores": {
+    "steam": {
+     "price": 229.9,
+     "regular": 229.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4078430/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/97215eb609882139ce6a28419116be23fcf5ac86/header.jpg",
+   "slug": "star-wars-galactic-racertm"
+  },
+  {
    "appid": 413150,
    "history": [
     {
@@ -643,6 +849,28 @@
    },
    "slug": "warhammer-40-000-space-marine-2",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/c0da5cad512f85a006abb9181cb3f45107fb0223/header_alt_assets_14.jpg"
+  },
+  {
+   "appid": 3699590,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 50.49
+     }
+    }
+   ],
+   "name": "Well Dweller",
+   "stores": {
+    "steam": {
+     "price": 50.49,
+     "regular": 50.49,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3699590/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/49dd898fc6800fb34e599e23b7a015447f8209d5/header.jpg",
+   "slug": "well-dweller"
   }
  ]
 }
