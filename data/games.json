@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:40:16+00:00",
+ "updated": "2026-10-23T04:41:03+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -187,6 +187,26 @@
      "regular": 274.5,
      "cut": 0,
      "url": "https://store.steampowered.com/app/1245620/"
+    }
+   }
+  },
+  {
+   "appid": 3259780,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 219.9
+     }
+    }
+   ],
+   "name": "FINAL FANTASY RESONANCE",
+   "stores": {
+    "steam": {
+     "price": 219.9,
+     "regular": 219.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3259780/"
     }
    }
   },
