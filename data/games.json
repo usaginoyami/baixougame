@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:52:31+00:00",
+ "updated": "2026-10-23T17:54:47+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -723,6 +723,28 @@
    "slug": "forza-horizon-6"
   },
   {
+   "appid": 3010850,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 299.0
+     }
+    }
+   ],
+   "name": "Gears of War: E-Day",
+   "stores": {
+    "steam": {
+     "price": 299.0,
+     "regular": 299.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3010850/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/1abb0c5ef76c14f463dd6e3964adb64f984237d2/header.jpg",
+   "slug": "gears-of-war-e-day"
+  },
+  {
    "appid": 2215430,
    "history": [
     {
@@ -743,6 +765,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg",
    "slug": "ghost-of-tsushima-directors-cut"
+  },
+  {
+   "appid": 3645890,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 12.72
+     }
+    }
+   ],
+   "name": "GONE Fishing",
+   "stores": {
+    "steam": {
+     "price": 12.72,
+     "regular": 18.99,
+     "cut": 33,
+     "url": "https://store.steampowered.com/app/3645890/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3645890/ccf41cdf893f47a5a692f05e2344df5e2fdeb3d9/header_alt_assets_0.jpg",
+   "slug": "gone-fishing"
   },
   {
    "appid": 3240220,
@@ -909,6 +953,28 @@
    },
    "slug": "hollow-knight",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg"
+  },
+  {
+   "appid": 3883570,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 47.99
+     }
+    }
+   ],
+   "name": "Invokyr",
+   "stores": {
+    "steam": {
+     "price": 47.99,
+     "regular": 47.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3883570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg",
+   "slug": "invokyr"
   },
   {
    "appid": 1250,
@@ -1155,6 +1221,28 @@
    "slug": "mouse-p-i-for-hire"
   },
   {
+   "appid": 3247750,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 23.49
+     }
+    }
+   ],
+   "name": "Mycopunk",
+   "stores": {
+    "steam": {
+     "price": 23.49,
+     "regular": 46.99,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/3247750/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg",
+   "slug": "mycopunk"
+  },
+  {
    "appid": 1488490,
    "history": [
     {
@@ -1219,6 +1307,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/e05df0c7c70fcf4f56944d0a0c24ff2534b6ab60/header_alt_assets_5.jpg",
    "slug": "no-more-room-in-hell-2"
+  },
+  {
+   "appid": 2929250,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 41.59
+     }
+    }
+   ],
+   "name": "over the hill",
+   "stores": {
+    "steam": {
+     "price": 41.59,
+     "regular": 51.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/2929250/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg",
+   "slug": "over-the-hill"
   },
   {
    "appid": 3357650,
@@ -1475,6 +1585,50 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/28045d733a3ada082858b5b1a5149e33ee40f378/header.jpg",
    "slug": "resident-evil-veronica"
+  },
+  {
+   "appid": 1374490,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 80.49
+     }
+    }
+   ],
+   "name": "RuneScape: Dragonwilds",
+   "stores": {
+    "steam": {
+     "price": 80.49,
+     "regular": 114.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/1374490/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header.jpg",
+   "slug": "runescape-dragonwilds"
+  },
+  {
+   "appid": 4954910,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 33.74
+     }
+    }
+   ],
+   "name": "Scam With Your Friends",
+   "stores": {
+    "steam": {
+     "price": 33.74,
+     "regular": 37.49,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/4954910/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/128effac3212fc1b92b4f6cd8891995df0d4b199/header.jpg",
+   "slug": "scam-with-your-friends"
   },
   {
    "appid": 2124490,
