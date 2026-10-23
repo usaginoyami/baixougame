@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:00:02+00:00",
+ "updated": "2026-10-23T17:10:56+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -31,6 +31,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg",
    "slug": "ace-combat-8-wings-of-theve"
+  },
+  {
+   "appid": 242050,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 119.99
+     }
+    }
+   ],
+   "name": "Assassin’s Creed® IV Black Flag™",
+   "stores": {
+    "steam": {
+     "price": 119.99,
+     "regular": 119.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/242050/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242050/header.jpg",
+   "slug": "assassins-creed-iv-black-flagtm"
   },
   {
    "appid": 1066890,
@@ -97,6 +119,14 @@
    },
    "slug": "baldurs-gate-3",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg"
+  },
+  {
+   "appid": 1400830,
+   "history": [],
+   "name": "Billie Bust Up",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1400830/d35a4cf4688c39e03524496896add1ae607dd32a/header.jpg",
+   "slug": "billie-bust-up"
   },
   {
    "appid": 504230,
@@ -485,6 +515,30 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903950/header.jpg"
   },
   {
+   "appid": 3836490,
+   "history": [],
+   "name": "Lead The Dragon",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3836490/b5aa98a15eca42173485cbfb48d9f6ed36991be9/header.jpg",
+   "slug": "lead-the-dragon"
+  },
+  {
+   "appid": 2719590,
+   "history": [],
+   "name": "Light No Fire",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2719590/header.jpg",
+   "slug": "light-no-fire"
+  },
+  {
+   "appid": 4767480,
+   "history": [],
+   "name": "Lords of the Fallen II",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4767480/a34e3c4d4088e71c7d2cdc5445dc950abd2521db/header.jpg",
+   "slug": "lords-of-the-fallen-ii"
+  },
+  {
    "appid": 287390,
    "history": [
     {
@@ -689,6 +743,14 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg"
   },
   {
+   "appid": 4824610,
+   "history": [],
+   "name": "Resident Evil Veronica",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/28045d733a3ada082858b5b1a5149e33ee40f378/header.jpg",
+   "slug": "resident-evil-veronica"
+  },
+  {
    "appid": 2124490,
    "history": [
     {
@@ -807,6 +869,14 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg"
   },
   {
+   "appid": 612400,
+   "history": [],
+   "name": "The Last Night",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/612400/c6ec1628b962d5bed35d3851d79a4ec4931c18e2/header.jpg",
+   "slug": "the-last-night"
+  },
+  {
    "appid": 1449690,
    "history": [
     {
@@ -829,6 +899,22 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg"
   },
   {
+   "appid": 1967610,
+   "history": [],
+   "name": "Turok: Origins",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967610/2812e87028a98ee3ee38ec107f88c9e343023263/header.jpg",
+   "slug": "turok-origins"
+  },
+  {
+   "appid": 2381520,
+   "history": [],
+   "name": "Unrecord",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2381520/header.jpg",
+   "slug": "unrecord"
+  },
+  {
    "appid": 2183900,
    "history": [
     {
@@ -849,6 +935,14 @@
    },
    "slug": "warhammer-40-000-space-marine-2",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/c0da5cad512f85a006abb9181cb3f45107fb0223/header_alt_assets_14.jpg"
+  },
+  {
+   "appid": 3714800,
+   "history": [],
+   "name": "Warlock: Dungeons & Dragons",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3714800/490d2a85ec645883df3a1f930c37f3b26e630a26/header.jpg",
+   "slug": "warlock-dungeons-dragons"
   },
   {
    "appid": 3699590,
