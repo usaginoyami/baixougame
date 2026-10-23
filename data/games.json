@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:56:23+00:00",
+ "updated": "2026-10-23T17:57:16+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -457,6 +457,28 @@
    },
    "slug": "dead-by-daylight",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg"
+  },
+  {
+   "appid": 934700,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 249.0
+     }
+    }
+   ],
+   "name": "Dead Island 2",
+   "stores": {
+    "steam": {
+     "price": 249.0,
+     "regular": 249.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/934700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/header.jpg",
+   "slug": "dead-island-2"
   },
   {
    "appid": 1693980,
