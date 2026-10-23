@@ -160,17 +160,18 @@ function visibleGames() {
 }
 
 /* capa: tenta a imagem da loja e cai num bloco colorido com as iniciais */
-const coverUrls = id => [
-  `https://cdn.cloudflare.steamstatic.com/steam/apps/${id}/header.jpg`,
-  `https://cdn.akamai.steamstatic.com/steam/apps/${id}/header.jpg`,
-];
+const coverUrls = game => [
+  /^https:\/\//.test(game.cover || '') ? game.cover : null,
+  `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg`,
+  `https://cdn.akamai.steamstatic.com/steam/apps/${game.appid}/header.jpg`,
+].filter(Boolean);
 function cover(game) {
   let hue = 0;
   for (const ch of game.name) hue = (hue * 31 + ch.charCodeAt(0)) % 360;
   const initials = game.name.split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0].toUpperCase()).join('');
   const ph = h('span', { class: 'ph', style: `background:linear-gradient(135deg,hsl(${hue} 42% 30%),hsl(${(hue + 40) % 360} 48% 16%))` }, initials);
   const box = h('span', { class: 'cover' }, ph);
-  const urls = coverUrls(game.appid);
+  const urls = coverUrls(game);
   let i = 0;
   const img = h('img', { alt: '', loading: 'lazy', decoding: 'async', width: 460, height: 215, referrerpolicy: 'no-referrer' });
   img.addEventListener('error', () => { i++; if (i < urls.length) img.src = urls[i]; else img.remove(); });

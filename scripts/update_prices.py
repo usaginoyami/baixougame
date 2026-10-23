@@ -41,6 +41,8 @@ USER_AGENT = "baixougame/1.0"
 DISCOVER = os.environ.get("BAIXOUGAME_DISCOVER", "1") != "0"  # False desliga a descoberta
 MIN_DISCOUNT = 50       # só cadastra jogos com pelo menos esse desconto (%)
 MAX_NEW_PER_RUN = 10    # limite de jogos novos por execução
+MAX_COVERS_PER_RUN = 40  # capas buscadas por execução (as já salvas não são buscadas de novo)
+COVER_HOSTS = ("steamstatic.com", "steamcdn-a.akamaihd.net")
 MAX_GAMES = 300         # limite total de jogos no site (manuais + descobertos)
 
 # Lojas coletadas. Para somar outra loja, crie uma função parecida com
@@ -83,6 +85,23 @@ def fetch_steam(appids):
             "url": f"https://store.steampowered.com/app/{appid}/",
         }
     return found
+
+
+def fetch_cover(appid):
+    """Endereço real da capa. Jogos novos usam um caminho com código (hash) que
+    não dá para adivinhar, então perguntamos à Steam. Devolve None se falhar."""
+    qs = urllib.parse.urlencode({"appids": appid, "cc": "br", "filters": "basic"})
+    raw = fetch_json(f"https://store.steampowered.com/api/appdetails?{qs}")
+    entry = raw.get(str(appid)) or {}
+    data = entry.get("data")
+    url = data.get("header_image") if isinstance(data, dict) else None
+    if not isinstance(url, str):
+        return None
+    url = url.split("?")[0]
+    host = urllib.parse.urlparse(url).hostname or ""
+    if url.startswith("https://") and host.endswith(COVER_HOSTS):
+        return url
+    return None
 
 
 def featured_deals():
@@ -273,6 +292,22 @@ def main():
         if snapshot and (not history or history[-1]["p"] != snapshot):
             history.append({"d": today, "p": snapshot})
         games.append(game)
+
+    # capa: guarda o endereço real de cada jogo (só busca os que ainda não têm)
+    asked = 0
+    for g in games:
+        if g.get("cover") or asked >= MAX_COVERS_PER_RUN:
+            continue
+        if asked:
+            time.sleep(PAUSE)
+        asked += 1
+        try:
+            cover = fetch_cover(g["appid"])
+        except Exception as exc:  # sem capa salva, o site usa o endereço padrão
+            print(f"Capa de {g['appid']} não obtida: {exc}", file=sys.stderr)
+            continue
+        if cover:
+            g["cover"] = cover
 
     games.sort(key=lambda g: g["name"].lower())
     assign_slugs(games)

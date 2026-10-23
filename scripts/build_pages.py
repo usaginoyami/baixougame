@@ -131,7 +131,7 @@ def page_html(game, data, site, today):
     low, high = low_high(game)
     history = game.get("history", [])
     url = f'{site["url"]}jogos/{game["slug"]}/'
-    cover = f'https://cdn.cloudflare.steamstatic.com/steam/apps/{game["appid"]}/header.jpg'
+    cover = game.get("cover") or f'https://cdn.cloudflare.steamstatic.com/steam/apps/{game["appid"]}/header.jpg'
 
     if stores:
         k, best = stores[0]
