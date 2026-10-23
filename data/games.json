@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:41:03+00:00",
+ "updated": "2026-10-23T04:41:29+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -465,6 +465,26 @@
      "regular": 349.9,
      "cut": 0,
      "url": "https://store.steampowered.com/app/2124490/"
+    }
+   }
+  },
+  {
+   "appid": 2947440,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 349.9
+     }
+    }
+   ],
+   "name": "SILENT HILL f",
+   "stores": {
+    "steam": {
+     "price": 349.9,
+     "regular": 349.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2947440/"
     }
    }
   },
