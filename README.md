@@ -48,6 +48,8 @@ Para usar no seu computador: `python scripts/add_game.py "Hades"` e depois `pyth
 
 **Manual, editando o arquivo:** inclua uma linha em `data/watchlist.json`. O `appid` é o número na URL da página do jogo na Steam (`store.steampowered.com/app/<appid>/`). Essa lista é sua: o script só escreve nela quando você pede um jogo pelo "Adicionar jogo" (ou por `add_game.py`), e nunca apaga nada.
 
+**Em massa (página privada):** abra `https://usaginoyami.github.io/baixougame/admin/`, cole um token do GitHub (fine-grained, só o repositório baixougame, só **Actions: Read and write**; a página explica o passo a passo), cole a lista de jogos, um por linha, e clique em Enviar. A página dispara o workflow "Adicionar jogo" com a lista inteira. Ela não tem link no site e pede `noindex`, mas quem souber o endereço consegue abri-la; sem o token, ninguém envia nada. O token fica só no navegador. Mande uma lista por vez e espere a execução terminar, porque o GitHub descarta execuções extras na fila. Máximo de 150 nomes por envio.
+
 ## Links de afiliado (Nuuvem e Green Man Gaming)
 
 A Nuuvem não oferece API nem feed público de preços, e os termos de uso dela proíbem coletar dados do site com robôs. Os termos da Green Man Gaming exigem autorização escrita para uso comercial do site. Por isso o baixougame **não mostra preços dessas lojas**. O que dá para fazer é um botão "Ver na Nuuvem" ou "Ver na Green Man Gaming" com o seu link de afiliado:

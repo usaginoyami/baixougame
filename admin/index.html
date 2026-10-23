@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
+<title>Adicionar jogos em massa | baixougame</title>
+<link rel="stylesheet" href="../style.css">
+
+<header class="bar">
+  <div class="gutter">
+    <a class="logo" href="../" aria-label="baixougame, página inicial">baixou<span>game</span></a>
+  </div>
+</header>
+
+<main class="gutter">
+  <article class="page admin">
+    <div class="dbody">
+      <h1>Adicionar jogos em massa</h1>
+      <p class="note">Página privada: não tem link no site e não aparece no Google. Sem o seu token, ela não consegue enviar nada.</p>
+
+      <div id="token-box">
+        <h3>Token do GitHub</h3>
+        <div id="token-saved" hidden>
+          <span class="ok">Token salvo neste navegador.</span>
+          <button id="forget" class="linkbtn" type="button">Esquecer token</button>
+        </div>
+        <div id="token-form">
+          <input id="token" class="field" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…" aria-label="Token do GitHub">
+          <button id="save" class="linkbtn" type="button">Salvar neste navegador</button>
+          <details>
+            <summary>Como criar o token</summary>
+            <ol>
+              <li>No GitHub: Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token.</li>
+              <li>Em <b>Repository access</b>, escolha <b>Only select repositories</b> e marque só <b>baixougame</b>.</li>
+              <li>Em <b>Permissions → Repository permissions</b>, coloque <b>Actions: Read and write</b> (nada além disso).</li>
+              <li>Defina uma validade (por exemplo, 90 dias), gere e cole aqui.</li>
+            </ol>
+            <p>O token fica só no seu navegador e só é enviado ao GitHub. Não use em computador compartilhado.</p>
+          </details>
+        </div>
+      </div>
+
+      <div>
+        <h3>Jogos (um por linha)</h3>
+        <textarea id="names" class="field area" rows="12" spellcheck="false" aria-label="Lista de jogos"
+          placeholder="Hades&#10;Celeste&#10;https://store.steampowered.com/app/1086940/&#10;504230"></textarea>
+        <p class="note">Aceita nome, link da Steam ou appid. Repetidos são ignorados. Máximo de <span id="max"></span> por envio.</p>
+      </div>
+
+      <div class="actions">
+        <button id="send" class="linkbtn primary" type="button" disabled>Enviar</button>
+        <span id="count" class="count">0 jogos</span>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </div>
+  </article>
+  <p class="foot">Depois de enviar, o GitHub procura cada jogo na Steam e cadastra. Leva cerca de 15 segundos por jogo. Nomes que batem com mais de um jogo não são cadastrados: o resumo da execução na aba Actions lista as opções com o appid. Espere a execução terminar antes de enviar outra lista.</p>
+</main>
+<script src="admin.js"></script>
+</html>
