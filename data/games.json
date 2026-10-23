@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:52:44+00:00",
+ "updated": "2026-10-23T03:55:06+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -107,6 +107,26 @@
      "regular": 199.9,
      "cut": 70,
      "url": "https://store.steampowered.com/app/1091500/"
+    }
+   }
+  },
+  {
+   "appid": 381210,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 27.99
+     }
+    }
+   ],
+   "name": "Dead by Daylight",
+   "stores": {
+    "steam": {
+     "price": 27.99,
+     "regular": 69.99,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/381210/"
     }
    }
   },
@@ -243,6 +263,26 @@
    }
   },
   {
+   "appid": 903950,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 23.09
+     }
+    }
+   ],
+   "name": "Last Oasis",
+   "stores": {
+    "steam": {
+     "price": 23.09,
+     "regular": 69.99,
+     "cut": 67,
+     "url": "https://store.steampowered.com/app/903950/"
+    }
+   }
+  },
+  {
    "appid": 1174180,
    "history": [
     {
@@ -305,6 +345,26 @@
      "regular": 24.99,
      "cut": 0,
      "url": "https://store.steampowered.com/app/413150/"
+    }
+   }
+  },
+  {
+   "appid": 1449690,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 13.49
+     }
+    }
+   ],
+   "name": "The Walking Dead: The Telltale Definitive Series",
+   "stores": {
+    "steam": {
+     "price": 13.49,
+     "regular": 134.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/1449690/"
     }
    }
   }
