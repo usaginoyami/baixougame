@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:41:53+00:00",
+ "updated": "2026-10-23T04:43:56+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -339,6 +339,26 @@
      "regular": 69.99,
      "cut": 67,
      "url": "https://store.steampowered.com/app/903950/"
+    }
+   }
+  },
+  {
+   "appid": 287390,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 9.9
+     }
+    }
+   ],
+   "name": "METRO Last Light Redux",
+   "stores": {
+    "steam": {
+     "price": 9.9,
+     "regular": 99.0,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/287390/"
     }
    }
   },
