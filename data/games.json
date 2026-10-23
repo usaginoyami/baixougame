@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:29:16+00:00",
+ "updated": "2026-10-23T17:45:02+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -779,6 +779,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg"
   },
   {
+   "appid": 1250,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 3.49
+     }
+    }
+   ],
+   "name": "Killing Floor",
+   "stores": {
+    "steam": {
+     "price": 3.49,
+     "regular": 34.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/1250/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg",
+   "slug": "killing-floor"
+  },
+  {
    "appid": 903950,
    "history": [
     {
@@ -999,28 +1021,6 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/e05df0c7c70fcf4f56944d0a0c24ff2534b6ab60/header_alt_assets_5.jpg",
    "slug": "no-more-room-in-hell-2"
-  },
-  {
-   "appid": 2273420,
-   "history": [
-    {
-     "d": "2026-10-23",
-     "p": {
-      "steam": 35.79
-     }
-    }
-   ],
-   "name": "Peeping Dorm Manager",
-   "stores": {
-    "steam": {
-     "price": 35.79,
-     "regular": 35.79,
-     "cut": 0,
-     "url": "https://store.steampowered.com/app/2273420/"
-    }
-   },
-   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2273420/8d10b25dc3b5f75598e47087c2dda935d0f2c7f5/header.jpg",
-   "slug": "peeping-dorm-manager"
   },
   {
    "appid": 3357650,
