@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:45:02+00:00",
+ "updated": "2026-10-23T17:52:31+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -53,6 +53,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg",
    "slug": "ace-combat-8-wings-of-theve"
+  },
+  {
+   "appid": 3751950,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 299.99
+     }
+    }
+   ],
+   "name": "Assassin's Creed Black Flag Resynced",
+   "stores": {
+    "steam": {
+     "price": 299.99,
+     "regular": 299.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3751950/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg",
+   "slug": "assassins-creed-black-flag-resynced"
   },
   {
    "appid": 242050,
@@ -393,6 +415,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg"
   },
   {
+   "appid": 374320,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 229.9
+     }
+    }
+   ],
+   "name": "DARK SOULS™ III",
+   "stores": {
+    "steam": {
+     "price": 229.9,
+     "regular": 229.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/374320/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg",
+   "slug": "dark-soulstm-iii"
+  },
+  {
    "appid": 381210,
    "history": [
     {
@@ -435,6 +479,28 @@
    },
    "slug": "dead-space",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg"
+  },
+  {
+   "appid": 1850570,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 159.0
+     }
+    }
+   ],
+   "name": "DEATH STRANDING DIRECTOR'S CUT",
+   "stores": {
+    "steam": {
+     "price": 159.0,
+     "regular": 159.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1850570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
+   "slug": "death-stranding-directors-cut"
   },
   {
    "appid": 631510,
@@ -569,6 +635,28 @@
    "slug": "esoteric-ebb"
   },
   {
+   "appid": 377160,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "Fallout 4",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/377160/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg",
+   "slug": "fallout-4"
+  },
+  {
    "appid": 3259780,
    "history": [
     {
@@ -633,6 +721,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/bd1e762f4720cb68af365f2e41d002f14dd74fbf/header_alt_assets_5.jpg",
    "slug": "forza-horizon-6"
+  },
+  {
+   "appid": 2215430,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "Ghost of Tsushima DIRECTOR'S CUT",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2215430/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg",
+   "slug": "ghost-of-tsushima-directors-cut"
   },
   {
    "appid": 3240220,
@@ -727,6 +837,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
    "slug": "halo-campaign-evolved"
+  },
+  {
+   "appid": 1659040,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 8.89
+     }
+    }
+   ],
+   "name": "HITMAN World of Assassination",
+   "stores": {
+    "steam": {
+     "price": 8.89,
+     "regular": 88.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/1659040/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg",
+   "slug": "hitman-world-of-assassination"
   },
   {
    "appid": 990080,
@@ -867,6 +999,72 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg",
    "slug": "marvel-tokon-fighting-souls"
+  },
+  {
+   "appid": 2492670,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 169.9
+     }
+    }
+   ],
+   "name": "METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version",
+   "stores": {
+    "steam": {
+     "price": 169.9,
+     "regular": 169.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2492670/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2492670/458033bb7aad4e6b8a61af0f7798d23db2683864/header.jpg",
+   "slug": "metal-gear-solid-4-guns-of-the-patriots-master-collection-version"
+  },
+  {
+   "appid": 311340,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 36.99
+     }
+    }
+   ],
+   "name": "METAL GEAR SOLID V: GROUND ZEROES",
+   "stores": {
+    "steam": {
+     "price": 36.99,
+     "regular": 36.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/311340/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311340/header.jpg",
+   "slug": "metal-gear-solid-v-ground-zeroes"
+  },
+  {
+   "appid": 287700,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 99.0
+     }
+    }
+   ],
+   "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+   "stores": {
+    "steam": {
+     "price": 99.0,
+     "regular": 99.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/287700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/header.jpg",
+   "slug": "metal-gear-solid-v-the-phantom-pain"
   },
   {
    "appid": 2306740,
@@ -1155,6 +1353,28 @@
    "slug": "prince-of-persia-the-sands-of-time"
   },
   {
+   "appid": 2668510,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 249.5
+     }
+    }
+   ],
+   "name": "Red Dead Redemption",
+   "stores": {
+    "steam": {
+     "price": 249.5,
+     "regular": 249.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2668510/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/header.jpg",
+   "slug": "red-dead-redemption"
+  },
+  {
    "appid": 1174180,
    "history": [
     {
@@ -1441,6 +1661,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg"
   },
   {
+   "appid": 489830,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 149.0
+     }
+    }
+   ],
+   "name": "The Elder Scrolls V: Skyrim Special Edition",
+   "stores": {
+    "steam": {
+     "price": 149.0,
+     "regular": 149.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/489830/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg",
+   "slug": "the-elder-scrolls-v-skyrim-special-edition"
+  },
+  {
    "appid": 612400,
    "history": [],
    "name": "The Last Night",
@@ -1469,6 +1711,28 @@
    },
    "slug": "the-walking-dead-the-telltale-definitive-series",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg"
+  },
+  {
+   "appid": 292030,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 159.99
+     }
+    }
+   ],
+   "name": "The Witcher 3: Wild Hunt — Remastered",
+   "stores": {
+    "steam": {
+     "price": 159.99,
+     "regular": 159.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/292030/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_alt_assets_1.jpg",
+   "slug": "the-witcher-3-wild-hunt-remastered"
   },
   {
    "appid": 1967610,
