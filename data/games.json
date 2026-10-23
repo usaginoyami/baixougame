@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:37:07+00:00",
+ "updated": "2026-10-23T04:37:48+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -279,6 +279,26 @@
      "regular": 69.99,
      "cut": 67,
      "url": "https://store.steampowered.com/app/903950/"
+    }
+   }
+  },
+  {
+   "appid": 275850,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 162.0
+     }
+    }
+   ],
+   "name": "No Man's Sky",
+   "stores": {
+    "steam": {
+     "price": 162.0,
+     "regular": 162.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/275850/"
     }
    }
   },
