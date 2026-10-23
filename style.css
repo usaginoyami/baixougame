@@ -363,3 +363,6 @@ td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
 .status { margin: 0; min-height: 1.4em; font-size: 14px; }
 .status.good { color: var(--good); }
 .status.bad { color: var(--accent); }
+
+.more-btn { justify-self: center; cursor: pointer; padding: 10px 22px; border-radius: 8px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font-weight: 600; }
+.more-btn:hover { background: var(--accent); color: var(--on-accent); }

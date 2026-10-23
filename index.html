@@ -58,6 +58,8 @@
     <li class="empty">Carregando preços…</li>
   </ul>
 
+  <button id="more" class="more-btn" type="button" hidden></button>
+
   <p class="foot">Os preços vêm das lojas e podem mudar a qualquer momento. Confira o valor final na página da loja antes de comprar. Projeto independente, sem vínculo com as lojas listadas. As capas pertencem aos seus respectivos donos.</p>
   <p id="stats-note" class="foot" hidden>Este site conta visitas com um medidor que não usa cookies nem identifica você.</p>
   <p id="aff" class="foot" hidden>Alguns botões levam a lojas parceiras por links de afiliado. Se você comprar por eles, o baixougame pode receber uma comissão, sem custo extra para você.</p>
@@ -102,7 +104,8 @@ const sv = (tag, attrs, ...kids) => build(() => document.createElementNS(NS, tag
 const OFFER_CHIPS = [['all', 'Todos'], ['deals', 'Em promoção'], ['low', 'No menor preço']];
 const PRICE_CHIPS = [['', 'Qualquer preço'], ['10', 'Até R$ 10'], ['30', 'Até R$ 30'], ['60', 'Até R$ 60']];
 const SERIES_COLORS = ['var(--accent)', 'var(--s2)', 'var(--s3)'];
-const state = { data: null, q: '', sort: 'cut', offer: 'all', store: null, price: null, today: null, modal: null };
+const PAGE = 60;
+const state = { data: null, q: '', sort: 'cut', offer: 'all', store: null, price: null, today: null, modal: null, shown: PAGE };
 const RAIL_MAX = 8, RAIL_MIN = 3;
 let resizer = null;
 
@@ -206,12 +209,19 @@ function renderCard(game) {
   return h('li', {}, btn);
 }
 
-function renderGrid() {
+/* mostra os jogos aos poucos (PAGE por vez) para a página continuar rápida com muitos jogos */
+function renderGrid(keepShown) {
+  if (!keepShown) state.shown = PAGE;
   const games = visibleGames();
+  const part = games.slice(0, state.shown);
   document.getElementById('grid').replaceChildren(...(games.length
-    ? games.map(renderCard)
+    ? part.map(renderCard)
     : [h('li', { class: 'empty' }, 'Nenhum jogo encontrado. Tente outro nome ou outro filtro.')]));
   document.getElementById('count').textContent = games.length;
+  const more = document.getElementById('more');
+  const left = games.length - part.length;
+  more.hidden = left <= 0;
+  more.textContent = `Mostrar mais (${left} restantes)`;
   renderRail();
 }
 
@@ -455,6 +465,7 @@ async function boot() {
 
   document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; renderGrid(); });
   document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; renderGrid(); });
+  document.getElementById('more').addEventListener('click', () => { state.shown += PAGE; renderGrid(true); });
   makeChips();
   wireModal();
   renderGrid();
