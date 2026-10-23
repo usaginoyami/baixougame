@@ -16,7 +16,9 @@ Só usa a biblioteca padrão do Python (nada para instalar).
 """
 import json
 import os
+import re
 import sys
+import unicodedata
 import time
 import urllib.parse
 import urllib.request
@@ -163,6 +165,28 @@ def write_summary(lines):
             fh.write("\n".join(lines) + "\n")
 
 
+def slugify(name):
+    """'Baldur's Gate 3' -> 'baldurs-gate-3' (sem acento, só a-z, 0-9 e hífen)."""
+    s = unicodedata.normalize("NFKD", name)
+    s = "".join(c for c in s if not unicodedata.combining(c)).lower()
+    s = re.sub(r"['’]", "", s)
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def assign_slugs(games):
+    """Dá a cada jogo um endereço estável. Quem já tinha slug mantém o mesmo
+    (o link de uma página nunca muda); jogo novo usa o nome e, se já existir
+    igual, acrescenta o appid."""
+    used = {g["slug"] for g in games if g.get("slug")}
+    for g in games:
+        if g.get("slug"):
+            continue
+        base = slugify(g["name"]) or "jogo"
+        slug = base if base not in used else f"{base}-{g['appid']}"
+        used.add(slug)
+        g["slug"] = slug
+
+
 def main():
     watchlist = load_list(WATCHLIST)
     discovered = load_list(DISCOVERED)
@@ -251,6 +275,7 @@ def main():
         games.append(game)
 
     games.sort(key=lambda g: g["name"].lower())
+    assign_slugs(games)
     result = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "currency": "BRL",

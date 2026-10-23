@@ -4,7 +4,9 @@ Site estático que mostra preços de jogos de PC em reais, com histórico. Roda 
 
 ## Como funciona
 
-- `index.html` é o site inteiro (HTML, CSS e JS). Ele lê `data/games.json`.
+- `index.html` (com `style.css`) é a página inicial. Ela lê `data/games.json`.
+- `scripts/build_pages.py` gera uma página para cada jogo em `jogos/<nome-do-jogo>/`, mais o `sitemap.xml` e o `robots.txt`. Essas páginas e arquivos são gerados pelo robô: não edite à mão.
+- `site.json` guarda o endereço do site e o medidor de visitas.
 - `data/watchlist.json` é a lista de jogos acompanhados (`appid` da Steam e nome).
 - `scripts/update_prices.py` consulta o preço de cada jogo na Steam Brasil e grava `data/games.json`. O histórico ganha uma linha nova só quando o preço muda.
 - `.github/workflows/update-prices.yml` roda o script todo dia às 06:17 (Brasília) e salva o resultado no repositório.
@@ -63,6 +65,22 @@ A Nuuvem não oferece API nem feed público de preços, e os termos de uso dela 
 Só os jogos de `data/watchlist.json` recebem botões. Para pôr link num jogo descoberto automaticamente, copie o `appid` e o nome dele de `data/discovered.json` para a `watchlist.json` e adicione o `links` lá.
 
 Leia as regras de cada programa antes de divulgar os links.
+
+## Páginas de cada jogo e Google
+
+Cada jogo ganha um endereço próprio, como `.../baixougame/jogos/hades/`, com título, descrição e prévia de link (aparece ao compartilhar no WhatsApp, Discord etc.). O endereço de um jogo **nunca muda** depois de criado (fica salvo no campo `slug` de `data/games.json`).
+
+Para o Google achar as páginas: abra o [Google Search Console](https://search.google.com/search-console), adicione `https://usaginoyami.github.io/baixougame/` como propriedade e envie o `sitemap.xml`. Se um dia você usar domínio próprio, troque o `url` em `site.json` e os endereços em `index.html` (canonical e `og:url`).
+
+## Contador de visitas
+
+O site não vem com contador ligado. Para ligar, escolha um serviço que não use cookies e que permita uso comercial no plano que você vai usar (confira os termos; alguns planos grátis são só para projetos sem fins lucrativos). Opções comuns: Cloudflare Web Analytics e Umami. Cada serviço dá um trecho de script. Coloque o endereço e os atributos dele em `site.json`:
+
+```json
+"analytics": {"src": "https://static.cloudflareinsights.com/beacon.min.js", "attrs": {"data-cf-beacon": "{\"token\": \"SEU_TOKEN\"}"}}
+```
+
+Só endereços `https://` são aceitos. Com o contador ligado, aparece um aviso no rodapé do site. Na próxima atualização as páginas dos jogos também passam a carregar o contador.
 
 ## Adicionar outras lojas
 

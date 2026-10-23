@@ -1,336 +1,20 @@
 <!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>baixougame</title>
+<title>baixougame: preços de jogos em reais, com histórico</title>
+<meta name="description" content="Compare preços de jogos de PC em reais e veja o histórico de preço. Promoções e menores preços registrados, atualizados todo dia.">
+<link rel="canonical" href="https://usaginoyami.github.io/baixougame/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="baixougame">
+<meta property="og:title" content="baixougame: preços de jogos em reais, com histórico">
+<meta property="og:description" content="Promoções e menores preços de jogos de PC em reais, com histórico de preço atualizado todo dia.">
+<meta property="og:url" content="https://usaginoyami.github.io/baixougame/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ff5566'/%3E%3Cpath d='M9 21l5-5 4 3 6-8' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
-<style>
-/* Layout: barra fixa no topo, filtros em chips, grade de capas. Cada card termina
-   numa faixa de preço (desconto e loja à esquerda, preço à direita). O clique abre
-   uma janela com a tabela de lojas e o gráfico de histórico. */
-:root {
-  --bg: #0d1320;
-  --surface: #151d2e;
-  --surface-2: #1b2538;
-  --line: #25304a;
-  --fg: #e9eef7;
-  --muted: #8e9bb4;
-  --accent: #ff5566;
-  --on-accent: #1a0a0c;
-  --good: #3ddc97;
-  --on-good: #05231a;
-  --s2: #7fa8ff;
-  --s3: #e0b04a;
-  /* a barra do topo é escura nos dois temas */
-  --bar: #090d16;
-  --bar-fg: #e9eef7;
-  --bar-accent: #ff5566;
-  --bar-field: rgba(255, 255, 255, 0.07);
-  --bar-line: rgba(255, 255, 255, 0.14);
-  --font-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
-  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
-  color-scheme: dark;
-}
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
-    --bg: #edf1f7;
-    --surface: #ffffff;
-    --surface-2: #f2f5fa;
-    --line: #d9e0ec;
-    --fg: #131a2a;
-    --muted: #5d6a82;
-    --accent: #c8102e;
-    --on-accent: #ffffff;
-    --good: #12794a;
-    --on-good: #ffffff;
-    --s2: #3b6fd4;
-    --s3: #a86f00;
-    color-scheme: light;
-  }
-}
-:root[data-theme="light"] {
-  --bg: #edf1f7;
-  --surface: #ffffff;
-  --surface-2: #f2f5fa;
-  --line: #d9e0ec;
-  --fg: #131a2a;
-  --muted: #5d6a82;
-  --accent: #c8102e;
-  --on-accent: #ffffff;
-  --good: #12794a;
-  --on-good: #ffffff;
-  --s2: #3b6fd4;
-  --s3: #a86f00;
-  color-scheme: light;
-}
-
-* { box-sizing: border-box; }
-[hidden] { display: none !important; }
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--fg);
-  font: 15px/1.5 var(--font-body);
-}
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0 0 auto;
-  height: env(safe-area-inset-top, 0px);
-  background: var(--bar);
-  z-index: 30;
-}
-button, input, select { font: inherit; color: inherit; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.gutter {
-  max-width: 1240px;
-  margin: 0 auto;
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-}
-
-/* barra do topo */
-.bar {
-  position: sticky;
-  top: env(safe-area-inset-top, 0px);
-  z-index: 20;
-  background: var(--bar);
-  border-bottom: 1px solid var(--bar-line);
-}
-.bar .gutter { display: flex; align-items: center; gap: 14px 20px; padding-block: 12px; }
-.logo {
-  font: 700 25px/1 var(--font-display);
-  letter-spacing: -0.02em;
-  color: var(--bar-fg);
-  text-decoration: none;
-  white-space: nowrap;
-}
-.logo span { color: var(--bar-accent); }
-.search {
-  flex: 1 1 auto;
-  max-width: 420px;
-  display: flex; align-items: center; gap: 8px;
-  background: var(--bar-field);
-  border: 1px solid var(--bar-line);
-  border-radius: 6px;
-  padding: 0 10px;
-  color: var(--bar-fg);
-  min-width: 0;
-}
-.search svg { flex: none; opacity: 0.7; }
-.search input {
-  flex: 1; min-width: 0;
-  background: none; border: 0; outline: 0;
-  padding: 9px 0;
-  color: var(--bar-fg);
-}
-.search input::placeholder { color: color-mix(in srgb, var(--bar-fg) 55%, transparent); }
-.search:focus-within { border-color: var(--bar-accent); }
-.cur {
-  margin-left: auto;
-  color: var(--bar-fg);
-  font: 500 12px/1.1 var(--font-data);
-  text-align: center;
-  letter-spacing: 0.04em;
-}
-.cur small { display: block; opacity: 0.6; font-size: 11px; }
-@media (max-width: 480px) { .cur { display: none; } .logo { font-size: 21px; } }
-
-main.gutter { display: grid; gap: 16px; padding-block: 20px 56px; }
-
-.notice {
-  border: 1px dashed var(--accent);
-  border-radius: 6px;
-  padding: 10px 12px;
-  font-size: 13.5px;
-  min-width: 0;
-}
-.notice strong { color: var(--accent); }
-
-/* filtros */
-.toolbar {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 10px 12px;
-}
-.chips { display: flex; flex-wrap: wrap; gap: 8px; min-width: 0; }
-.chips + .chips { padding-left: 18px; border-left: 1px solid var(--line); }
-@media (max-width: 560px) { .chips + .chips { padding-left: 0; border-left: 0; } }
-.chip {
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 6px 11px;
-  font-size: 13.5px;
-  cursor: pointer;
-  color: var(--muted);
-}
-.chip:hover { color: var(--fg); }
-.chip[aria-pressed="true"] {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--on-accent);
-  font-weight: 600;
-}
-.sort { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
-.sort select {
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 6px 8px;
-  color: var(--fg);
-}
-@media (max-width: 560px) { .sort { margin-left: 0; width: 100%; } .sort select { flex: 1; } }
-
-.group {
-  display: flex; align-items: center; gap: 12px;
-  background: var(--surface-2);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 10px 14px;
-}
-.group h2 { margin: 0; font: 600 16px var(--font-body); }
-.count {
-  font: 500 12.5px var(--font-data);
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  padding: 1px 9px;
-  color: var(--muted);
-}
-.stamp { margin-left: auto; color: var(--muted); font-size: 12.5px; text-align: right; }
-
-/* grade de capas */
-.grid {
-  list-style: none; margin: 0; padding: 0;
-  display: grid; gap: 14px;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr));
-}
-.empty { grid-column: 1 / -1; padding: 32px 16px; text-align: center; color: var(--muted); }
-.card {
-  width: 100%; height: 100%;
-  display: flex; flex-direction: column;
-  padding: 0; text-align: left; cursor: pointer;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  overflow: hidden;
-}
-.card:hover { border-color: color-mix(in srgb, var(--accent) 60%, var(--line)); }
-.cover { position: relative; display: block; aspect-ratio: 460 / 215; max-width: 100%; background: var(--surface-2); overflow: hidden; }
-.cover img, .ph { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.ph {
-  display: grid; place-items: center;
-  font: 700 38px var(--font-display);
-  letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.82);
-}
-.flag {
-  position: absolute; left: 8px; bottom: 8px;
-  background: var(--good); color: var(--on-good);
-  font: 600 11px/1.5 var(--font-body);
-  letter-spacing: 0.04em; text-transform: uppercase;
-  padding: 1px 7px; border-radius: 3px;
-}
-.titlerow { display: flex; align-items: center; gap: 8px; padding: 10px 12px 8px; }
-.name { flex: 1; min-width: 0; font: 600 15px/1.3 var(--font-body); overflow-wrap: anywhere; }
-.chev { flex: none; color: var(--muted); }
-.strip {
-  margin-top: auto;
-  display: flex; align-items: center; gap: 12px;
-  padding: 9px 12px 10px;
-  border-top: 1px solid var(--line);
-  min-width: 0;
-}
-.strip.low { background: color-mix(in srgb, var(--good) 20%, var(--surface)); }
-.cutcol { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; min-width: 0; }
-.cut {
-  font: 500 13px var(--font-data);
-  background: var(--accent); color: var(--on-accent);
-  border-radius: 4px; padding: 1px 7px;
-}
-.cut.none { background: transparent; color: var(--muted); border: 1px solid var(--line); }
-.shop { font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
-.pricecol { margin-left: auto; display: flex; flex-direction: column; align-items: flex-end; line-height: 1.25; }
-.price { font: 500 19px var(--font-data); font-variant-numeric: tabular-nums; }
-.old { font: 500 12px var(--font-data); color: var(--muted); text-decoration: line-through; font-variant-numeric: tabular-nums; }
-.more { flex: none; color: var(--muted); font-size: 12px; text-align: right; }
-.nostore { color: var(--muted); font-size: 13.5px; }
-
-.foot { color: var(--muted); font-size: 12.5px; max-width: 72ch; margin: 0; }
-
-/* janela de detalhes */
-.overlay {
-  position: fixed; inset: 0; z-index: 40;
-  background: rgba(4, 7, 13, 0.72);
-  display: grid; place-items: center;
-  padding-top: max(16px, env(safe-area-inset-top, 0px));
-  padding-bottom: max(16px, env(safe-area-inset-bottom, 0px));
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-}
-.panel {
-  position: relative;
-  width: min(680px, 100%);
-  max-height: 100%;
-  overflow-y: auto;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-}
-.close {
-  position: absolute; top: 10px; right: 10px; z-index: 2;
-  width: 34px; height: 34px;
-  display: grid; place-items: center;
-  background: rgba(4, 7, 13, 0.7); color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 6px; cursor: pointer;
-}
-.panel .cover { border-radius: 10px 10px 0 0; max-height: 240px; width: 100%; }
-.dbody { padding: 14px 18px 20px; display: grid; gap: 18px; }
-.dbody h2 { margin: 0; font: 700 24px/1.15 var(--font-display); letter-spacing: -0.01em; overflow-wrap: anywhere; }
-.dbody h3 { margin: 0 0 8px; font: 600 12px var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-.scroll { overflow-x: auto; }
-table { border-collapse: collapse; width: 100%; font-size: 14px; }
-th { text-align: left; font-weight: 500; color: var(--muted); font-size: 12.5px; padding: 0 12px 6px 0; white-space: nowrap; }
-td { padding: 8px 12px 8px 0; border-top: 1px solid var(--line); white-space: nowrap; font-variant-numeric: tabular-nums; }
-td.num { font-family: var(--font-data); }
-td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
-.best td:first-child { font-weight: 600; }
-.best-flag { color: var(--good); font-size: 12px; font-weight: 600; margin-left: 6px; }
-.legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
-.legend i { display: inline-block; width: 18px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
-.chart { width: 100%; min-width: 0; }
-.chart svg { display: block; }
-.ax { stroke: var(--line); stroke-width: 1; }
-.gridline { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 4; }
-.tick { fill: var(--muted); font: 11px var(--font-data); }
-.series { fill: none; stroke-width: 2; stroke-linejoin: round; }
-.dot { stroke: var(--surface); stroke-width: 2; }
-.stats { display: flex; flex-wrap: wrap; gap: 6px 24px; font-size: 13.5px; margin-top: 8px; }
-.stats b { font-family: var(--font-data); font-weight: 500; font-variant-numeric: tabular-nums; }
-.note {
-  margin: 0; padding: 12px 14px;
-  background: var(--surface-2); border: 1px solid var(--line); border-radius: 6px;
-  color: var(--muted); font-size: 13.5px;
-}
-.links { display: flex; flex-wrap: wrap; gap: 8px; }
-.linkbtn {
-  display: inline-block; padding: 8px 14px;
-  border: 1px solid var(--accent); border-radius: 6px;
-  color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none;
-}
-.linkbtn:hover { background: var(--accent); color: var(--on-accent); }
-.links-note { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
-@media (prefers-reduced-motion: no-preference) {
-  .card { transition: border-color 0.15s; }
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 <header class="bar">
   <div class="gutter">
@@ -349,6 +33,7 @@ td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
   <section class="toolbar" aria-label="Filtros">
     <div id="chips-offer" class="chips" role="group" aria-label="Tipo de oferta"></div>
     <div id="chips-store" class="chips" role="group" aria-label="Loja" hidden></div>
+    <div id="chips-price" class="chips" role="group" aria-label="Faixa de preço"></div>
     <label class="sort">Ordenar por
       <select id="sort">
         <option value="cut">Maior desconto</option>
@@ -358,8 +43,13 @@ td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
     </label>
   </section>
 
+  <section id="rail-box" hidden>
+    <div class="group"><h2>Melhores promoções agora</h2><span id="rail-count" class="count">0</span></div>
+    <ul id="rail" class="grid rail" aria-label="Melhores promoções agora"></ul>
+  </section>
+
   <div class="group">
-    <h2>Todos os jogos</h2>
+    <h2 id="grid-title">Todos os jogos</h2>
     <span id="count" class="count">0</span>
     <span id="stamp" class="stamp"></span>
   </div>
@@ -369,6 +59,7 @@ td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
   </ul>
 
   <p class="foot">Os preços vêm das lojas e podem mudar a qualquer momento. Confira o valor final na página da loja antes de comprar. Projeto independente, sem vínculo com as lojas listadas. As capas pertencem aos seus respectivos donos.</p>
+  <p id="stats-note" class="foot" hidden>Este site conta visitas com um medidor que não usa cookies nem identifica você.</p>
   <p id="aff" class="foot" hidden>Alguns botões levam a lojas parceiras por links de afiliado. Se você comprar por eles, o baixougame pode receber uma comissão, sem custo extra para você.</p>
 </main>
 
@@ -409,8 +100,10 @@ const h = (tag, attrs, ...kids) => build(() => document.createElement(tag), attr
 const sv = (tag, attrs, ...kids) => build(() => document.createElementNS(NS, tag), attrs, kids);
 
 const OFFER_CHIPS = [['all', 'Todos'], ['deals', 'Em promoção'], ['low', 'No menor preço']];
+const PRICE_CHIPS = [['', 'Qualquer preço'], ['10', 'Até R$ 10'], ['30', 'Até R$ 30'], ['60', 'Até R$ 60']];
 const SERIES_COLORS = ['var(--accent)', 'var(--s2)', 'var(--s3)'];
-const state = { data: null, q: '', sort: 'cut', offer: 'all', store: null, today: null, modal: null };
+const state = { data: null, q: '', sort: 'cut', offer: 'all', store: null, price: null, today: null, modal: null };
+const RAIL_MAX = 8, RAIL_MIN = 3;
 let resizer = null;
 
 const storeName = key => (state.data.stores && state.data.stores[key]) || key;
@@ -453,6 +146,7 @@ function visibleGames() {
   const q = norm(state.q.trim());
   let games = state.data.games.filter(g => !q || norm(g.name).includes(q));
   if (state.store) games = games.filter(g => offerOf(g));
+  if (state.price != null) games = games.filter(g => { const o = offerOf(g); return o && o.price <= state.price; });
   if (state.offer === 'deals') games = games.filter(g => { const o = offerOf(g); return o && o.cut > 0; });
   if (state.offer === 'low') games = games.filter(g => isLow(g, offerOf(g)));
   const withPrice = games.filter(offerOf), without = games.filter(g => !offerOf(g));
@@ -517,6 +211,22 @@ function renderGrid() {
     ? games.map(renderCard)
     : [h('li', { class: 'empty' }, 'Nenhum jogo encontrado. Tente outro nome ou outro filtro.')]));
   document.getElementById('count').textContent = games.length;
+  renderRail();
+}
+
+/* "Melhores promoções agora": só aparece quando não há busca nem filtro */
+function renderRail() {
+  const box = document.getElementById('rail-box');
+  const filtering = state.q.trim() || state.offer !== 'all' || state.store || state.price != null;
+  const deals = filtering ? [] : state.data.games
+    .map(g => ({ g, o: bestOf(g) }))
+    .filter(x => x.o && x.o.cut > 0)
+    .sort((a, b) => b.o.cut - a.o.cut || a.o.price - b.o.price)
+    .slice(0, RAIL_MAX).map(x => x.g);
+  box.hidden = deals.length < RAIL_MIN;
+  if (box.hidden) return;
+  document.getElementById('rail').replaceChildren(...deals.map(renderCard));
+  document.getElementById('rail-count').textContent = deals.length;
 }
 
 /* chips de filtro: criados uma vez e só atualizados, para não perder o foco */
@@ -524,6 +234,8 @@ function makeChips() {
   const chip = (label, value, group) => h('button', { class: 'chip', type: 'button', 'data-group': group, 'data-value': value, 'aria-pressed': 'false' }, label);
   const offerBox = document.getElementById('chips-offer');
   offerBox.append(...OFFER_CHIPS.map(([v, label]) => chip(label, v, 'offer')));
+
+  document.getElementById('chips-price').append(...PRICE_CHIPS.map(([v, label]) => chip(label, v, 'price')));
 
   const keys = Object.keys(state.data.stores || {}).filter(k => state.data.games.some(g => g.stores && g.stores[k]));
   const storeBox = document.getElementById('chips-store');
@@ -535,6 +247,7 @@ function makeChips() {
     const b = e.target.closest('.chip');
     if (!b) return;
     if (b.dataset.group === 'offer') state.offer = b.dataset.value;
+    else if (b.dataset.group === 'price') state.price = b.dataset.value ? Number(b.dataset.value) : null;
     else state.store = b.dataset.value || null;
     syncChips();
     renderGrid();
@@ -543,7 +256,9 @@ function makeChips() {
 }
 function syncChips() {
   for (const b of document.querySelectorAll('.chip')) {
-    const on = b.dataset.group === 'offer' ? state.offer === b.dataset.value : (state.store || '') === b.dataset.value;
+    const g = b.dataset.group;
+    const cur = g === 'offer' ? state.offer : g === 'price' ? (state.price == null ? '' : String(state.price)) : (state.store || '');
+    const on = cur === b.dataset.value;
     b.setAttribute('aria-pressed', String(on));
   }
 }
@@ -596,7 +311,8 @@ function renderDetail(game) {
       h('h2', { id: 'm-title' }, game.name),
       h('div', {}, h('h3', {}, 'Preço por loja'), table),
       linksBlock,
-      h('div', {}, h('h3', {}, 'Histórico de preço'), history_block)));
+      h('div', {}, h('h3', {}, 'Histórico de preço'), history_block),
+      game.slug ? h('a', { class: 'pagelink', href: `jogos/${game.slug}/` }, 'Abrir página do jogo ›') : null));
 }
 
 function chartKeys(game) {
@@ -696,7 +412,24 @@ function wireModal() {
   });
 }
 
+/* medidor de visitas: o endereço do script fica em site.json (campo analytics) */
+async function loadAnalytics() {
+  try {
+    const res = await fetch('site.json', { cache: 'no-cache' });
+    if (!res.ok) return;
+    const a = (await res.json()).analytics || {};
+    if (typeof a.src !== 'string' || !a.src.startsWith('https://')) return;
+    const el = document.createElement('script');
+    el.defer = true;
+    el.src = a.src;
+    for (const [k, v] of Object.entries(a.attrs || {})) el.setAttribute(k, String(v));
+    document.head.append(el);
+    document.getElementById('stats-note').hidden = false;
+  } catch (err) { /* sem medidor, o site segue igual */ }
+}
+
 async function boot() {
+  loadAnalytics();
   const grid = document.getElementById('grid');
   try {
     const res = await fetch('data/games.json', { cache: 'no-cache' });
