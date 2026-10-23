@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T16:37:09+00:00",
+ "updated": "2026-10-23T16:47:51+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -29,7 +29,8 @@
      "url": "https://store.steampowered.com/app/1066890/"
     }
    },
-   "slug": "automobilista-2"
+   "slug": "automobilista-2",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066890/4ec180b6bc16ce430f12bfbc88f420c93cb48313/header.jpg"
   },
   {
    "appid": 2379780,
@@ -50,7 +51,8 @@
      "url": "https://store.steampowered.com/app/2379780/"
     }
    },
-   "slug": "balatro"
+   "slug": "balatro",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg"
   },
   {
    "appid": 1086940,
@@ -71,7 +73,8 @@
      "url": "https://store.steampowered.com/app/1086940/"
     }
    },
-   "slug": "baldurs-gate-3"
+   "slug": "baldurs-gate-3",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg"
   },
   {
    "appid": 504230,
@@ -92,7 +95,8 @@
      "url": "https://store.steampowered.com/app/504230/"
     }
    },
-   "slug": "celeste"
+   "slug": "celeste",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg"
   },
   {
    "appid": 1903340,
@@ -113,7 +117,8 @@
      "url": "https://store.steampowered.com/app/1903340/"
     }
    },
-   "slug": "clair-obscur-expedition-33"
+   "slug": "clair-obscur-expedition-33",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg"
   },
   {
    "appid": 1091500,
@@ -134,7 +139,8 @@
      "url": "https://store.steampowered.com/app/1091500/"
     }
    },
-   "slug": "cyberpunk-2077"
+   "slug": "cyberpunk-2077",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg"
   },
   {
    "appid": 381210,
@@ -155,7 +161,8 @@
      "url": "https://store.steampowered.com/app/381210/"
     }
    },
-   "slug": "dead-by-daylight"
+   "slug": "dead-by-daylight",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg"
   },
   {
    "appid": 1693980,
@@ -176,7 +183,8 @@
      "url": "https://store.steampowered.com/app/1693980/"
     }
    },
-   "slug": "dead-space"
+   "slug": "dead-space",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg"
   },
   {
    "appid": 3017860,
@@ -197,7 +205,8 @@
      "url": "https://store.steampowered.com/app/3017860/"
     }
    },
-   "slug": "doom-the-dark-ages"
+   "slug": "doom-the-dark-ages",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg"
   },
   {
    "appid": 1245620,
@@ -218,7 +227,8 @@
      "url": "https://store.steampowered.com/app/1245620/"
     }
    },
-   "slug": "elden-ring"
+   "slug": "elden-ring",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg"
   },
   {
    "appid": 3259780,
@@ -239,7 +249,8 @@
      "url": "https://store.steampowered.com/app/3259780/"
     }
    },
-   "slug": "final-fantasy-resonance"
+   "slug": "final-fantasy-resonance",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg"
   },
   {
    "appid": 3240220,
@@ -266,7 +277,8 @@
      "url": "https://store.steampowered.com/app/3240220/"
     }
    },
-   "slug": "grand-theft-auto-v-enhanced"
+   "slug": "grand-theft-auto-v-enhanced",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg"
   },
   {
    "appid": 1145360,
@@ -287,7 +299,8 @@
      "url": "https://store.steampowered.com/app/1145360/"
     }
    },
-   "slug": "hades"
+   "slug": "hades",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg"
   },
   {
    "appid": 990080,
@@ -314,7 +327,8 @@
      "url": "https://store.steampowered.com/app/990080/"
     }
    },
-   "slug": "hogwarts-legacy"
+   "slug": "hogwarts-legacy",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg"
   },
   {
    "appid": 367520,
@@ -335,7 +349,8 @@
      "url": "https://store.steampowered.com/app/367520/"
     }
    },
-   "slug": "hollow-knight"
+   "slug": "hollow-knight",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg"
   },
   {
    "appid": 903950,
@@ -356,7 +371,8 @@
      "url": "https://store.steampowered.com/app/903950/"
     }
    },
-   "slug": "last-oasis"
+   "slug": "last-oasis",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903950/header.jpg"
   },
   {
    "appid": 287390,
@@ -377,7 +393,8 @@
      "url": "https://store.steampowered.com/app/287390/"
     }
    },
-   "slug": "metro-last-light-redux"
+   "slug": "metro-last-light-redux",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/eab057a82c52b9d60f383fc2a63e2c4024f0e734/header_alt_assets_1.jpg"
   },
   {
    "appid": 275850,
@@ -398,7 +415,8 @@
      "url": "https://store.steampowered.com/app/275850/"
     }
    },
-   "slug": "no-mans-sky"
+   "slug": "no-mans-sky",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg"
   },
   {
    "appid": 3357650,
@@ -419,7 +437,8 @@
      "url": "https://store.steampowered.com/app/3357650/"
     }
    },
-   "slug": "pragmata"
+   "slug": "pragmata",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/e32e168b25ed68a0cf6264c220c07e96c2abfb56/header.jpg"
   },
   {
    "appid": 1174180,
@@ -446,7 +465,8 @@
      "url": "https://store.steampowered.com/app/1174180/"
     }
    },
-   "slug": "red-dead-redemption-2"
+   "slug": "red-dead-redemption-2",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg"
   },
   {
    "appid": 952060,
@@ -467,7 +487,8 @@
      "url": "https://store.steampowered.com/app/952060/"
     }
    },
-   "slug": "resident-evil-3"
+   "slug": "resident-evil-3",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/header.jpg"
   },
   {
    "appid": 2050650,
@@ -488,7 +509,8 @@
      "url": "https://store.steampowered.com/app/2050650/"
     }
    },
-   "slug": "resident-evil-4"
+   "slug": "resident-evil-4",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg"
   },
   {
    "appid": 3764200,
@@ -509,7 +531,8 @@
      "url": "https://store.steampowered.com/app/3764200/"
     }
    },
-   "slug": "resident-evil-requiem"
+   "slug": "resident-evil-requiem",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg"
   },
   {
    "appid": 2124490,
@@ -530,7 +553,8 @@
      "url": "https://store.steampowered.com/app/2124490/"
     }
    },
-   "slug": "silent-hill-2"
+   "slug": "silent-hill-2",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/header.jpg"
   },
   {
    "appid": 2947440,
@@ -551,7 +575,8 @@
      "url": "https://store.steampowered.com/app/2947440/"
     }
    },
-   "slug": "silent-hill-f"
+   "slug": "silent-hill-f",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg"
   },
   {
    "appid": 413150,
@@ -572,7 +597,8 @@
      "url": "https://store.steampowered.com/app/413150/"
     }
    },
-   "slug": "stardew-valley"
+   "slug": "stardew-valley",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg"
   },
   {
    "appid": 1449690,
@@ -593,7 +619,8 @@
      "url": "https://store.steampowered.com/app/1449690/"
     }
    },
-   "slug": "the-walking-dead-the-telltale-definitive-series"
+   "slug": "the-walking-dead-the-telltale-definitive-series",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg"
   },
   {
    "appid": 2183900,
@@ -614,7 +641,8 @@
      "url": "https://store.steampowered.com/app/2183900/"
     }
    },
-   "slug": "warhammer-40-000-space-marine-2"
+   "slug": "warhammer-40-000-space-marine-2",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/c0da5cad512f85a006abb9181cb3f45107fb0223/header_alt_assets_14.jpg"
   }
  ]
 }
