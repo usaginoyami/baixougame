@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T13:21:53+00:00",
+ "updated": "2026-10-24T18:48:41+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -33,6 +33,48 @@
    "slug": "007-first-light"
   },
   {
+   "appid": 514900,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 5.59
+     }
+    }
+   ],
+   "name": ">observer_",
+   "stores": {
+    "steam": {
+     "price": 5.59,
+     "regular": 55.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/514900/"
+    }
+   },
+   "slug": "observer"
+  },
+  {
+   "appid": 278360,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 55.79
+     }
+    }
+   ],
+   "name": "A Story About My Uncle",
+   "stores": {
+    "steam": {
+     "price": 55.79,
+     "regular": 55.79,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/278360/"
+    }
+   },
+   "slug": "a-story-about-my-uncle"
+  },
+  {
    "appid": 2288340,
    "history": [
     {
@@ -53,6 +95,136 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg",
    "slug": "ace-combat-8-wings-of-theve"
+  },
+  {
+   "appid": 19680,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 49.0
+     }
+    }
+   ],
+   "name": "Alice: Madness Returns",
+   "stores": {
+    "steam": {
+     "price": 49.0,
+     "regular": 49.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/19680/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/19680/header.jpg",
+   "slug": "alice-madness-returns"
+  },
+  {
+   "appid": 34010,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 104.9
+     }
+    }
+   ],
+   "name": "Alpha Protocol™",
+   "stores": {
+    "steam": {
+     "price": 104.9,
+     "regular": 104.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/34010/"
+    }
+   },
+   "slug": "alpha-protocoltm"
+  },
+  {
+   "appid": 239200,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 11.99
+     }
+    }
+   ],
+   "name": "Amnesia: A Machine for Pigs",
+   "stores": {
+    "steam": {
+     "price": 11.99,
+     "regular": 59.99,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/239200/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239200/header.jpg",
+   "slug": "amnesia-a-machine-for-pigs"
+  },
+  {
+   "appid": 999220,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 17.79
+     }
+    }
+   ],
+   "name": "Amnesia: Rebirth",
+   "stores": {
+    "steam": {
+     "price": 17.79,
+     "regular": 88.99,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/999220/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/999220/header.jpg",
+   "slug": "amnesia-rebirth"
+  },
+  {
+   "appid": 57300,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 11.99
+     }
+    }
+   ],
+   "name": "Amnesia: The Dark Descent",
+   "stores": {
+    "steam": {
+     "price": 11.99,
+     "regular": 59.99,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/57300/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/57300/header.jpg",
+   "slug": "amnesia-the-dark-descent"
+  },
+  {
+   "appid": 346110,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 46.99
+     }
+    }
+   ],
+   "name": "ARK: Survival Evolved",
+   "stores": {
+    "steam": {
+     "price": 46.99,
+     "regular": 46.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/346110/"
+    }
+   },
+   "slug": "ark-survival-evolved"
   },
   {
    "appid": 3751950,
@@ -77,6 +249,72 @@
    "slug": "assassins-creed-black-flag-resynced"
   },
   {
+   "appid": 354380,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "Assassin’s Creed® Chronicles: China",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/354380/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/354380/header.jpg",
+   "slug": "assassins-creed-chronicles-china"
+  },
+  {
+   "appid": 359610,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "Assassin’s Creed® Chronicles: India",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/359610/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359610/header.jpg",
+   "slug": "assassins-creed-chronicles-india"
+  },
+  {
+   "appid": 359600,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "Assassin’s Creed® Chronicles: Russia",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/359600/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359600/header.jpg",
+   "slug": "assassins-creed-chronicles-russia"
+  },
+  {
    "appid": 242050,
    "history": [
     {
@@ -97,6 +335,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242050/header.jpg",
    "slug": "assassins-creed-iv-black-flagtm"
+  },
+  {
+   "appid": 668580,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 199.9
+     }
+    }
+   ],
+   "name": "Atomic Heart",
+   "stores": {
+    "steam": {
+     "price": 199.9,
+     "regular": 199.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/668580/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg",
+   "slug": "atomic-heart"
   },
   {
    "appid": 1066890,
@@ -165,6 +425,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg"
   },
   {
+   "appid": 2556990,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 99.99
+     }
+    }
+   ],
+   "name": "Beyond Good & Evil - 20th Anniversary Edition",
+   "stores": {
+    "steam": {
+     "price": 99.99,
+     "regular": 99.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2556990/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2556990/header.jpg",
+   "slug": "beyond-good-evil-20th-anniversary-edition"
+  },
+  {
    "appid": 1478500,
    "history": [
     {
@@ -215,6 +497,49 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/8d2765de57931435f802fa6757ad6920aea8646a/header_alt_assets_0.jpg",
    "slug": "bodycam"
+  },
+  {
+   "appid": 225080,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 27.99
+     }
+    }
+   ],
+   "name": "Brothers - A Tale of Two Sons",
+   "stores": {
+    "steam": {
+     "price": 27.99,
+     "regular": 27.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/225080/"
+    }
+   },
+   "slug": "brothers-a-tale-of-two-sons"
+  },
+  {
+   "appid": 225260,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 27.99
+     }
+    }
+   ],
+   "name": "Brutal Legend",
+   "stores": {
+    "steam": {
+     "price": 27.99,
+     "regular": 27.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/225260/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225260/header.jpg",
+   "slug": "brutal-legend"
   },
   {
    "appid": 696180,
@@ -305,6 +630,28 @@
    "slug": "capcom-beat-em-up-bundle"
   },
   {
+   "appid": 645630,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "Car Mechanic Simulator 2018",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/645630/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/645630/header.jpg",
+   "slug": "car-mechanic-simulator-2018"
+  },
+  {
    "appid": 4231820,
    "history": [
     {
@@ -356,14 +703,20 @@
      "p": {
       "steam": 14.99
      }
+    },
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "Celeste",
    "stores": {
     "steam": {
-     "price": 14.99,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 75,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/504230/"
     }
    },
@@ -687,6 +1040,28 @@
    "slug": "detroit-become-human"
   },
   {
+   "appid": 337000,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 124.99
+     }
+    }
+   ],
+   "name": "Deus Ex: Mankind Divided",
+   "stores": {
+    "steam": {
+     "price": 124.99,
+     "regular": 124.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/337000/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/337000/39cf848b5d93541865bdf81e1f415cc615de5d80/header.jpg",
+   "slug": "deus-ex-mankind-divided"
+  },
+  {
    "appid": 631510,
    "history": [
     {
@@ -841,6 +1216,28 @@
    "slug": "dressmaker"
   },
   {
+   "appid": 239140,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 99.0
+     }
+    }
+   ],
+   "name": "Dying Light",
+   "stores": {
+    "steam": {
+     "price": 99.0,
+     "regular": 99.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/239140/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239140/9d1b810b85ae46a0acbdfddf583ccbb81271183e/header.jpg",
+   "slug": "dying-light"
+  },
+  {
    "appid": 2384580,
    "history": [
     {
@@ -907,6 +1304,28 @@
    "slug": "esoteric-ebb"
   },
   {
+   "appid": 22300,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 39.0
+     }
+    }
+   ],
+   "name": "Fallout 3",
+   "stores": {
+    "steam": {
+     "price": 39.0,
+     "regular": 39.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/22300/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22300/header.jpg",
+   "slug": "fallout-3"
+  },
+  {
    "appid": 377160,
    "history": [
     {
@@ -929,6 +1348,71 @@
    "slug": "fallout-4"
   },
   {
+   "appid": 22380,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 39.0
+     }
+    }
+   ],
+   "name": "Fallout: New Vegas",
+   "stores": {
+    "steam": {
+     "price": 39.0,
+     "regular": 39.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/22380/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg",
+   "slug": "fallout-new-vegas"
+  },
+  {
+   "appid": 220240,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "Far Cry 3",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/220240/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/3848aafeb6e5cff40cbf6210c34413f3034150da/header.jpg",
+   "slug": "far-cry-3"
+  },
+  {
+   "appid": 233270,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 44.99
+     }
+    }
+   ],
+   "name": "Far Cry 3 - Blood Dragon",
+   "stores": {
+    "steam": {
+     "price": 44.99,
+     "regular": 44.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/233270/"
+    }
+   },
+   "slug": "far-cry-3-blood-dragon"
+  },
+  {
    "appid": 3259780,
    "history": [
     {
@@ -949,6 +1433,28 @@
    },
    "slug": "final-fantasy-resonance",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg"
+  },
+  {
+   "appid": 3837340,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 19.99
+     }
+    }
+   ],
+   "name": "FINAL FANTASY VII",
+   "stores": {
+    "steam": {
+     "price": 19.99,
+     "regular": 19.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3837340/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3837340/467568ecc51ea77191ce048636a6f211c1c93a9f/header.jpg",
+   "slug": "final-fantasy-vii"
   },
   {
    "appid": 595520,
@@ -1083,6 +1589,50 @@
    "slug": "ghost-of-tsushima-directors-cut"
   },
   {
+   "appid": 1139900,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 99.0
+     }
+    }
+   ],
+   "name": "Ghostrunner",
+   "stores": {
+    "steam": {
+     "price": 99.0,
+     "regular": 99.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1139900/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139900/header.jpg",
+   "slug": "ghostrunner"
+  },
+  {
+   "appid": 1475810,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 209.0
+     }
+    }
+   ],
+   "name": "Ghostwire: Tokyo",
+   "stores": {
+    "steam": {
+     "price": 209.0,
+     "regular": 209.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1475810/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1475810/header.jpg",
+   "slug": "ghostwire-tokyo"
+  },
+  {
    "appid": 3645890,
    "history": [
     {
@@ -1133,6 +1683,50 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg"
   },
   {
+   "appid": 1307710,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 319.0
+     }
+    }
+   ],
+   "name": "GRID Legends",
+   "stores": {
+    "steam": {
+     "price": 319.0,
+     "regular": 319.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1307710/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307710/header.jpg",
+   "slug": "grid-legends"
+  },
+  {
+   "appid": 316790,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 27.99
+     }
+    }
+   ],
+   "name": "Grim Fandango Remastered",
+   "stores": {
+    "steam": {
+     "price": 27.99,
+     "regular": 27.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/316790/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/316790/header.jpg",
+   "slug": "grim-fandango-remastered"
+  },
+  {
    "appid": 1145360,
    "history": [
     {
@@ -1177,6 +1771,30 @@
    "slug": "halloween-the-game"
   },
   {
+   "appid": 1695790,
+   "history": [],
+   "name": "Halo 2 Anniversary MP Mod Tools - MCC",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1695790/header.jpg",
+   "slug": "halo-2-anniversary-mp-mod-tools-mcc"
+  },
+  {
+   "appid": 1695794,
+   "history": [],
+   "name": "Halo 3: ODST Mod Tools - MCC",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1695794/header.jpg",
+   "slug": "halo-3-odst-mod-tools-mcc"
+  },
+  {
+   "appid": 1695792,
+   "history": [],
+   "name": "Halo 4 Mod Tools - MCC",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1695792/header.jpg",
+   "slug": "halo-4-mod-tools-mcc"
+  },
+  {
    "appid": 2806050,
    "history": [
     {
@@ -1219,6 +1837,27 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg",
    "slug": "hitman-world-of-assassination"
+  },
+  {
+   "appid": 203140,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 36.99
+     }
+    }
+   ],
+   "name": "Hitman: Absolution™",
+   "stores": {
+    "steam": {
+     "price": 36.99,
+     "regular": 36.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/203140/"
+    }
+   },
+   "slug": "hitman-absolutiontm"
   },
   {
    "appid": 990080,
@@ -1293,6 +1932,35 @@
    "slug": "invokyr"
   },
   {
+   "appid": 648350,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 79.99
+     }
+    }
+   ],
+   "name": "Jurassic World Evolution",
+   "stores": {
+    "steam": {
+     "price": 79.99,
+     "regular": 79.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/648350/"
+    }
+   },
+   "slug": "jurassic-world-evolution"
+  },
+  {
+   "appid": 517630,
+   "history": [],
+   "name": "Just Cause 4 Reloaded",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/517630/header.jpg",
+   "slug": "just-cause-4-reloaded"
+  },
+  {
    "appid": 1250,
    "history": [
     {
@@ -1337,6 +2005,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/903950/header.jpg"
   },
   {
+   "appid": 1946700,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 99.0
+     }
+    }
+   ],
+   "name": "Layers of Fear",
+   "stores": {
+    "steam": {
+     "price": 99.0,
+     "regular": 99.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1946700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1946700/ef7fe3781df901152466637907c583426c5ff473/header.jpg",
+   "slug": "layers-of-fear"
+  },
+  {
    "appid": 3836490,
    "history": [],
    "name": "Lead The Dragon",
@@ -1367,6 +2057,48 @@
    "slug": "left-4-dead-2"
   },
   {
+   "appid": 285160,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 89.99
+     }
+    }
+   ],
+   "name": "LEGO® The Hobbit™",
+   "stores": {
+    "steam": {
+     "price": 89.99,
+     "regular": 89.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/285160/"
+    }
+   },
+   "slug": "lego-the-hobbittm"
+  },
+  {
+   "appid": 214510,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 89.99
+     }
+    }
+   ],
+   "name": "LEGO® The Lord of the Rings™",
+   "stores": {
+    "steam": {
+     "price": 89.99,
+     "regular": 89.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/214510/"
+    }
+   },
+   "slug": "lego-the-lord-of-the-ringstm"
+  },
+  {
    "appid": 2719590,
    "history": [],
    "name": "Light No Fire",
@@ -1375,12 +2107,77 @@
    "slug": "light-no-fire"
   },
   {
+   "appid": 424840,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 84.9
+     }
+    }
+   ],
+   "name": "Little Nightmares",
+   "stores": {
+    "steam": {
+     "price": 84.9,
+     "regular": 84.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/424840/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/facf9a7a675c6d7f210d96d6b111caffe0386cd5/header.jpg",
+   "slug": "little-nightmares"
+  },
+  {
+   "appid": 710470,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 75.49
+     }
+    }
+   ],
+   "name": "Little Witch Academia: Chamber of Time",
+   "stores": {
+    "steam": {
+     "price": 75.49,
+     "regular": 75.49,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/710470/"
+    }
+   },
+   "slug": "little-witch-academia-chamber-of-time"
+  },
+  {
    "appid": 4767480,
    "history": [],
    "name": "Lords of the Fallen II",
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4767480/a34e3c4d4088e71c7d2cdc5445dc950abd2521db/header.jpg",
    "slug": "lords-of-the-fallen-ii"
+  },
+  {
+   "appid": 629820,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 75.49
+     }
+    }
+   ],
+   "name": "Maneater",
+   "stores": {
+    "steam": {
+     "price": 75.49,
+     "regular": 75.49,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/629820/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/629820/header.jpg",
+   "slug": "maneater"
   },
   {
    "appid": 3787240,
@@ -1403,6 +2200,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg",
    "slug": "marvel-tokon-fighting-souls"
+  },
+  {
+   "appid": 1088850,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 249.99
+     }
+    }
+   ],
+   "name": "Marvel's Guardians of the Galaxy",
+   "stores": {
+    "steam": {
+     "price": 249.99,
+     "regular": 249.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1088850/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/bdbf8be37e665ba0e6f44111e3665d280f13ed16/header.jpg",
+   "slug": "marvels-guardians-of-the-galaxy"
   },
   {
    "appid": 2492670,
@@ -1603,6 +2422,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/eab057a82c52b9d60f383fc2a63e2c4024f0e734/header_alt_assets_1.jpg"
   },
   {
+   "appid": 609490,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 32.99
+     }
+    }
+   ],
+   "name": "Minit",
+   "stores": {
+    "steam": {
+     "price": 32.99,
+     "regular": 32.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/609490/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/609490/header.jpg",
+   "slug": "minit"
+  },
+  {
    "appid": 2584270,
    "history": [
     {
@@ -1667,6 +2508,27 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg",
    "slug": "mycopunk"
+  },
+  {
+   "appid": 481510,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "Night in the Woods",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/481510/"
+    }
+   },
+   "slug": "night-in-the-woods"
   },
   {
    "appid": 1488490,
@@ -1755,6 +2617,94 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/header.jpg",
    "slug": "over-the-hill"
+  },
+  {
+   "appid": 448510,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 38.99
+     }
+    }
+   ],
+   "name": "Overcooked",
+   "stores": {
+    "steam": {
+     "price": 38.99,
+     "regular": 38.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/448510/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448510/header.jpg",
+   "slug": "overcooked"
+  },
+  {
+   "appid": 728880,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 35.69
+     }
+    }
+   ],
+   "name": "Overcooked! 2",
+   "stores": {
+    "steam": {
+     "price": 35.69,
+     "regular": 104.99,
+     "cut": 66,
+     "url": "https://store.steampowered.com/app/728880/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/9305414f49b2f7aee7f7198dc507d6b66383fdd6/header.jpg",
+   "slug": "overcooked-2"
+  },
+  {
+   "appid": 218620,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 14.99
+     }
+    }
+   ],
+   "name": "PAYDAY 2",
+   "stores": {
+    "steam": {
+     "price": 14.99,
+     "regular": 29.99,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/218620/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/c44949287e8ffa2518f01b5033b8431dd0f984e4/header.jpg",
+   "slug": "payday-2"
+  },
+  {
+   "appid": 621060,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "PC Building Simulator",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/621060/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/621060/header.jpg",
+   "slug": "pc-building-simulator"
   },
   {
    "appid": 4115450,
@@ -1977,6 +2927,28 @@
    "slug": "rayman-legends"
   },
   {
+   "appid": 207490,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "Rayman® Origins",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/207490/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207490/53963cf9fcd0e164ef5049f9c63457a7febf46f7/header.jpg",
+   "slug": "rayman-origins"
+  },
+  {
    "appid": 2668510,
    "history": [
     {
@@ -2025,6 +2997,28 @@
    },
    "slug": "red-dead-redemption-2",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg"
+  },
+  {
+   "appid": 883710,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 33.8
+     }
+    }
+   ],
+   "name": "Resident Evil 2",
+   "stores": {
+    "steam": {
+     "price": 33.8,
+     "regular": 169.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/883710/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/header.jpg",
+   "slug": "resident-evil-2"
   },
   {
    "appid": 952060,
@@ -2121,6 +3115,49 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header.jpg",
    "slug": "runescape-dragonwilds"
+  },
+  {
+   "appid": 742420,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 149.0
+     }
+    }
+   ],
+   "name": "Saints Row",
+   "stores": {
+    "steam": {
+     "price": 149.0,
+     "regular": 149.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/742420/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742420/header.jpg",
+   "slug": "saints-row"
+  },
+  {
+   "appid": 206420,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 99.0
+     }
+    }
+   ],
+   "name": "Saints Row IV: Re-Elected",
+   "stores": {
+    "steam": {
+     "price": 99.0,
+     "regular": 99.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/206420/"
+    }
+   },
+   "slug": "saints-row-iv-re-elected"
   },
   {
    "appid": 4954910,
@@ -2233,6 +3270,27 @@
    "slug": "silver-pines"
   },
   {
+   "appid": 544330,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 39.99
+     }
+    }
+   ],
+   "name": "Snake Pass",
+   "stores": {
+    "steam": {
+     "price": 39.99,
+     "regular": 39.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/544330/"
+    }
+   },
+   "slug": "snake-pass"
+  },
+  {
    "appid": 1338770,
    "history": [
     {
@@ -2275,6 +3333,36 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975950/154758dcb5b2de9464a46fa54b8973bca5c1522f/header.jpg",
    "slug": "solasta-ii"
+  },
+  {
+   "appid": 71340,
+   "history": [],
+   "name": "Sonic Generations Collection",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/71340/header.jpg",
+   "slug": "sonic-generations-collection"
+  },
+  {
+   "appid": 584400,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 99.5
+     }
+    }
+   ],
+   "name": "Sonic Mania",
+   "stores": {
+    "steam": {
+     "price": 99.5,
+     "regular": 99.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/584400/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/584400/header.jpg",
+   "slug": "sonic-mania"
   },
   {
    "appid": 4045720,
@@ -2395,6 +3483,49 @@
    "slug": "stellar-bladetm"
   },
   {
+   "appid": 322500,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "SUPERHOT",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/322500/"
+    }
+   },
+   "slug": "superhot"
+  },
+  {
+   "appid": 67370,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 4.49
+     }
+    }
+   ],
+   "name": "The Darkness II",
+   "stores": {
+    "steam": {
+     "price": 4.49,
+     "regular": 44.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/67370/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/67370/header.jpg",
+   "slug": "the-darkness-ii"
+  },
+  {
    "appid": 489830,
    "history": [
     {
@@ -2447,6 +3578,27 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg"
   },
   {
+   "appid": 20920,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/20920/"
+    }
+   },
+   "slug": "the-witcher-2-assassins-of-kings-enhanced-edition"
+  },
+  {
    "appid": 292030,
    "history": [
     {
@@ -2491,6 +3643,27 @@
    "slug": "the-wolf-among-us"
   },
   {
+   "appid": 1286680,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 149.9
+     }
+    }
+   ],
+   "name": "Tiny Tina's Wonderlands",
+   "stores": {
+    "steam": {
+     "price": 149.9,
+     "regular": 149.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1286680/"
+    }
+   },
+   "slug": "tiny-tinas-wonderlands"
+  },
+  {
    "appid": 3558670,
    "history": [
     {
@@ -2529,6 +3702,27 @@
    "slug": "unrecord"
   },
   {
+   "appid": 427290,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 139.9
+     }
+    }
+   ],
+   "name": "Vampyr",
+   "stores": {
+    "steam": {
+     "price": 139.9,
+     "regular": 139.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/427290/"
+    }
+   },
+   "slug": "vampyr"
+  },
+  {
    "appid": 2183900,
    "history": [
     {
@@ -2536,14 +3730,20 @@
      "p": {
       "steam": 49.97
      }
+    },
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 199.9
+     }
     }
    ],
    "name": "Warhammer 40,000: Space Marine 2",
    "stores": {
     "steam": {
-     "price": 49.97,
+     "price": 199.9,
      "regular": 199.9,
-     "cut": 75,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2183900/"
     }
    },
@@ -2579,6 +3779,27 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/49dd898fc6800fb34e599e23b7a015447f8209d5/header.jpg",
    "slug": "well-dweller"
+  },
+  {
+   "appid": 699130,
+   "history": [
+    {
+     "d": "2026-10-24",
+     "p": {
+      "steam": 99.9
+     }
+    }
+   ],
+   "name": "World War Z",
+   "stores": {
+    "steam": {
+     "price": 99.9,
+     "regular": 99.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/699130/"
+    }
+   },
+   "slug": "world-war-z"
   }
  ]
 }
