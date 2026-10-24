@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T18:05:49+00:00",
+ "updated": "2026-10-24T00:32:58+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -547,6 +547,28 @@
    "slug": "dark-soulstm-iii"
   },
   {
+   "appid": 221100,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 169.0
+     }
+    }
+   ],
+   "name": "DayZ",
+   "stores": {
+    "steam": {
+     "price": 169.0,
+     "regular": 169.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/221100/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg",
+   "slug": "dayz"
+  },
+  {
    "appid": 381210,
    "history": [
     {
@@ -641,6 +663,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg",
    "slug": "death-stranding-directors-cut"
+  },
+  {
+   "appid": 1222140,
+   "history": [
+    {
+     "d": "2026-10-23",
+     "p": {
+      "steam": 199.99
+     }
+    }
+   ],
+   "name": "Detroit: Become Human",
+   "stores": {
+    "steam": {
+     "price": 199.99,
+     "regular": 199.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1222140/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg",
+   "slug": "detroit-become-human"
   },
   {
    "appid": 631510,

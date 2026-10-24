@@ -110,5 +110,7 @@
   {"appid": 2584270, "name": "Mortal Shell II"},
   {"appid": 4115450, "name": "Phantom Blade Zero"},
   {"appid": 3558670, "name": "Tomb Raider: Legacy of Atlantis"},
-  {"appid": 1422450, "name": "Deadlock"}
+  {"appid": 1422450, "name": "Deadlock"},
+  {"appid": 1222140, "name": "Detroit: Become Human"},
+  {"appid": 221100, "name": "DayZ"}
 ]
