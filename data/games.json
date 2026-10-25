@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T18:48:41+00:00",
+ "updated": "2026-10-25T13:45:14+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -51,7 +51,8 @@
      "url": "https://store.steampowered.com/app/514900/"
     }
    },
-   "slug": "observer"
+   "slug": "observer",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/514900/5379fc21fe575030672dc6b02eb74869392668ec/header.jpg"
   },
   {
    "appid": 278360,
@@ -72,7 +73,8 @@
      "url": "https://store.steampowered.com/app/278360/"
     }
    },
-   "slug": "a-story-about-my-uncle"
+   "slug": "a-story-about-my-uncle",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/278360/header.jpg"
   },
   {
    "appid": 2288340,
@@ -137,7 +139,8 @@
      "url": "https://store.steampowered.com/app/34010/"
     }
    },
-   "slug": "alpha-protocoltm"
+   "slug": "alpha-protocoltm",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/34010/header.jpg"
   },
   {
    "appid": 239200,
@@ -224,7 +227,8 @@
      "url": "https://store.steampowered.com/app/346110/"
     }
    },
-   "slug": "ark-survival-evolved"
+   "slug": "ark-survival-evolved",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg"
   },
   {
    "appid": 3751950,
@@ -517,7 +521,8 @@
      "url": "https://store.steampowered.com/app/225080/"
     }
    },
-   "slug": "brothers-a-tale-of-two-sons"
+   "slug": "brothers-a-tale-of-two-sons",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225080/dbfc904916a519d4c0cbea79f898cf33fc231ee1/header.jpg"
   },
   {
    "appid": 225260,
@@ -1410,7 +1415,8 @@
      "url": "https://store.steampowered.com/app/233270/"
     }
    },
-   "slug": "far-cry-3-blood-dragon"
+   "slug": "far-cry-3-blood-dragon",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233270/header.jpg"
   },
   {
    "appid": 3259780,
@@ -1857,7 +1863,8 @@
      "url": "https://store.steampowered.com/app/203140/"
     }
    },
-   "slug": "hitman-absolutiontm"
+   "slug": "hitman-absolutiontm",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg"
   },
   {
    "appid": 990080,
@@ -1950,7 +1957,8 @@
      "url": "https://store.steampowered.com/app/648350/"
     }
    },
-   "slug": "jurassic-world-evolution"
+   "slug": "jurassic-world-evolution",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648350/header.jpg"
   },
   {
    "appid": 517630,
@@ -1981,6 +1989,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg",
    "slug": "killing-floor"
+  },
+  {
+   "appid": 232090,
+   "history": [
+    {
+     "d": "2026-10-25",
+     "p": {
+      "steam": 5.59
+     }
+    }
+   ],
+   "name": "Killing Floor 2",
+   "stores": {
+    "steam": {
+     "price": 5.59,
+     "regular": 55.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/232090/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/232090/header.jpg",
+   "slug": "killing-floor-2"
   },
   {
    "appid": 903950,
@@ -2075,7 +2105,8 @@
      "url": "https://store.steampowered.com/app/285160/"
     }
    },
-   "slug": "lego-the-hobbittm"
+   "slug": "lego-the-hobbittm",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285160/header.jpg"
   },
   {
    "appid": 214510,
@@ -2096,7 +2127,8 @@
      "url": "https://store.steampowered.com/app/214510/"
     }
    },
-   "slug": "lego-the-lord-of-the-ringstm"
+   "slug": "lego-the-lord-of-the-ringstm",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214510/header.jpg"
   },
   {
    "appid": 2719590,
@@ -2147,7 +2179,8 @@
      "url": "https://store.steampowered.com/app/710470/"
     }
    },
-   "slug": "little-witch-academia-chamber-of-time"
+   "slug": "little-witch-academia-chamber-of-time",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/710470/header.jpg"
   },
   {
    "appid": 4767480,
@@ -2528,7 +2561,8 @@
      "url": "https://store.steampowered.com/app/481510/"
     }
    },
-   "slug": "night-in-the-woods"
+   "slug": "night-in-the-woods",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/481510/header.jpg"
   },
   {
    "appid": 1488490,
@@ -3157,7 +3191,8 @@
      "url": "https://store.steampowered.com/app/206420/"
     }
    },
-   "slug": "saints-row-iv-re-elected"
+   "slug": "saints-row-iv-re-elected",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/header.jpg"
   },
   {
    "appid": 4954910,
@@ -3288,7 +3323,8 @@
      "url": "https://store.steampowered.com/app/544330/"
     }
    },
-   "slug": "snake-pass"
+   "slug": "snake-pass",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/544330/header.jpg"
   },
   {
    "appid": 1338770,
@@ -3501,7 +3537,8 @@
      "url": "https://store.steampowered.com/app/322500/"
     }
    },
-   "slug": "superhot"
+   "slug": "superhot",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322500/header.jpg"
   },
   {
    "appid": 67370,
@@ -3596,7 +3633,8 @@
      "url": "https://store.steampowered.com/app/20920/"
     }
    },
-   "slug": "the-witcher-2-assassins-of-kings-enhanced-edition"
+   "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/header.jpg"
   },
   {
    "appid": 292030,
@@ -3661,7 +3699,8 @@
      "url": "https://store.steampowered.com/app/1286680/"
     }
    },
-   "slug": "tiny-tinas-wonderlands"
+   "slug": "tiny-tinas-wonderlands",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286680/header.jpg"
   },
   {
    "appid": 3558670,
@@ -3720,7 +3759,8 @@
      "url": "https://store.steampowered.com/app/427290/"
     }
    },
-   "slug": "vampyr"
+   "slug": "vampyr",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427290/header.jpg"
   },
   {
    "appid": 2183900,
@@ -3799,7 +3839,8 @@
      "url": "https://store.steampowered.com/app/699130/"
     }
    },
-   "slug": "world-war-z"
+   "slug": "world-war-z",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/b35277055fbb7e07c26c5e31e4398684c6461d53/header.jpg"
   }
  ]
 }
