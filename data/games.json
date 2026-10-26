@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T03:44:39+00:00",
+ "updated": "2026-10-26T03:55:27+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -31,6 +31,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_alt_assets_4.jpg",
    "slug": "007-first-light"
+  },
+  {
+   "appid": 251570,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 121.99
+     }
+    }
+   ],
+   "name": "7 Days to Die",
+   "stores": {
+    "steam": {
+     "price": 121.99,
+     "regular": 121.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/251570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg",
+   "slug": "7-days-to-die"
   },
   {
    "appid": 514900,
@@ -213,6 +235,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/57300/header.jpg",
    "slug": "amnesia-the-dark-descent"
+  },
+  {
+   "appid": 1808500,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 169.0
+     }
+    }
+   ],
+   "name": "ARC Raiders",
+   "stores": {
+    "steam": {
+     "price": 169.0,
+     "regular": 169.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1808500/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg",
+   "slug": "arc-raiders"
   },
   {
    "appid": 346110,
@@ -829,6 +873,28 @@
    "slug": "control-resonant"
   },
   {
+   "appid": 3321460,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 349.99
+     }
+    }
+   ],
+   "name": "Crimson Desert Enhanced",
+   "stores": {
+    "steam": {
+     "price": 349.99,
+     "regular": 349.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3321460/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg",
+   "slug": "crimson-desert-enhanced"
+  },
+  {
    "appid": 268910,
    "history": [
     {
@@ -915,6 +981,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg",
    "slug": "dark-soulstm-iii"
+  },
+  {
+   "appid": 570940,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 154.9
+     }
+    }
+   ],
+   "name": "DARK SOULS™: REMASTERED",
+   "stores": {
+    "steam": {
+     "price": 154.9,
+     "regular": 154.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/570940/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg",
+   "slug": "dark-soulstm-remastered"
   },
   {
    "appid": 221100,
@@ -1145,6 +1233,28 @@
    "slug": "dishonored-death-of-the-outsidertm"
   },
   {
+   "appid": 2592160,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 71.19
+     }
+    }
+   ],
+   "name": "Dispatch",
+   "stores": {
+    "steam": {
+     "price": 71.19,
+     "regular": 88.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/2592160/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/header.jpg",
+   "slug": "dispatch"
+  },
+  {
    "appid": 1148590,
    "history": [
     {
@@ -1187,6 +1297,28 @@
    },
    "slug": "doom-the-dark-ages",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg"
+  },
+  {
+   "appid": 1790600,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 206.5
+     }
+    }
+   ],
+   "name": "DRAGON BALL: Sparking! ZERO",
+   "stores": {
+    "steam": {
+     "price": 206.5,
+     "regular": 206.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1790600/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1790600/header.jpg",
+   "slug": "dragon-ball-sparking-zero"
   },
   {
    "appid": 2054970,
@@ -1297,6 +1429,28 @@
    },
    "slug": "elden-ring",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg"
+  },
+  {
+   "appid": 2622380,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 197.9
+     }
+    }
+   ],
+   "name": "ELDEN RING NIGHTREIGN",
+   "stores": {
+    "steam": {
+     "price": 197.9,
+     "regular": 197.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2622380/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622380/header.jpg",
+   "slug": "elden-ring-nightreign"
   },
   {
    "appid": 2057760,
@@ -1475,6 +1629,28 @@
    "slug": "final-fantasy-vii"
   },
   {
+   "appid": 4354570,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 399.9
+     }
+    }
+   ],
+   "name": "FINAL FANTASY VII REVELATION",
+   "stores": {
+    "steam": {
+     "price": 399.9,
+     "regular": 399.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4354570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4354570/e1750093047ef96e99879977810c9b4c774bab68/header.jpg",
+   "slug": "final-fantasy-vii-revelation"
+  },
+  {
    "appid": 595520,
    "history": [
     {
@@ -1539,6 +1715,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3108510/5bac08d825533706ae33cfc776a60c61d2121b7f/header.jpg",
    "slug": "flyknight-enhanced-edition"
+  },
+  {
+   "appid": 304390,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 129.99
+     }
+    }
+   ],
+   "name": "FOR HONOR™",
+   "stores": {
+    "steam": {
+     "price": 129.99,
+     "regular": 129.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/304390/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304390/2f7f0a0befccf2fbe1f96e700a8de16cfc1cb90c/header_alt_assets_13.jpg",
+   "slug": "for-honortm"
   },
   {
    "appid": 2483190,
@@ -1673,6 +1871,28 @@
    "slug": "god-of-war"
   },
   {
+   "appid": 2322010,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "God of War Ragnarök",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2322010/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg",
+   "slug": "god-of-war-ragnarok"
+  },
+  {
    "appid": 3645890,
    "history": [
     {
@@ -1795,6 +2015,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg"
   },
   {
+   "appid": 1145350,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 88.99
+     }
+    }
+   ],
+   "name": "Hades II",
+   "stores": {
+    "steam": {
+     "price": 88.99,
+     "regular": 88.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1145350/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg",
+   "slug": "hades-ii"
+  },
+  {
    "appid": 3219630,
    "history": [
     {
@@ -1861,6 +2103,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
    "slug": "halo-campaign-evolved"
+  },
+  {
+   "appid": 553850,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 199.5
+     }
+    }
+   ],
+   "name": "HELLDIVERS™ 2",
+   "stores": {
+    "steam": {
+     "price": 199.5,
+     "regular": 199.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/553850/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/de5955080cc5e2fa13d0e7b35668ac4e048f7a7e/header_brazilian.jpg",
+   "slug": "helldiverstm-2"
   },
   {
    "appid": 1659040,
@@ -2127,6 +2391,28 @@
    "slug": "left-4-dead-2"
   },
   {
+   "appid": 2215200,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 299.99
+     }
+    }
+   ],
+   "name": "LEGO® Batman™: Legacy of the Dark Knight",
+   "stores": {
+    "steam": {
+     "price": 299.99,
+     "regular": 299.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2215200/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/a07a9a6c0c9c1225f5b260b4f29fe40e6f099f6b/header.jpg",
+   "slug": "lego-batmantm-legacy-of-the-dark-knight"
+  },
+  {
    "appid": 285160,
    "history": [
     {
@@ -2169,6 +2455,28 @@
    },
    "slug": "lego-the-lord-of-the-ringstm",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214510/header.jpg"
+  },
+  {
+   "appid": 1627720,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "Lies of P",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1627720/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg",
+   "slug": "lies-of-p"
   },
   {
    "appid": 2719590,
@@ -2495,6 +2803,50 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/eab057a82c52b9d60f383fc2a63e2c4024f0e734/header_alt_assets_1.jpg"
   },
   {
+   "appid": 241930,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 89.99
+     }
+    }
+   ],
+   "name": "Middle-earth™: Shadow of Mordor™",
+   "stores": {
+    "steam": {
+     "price": 89.99,
+     "regular": 89.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/241930/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241930/header.jpg",
+   "slug": "middle-earthtm-shadow-of-mordortm"
+  },
+  {
+   "appid": 356190,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 229.99
+     }
+    }
+   ],
+   "name": "Middle-earth™: Shadow of War™",
+   "stores": {
+    "steam": {
+     "price": 229.99,
+     "regular": 229.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/356190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356190/header.jpg",
+   "slug": "middle-earthtm-shadow-of-wartm"
+  },
+  {
    "appid": 609490,
    "history": [
     {
@@ -2515,6 +2867,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/609490/header.jpg",
    "slug": "minit"
+  },
+  {
+   "appid": 1971870,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 199.99
+     }
+    }
+   ],
+   "name": "Mortal Kombat 1",
+   "stores": {
+    "steam": {
+     "price": 199.99,
+     "regular": 199.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1971870/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/header.jpg",
+   "slug": "mortal-kombat-1"
   },
   {
    "appid": 2584270,
@@ -2581,6 +2955,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/header.jpg",
    "slug": "mycopunk"
+  },
+  {
+   "appid": 1020790,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 75.86
+     }
+    }
+   ],
+   "name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+   "stores": {
+    "steam": {
+     "price": 75.86,
+     "regular": 229.9,
+     "cut": 67,
+     "url": "https://store.steampowered.com/app/1020790/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1020790/header.jpg",
+   "slug": "naruto-x-boruto-ultimate-ninja-storm-connections"
   },
   {
    "appid": 481510,
@@ -2669,6 +3065,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/e05df0c7c70fcf4f56944d0a0c24ff2534b6ab60/header_alt_assets_5.jpg",
    "slug": "no-more-room-in-hell-2"
+  },
+  {
+   "appid": 4977840,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 30.59
+     }
+    }
+   ],
+   "name": "Otherside Tapes: Favela",
+   "stores": {
+    "steam": {
+     "price": 30.59,
+     "regular": 33.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/4977840/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4977840/204654d5c003ebbc786c37299daef0483ef05bc4/header.jpg",
+   "slug": "otherside-tapes-favela"
   },
   {
    "appid": 2929250,
@@ -3257,6 +3675,50 @@
    "slug": "scam-with-your-friends"
   },
   {
+   "appid": 513710,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 159.99
+     }
+    }
+   ],
+   "name": "SCUM",
+   "stores": {
+    "steam": {
+     "price": 159.99,
+     "regular": 159.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/513710/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg",
+   "slug": "scum"
+  },
+  {
+   "appid": 814380,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 274.0
+     }
+    }
+   ],
+   "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+   "stores": {
+    "steam": {
+     "price": 274.0,
+     "regular": 274.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/814380/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg",
+   "slug": "sekirotm-shadows-die-twice-goty-edition"
+  },
+  {
    "appid": 2124490,
    "history": [
     {
@@ -3557,6 +4019,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/header.jpg",
    "slug": "stellar-bladetm"
+  },
+  {
+   "appid": 1364780,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 179.0
+     }
+    }
+   ],
+   "name": "Street Fighter™ 6",
+   "stores": {
+    "steam": {
+     "price": 179.0,
+     "regular": 179.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1364780/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg",
+   "slug": "street-fightertm-6"
   },
   {
    "appid": 322500,
@@ -3881,6 +4365,28 @@
    },
    "slug": "world-war-z",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/b35277055fbb7e07c26c5e31e4398684c6461d53/header.jpg"
+  },
+  {
+   "appid": 2277560,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 199.0
+     }
+    }
+   ],
+   "name": "WUCHANG: Fallen Feathers",
+   "stores": {
+    "steam": {
+     "price": 199.0,
+     "regular": 199.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2277560/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/7dbbe47ac51463eb1627581f5c048b94ef856d5c/header.jpg",
+   "slug": "wuchang-fallen-feathers"
   }
  ]
 }
