@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T03:58:15+00:00",
+ "updated": "2026-10-26T16:09:46+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -257,6 +257,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg",
    "slug": "arc-raiders"
+  },
+  {
+   "appid": 2399830,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 55.0
+     }
+    }
+   ],
+   "name": "ARK: Survival Ascended",
+   "stores": {
+    "steam": {
+     "price": 55.0,
+     "regular": 220.0,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/2399830/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/d934813ca531af0fce69fe36bc972f1c90d1aa19/header.jpg",
+   "slug": "ark-survival-ascended"
   },
   {
    "appid": 346110,
@@ -2241,6 +2263,28 @@
    },
    "slug": "hollow-knight",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg"
+  },
+  {
+   "appid": 245390,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 4.94
+     }
+    }
+   ],
+   "name": "I Have No Mouth, and I Must Scream",
+   "stores": {
+    "steam": {
+     "price": 4.94,
+     "regular": 32.99,
+     "cut": 85,
+     "url": "https://store.steampowered.com/app/245390/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/245390/header.jpg",
+   "slug": "i-have-no-mouth-and-i-must-scream"
   },
   {
    "appid": 3883570,
