@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T03:55:27+00:00",
+ "updated": "2026-10-26T03:58:15+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1739,6 +1739,28 @@
    "slug": "for-honortm"
   },
   {
+   "appid": 1551360,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 249.0
+     }
+    }
+   ],
+   "name": "Forza Horizon 5",
+   "stores": {
+    "steam": {
+     "price": 249.0,
+     "regular": 249.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1551360/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
+   "slug": "forza-horizon-5"
+  },
+  {
    "appid": 2483190,
    "history": [
     {
@@ -3067,6 +3089,28 @@
    "slug": "no-more-room-in-hell-2"
   },
   {
+   "appid": 2638890,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 299.0
+     }
+    }
+   ],
+   "name": "Onimusha: Way of the Sword",
+   "stores": {
+    "steam": {
+     "price": 299.0,
+     "regular": 299.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2638890/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/ce31174fea86d0bafa21b26e853dcd0b7326e36f/header.jpg",
+   "slug": "onimusha-way-of-the-sword"
+  },
+  {
    "appid": 4977840,
    "history": [
     {
@@ -3155,6 +3199,28 @@
    "slug": "overcooked-2"
   },
   {
+   "appid": 1623730,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 88.99
+     }
+    }
+   ],
+   "name": "Palworld",
+   "stores": {
+    "steam": {
+     "price": 88.99,
+     "regular": 88.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1623730/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg",
+   "slug": "palworld"
+  },
+  {
    "appid": 218620,
    "history": [
     {
@@ -3219,6 +3285,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg",
    "slug": "phantom-blade-zero"
+  },
+  {
+   "appid": 739630,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 41.99
+     }
+    }
+   ],
+   "name": "Phasmophobia",
+   "stores": {
+    "steam": {
+     "price": 41.99,
+     "regular": 59.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/739630/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/6283e4bf96c6e8160492ae12016f0c9a308a75d9/header_alt_assets_13.jpg",
+   "slug": "phasmophobia"
   },
   {
    "appid": 3357650,
@@ -3373,6 +3461,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg",
    "slug": "prince-of-persia-the-sands-of-time"
+  },
+  {
+   "appid": 3241660,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "R.E.P.O.",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3241660/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg",
+   "slug": "r-e-p-o"
   },
   {
    "appid": 548570,
@@ -3607,6 +3717,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header.jpg",
    "slug": "runescape-dragonwilds"
+  },
+  {
+   "appid": 252490,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 119.99
+     }
+    }
+   ],
+   "name": "Rust",
+   "stores": {
+    "steam": {
+     "price": 119.99,
+     "regular": 119.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/252490/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg",
+   "slug": "rust"
   },
   {
    "appid": 742420,
@@ -4065,6 +4197,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322500/header.jpg"
   },
   {
+   "appid": 3751260,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 303.5
+     }
+    }
+   ],
+   "name": "The Blood of Dawnwalker",
+   "stores": {
+    "steam": {
+     "price": 303.5,
+     "regular": 303.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3751260/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/9a83d0fa47c662298e15a989ff142fb5c0fda5c7/header_alt_assets_0.jpg",
+   "slug": "the-blood-of-dawnwalker"
+  },
+  {
    "appid": 67370,
    "history": [
     {
@@ -4203,6 +4357,14 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250320/header.jpg",
    "slug": "the-wolf-among-us"
+  },
+  {
+   "appid": 3884860,
+   "history": [],
+   "name": "The Wolf Among Us Remastered",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/80ddd096b6fdd5ab25162251bee4131c78cdf351/header.jpg",
+   "slug": "the-wolf-among-us-remastered"
   },
   {
    "appid": 1286680,
