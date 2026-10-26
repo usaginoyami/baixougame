@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:45:14+00:00",
+ "updated": "2026-10-26T03:44:39+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -40,14 +40,20 @@
      "p": {
       "steam": 5.59
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 55.99
+     }
     }
    ],
    "name": ">observer_",
    "stores": {
     "steam": {
-     "price": 5.59,
+     "price": 55.99,
      "regular": 55.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/514900/"
     }
    },
@@ -216,14 +222,20 @@
      "p": {
       "steam": 46.99
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 31.01
+     }
     }
    ],
    "name": "ARK: Survival Evolved",
    "stores": {
     "steam": {
-     "price": 46.99,
+     "price": 31.01,
      "regular": 46.99,
-     "cut": 0,
+     "cut": 34,
      "url": "https://store.steampowered.com/app/346110/"
     }
    },
@@ -1639,6 +1651,28 @@
    "slug": "ghostwire-tokyo"
   },
   {
+   "appid": 1593500,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 199.9
+     }
+    }
+   ],
+   "name": "God of War",
+   "stores": {
+    "steam": {
+     "price": 199.9,
+     "regular": 199.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1593500/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg",
+   "slug": "god-of-war"
+  },
+  {
    "appid": 3645890,
    "history": [
     {
@@ -1718,14 +1752,20 @@
      "p": {
       "steam": 27.99
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 4.19
+     }
     }
    ],
    "name": "Grim Fandango Remastered",
    "stores": {
     "steam": {
-     "price": 27.99,
+     "price": 4.19,
      "regular": 27.99,
-     "cut": 0,
+     "cut": 85,
      "url": "https://store.steampowered.com/app/316790/"
     }
    },
