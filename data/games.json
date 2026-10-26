@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T16:09:46+00:00",
+ "updated": "2026-10-26T20:59:23+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -40,14 +40,20 @@
      "p": {
       "steam": 121.99
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 67.09
+     }
     }
    ],
    "name": "7 Days to Die",
    "stores": {
     "steam": {
-     "price": 121.99,
+     "price": 67.09,
      "regular": 121.99,
-     "cut": 0,
+     "cut": 45,
      "url": "https://store.steampowered.com/app/251570/"
     }
    },
@@ -470,14 +476,20 @@
      "p": {
       "steam": 44.99
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 35.99
+     }
     }
    ],
    "name": "Balatro",
    "stores": {
     "steam": {
-     "price": 44.99,
+     "price": 35.99,
      "regular": 44.99,
-     "cut": 0,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/2379780/"
     }
    },
@@ -946,14 +958,20 @@
      "p": {
       "steam": 59.97
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 199.9
+     }
     }
    ],
    "name": "Cyberpunk 2077",
    "stores": {
     "steam": {
-     "price": 59.97,
+     "price": 199.9,
      "regular": 199.9,
-     "cut": 70,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1091500/"
     }
    },
@@ -1034,14 +1052,20 @@
      "p": {
       "steam": 169.0
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 84.5
+     }
     }
    ],
    "name": "DayZ",
    "stores": {
     "steam": {
-     "price": 169.0,
+     "price": 84.5,
      "regular": 169.0,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/221100/"
     }
    },
@@ -1078,14 +1102,20 @@
      "p": {
       "steam": 249.0
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 24.9
+     }
     }
    ],
    "name": "Dead Island 2",
    "stores": {
     "steam": {
-     "price": 249.0,
+     "price": 24.9,
      "regular": 249.0,
-     "cut": 0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/934700/"
     }
    },
@@ -1387,6 +1417,28 @@
    "slug": "dressmaker"
   },
   {
+   "appid": 1643310,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 109.5
+     }
+    }
+   ],
+   "name": "Dungeons 4",
+   "stores": {
+    "steam": {
+     "price": 109.5,
+     "regular": 219.0,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/1643310/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643310/header.jpg",
+   "slug": "dungeons-4"
+  },
+  {
    "appid": 239140,
    "history": [
     {
@@ -1394,14 +1446,20 @@
      "p": {
       "steam": 99.0
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 9.9
+     }
     }
    ],
    "name": "Dying Light",
    "stores": {
     "steam": {
-     "price": 99.0,
+     "price": 9.9,
      "regular": 99.0,
-     "cut": 0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/239140/"
     }
    },
@@ -1856,14 +1914,20 @@
      "p": {
       "steam": 99.0
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 80.99
+     }
     }
    ],
    "name": "Ghostrunner",
    "stores": {
     "steam": {
-     "price": 99.0,
-     "regular": 99.0,
-     "cut": 0,
+     "price": 80.99,
+     "regular": 161.99,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1139900/"
     }
    },
@@ -1878,14 +1942,20 @@
      "p": {
       "steam": 209.0
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 52.25
+     }
     }
    ],
    "name": "Ghostwire: Tokyo",
    "stores": {
     "steam": {
-     "price": 209.0,
+     "price": 52.25,
      "regular": 209.0,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/1475810/"
     }
    },
@@ -2178,14 +2248,20 @@
      "p": {
       "steam": 8.89
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "HITMAN World of Assassination",
    "stores": {
     "steam": {
-     "price": 8.89,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1659040/"
     }
    },
@@ -2412,14 +2488,20 @@
      "p": {
       "steam": 99.0
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 34.65
+     }
     }
    ],
    "name": "Layers of Fear",
    "stores": {
     "steam": {
-     "price": 99.0,
+     "price": 34.65,
      "regular": 99.0,
-     "cut": 0,
+     "cut": 65,
      "url": "https://store.steampowered.com/app/1946700/"
     }
    },
@@ -2560,14 +2642,20 @@
      "p": {
       "steam": 84.9
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 32.62
+     }
     }
    ],
    "name": "Little Nightmares",
    "stores": {
     "steam": {
-     "price": 84.9,
-     "regular": 84.9,
-     "cut": 0,
+     "price": 32.62,
+     "regular": 130.5,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/424840/"
     }
    },
@@ -3096,14 +3184,20 @@
      "p": {
       "steam": 162.0
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 64.8
+     }
     }
    ],
    "name": "No Man's Sky",
    "stores": {
     "steam": {
-     "price": 162.0,
+     "price": 64.8,
      "regular": 162.0,
-     "cut": 0,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/275850/"
     }
    },
@@ -3382,14 +3476,20 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 17.99
+     }
     }
    ],
    "name": "Prey",
    "stores": {
     "steam": {
-     "price": 89.99,
+     "price": 17.99,
      "regular": 89.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/480490/"
     }
    },
@@ -3514,14 +3614,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 19.49
+     }
     }
    ],
    "name": "R.E.P.O.",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 19.49,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 35,
      "url": "https://store.steampowered.com/app/3241660/"
     }
    },
@@ -3602,14 +3708,20 @@
      "p": {
       "steam": 249.5
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 124.75
+     }
     }
    ],
    "name": "Red Dead Redemption",
    "stores": {
     "steam": {
-     "price": 249.5,
+     "price": 124.75,
      "regular": 249.5,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/2668510/"
     }
    },
@@ -3770,14 +3882,20 @@
      "p": {
       "steam": 119.99
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "Rust",
    "stores": {
     "steam": {
-     "price": 119.99,
+     "price": 59.99,
      "regular": 119.99,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/252490/"
     }
    },
@@ -3902,14 +4020,20 @@
      "p": {
       "steam": 349.9
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 159.8
+     }
     }
    ],
    "name": "SILENT HILL 2",
    "stores": {
     "steam": {
-     "price": 349.9,
-     "regular": 349.9,
-     "cut": 0,
+     "price": 159.8,
+     "regular": 399.5,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/2124490/"
     }
    },
@@ -3924,14 +4048,20 @@
      "p": {
       "steam": 349.9
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 199.75
+     }
     }
    ],
    "name": "SILENT HILL f",
    "stores": {
     "steam": {
-     "price": 349.9,
-     "regular": 349.9,
-     "cut": 0,
+     "price": 199.75,
+     "regular": 399.5,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/2947440/"
     }
    },
@@ -4034,14 +4164,20 @@
      "p": {
       "steam": 109.99
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 87.99
+     }
     }
    ],
    "name": "Solasta II",
    "stores": {
     "steam": {
-     "price": 109.99,
+     "price": 87.99,
      "regular": 109.99,
-     "cut": 0,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/2975950/"
     }
    },
@@ -4077,6 +4213,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/584400/header.jpg",
    "slug": "sonic-mania"
+  },
+  {
+   "appid": 1326470,
+   "history": [
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 24.91
+     }
+    }
+   ],
+   "name": "Sons Of The Forest",
+   "stores": {
+    "steam": {
+     "price": 24.91,
+     "regular": 88.99,
+     "cut": 72,
+     "url": "https://store.steampowered.com/app/1326470/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
+   "slug": "sons-of-the-forest"
   },
   {
    "appid": 4045720,
@@ -4478,14 +4636,20 @@
      "p": {
       "steam": 139.9
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 13.99
+     }
     }
    ],
    "name": "Vampyr",
    "stores": {
     "steam": {
-     "price": 139.9,
+     "price": 13.99,
      "regular": 139.9,
-     "cut": 0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/427290/"
     }
    },
@@ -4580,14 +4744,20 @@
      "p": {
       "steam": 199.0
      }
+    },
+    {
+     "d": "2026-10-26",
+     "p": {
+      "steam": 164.49
+     }
     }
    ],
    "name": "WUCHANG: Fallen Feathers",
    "stores": {
     "steam": {
-     "price": 199.0,
-     "regular": 199.0,
-     "cut": 0,
+     "price": 164.49,
+     "regular": 234.99,
+     "cut": 30,
      "url": "https://store.steampowered.com/app/2277560/"
     }
    },
