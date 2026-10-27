@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T15:23:48+00:00",
+ "updated": "2026-10-27T20:10:47+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -313,6 +313,28 @@
    },
    "slug": "ark-survival-evolved",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg"
+  },
+  {
+   "appid": 1874880,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 149.99
+     }
+    }
+   ],
+   "name": "Arma Reforger",
+   "stores": {
+    "steam": {
+     "price": 149.99,
+     "regular": 149.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1874880/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/header.jpg",
+   "slug": "arma-reforger"
   },
   {
    "appid": 3751950,
@@ -703,6 +725,28 @@
    "slug": "call-of-duty-modern-warfare-4"
   },
   {
+   "appid": 3595270,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 299.0
+     }
+    }
+   ],
+   "name": "Call of Duty®: Modern Warfare® III",
+   "stores": {
+    "steam": {
+     "price": 299.0,
+     "regular": 299.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3595270/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595270/7d0f21912a075c33bbb5ea558100e187ceb234ac/header.jpg",
+   "slug": "call-of-duty-modern-warfare-iii"
+  },
+  {
    "appid": 885150,
    "history": [
     {
@@ -905,6 +949,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/1e0c76e4253d347bb1304c3f213570251d924edf/header.jpg",
    "slug": "control-resonant"
+  },
+  {
+   "appid": 4312190,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 21.24
+     }
+    }
+   ],
+   "name": "CRACK",
+   "stores": {
+    "steam": {
+     "price": 21.24,
+     "regular": 24.99,
+     "cut": 15,
+     "url": "https://store.steampowered.com/app/4312190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/header.jpg",
+   "slug": "crack"
   },
   {
    "appid": 3321460,
@@ -1307,6 +1373,28 @@
    "slug": "dispatch"
   },
   {
+   "appid": 2548880,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 31.49
+     }
+    }
+   ],
+   "name": "Divine Frequency",
+   "stores": {
+    "steam": {
+     "price": 31.49,
+     "regular": 34.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/2548880/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2548880/7af521bd86bf645d46b49691c5afe67fa4ea37d0/header.jpg",
+   "slug": "divine-frequency"
+  },
+  {
    "appid": 1148590,
    "history": [
     {
@@ -1467,6 +1555,28 @@
    "slug": "dying-light"
   },
   {
+   "appid": 3008130,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 124.5
+     }
+    }
+   ],
+   "name": "Dying Light: The Beast",
+   "stores": {
+    "steam": {
+     "price": 124.5,
+     "regular": 249.0,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/3008130/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008130/474a86847984d68aa1485734e450c0a86ada03b3/header.jpg",
+   "slug": "dying-light-the-beast"
+  },
+  {
    "appid": 2384580,
    "history": [
     {
@@ -1531,6 +1641,50 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622380/header.jpg",
    "slug": "elden-ring-nightreign"
+  },
+  {
+   "appid": 1203620,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 107.99
+     }
+    }
+   ],
+   "name": "Enshrouded",
+   "stores": {
+    "steam": {
+     "price": 107.99,
+     "regular": 119.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/1203620/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/98ca939f51b39bdd41e0e9198a9ccf8421148770/header_alt_assets_2.jpg",
+   "slug": "enshrouded"
+  },
+  {
+   "appid": 2087540,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 26.99
+     }
+    }
+   ],
+   "name": "Escape from Playtime",
+   "stores": {
+    "steam": {
+     "price": 26.99,
+     "regular": 29.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/2087540/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/ae8bd1812254242c63c873d45f134d4056535439/header.jpg",
+   "slug": "escape-from-playtime"
   },
   {
    "appid": 2057760,
@@ -1663,6 +1817,28 @@
    },
    "slug": "far-cry-3-blood-dragon",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233270/header.jpg"
+  },
+  {
+   "appid": 3124540,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 39.99
+     }
+    }
+   ],
+   "name": "Far Far West",
+   "stores": {
+    "steam": {
+     "price": 39.99,
+     "regular": 49.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/3124540/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/5473eb1bbfdcbd1d1585d47bdc07752caf3105c9/header_alt_assets_4.jpg",
+   "slug": "far-far-west"
   },
   {
    "appid": 3259780,
@@ -2341,6 +2517,50 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg"
   },
   {
+   "appid": 5013160,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 19.19
+     }
+    }
+   ],
+   "name": "Hubble Bubble",
+   "stores": {
+    "steam": {
+     "price": 19.19,
+     "regular": 23.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/5013160/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5013160/0b9d8ae5607debc9304edf94f4a6dd5c8afefdba/header.jpg",
+   "slug": "hubble-bubble"
+  },
+  {
+   "appid": 1766060,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 34.79
+     }
+    }
+   ],
+   "name": "HumanitZ",
+   "stores": {
+    "steam": {
+     "price": 34.79,
+     "regular": 57.99,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/1766060/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1766060/7fdc4417caf1f03cd228514380efa7fe0b75839e/header_alt_assets_12.jpg",
+   "slug": "humanitz"
+  },
+  {
    "appid": 245390,
    "history": [
     {
@@ -2361,6 +2581,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/245390/header.jpg",
    "slug": "i-have-no-mouth-and-i-must-scream"
+  },
+  {
+   "appid": 2353060,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 119.4
+     }
+    }
+   ],
+   "name": "Invincible VS",
+   "stores": {
+    "steam": {
+     "price": 119.4,
+     "regular": 199.0,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/2353060/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2353060/8cd8eff0576c0503650c611cd0ef76faf905d13d/header.jpg",
+   "slug": "invincible-vs"
   },
   {
    "appid": 3883570,
@@ -3023,6 +3265,28 @@
    "slug": "minit"
   },
   {
+   "appid": 5335510,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 28.89
+     }
+    }
+   ],
+   "name": "Moon Sweepers",
+   "stores": {
+    "steam": {
+     "price": 28.89,
+     "regular": 33.99,
+     "cut": 15,
+     "url": "https://store.steampowered.com/app/5335510/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg",
+   "slug": "moon-sweepers"
+  },
+  {
    "appid": 1971870,
    "history": [
     {
@@ -3227,6 +3491,28 @@
    "slug": "no-more-room-in-hell-2"
   },
   {
+   "appid": 2223980,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 43.64
+     }
+    }
+   ],
+   "name": "Nomad Drive",
+   "stores": {
+    "steam": {
+     "price": 43.64,
+     "regular": 48.49,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/2223980/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/433d5727162af686f0e7d56de539f8476fb0cf0e/header.jpg",
+   "slug": "nomad-drive"
+  },
+  {
    "appid": 2638890,
    "history": [
     {
@@ -3291,6 +3577,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg",
    "slug": "outlast"
+  },
+  {
+   "appid": 414700,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 5.99
+     }
+    }
+   ],
+   "name": "Outlast 2",
+   "stores": {
+    "steam": {
+     "price": 5.99,
+     "regular": 59.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/414700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg",
+   "slug": "outlast-2"
   },
   {
    "appid": 2929250,
@@ -3388,14 +3696,20 @@
      "p": {
       "steam": 14.99
      }
+    },
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 29.99
+     }
     }
    ],
    "name": "PAYDAY 2",
    "stores": {
     "steam": {
-     "price": 14.99,
+     "price": 29.99,
      "regular": 29.99,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/218620/"
     }
    },
@@ -3469,6 +3783,28 @@
    "slug": "phasmophobia"
   },
   {
+   "appid": 3219030,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 154.99
+     }
+    }
+   ],
+   "name": "Planet Zoo 2",
+   "stores": {
+    "steam": {
+     "price": 154.99,
+     "regular": 154.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3219030/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/a5131aa4b84d04a55e3b9c561d7c886cc22bbe1c/header.jpg",
+   "slug": "planet-zoo-2"
+  },
+  {
    "appid": 3357650,
    "history": [
     {
@@ -3489,6 +3825,28 @@
    },
    "slug": "pragmata",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/e32e168b25ed68a0cf6264c220c07e96c2abfb56/header.jpg"
+  },
+  {
+   "appid": 4244510,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 16.79
+     }
+    }
+   ],
+   "name": "Pratfall",
+   "stores": {
+    "steam": {
+     "price": 16.79,
+     "regular": 23.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/4244510/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4244510/aa5134d11626034935daa974478c834d03d73f54/header.jpg",
+   "slug": "pratfall"
   },
   {
    "appid": 480490,
@@ -3723,6 +4081,28 @@
    "slug": "rayman-origins"
   },
   {
+   "appid": 2129530,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 80.99
+     }
+    }
+   ],
+   "name": "REANIMAL",
+   "stores": {
+    "steam": {
+     "price": 80.99,
+     "regular": 107.99,
+     "cut": 25,
+     "url": "https://store.steampowered.com/app/2129530/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2129530/4cdda917a0155258a2e7909d7869f35d8f980f96/header.jpg",
+   "slug": "reanimal"
+  },
+  {
    "appid": 2668510,
    "history": [
     {
@@ -3777,6 +4157,28 @@
    },
    "slug": "red-dead-redemption-2",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg"
+  },
+  {
+   "appid": 3335310,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 99.99
+     }
+    }
+   ],
+   "name": "Remothered: Red Nun's Legacy",
+   "stores": {
+    "steam": {
+     "price": 99.99,
+     "regular": 99.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3335310/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3335310/36b0a83ca1f760fae7b0d063b89b2f5ad2e7115a/header.jpg",
+   "slug": "remothered-red-nuns-legacy"
   },
   {
    "appid": 883710,
@@ -3923,6 +4325,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg",
    "slug": "rust"
+  },
+  {
+   "appid": 1643320,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 167.3
+     }
+    }
+   ],
+   "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+   "stores": {
+    "steam": {
+     "price": 167.3,
+     "regular": 239.0,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/1643320/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/ed690c0b1f26c865708880e188fbc63a81989dfc/header_alt_assets_8.jpg",
+   "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl"
   },
   {
    "appid": 742420,
@@ -4465,6 +4889,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322500/header.jpg"
   },
   {
+   "appid": 1566200,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 53.99
+     }
+    }
+   ],
+   "name": "Tape to Tape",
+   "stores": {
+    "steam": {
+     "price": 53.99,
+     "regular": 59.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/1566200/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1566200/8a10ac73d753b68c2ed09298ce98ee12a225fd3b/header_alt_assets_2.jpg",
+   "slug": "tape-to-tape"
+  },
+  {
    "appid": 3751260,
    "history": [
     {
@@ -4485,6 +4931,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/9a83d0fa47c662298e15a989ff142fb5c0fda5c7/header_alt_assets_0.jpg",
    "slug": "the-blood-of-dawnwalker"
+  },
+  {
+   "appid": 2774040,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 46.39
+     }
+    }
+   ],
+   "name": "The Boss Gangster: Criminal Empire",
+   "stores": {
+    "steam": {
+     "price": 46.39,
+     "regular": 57.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/2774040/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2774040/633657e57def1d539ef868eb0c8d10fa1102dc33/header_alt_assets_2.jpg",
+   "slug": "the-boss-gangster-criminal-empire"
   },
   {
    "appid": 67370,
@@ -4721,6 +5189,28 @@
    },
    "slug": "vampyr",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427290/header.jpg"
+  },
+  {
+   "appid": 1867240,
+   "history": [
+    {
+     "d": "2026-10-27",
+     "p": {
+      "steam": 119.99
+     }
+    }
+   ],
+   "name": "WARDOGS",
+   "stores": {
+    "steam": {
+     "price": 119.99,
+     "regular": 119.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1867240/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/bb62feb8f59915d00bade38910f1bfdad5232b90/header_alt_assets_0.jpg",
+   "slug": "wardogs"
   },
   {
    "appid": 2183900,
