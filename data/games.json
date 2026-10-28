@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T20:10:47+00:00",
+ "updated": "2026-10-28T03:01:57+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -4277,6 +4277,28 @@
    "slug": "resident-evil-veronica"
   },
   {
+   "appid": 391220,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 12.49
+     }
+    }
+   ],
+   "name": "Rise of the Tomb Raider™",
+   "stores": {
+    "steam": {
+     "price": 12.49,
+     "regular": 124.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/391220/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/29279804029df9b7540caef5c086c9f0393e2e2d/header_alt_assets_0.jpg",
+   "slug": "rise-of-the-tomb-raidertm"
+  },
+  {
    "appid": 1374490,
    "history": [
     {
@@ -5123,6 +5145,72 @@
    },
    "slug": "tiny-tinas-wonderlands",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286680/header.jpg"
+  },
+  {
+   "appid": 203160,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 8.34
+     }
+    }
+   ],
+   "name": "Tomb Raider Game of the Year",
+   "stores": {
+    "steam": {
+     "price": 8.34,
+     "regular": 83.49,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/203160/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/13a6dfaa4655377988aa627f03b2322f8bf18ec9/header_alt_assets_0.jpg",
+   "slug": "tomb-raider-game-of-the-year"
+  },
+  {
+   "appid": 2478970,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 17.79
+     }
+    }
+   ],
+   "name": "Tomb Raider I-III Remastered Starring Lara Croft",
+   "stores": {
+    "steam": {
+     "price": 17.79,
+     "regular": 88.99,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/2478970/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2478970/a94ccfdb7582dc5564cdf736b0f239531b66bf1d/header.jpg",
+   "slug": "tomb-raider-i-iii-remastered-starring-lara-croft"
+  },
+  {
+   "appid": 2525380,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 17.79
+     }
+    }
+   ],
+   "name": "Tomb Raider IV-VI Remastered",
+   "stores": {
+    "steam": {
+     "price": 17.79,
+     "regular": 88.99,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/2525380/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525380/header.jpg",
+   "slug": "tomb-raider-iv-vi-remastered"
   },
   {
    "appid": 3558670,
