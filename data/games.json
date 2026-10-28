@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T03:01:57+00:00",
+ "updated": "2026-10-28T12:37:24+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -131,6 +131,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg",
    "slug": "ace-combat-8-wings-of-theve"
+  },
+  {
+   "appid": 2887580,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 119.2
+     }
+    }
+   ],
+   "name": "Active Matter",
+   "stores": {
+    "steam": {
+     "price": 119.2,
+     "regular": 149.0,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/2887580/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2887580/191801a8de4db48075ef195473a922391cb4c6de/header.jpg",
+   "slug": "active-matter"
   },
   {
    "appid": 19680,
@@ -615,6 +637,28 @@
    "slug": "bodycam"
   },
   {
+   "appid": 5228920,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 18.59
+     }
+    }
+   ],
+   "name": "Brick by Brick: Tidy Up the Small Town!",
+   "stores": {
+    "steam": {
+     "price": 18.59,
+     "regular": 29.99,
+     "cut": 38,
+     "url": "https://store.steampowered.com/app/5228920/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5228920/8c57f18ab6a1940b328584fe5556f4c87839e1a0/header.jpg",
+   "slug": "brick-by-brick-tidy-up-the-small-town"
+  },
+  {
    "appid": 225080,
    "history": [
     {
@@ -993,6 +1037,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header.jpg",
    "slug": "crimson-desert-enhanced"
+  },
+  {
+   "appid": 2101960,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 124.5
+     }
+    }
+   ],
+   "name": "Cronos: The New Dawn",
+   "stores": {
+    "steam": {
+     "price": 124.5,
+     "regular": 249.0,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/2101960/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101960/d1dc7b5559d7ed576e5b094fe57fdb9c78a607cb/header_alt_assets_5.jpg",
+   "slug": "cronos-the-new-dawn"
   },
   {
    "appid": 268910,
@@ -1687,6 +1753,28 @@
    "slug": "escape-from-playtime"
   },
   {
+   "appid": 1943950,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 20.79
+     }
+    }
+   ],
+   "name": "Escape the Backrooms",
+   "stores": {
+    "steam": {
+     "price": 20.79,
+     "regular": 25.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/1943950/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg",
+   "slug": "escape-the-backrooms"
+  },
+  {
    "appid": 2057760,
    "history": [
     {
@@ -1839,6 +1927,50 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/5473eb1bbfdcbd1d1585d47bdc07752caf3105c9/header_alt_assets_4.jpg",
    "slug": "far-far-west"
+  },
+  {
+   "appid": 2300320,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 143.95
+     }
+    }
+   ],
+   "name": "Farming Simulator 25",
+   "stores": {
+    "steam": {
+     "price": 143.95,
+     "regular": 143.95,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2300320/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300320/c2a205133d23cd24faf3c152d972a1d0177661b8/header.jpg",
+   "slug": "farming-simulator-25"
+  },
+  {
+   "appid": 4121170,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 20.99
+     }
+    }
+   ],
+   "name": "Fears to Fathom® - Scratch Creek",
+   "stores": {
+    "steam": {
+     "price": 20.99,
+     "regular": 29.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/4121170/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4121170/803663dce78da494e9d061cf6652ade566b96331/header.jpg",
+   "slug": "fears-to-fathom-scratch-creek"
   },
   {
    "appid": 3259780,
@@ -2281,6 +2413,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/316790/header.jpg",
    "slug": "grim-fandango-remastered"
+  },
+  {
+   "appid": 5306540,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 67.19
+     }
+    }
+   ],
+   "name": "Groundwork Simulator",
+   "stores": {
+    "steam": {
+     "price": 67.19,
+     "regular": 83.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/5306540/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306540/64674a7e52a9ea471b11731fb65425370550c032/header.jpg",
+   "slug": "groundwork-simulator"
   },
   {
    "appid": 1145360,
@@ -3689,6 +3843,28 @@
    "slug": "palworld"
   },
   {
+   "appid": 3024130,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 28.19
+     }
+    }
+   ],
+   "name": "PAO PAO",
+   "stores": {
+    "steam": {
+     "price": 28.19,
+     "regular": 46.99,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/3024130/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3024130/8d729d070576d199d119bff0de78022bb4151404/header.jpg",
+   "slug": "pao-pao"
+  },
+  {
    "appid": 218620,
    "history": [
     {
@@ -4157,6 +4333,28 @@
    },
    "slug": "red-dead-redemption-2",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg"
+  },
+  {
+   "appid": 1737870,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 38.99
+     }
+    }
+   ],
+   "name": "REKA",
+   "stores": {
+    "steam": {
+     "price": 38.99,
+     "regular": 59.99,
+     "cut": 35,
+     "url": "https://store.steampowered.com/app/1737870/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/d8ea454a870af3d14aa41fbb58356185c9a7d29b/header_alt_assets_5.jpg",
+   "slug": "reka"
   },
   {
    "appid": 3335310,
@@ -4889,6 +5087,28 @@
    "slug": "subnautica"
   },
   {
+   "appid": 1962700,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 119.99
+     }
+    }
+   ],
+   "name": "Subnautica 2",
+   "stores": {
+    "steam": {
+     "price": 119.99,
+     "regular": 119.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1962700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/header.jpg",
+   "slug": "subnautica-2"
+  },
+  {
    "appid": 322500,
    "history": [
     {
@@ -5019,6 +5239,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg",
    "slug": "the-elder-scrolls-v-skyrim-special-edition"
+  },
+  {
+   "appid": 242760,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 7.59
+     }
+    }
+   ],
+   "name": "The Forest",
+   "stores": {
+    "steam": {
+     "price": 7.59,
+     "regular": 37.99,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/242760/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg",
+   "slug": "the-forest"
   },
   {
    "appid": 612400,
@@ -5235,6 +5477,28 @@
    "slug": "tomb-raider-legacy-of-atlantis"
   },
   {
+   "appid": 3493540,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 164.99
+     }
+    }
+   ],
+   "name": "Transport Fever 3",
+   "stores": {
+    "steam": {
+     "price": 164.99,
+     "regular": 164.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3493540/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/4c179a79a6286b15575ca3f1a6ca620e5d159b19/header.jpg",
+   "slug": "transport-fever-3"
+  },
+  {
    "appid": 1967610,
    "history": [],
    "name": "Turok: Origins",
@@ -5249,6 +5513,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2381520/header.jpg",
    "slug": "unrecord"
+  },
+  {
+   "appid": 2828710,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 149.99
+     }
+    }
+   ],
+   "name": "Valor Mortis",
+   "stores": {
+    "steam": {
+     "price": 149.99,
+     "regular": 149.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2828710/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg",
+   "slug": "valor-mortis"
   },
   {
    "appid": 427290,
@@ -5407,6 +5693,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/7dbbe47ac51463eb1627581f5c048b94ef856d5c/header.jpg",
    "slug": "wuchang-fallen-feathers"
+  },
+  {
+   "appid": 4760480,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "You Are Empty: Absolute Edition",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4760480/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760480/47b68109d87a169725e5735d9beb472970003b8e/header.jpg",
+   "slug": "you-are-empty-absolute-edition"
   }
  ]
 }
