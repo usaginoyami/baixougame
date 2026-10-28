@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:46:26+00:00",
+ "updated": "2026-10-28T16:06:48+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -5151,6 +5151,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1566200/8a10ac73d753b68c2ed09298ce98ee12a225fd3b/header_alt_assets_2.jpg",
    "slug": "tape-to-tape"
+  },
+  {
+   "appid": 1496590,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 8.9
+     }
+    }
+   ],
+   "name": "Tchia",
+   "stores": {
+    "steam": {
+     "price": 8.9,
+     "regular": 89.0,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/1496590/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1496590/header.jpg",
+   "slug": "tchia"
   },
   {
    "appid": 3751260,
