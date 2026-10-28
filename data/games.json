@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:37:24+00:00",
+ "updated": "2026-10-28T12:46:26+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -5505,6 +5505,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967610/2812e87028a98ee3ee38ec107f88c9e343023263/header.jpg",
    "slug": "turok-origins"
+  },
+  {
+   "appid": 1575990,
+   "history": [
+    {
+     "d": "2026-10-28",
+     "p": {
+      "steam": 39.53
+     }
+    }
+   ],
+   "name": "Twisted Tower",
+   "stores": {
+    "steam": {
+     "price": 39.53,
+     "regular": 59.9,
+     "cut": 34,
+     "url": "https://store.steampowered.com/app/1575990/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575990/0270dc9ee7ddd3b31d2c9f0d5f1fb76cb4879eb8/header.jpg",
+   "slug": "twisted-tower"
   },
   {
    "appid": 2381520,
