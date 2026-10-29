@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T16:06:48+00:00",
+ "updated": "2026-10-29T16:11:21+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -498,14 +498,20 @@
      "p": {
       "steam": 35.99
      }
+    },
+    {
+     "d": "2026-10-29",
+     "p": {
+      "steam": 119.99
+     }
     }
    ],
    "name": "Automobilista 2",
    "stores": {
     "steam": {
-     "price": 35.99,
+     "price": 119.99,
      "regular": 119.99,
-     "cut": 70,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1066890/"
     }
    },
@@ -3762,14 +3768,20 @@
      "p": {
       "steam": 41.59
      }
+    },
+    {
+     "d": "2026-10-29",
+     "p": {
+      "steam": 51.99
+     }
     }
    ],
    "name": "over the hill",
    "stores": {
     "steam": {
-     "price": 41.59,
+     "price": 51.99,
      "regular": 51.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2929250/"
     }
    },
@@ -5382,9 +5394,23 @@
   },
   {
    "appid": 3884860,
-   "history": [],
+   "history": [
+    {
+     "d": "2026-10-29",
+     "p": {
+      "steam": 67.19
+     }
+    }
+   ],
    "name": "The Wolf Among Us Remastered",
-   "stores": {},
+   "stores": {
+    "steam": {
+     "price": 67.19,
+     "regular": 83.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/3884860/"
+    }
+   },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/80ddd096b6fdd5ab25162251bee4131c78cdf351/header.jpg",
    "slug": "the-wolf-among-us-remastered"
   },
@@ -5579,6 +5605,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg",
    "slug": "valor-mortis"
+  },
+  {
+   "appid": 1167950,
+   "history": [
+    {
+     "d": "2026-10-29",
+     "p": {
+      "steam": 2.68
+     }
+    }
+   ],
+   "name": "Vampire's Fall: Origins",
+   "stores": {
+    "steam": {
+     "price": 2.68,
+     "regular": 26.89,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/1167950/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167950/header.jpg",
+   "slug": "vampires-fall-origins"
   },
   {
    "appid": 427290,
