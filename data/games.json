@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:11:21+00:00",
+ "updated": "2026-10-30T15:58:27+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -650,14 +650,20 @@
      "p": {
       "steam": 18.59
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 29.99
+     }
     }
    ],
    "name": "Brick by Brick: Tidy Up the Small Town!",
    "stores": {
     "steam": {
-     "price": 18.59,
+     "price": 29.99,
      "regular": 29.99,
-     "cut": 38,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5228920/"
     }
    },
@@ -738,14 +744,20 @@
      "p": {
       "steam": 88.99
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 62.29
+     }
     }
    ],
    "name": "Cairn",
    "stores": {
     "steam": {
-     "price": 88.99,
+     "price": 62.29,
      "regular": 88.99,
-     "cut": 0,
+     "cut": 30,
      "url": "https://store.steampowered.com/app/1588550/"
     }
    },
@@ -942,14 +954,20 @@
      "p": {
       "steam": 199.0
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 159.2
+     }
     }
    ],
    "name": "Clair Obscur: Expedition 33",
    "stores": {
     "steam": {
-     "price": 199.0,
+     "price": 159.2,
      "regular": 199.0,
-     "cut": 0,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/1903340/"
     }
    },
@@ -1722,14 +1740,20 @@
      "p": {
       "steam": 107.99
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 119.99
+     }
     }
    ],
    "name": "Enshrouded",
    "stores": {
     "steam": {
-     "price": 107.99,
+     "price": 119.99,
      "regular": 119.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1203620/"
     }
    },
@@ -2428,14 +2452,20 @@
      "p": {
       "steam": 67.19
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 83.99
+     }
     }
    ],
    "name": "Groundwork Simulator",
    "stores": {
     "steam": {
-     "price": 67.19,
+     "price": 83.99,
      "regular": 83.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5306540/"
     }
    },
@@ -2868,14 +2898,20 @@
      "p": {
       "steam": 23.09
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 69.99
+     }
     }
    ],
    "name": "Last Oasis",
    "stores": {
     "steam": {
-     "price": 23.09,
+     "price": 69.99,
      "regular": 69.99,
-     "cut": 67,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/903950/"
     }
    },
@@ -3093,6 +3129,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4767480/a34e3c4d4088e71c7d2cdc5445dc950abd2521db/header.jpg",
    "slug": "lords-of-the-fallen-ii"
+  },
+  {
+   "appid": 826940,
+   "history": [
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 9.02
+     }
+    }
+   ],
+   "name": "Maid of Sker",
+   "stores": {
+    "steam": {
+     "price": 9.02,
+     "regular": 47.49,
+     "cut": 81,
+     "url": "https://store.steampowered.com/app/826940/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/826940/header.jpg",
+   "slug": "maid-of-sker"
   },
   {
    "appid": 629820,
@@ -3702,14 +3760,20 @@
      "p": {
       "steam": 30.59
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 33.99
+     }
     }
    ],
    "name": "Otherside Tapes: Favela",
    "stores": {
     "steam": {
-     "price": 30.59,
+     "price": 33.99,
      "regular": 33.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/4977840/"
     }
    },
@@ -4516,14 +4580,20 @@
      "p": {
       "steam": 80.49
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 114.99
+     }
     }
    ],
    "name": "RuneScape: Dragonwilds",
    "stores": {
     "steam": {
-     "price": 80.49,
+     "price": 114.99,
      "regular": 114.99,
-     "cut": 30,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1374490/"
     }
    },
@@ -4632,14 +4702,20 @@
      "p": {
       "steam": 33.74
      }
+    },
+    {
+     "d": "2026-10-30",
+     "p": {
+      "steam": 37.49
+     }
     }
    ],
    "name": "Scam With Your Friends",
    "stores": {
     "steam": {
-     "price": 33.74,
+     "price": 37.49,
      "regular": 37.49,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/4954910/"
     }
    },
