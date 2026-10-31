@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T15:58:27+00:00",
+ "updated": "2026-10-31T15:22:19+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1448,14 +1448,20 @@
      "p": {
       "steam": 71.19
      }
+    },
+    {
+     "d": "2026-10-31",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Dispatch",
    "stores": {
     "steam": {
-     "price": 71.19,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2592160/"
     }
    },
@@ -3490,14 +3496,20 @@
      "p": {
       "steam": 28.89
      }
+    },
+    {
+     "d": "2026-10-31",
+     "p": {
+      "steam": 33.99
+     }
     }
    ],
    "name": "Moon Sweepers",
    "stores": {
     "steam": {
-     "price": 28.89,
+     "price": 33.99,
      "regular": 33.99,
-     "cut": 15,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5335510/"
     }
    },
@@ -5226,14 +5238,20 @@
      "p": {
       "steam": 53.99
      }
+    },
+    {
+     "d": "2026-10-31",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "Tape to Tape",
    "stores": {
     "steam": {
-     "price": 53.99,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1566200/"
     }
    },
@@ -5811,6 +5829,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/49dd898fc6800fb34e599e23b7a015447f8209d5/header.jpg",
    "slug": "well-dweller"
+  },
+  {
+   "appid": 466130,
+   "history": [
+    {
+     "d": "2026-10-31",
+     "p": {
+      "steam": 14.59
+     }
+    }
+   ],
+   "name": "White Day: A Labyrinth Named School",
+   "stores": {
+    "steam": {
+     "price": 14.59,
+     "regular": 145.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/466130/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466130/header.jpg",
+   "slug": "white-day-a-labyrinth-named-school"
   },
   {
    "appid": 699130,
