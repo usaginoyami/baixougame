@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:22:19+00:00",
+ "updated": "2026-11-01T16:04:43+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -838,14 +838,20 @@
      "p": {
       "steam": 59.99
      }
+    },
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 4.19
+     }
     }
    ],
    "name": "Car Mechanic Simulator 2018",
    "stores": {
     "steam": {
-     "price": 59.99,
+     "price": 4.19,
      "regular": 59.99,
-     "cut": 0,
+     "cut": 93,
      "url": "https://store.steampowered.com/app/645630/"
     }
    },
@@ -3077,6 +3083,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2719590/header.jpg",
    "slug": "light-no-fire"
+  },
+  {
+   "appid": 335670,
+   "history": [
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 30.59
+     }
+    }
+   ],
+   "name": "LISA: The Painful",
+   "stores": {
+    "steam": {
+     "price": 30.59,
+     "regular": 76.49,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/335670/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335670/header.jpg",
+   "slug": "lisa-the-painful"
   },
   {
    "appid": 424840,
