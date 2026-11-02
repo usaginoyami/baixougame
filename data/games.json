@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T16:04:43+00:00",
+ "updated": "2026-11-02T01:17:29+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -366,14 +366,20 @@
      "p": {
       "steam": 299.99
      }
+    },
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 224.99
+     }
     }
    ],
    "name": "Assassin's Creed Black Flag Resynced",
    "stores": {
     "steam": {
-     "price": 299.99,
+     "price": 224.99,
      "regular": 299.99,
-     "cut": 0,
+     "cut": 25,
      "url": "https://store.steampowered.com/app/3751950/"
     }
    },
@@ -388,14 +394,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 8.99
+     }
     }
    ],
    "name": "Assassin’s Creed® Chronicles: China",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 8.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/354380/"
     }
    },
@@ -410,14 +422,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 8.99
+     }
     }
    ],
    "name": "Assassin’s Creed® Chronicles: India",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 8.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/359610/"
     }
    },
@@ -432,14 +450,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 8.99
+     }
     }
    ],
    "name": "Assassin’s Creed® Chronicles: Russia",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 8.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/359600/"
     }
    },
@@ -567,6 +591,28 @@
    },
    "slug": "baldurs-gate-3",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg"
+  },
+  {
+   "appid": 460790,
+   "history": [
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 89.5
+     }
+    }
+   ],
+   "name": "Bayonetta",
+   "stores": {
+    "steam": {
+     "price": 89.5,
+     "regular": 89.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/460790/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/header.jpg",
+   "slug": "bayonetta"
   },
   {
    "appid": 2556990,
@@ -2442,14 +2488,20 @@
      "p": {
       "steam": 4.19
      }
+    },
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 27.99
+     }
     }
    ],
    "name": "Grim Fandango Remastered",
    "stores": {
     "steam": {
-     "price": 4.19,
+     "price": 27.99,
      "regular": 27.99,
-     "cut": 85,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/316790/"
     }
    },
@@ -3155,6 +3207,28 @@
    },
    "slug": "little-witch-academia-chamber-of-time",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/710470/header.jpg"
+  },
+  {
+   "appid": 2658450,
+   "history": [
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 108.0
+     }
+    }
+   ],
+   "name": "LOLLIPOP CHAINSAW RePOP",
+   "stores": {
+    "steam": {
+     "price": 108.0,
+     "regular": 180.0,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/2658450/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2658450/header.jpg",
+   "slug": "lollipop-chainsaw-repop"
   },
   {
    "appid": 4767480,
@@ -4277,6 +4351,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header.jpg",
    "slug": "prince-of-persia-the-sands-of-time"
+  },
+  {
+   "appid": 1799840,
+   "history": [
+    {
+     "d": "2026-11-01",
+     "p": {
+      "steam": 54.39
+     }
+    }
+   ],
+   "name": "Queen's Domain",
+   "stores": {
+    "steam": {
+     "price": 54.39,
+     "regular": 63.99,
+     "cut": 15,
+     "url": "https://store.steampowered.com/app/1799840/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1799840/1a209734951f53b019ec9fa03f835def14f2a968/header.jpg",
+   "slug": "queens-domain"
   },
   {
    "appid": 3241660,
