@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T17:59:23+00:00",
+ "updated": "2026-11-03T18:00:44+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -5296,14 +5296,20 @@
      "p": {
       "steam": 33.8
      }
+    },
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 169.0
+     }
     }
    ],
    "name": "Resident Evil 2",
    "stores": {
     "steam": {
-     "price": 33.8,
+     "price": 169.0,
      "regular": 169.0,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/883710/"
     }
    },
@@ -5340,14 +5346,20 @@
      "p": {
       "steam": 42.25
      }
+    },
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 169.0
+     }
     }
    ],
    "name": "Resident Evil 4",
    "stores": {
     "steam": {
-     "price": 42.25,
+     "price": 169.0,
      "regular": 169.0,
-     "cut": 75,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2050650/"
     }
    },
@@ -6055,6 +6067,28 @@
    "slug": "stellar-bladetm"
   },
   {
+   "appid": 1332010,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 89.99
+     }
+    }
+   ],
+   "name": "Stray",
+   "stores": {
+    "steam": {
+     "price": 89.99,
+     "regular": 89.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1332010/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg",
+   "slug": "stray"
+  },
+  {
    "appid": 1364780,
    "history": [
     {
@@ -6219,6 +6253,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1496590/header.jpg",
    "slug": "tchia"
+  },
+  {
+   "appid": 1601570,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 45.89
+     }
+    }
+   ],
+   "name": "The Alters",
+   "stores": {
+    "steam": {
+     "price": 45.89,
+     "regular": 101.99,
+     "cut": 55,
+     "url": "https://store.steampowered.com/app/1601570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601570/05e3c5b872152c1ba70f6a0def8cf49ae2123a4b/header.jpg",
+   "slug": "the-alters"
   },
   {
    "appid": 3751260,
