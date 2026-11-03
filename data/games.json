@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:31:54+00:00",
+ "updated": "2026-11-03T17:06:28+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -2506,14 +2506,20 @@
      "p": {
       "steam": 12.72
      }
+    },
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 18.99
+     }
     }
    ],
    "name": "GONE Fishing",
    "stores": {
     "steam": {
-     "price": 12.72,
+     "price": 18.99,
      "regular": 18.99,
-     "cut": 33,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3645890/"
     }
    },
