@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T17:06:28+00:00",
+ "updated": "2026-11-03T17:56:18+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -99,6 +99,28 @@
    },
    "slug": "observer",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/514900/5379fc21fe575030672dc6b02eb74869392668ec/header.jpg"
+  },
+  {
+   "appid": 1182900,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 53.97
+     }
+    }
+   ],
+   "name": "A Plague Tale: Requiem",
+   "stores": {
+    "steam": {
+     "price": 53.97,
+     "regular": 179.9,
+     "cut": 70,
+     "url": "https://store.steampowered.com/app/1182900/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1182900/header.jpg",
+   "slug": "a-plague-tale-requiem"
   },
   {
    "appid": 278360,
@@ -329,6 +351,28 @@
    "slug": "arc-raiders"
   },
   {
+   "appid": 3218230,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 99.99
+     }
+    }
+   ],
+   "name": "ArcheAge Chronicles",
+   "stores": {
+    "steam": {
+     "price": 99.99,
+     "regular": 99.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3218230/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/header.jpg",
+   "slug": "archeage-chronicles"
+  },
+  {
    "appid": 2399830,
    "history": [
     {
@@ -535,6 +579,28 @@
    "slug": "assassins-creed-iv-black-flagtm"
   },
   {
+   "appid": 244210,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "Assetto Corsa",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/244210/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg",
+   "slug": "assetto-corsa"
+  },
+  {
    "appid": 668580,
    "history": [
     {
@@ -583,6 +649,28 @@
    },
    "slug": "automobilista-2",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066890/4ec180b6bc16ce430f12bfbc88f420c93cb48313/header.jpg"
+  },
+  {
+   "appid": 3191050,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 12.99
+     }
+    }
+   ],
+   "name": "AVIÃOZINHO DO TRÁFICO 3:ABRI UM PORTAL PRO INFERNO NA FAVELA TENTANDO REVIVER MIT AIA E PRECISO FECHAR",
+   "stores": {
+    "steam": {
+     "price": 12.99,
+     "regular": 19.99,
+     "cut": 35,
+     "url": "https://store.steampowered.com/app/3191050/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191050/274bcccf2d730c0a545f17b5c01e666037d0afba/header.jpg",
+   "slug": "aviaozinho-do-trafico-3-abri-um-portal-pro-inferno-na-favela-tentando-reviver-mit-aia-e-preciso-fechar"
   },
   {
    "appid": 2379780,
@@ -663,6 +751,50 @@
    "slug": "bayonetta"
   },
   {
+   "appid": 284160,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 59.99
+     }
+    }
+   ],
+   "name": "BeamNG.drive",
+   "stores": {
+    "steam": {
+     "price": 59.99,
+     "regular": 59.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/284160/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/17f8af1312bc48e6cd90e5fb639d4981682af260/header.jpg",
+   "slug": "beamng-drive"
+  },
+  {
+   "appid": 2001760,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 199.99
+     }
+    }
+   ],
+   "name": "Beast of Reincarnation",
+   "stores": {
+    "steam": {
+     "price": 199.99,
+     "regular": 199.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2001760/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
+   "slug": "beast-of-reincarnation"
+  },
+  {
    "appid": 2556990,
    "history": [
     {
@@ -715,6 +847,28 @@
    "slug": "billie-bust-up"
   },
   {
+   "appid": 2358720,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 229.99
+     }
+    }
+   ],
+   "name": "Black Myth: Wukong",
+   "stores": {
+    "steam": {
+     "price": 229.99,
+     "regular": 229.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2358720/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg",
+   "slug": "black-myth-wukong"
+  },
+  {
    "appid": 2406770,
    "history": [
     {
@@ -735,6 +889,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/8d2765de57931435f802fa6757ad6920aea8646a/header_alt_assets_0.jpg",
    "slug": "bodycam"
+  },
+  {
+   "appid": 1285190,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 189.95
+     }
+    }
+   ],
+   "name": "Borderlands 4",
+   "stores": {
+    "steam": {
+     "price": 189.95,
+     "regular": 379.9,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/1285190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285190/986a88d1b0e1420b00183def2a7034508353afa3/header.jpg",
+   "slug": "borderlands-4"
   },
   {
    "appid": 5228920,
@@ -1313,6 +1489,28 @@
    "slug": "dark-soulstm-remastered"
   },
   {
+   "appid": 2989180,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 142.5
+     }
+    }
+   ],
+   "name": "Darwin's Paradox!",
+   "stores": {
+    "steam": {
+     "price": 142.5,
+     "regular": 142.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2989180/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2989180/header.jpg",
+   "slug": "darwins-paradox"
+  },
+  {
    "appid": 221100,
    "history": [
     {
@@ -1431,12 +1629,56 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg"
   },
   {
+   "appid": 1238060,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 59.0
+     }
+    }
+   ],
+   "name": "Dead Space™ 3",
+   "stores": {
+    "steam": {
+     "price": 59.0,
+     "regular": 59.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1238060/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238060/header.jpg",
+   "slug": "dead-spacetm-3"
+  },
+  {
    "appid": 1422450,
    "history": [],
    "name": "Deadlock",
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/aa249c5e8cc8f90941bd1dbdc311773cd1afe065/header.jpg",
    "slug": "deadlock"
+  },
+  {
+   "appid": 3280350,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 399.9
+     }
+    }
+   ],
+   "name": "DEATH STRANDING 2: ON THE BEACH",
+   "stores": {
+    "steam": {
+     "price": 399.9,
+     "regular": 399.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3280350/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/6270c77b0729e2df0a17d660286eeddfd9169386/header.jpg",
+   "slug": "death-stranding-2-on-the-beach"
   },
   {
    "appid": 1850570,
@@ -1643,6 +1885,28 @@
    "slug": "doom-64"
   },
   {
+   "appid": 782330,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 149.0
+     }
+    }
+   ],
+   "name": "DOOM Eternal",
+   "stores": {
+    "steam": {
+     "price": 149.0,
+     "regular": 149.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/782330/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/feaf8293bcd2d078422faa547bc0d707c08f606e/header.jpg",
+   "slug": "doom-eternal"
+  },
+  {
    "appid": 3017860,
    "history": [
     {
@@ -1663,6 +1927,14 @@
    },
    "slug": "doom-the-dark-ages",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg"
+  },
+  {
+   "appid": 2984800,
+   "history": [],
+   "name": "Double Whammy",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2984800/cb6b2bad12edf416fac0cd1a8220525d7ed9c2a3/header.jpg",
+   "slug": "double-whammy"
   },
   {
    "appid": 1790600,
@@ -1707,6 +1979,36 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg",
    "slug": "dragons-dogma-2"
+  },
+  {
+   "appid": 3629430,
+   "history": [],
+   "name": "DREADMOOR",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg",
+   "slug": "dreadmoor"
+  },
+  {
+   "appid": 2523740,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 87.29
+     }
+    }
+   ],
+   "name": "DreamWorks Shrek 2 Remastered",
+   "stores": {
+    "steam": {
+     "price": 87.29,
+     "regular": 96.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/2523740/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/abfa94e9a286146554386662e218aae82716711f/header.jpg",
+   "slug": "dreamworks-shrek-2-remastered"
   },
   {
    "appid": 4019220,
@@ -1825,6 +2127,28 @@
    "slug": "dynasty-warriors-origins"
   },
   {
+   "appid": 4080220,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 299.0
+     }
+    }
+   ],
+   "name": "EA SPORTS FC™ 27",
+   "stores": {
+    "steam": {
+     "price": 299.0,
+     "regular": 299.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4080220/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/ff6a3779f1ca83aae8ad3878454f6c11008ea24d/header.jpg",
+   "slug": "ea-sports-fctm-27"
+  },
+  {
    "appid": 1245620,
    "history": [
     {
@@ -1867,6 +2191,14 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622380/header.jpg",
    "slug": "elden-ring-nightreign"
+  },
+  {
+   "appid": 4725170,
+   "history": [],
+   "name": "Elven Huntress: Sunveil",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/a76455e3cba81a03cda09148f164ad06d5505758/header.jpg",
+   "slug": "elven-huntress-sunveil"
   },
   {
    "appid": 1203620,
@@ -1917,6 +2249,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/ae8bd1812254242c63c873d45f134d4056535439/header.jpg",
    "slug": "escape-from-playtime"
+  },
+  {
+   "appid": 3932890,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 115.0
+     }
+    }
+   ],
+   "name": "Escape from Tarkov",
+   "stores": {
+    "steam": {
+     "price": 115.0,
+     "regular": 115.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3932890/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932890/4dd12ea3b00a4f8b67bfd629f3b9abbf8d5cab05/header_alt_assets_2.jpg",
+   "slug": "escape-from-tarkov"
   },
   {
    "appid": 1943950,
@@ -2187,6 +2541,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3837340/467568ecc51ea77191ce048636a6f211c1c93a9f/header.jpg",
    "slug": "final-fantasy-vii"
+  },
+  {
+   "appid": 2909400,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 219.9
+     }
+    }
+   ],
+   "name": "FINAL FANTASY VII REBIRTH",
+   "stores": {
+    "steam": {
+     "price": 219.9,
+     "regular": 219.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2909400/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg",
+   "slug": "final-fantasy-vii-rebirth"
   },
   {
    "appid": 4354570,
@@ -2639,6 +3015,14 @@
    "slug": "groundwork-simulator"
   },
   {
+   "appid": 3734220,
+   "history": [],
+   "name": "Guns of Eschaton",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/d1506ed1c83ae8b6df13c5ea86f68f6a5ec04b2f/header.jpg",
+   "slug": "guns-of-eschaton"
+  },
+  {
    "appid": 1145360,
    "history": [
     {
@@ -2987,6 +3371,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/a1d37fb2bf0de54d1746d1aa4b83fb7ca81700d8/header.jpg",
    "slug": "invokyr"
+  },
+  {
+   "appid": 1153410,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 101.99
+     }
+    }
+   ],
+   "name": "JDM: Japanese Drift Master",
+   "stores": {
+    "steam": {
+     "price": 101.99,
+     "regular": 101.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1153410/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1153410/ac9c8b45e84c99bef6b6d26dd1fc82624faadd47/header.jpg",
+   "slug": "jdm-japanese-drift-master"
   },
   {
    "appid": 648350,
@@ -3519,6 +3925,28 @@
    "slug": "metal-gear-solid-v-the-phantom-pain"
   },
   {
+   "appid": 2417610,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 284.9
+     }
+    }
+   ],
+   "name": "METAL GEAR SOLID Δ: SNAKE EATER",
+   "stores": {
+    "steam": {
+     "price": 284.9,
+     "regular": 284.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2417610/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/05c97cbcd0cfc27c8ed6c7fc6d81e0995aa2a7d4/header.jpg",
+   "slug": "metal-gear-solid-snake-eater"
+  },
+  {
    "appid": 2306740,
    "history": [
     {
@@ -3789,6 +4217,28 @@
    "slug": "mortal-shell-ii"
   },
   {
+   "appid": 2830030,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 47.99
+     }
+    }
+   ],
+   "name": "MOTORSLICE",
+   "stores": {
+    "steam": {
+     "price": 47.99,
+     "regular": 59.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/2830030/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2830030/header.jpg",
+   "slug": "motorslice"
+  },
+  {
    "appid": 2416450,
    "history": [
     {
@@ -3809,6 +4259,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header.jpg",
    "slug": "mouse-p-i-for-hire"
+  },
+  {
+   "appid": 2111190,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 32.46
+     }
+    }
+   ],
+   "name": "MULLET MADJACK",
+   "stores": {
+    "steam": {
+     "price": 32.46,
+     "regular": 49.95,
+     "cut": 35,
+     "url": "https://store.steampowered.com/app/2111190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111190/header.jpg",
+   "slug": "mullet-madjack"
   },
   {
    "appid": 3247750,
@@ -3853,6 +4325,14 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1020790/header.jpg",
    "slug": "naruto-x-boruto-ultimate-ninja-storm-connections"
+  },
+  {
+   "appid": 2988120,
+   "history": [],
+   "name": "Never Be Alone",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988120/f3b6f052317d0b898424877318892499de559319/header.jpg",
+   "slug": "never-be-alone"
   },
   {
    "appid": 481510,
@@ -4203,6 +4683,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3024130/8d729d070576d199d119bff0de78022bb4151404/header.jpg",
    "slug": "pao-pao"
+  },
+  {
+   "appid": 2694490,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 79.8
+     }
+    }
+   ],
+   "name": "Path of Exile 2",
+   "stores": {
+    "steam": {
+     "price": 79.8,
+     "regular": 79.8,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2694490/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/24eeddcbda17903f03d819588757e40845f8115f/header.jpg",
+   "slug": "path-of-exile-2"
   },
   {
    "appid": 218620,
@@ -4861,6 +5363,28 @@
    "slug": "resident-evil-veronica"
   },
   {
+   "appid": 2713000,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 143.99
+     }
+    }
+   ],
+   "name": "Resonance: A Plague Tale Legacy",
+   "stores": {
+    "steam": {
+     "price": 143.99,
+     "regular": 179.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/2713000/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/fd497979801c646561040243e1aa64a73d11f13a/header.jpg",
+   "slug": "resonance-a-plague-tale-legacy"
+  },
+  {
    "appid": 391220,
    "history": [
     {
@@ -5053,6 +5577,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/513710/a33eb72f52841f591b296f78e46824d7aabb2c87/header.jpg",
    "slug": "scum"
+  },
+  {
+   "appid": 1172620,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 109.99
+     }
+    }
+   ],
+   "name": "Sea of Thieves: 2026 Edition",
+   "stores": {
+    "steam": {
+     "price": 109.99,
+     "regular": 109.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1172620/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/579c6d544424019a032f4add98e8f923925c1cef/header.jpg",
+   "slug": "sea-of-thieves-2026-edition"
   },
   {
    "appid": 814380,
@@ -5353,6 +5899,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045720/bb659b93138f2881c155b84c8896463acc041e9f/header.jpg",
    "slug": "squadron-42"
+  },
+  {
+   "appid": 4452700,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 179.1
+     }
+    }
+   ],
+   "name": "STAGE TOUR",
+   "stores": {
+    "steam": {
+     "price": 179.1,
+     "regular": 199.0,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/4452700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/7074777401ca32c928e7702567ee08c282ff7393/header.jpg",
+   "slug": "stage-tour"
   },
   {
    "appid": 2075800,
@@ -5759,6 +6327,50 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/612400/c6ec1628b962d5bed35d3851d79a4ec4931c18e2/header.jpg",
    "slug": "the-last-night"
+  },
+  {
+   "appid": 1888930,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "The Last of Us™ Parte I",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1888930/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg",
+   "slug": "the-last-of-ustm-parte-i"
+  },
+  {
+   "appid": 2531310,
+   "history": [
+    {
+     "d": "2026-11-03",
+     "p": {
+      "steam": 199.9
+     }
+    }
+   ],
+   "name": "The Last of Us™ Parte II Remastered",
+   "stores": {
+    "steam": {
+     "price": 199.9,
+     "regular": 199.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2531310/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg",
+   "slug": "the-last-of-ustm-parte-ii-remastered"
   },
   {
    "appid": 1449690,
