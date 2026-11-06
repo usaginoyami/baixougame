@@ -1,0 +1,144 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calendário de lançamentos de jogos | baixougame</title>
+<meta name="description" content="O que sai nos próximos meses e aviso de preço em reais. Calendário de lançamentos de jogos para PC, PlayStation, Xbox e Nintendo.">
+<link rel="canonical" href="https://usaginoyami.github.io/baixougame/lancamentos/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="baixougame">
+<meta property="og:title" content="Calendário de lançamentos de jogos | baixougame">
+<meta property="og:description" content="O que sai nos próximos meses, por mês e plataforma, com atalho para o preço em reais.">
+<meta property="og:url" content="https://usaginoyami.github.io/baixougame/lancamentos/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ff5566'/%3E%3Cpath d='M9 21l5-5 4 3 6-8' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../style.css">
+
+<header class="bar">
+  <div class="gutter">
+    <a class="logo" href="../" aria-label="baixougame, página inicial">baixou<span>game</span></a>
+    <nav class="nav" aria-label="Seções"><a href="./" aria-current="page">Lançamentos</a></nav>
+    <span class="cur" title="Preços em reais">R$<small>BRL</small></span>
+  </div>
+</header>
+
+<main class="gutter">
+  <p class="crumb"><a href="../">← Todos os jogos</a></p>
+  <h1 style="margin:0;font:700 28px/1.15 var(--font-display);letter-spacing:-0.01em">Calendário de lançamentos</h1>
+  <p class="foot" id="periodo">Carregando…</p>
+
+  <div id="destaque" class="notice" hidden></div>
+
+  <section class="toolbar" aria-label="Filtros">
+    <div id="chips-mes" class="chips" role="group" aria-label="Mês"></div>
+    <div id="chips-plat" class="chips" role="group" aria-label="Plataforma"></div>
+  </section>
+
+  <div id="lista" class="lc-month" aria-live="polite"></div>
+
+  <p class="foot">Datas coletadas de calendários públicos e podem mudar. Os itens com etiqueta amarela ainda não têm data firme. O botão "Seguir preço" abre a busca do baixougame com o nome do jogo; quando ele entrar no catálogo, o preço em reais aparece lá. Projeto independente, sem vínculo com as lojas ou editoras.</p>
+</main>
+
+<script src="dados.js"></script>
+<script>
+(function () {
+  const CFG = window.LANCAMENTOS_CONFIG || {};
+  const linkPreco = CFG.linkPreco || (t => '../?q=' + encodeURIComponent(t));
+  const PLATS = { 'Todas': null, 'PC': ['PC'], 'PlayStation': ['PS5'], 'Xbox': ['Xbox'], 'Nintendo': ['Switch', 'Switch 2'] };
+
+  function h(tag, attrs, ...kids) {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      if (k.startsWith('on')) e.addEventListener(k.slice(2), v);
+      else e.setAttribute(k, v === true ? '' : v);
+    }
+    for (const kid of kids.flat()) if (kid != null) e.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+    return e;
+  }
+  const parse = s => { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); };
+  const today = () => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); };
+  const diasAte = d => Math.round((d - today()) / 864e5);
+  const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+  const plural = n => n + (n === 1 ? ' lançamento' : ' lançamentos');
+  const quando = n => n === 0 ? 'hoje' : n === 1 ? 'amanhã' : 'em ' + n + ' dias';
+  const mesKey = d => d.getFullYear() + '-' + d.getMonth();
+
+  const jogos = (window.LANCAMENTOS || [])
+    .map(j => Object.assign({ _d: parse(j.data) }, j))
+    .filter(j => diasAte(j._d) >= 0)
+    .sort((a, b) => a._d - b._d);
+
+  const meses = [];
+  for (const j of jogos) {
+    const k = mesKey(j._d);
+    if (!meses.some(m => m.k === k)) meses.push({ k, nome: cap(j._d.toLocaleDateString('pt-BR', { month: 'long' })), ano: j._d.getFullYear() });
+  }
+
+  const state = { mes: 'todos', plat: 'Todas' };
+  const passa = j => { const alvo = PLATS[state.plat]; return !alvo || j.plataformas.some(p => alvo.includes(p)); };
+
+  function chip(label, pressed, onclick) {
+    return h('button', { class: 'chip', type: 'button', 'aria-pressed': String(pressed), onclick }, label);
+  }
+
+  function renderChips() {
+    const filtrados = jogos.filter(passa);
+    const cm = document.getElementById('chips-mes');
+    cm.replaceChildren(chip('Todos (' + filtrados.length + ')', state.mes === 'todos', () => { state.mes = 'todos'; render(); }));
+    for (const m of meses) {
+      const n = filtrados.filter(j => mesKey(j._d) === m.k).length;
+      cm.append(chip(m.nome + ' (' + n + ')', state.mes === m.k, () => { state.mes = m.k; render(); }));
+    }
+    const cp = document.getElementById('chips-plat');
+    cp.replaceChildren(...Object.keys(PLATS).map(nome => chip(nome, state.plat === nome, () => { state.plat = nome; render(); })));
+  }
+
+  function linha(j) {
+    const dow = j._d.toLocaleDateString('pt-BR', { weekday: 'short' }).replace('.', '');
+    const mes = j._d.toLocaleDateString('pt-BR', { month: 'short' }).replace('.', '');
+    return h('li', { class: 'lc-row' },
+      h('div', { class: 'lc-date' }, h('b', {}, String(j._d.getDate()).padStart(2, '0')), h('small', {}, dow + ' · ' + mes)),
+      h('div', { class: 'lc-info' },
+        h('div', { class: 'lc-title' }, h('h3', {}, j.titulo), h('span', { class: j.incerto ? 'lc-tag maybe' : 'lc-tag' }, j.tag || '')),
+        h('div', { class: 'lc-plats' }, j.plataformas.map(p => h('span', { class: 'lc-plat' }, p)))),
+      h('div', { class: 'lc-act' },
+        h('span', { class: 'lc-when' }, quando(diasAte(j._d))),
+        h('a', { class: 'linkbtn', href: linkPreco(j.titulo), 'aria-label': 'Seguir preço de ' + j.titulo }, 'Seguir preço')));
+  }
+
+  function renderLista() {
+    const cont = document.getElementById('lista');
+    cont.replaceChildren();
+    const filtrados = jogos.filter(passa);
+    let algum = false;
+    for (const m of meses) {
+      if (state.mes !== 'todos' && state.mes !== m.k) continue;
+      const doMes = filtrados.filter(j => mesKey(j._d) === m.k);
+      if (!doMes.length) continue;
+      algum = true;
+      cont.append(h('section', { class: 'lc-month', 'aria-label': m.nome + ' ' + m.ano },
+        h('div', { class: 'group' }, h('h2', {}, m.nome + ' ' + m.ano), h('span', { class: 'count' }, doMes.length)),
+        h('ul', { class: 'lc-list' }, doMes.map(linha))));
+    }
+    if (!algum) cont.append(h('p', { class: 'empty' }, 'Nenhum lançamento nessa combinação. Troque o mês ou a plataforma.'));
+  }
+
+  function render() { renderChips(); renderLista(); }
+
+  const per = document.getElementById('periodo');
+  per.textContent = meses.length
+    ? 'De ' + meses[0].nome.toLowerCase() + ' de ' + meses[0].ano + ' a ' + meses[meses.length - 1].nome.toLowerCase() + ' de ' + meses[meses.length - 1].ano + '. ' + plural(jogos.length) + '.'
+    : 'Nenhum lançamento futuro cadastrado.';
+
+  const d = jogos.find(j => j.destaque);
+  if (d) {
+    const n = diasAte(d._d);
+    const box = document.getElementById('destaque');
+    box.append(h('strong', {}, d.titulo), ' sai ' + quando(n) + ' (' + d._d.toLocaleDateString('pt-BR') + ') para ' + d.plataformas.join(' e ') + '.');
+    box.hidden = false;
+  }
+  render();
+})();
+</script>
