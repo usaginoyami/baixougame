@@ -1,0 +1,144 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jogos recompilados para PC | baixougame</title>
+<meta name="description" content="Lista de jogos recompilados e ports nativos para PC, por plataforma de origem, com link direto para o projeto. Atualizada pelo Usagi Game Launcher.">
+<link rel="canonical" href="https://usaginoyami.github.io/baixougame/recomp/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="baixougame">
+<meta property="og:title" content="Jogos recompilados para PC | baixougame">
+<meta property="og:description" content="Recompilações estáticas e ports nativos para PC, com busca e filtro por plataforma.">
+<meta property="og:url" content="https://usaginoyami.github.io/baixougame/recomp/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ff5566'/%3E%3Cpath d='M9 21l5-5 4 3 6-8' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../style.css">
+<style>
+  .rc-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+  .rc-cover { flex: none; width: 64px; height: 64px; border-radius: 6px; background: var(--surface-2); object-fit: cover; display: grid; place-items: center; font: 700 24px var(--font-display); color: var(--muted); overflow: hidden; }
+  .rc-desc { margin: 0; font-size: 13.5px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .rc-search { display: flex; margin: 12px 0 0; }
+  .rc-search input { flex: 1; min-width: 0; padding: 9px 12px; font: inherit; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+  .rc-search input:focus { outline: none; border-color: var(--accent); }
+</style>
+
+<header class="bar">
+  <div class="gutter">
+    <a class="logo" href="../" aria-label="baixougame, página inicial">baixou<span>game</span></a>
+    <nav class="nav" aria-label="Seções"><a href="../lancamentos/">Lançamentos</a><a href="./" aria-current="page">Recomp</a></nav>
+    <span class="cur" title="Preços em reais">R$<small>BRL</small></span>
+  </div>
+</header>
+
+<main class="gutter">
+  <p class="crumb"><a href="../">← Todos os jogos</a></p>
+  <h1 style="margin:0;font:700 28px/1.15 var(--font-display);letter-spacing:-0.01em">Jogos recompilados para PC</h1>
+  <p class="foot" id="periodo">Carregando…</p>
+
+  <label class="rc-search"><input id="q" type="search" placeholder="Buscar jogo" aria-label="Buscar jogo" autocomplete="off"></label>
+
+  <section class="toolbar" aria-label="Filtros">
+    <div id="chips-plat" class="chips" role="group" aria-label="Plataforma de origem"></div>
+  </section>
+
+  <div id="lista" aria-live="polite"></div>
+
+  <p class="foot">Esta página lê o catálogo publicado pelo Usagi Game Launcher e se atualiza sozinha quando ele publica uma versão nova. Os projetos são de terceiros: confira o repositório antes de baixar e tenha sua própria cópia do jogo, quando o projeto exigir. Projeto independente, sem vínculo com as lojas, editoras ou autores dos ports.</p>
+</main>
+
+<script src="config.js"></script>
+<script>
+(function () {
+  const CFG = window.RECOMP_CONFIG;
+  function h(tag, attrs, ...kids) {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      e.setAttribute(k, v === true ? '' : v);
+    }
+    for (const kid of kids.flat()) if (kid != null) e.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+    return e;
+  }
+  const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const plural = n => n + (n === 1 ? ' jogo' : ' jogos');
+  const httpsOnly = u => (/^https:\/\//i.test(u || '') ? u : '');
+
+  function projectUrl(g) {
+    if (httpsOnly(g.link)) return g.link;
+    if (/^gl:/.test(g.repo)) return 'https://gitlab.com/' + g.repo.slice(3);
+    return /^[\w.-]+\/[\w.-]+$/.test(g.repo || '') ? 'https://github.com/' + g.repo : '';
+  }
+  function releasesUrl(g) {
+    if (httpsOnly(g.link) || /^gl:/.test(g.repo)) return '';
+    return projectUrl(g) ? projectUrl(g) + '/releases/latest' : '';
+  }
+  function coverUrl(g) {
+    if (!g.cover) return '';
+    return /^covers\/[\w.-]+$/.test(g.cover) ? CFG.base + g.cover : httpsOnly(g.cover);
+  }
+
+  const state = { plat: 'Todas', q: '' };
+  let jogos = [];
+
+  function chip(label, pressed, onclick) {
+    const b = h('button', { class: 'chip', type: 'button', 'aria-pressed': String(pressed) }, label);
+    b.addEventListener('click', onclick);
+    return b;
+  }
+  const passa = g => (state.plat === 'Todas' || g.platform === state.plat) && (!state.q || norm(g.name + ' ' + g.platform + ' ' + g.description).includes(state.q));
+
+  function linha(g) {
+    const cu = coverUrl(g);
+    const capa = cu ? h('img', { class: 'rc-cover', src: cu, alt: '', loading: 'lazy', width: 64, height: 64 })
+                    : h('div', { class: 'rc-cover', 'aria-hidden': 'true' }, (g.name || '?').charAt(0).toUpperCase());
+    const pu = projectUrl(g), ru = releasesUrl(g);
+    return h('li', { class: 'lc-row rc-row' },
+      capa,
+      h('div', { class: 'lc-info' },
+        h('div', { class: 'lc-title' }, h('h3', {}, g.name), g.target ? h('span', { class: 'lc-tag' }, '→ ' + g.target) : null),
+        h('div', { class: 'lc-plats' }, h('span', { class: 'lc-plat' }, g.platform || 'Outros')),
+        g.description ? h('p', { class: 'rc-desc' }, g.description) : null),
+      h('div', { class: 'lc-act' },
+        pu ? h('a', { class: 'linkbtn', href: pu, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Abrir o projeto ' + g.name }, 'Projeto') : null,
+        ru ? h('a', { class: 'linkbtn primary', href: ru, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Baixar a release de ' + g.name }, 'Baixar') : null));
+  }
+
+  function render() {
+    const base = jogos.filter(g => !state.q || norm(g.name + ' ' + g.platform + ' ' + g.description).includes(state.q));
+    const plats = [...new Set(jogos.map(g => g.platform || 'Outros'))].sort((a, b) => a === 'Outros' ? 1 : b === 'Outros' ? -1 : a.localeCompare(b));
+    const cp = document.getElementById('chips-plat');
+    cp.replaceChildren(chip('Todas (' + base.length + ')', state.plat === 'Todas', () => { state.plat = 'Todas'; render(); }));
+    for (const p of plats) {
+      const n = base.filter(g => (g.platform || 'Outros') === p).length;
+      cp.append(chip(p + ' (' + n + ')', state.plat === p, () => { state.plat = p; render(); }));
+    }
+    const cont = document.getElementById('lista');
+    cont.replaceChildren();
+    const lista = jogos.filter(passa);
+    if (!lista.length) { cont.append(h('p', { class: 'empty' }, 'Nenhum jogo encontrado. Troque a plataforma ou a busca.')); return; }
+    const grupos = state.plat === 'Todas' ? plats : [state.plat];
+    for (const p of grupos) {
+      const doGrupo = lista.filter(g => (g.platform || 'Outros') === p);
+      if (!doGrupo.length) continue;
+      cont.append(h('section', { class: 'lc-month', 'aria-label': p },
+        h('div', { class: 'group' }, h('h2', {}, p), h('span', { class: 'count' }, doGrupo.length)),
+        h('ul', { class: 'lc-list' }, doGrupo.map(linha))));
+    }
+  }
+
+  document.getElementById('q').addEventListener('input', e => { state.q = norm(e.target.value.trim()); render(); });
+
+  fetch(CFG.base + 'catalog.json', { cache: 'no-cache' })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      jogos = (data.games || []).filter(g => g && g.name && !g.adult).sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+      const quando = data.updated ? new Date(data.updated).toLocaleDateString('pt-BR') : '';
+      document.getElementById('periodo').textContent = plural(jogos.length) + (quando ? '. Catálogo atualizado em ' + quando + '.' : '.');
+      render();
+    })
+    .catch(() => {
+      document.getElementById('periodo').textContent = 'Não consegui carregar o catálogo agora. Tente de novo em instantes.';
+    });
+})();
+</script>
