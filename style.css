@@ -366,3 +366,27 @@ td a { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
 
 .more-btn { justify-self: center; cursor: pointer; padding: 10px 22px; border-radius: 8px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font-weight: 600; }
 .more-btn:hover { background: var(--accent); color: var(--on-accent); }
+
+/* navegação do topo e calendário de lançamentos */
+.nav { display: flex; gap: 4px 18px; font-size: 14px; }
+.nav a { color: color-mix(in srgb, var(--bar-fg) 72%, transparent); text-decoration: none; }
+.nav a:hover, .nav a[aria-current="page"] { color: var(--bar-fg); }
+.lc-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.lc-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px;
+  padding: 12px 14px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+}
+.lc-date { flex: none; width: 64px; text-align: center; background: var(--surface-2); border-radius: 6px; padding: 6px 0; }
+.lc-date b { display: block; font: 700 24px/1 var(--font-display); }
+.lc-date small { display: block; margin-top: 3px; font-size: 11.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.lc-info { flex: 1 1 240px; min-width: 0; display: grid; gap: 6px; }
+.lc-title { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.lc-title h3 { margin: 0; font: 600 16px/1.3 var(--font-body); }
+.lc-tag { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
+.lc-tag.maybe { background: transparent; border: 1px solid var(--s3); color: var(--s3); }
+.lc-plats { display: flex; flex-wrap: wrap; gap: 6px; }
+.lc-plat { font: 500 12px var(--font-data); padding: 1px 8px; border: 1px solid var(--line); border-radius: 4px; color: var(--muted); }
+.lc-act { display: flex; align-items: center; gap: 14px; }
+.lc-when { font-size: 13px; color: var(--muted); }
+.lc-month { display: grid; gap: 10px; }
