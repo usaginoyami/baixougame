@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T17:26:41+00:00",
+ "updated": "2026-11-06T16:48:48+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1950,14 +1950,20 @@
      "p": {
       "steam": 206.5
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 123.9
+     }
     }
    ],
    "name": "DRAGON BALL: Sparking! ZERO",
    "stores": {
     "steam": {
-     "price": 206.5,
+     "price": 123.9,
      "regular": 206.5,
-     "cut": 0,
+     "cut": 40,
      "url": "https://store.steampowered.com/app/1790600/"
     }
    },
@@ -2206,9 +2212,23 @@
   },
   {
    "appid": 4725170,
-   "history": [],
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 42.79
+     }
+    }
+   ],
    "name": "Elven Huntress: Sunveil",
-   "stores": {},
+   "stores": {
+    "steam": {
+     "price": 42.79,
+     "regular": 53.49,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/4725170/"
+    }
+   },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/a76455e3cba81a03cda09148f164ad06d5505758/header.jpg",
    "slug": "elven-huntress-sunveil"
   },
@@ -2962,14 +2982,20 @@
      "p": {
       "steam": 74.95
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 149.9
+     }
     }
    ],
    "name": "Grand Theft Auto V Enhanced",
    "stores": {
     "steam": {
-     "price": 74.95,
+     "price": 149.9,
      "regular": 149.9,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3240220/"
     }
    },
@@ -3382,14 +3408,20 @@
      "p": {
       "steam": 119.4
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 199.0
+     }
     }
    ],
    "name": "Invincible VS",
    "stores": {
     "steam": {
-     "price": 119.4,
+     "price": 199.0,
      "regular": 199.0,
-     "cut": 40,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2353060/"
     }
    },
@@ -3766,14 +3798,20 @@
      "p": {
       "steam": 75.49
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 26.42
+     }
     }
    ],
    "name": "Little Witch Academia: Chamber of Time",
    "stores": {
     "steam": {
-     "price": 75.49,
+     "price": 26.42,
      "regular": 75.49,
-     "cut": 0,
+     "cut": 65,
      "url": "https://store.steampowered.com/app/710470/"
     }
    },
@@ -4044,14 +4082,20 @@
      "p": {
       "steam": 9.9
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 99.0
+     }
     }
    ],
    "name": "METRO 2033 Redux",
    "stores": {
     "steam": {
-     "price": 9.9,
+     "price": 99.0,
      "regular": 99.0,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/286690/"
     }
    },
@@ -4110,14 +4154,20 @@
      "p": {
       "steam": 9.9
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 99.0
+     }
     }
    ],
    "name": "METRO Last Light Redux",
    "stores": {
     "steam": {
-     "price": 9.9,
+     "price": 99.0,
      "regular": 99.0,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/287390/"
     }
    },
@@ -4414,14 +4464,20 @@
      "p": {
       "steam": 229.9
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 98.25
+     }
     }
    ],
    "name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
    "stores": {
     "steam": {
-     "price": 229.9,
-     "regular": 229.9,
-     "cut": 0,
+     "price": 98.25,
+     "regular": 327.5,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/1020790/"
     }
    },
@@ -6680,14 +6736,20 @@
      "p": {
       "steam": 13.49
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 134.99
+     }
     }
    ],
    "name": "The Walking Dead: The Telltale Definitive Series",
    "stores": {
     "steam": {
-     "price": 13.49,
+     "price": 134.99,
      "regular": 134.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1449690/"
     }
    },
