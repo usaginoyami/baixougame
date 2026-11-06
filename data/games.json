@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T16:48:48+00:00",
+ "updated": "2026-11-06T19:16:07+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -2045,6 +2045,28 @@
    "slug": "dressmaker"
   },
   {
+   "appid": 3053950,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 34.76
+     }
+    }
+   ],
+   "name": "Dungeon Rampage Remastered",
+   "stores": {
+    "steam": {
+     "price": 34.76,
+     "regular": 53.49,
+     "cut": 35,
+     "url": "https://store.steampowered.com/app/3053950/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3053950/eac09ebd91ad5af0c09404e715ea7672c2404120/header_alt_assets_2.jpg",
+   "slug": "dungeon-rampage-remastered"
+  },
+  {
    "appid": 1643310,
    "history": [
     {
@@ -3329,6 +3351,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg"
   },
   {
+   "appid": 3727090,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 74.19
+     }
+    }
+   ],
+   "name": "Horses of Hoofprint Bay",
+   "stores": {
+    "steam": {
+     "price": 74.19,
+     "regular": 87.29,
+     "cut": 15,
+     "url": "https://store.steampowered.com/app/3727090/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/05ecc629bbeefe5b64ea3acc33da82009bccf968/header.jpg",
+   "slug": "horses-of-hoofprint-bay"
+  },
+  {
    "appid": 5013160,
    "history": [
     {
@@ -3336,14 +3380,20 @@
      "p": {
       "steam": 19.19
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 23.99
+     }
     }
    ],
    "name": "Hubble Bubble",
    "stores": {
     "steam": {
-     "price": 19.19,
+     "price": 23.99,
      "regular": 23.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5013160/"
     }
    },
@@ -3379,6 +3429,28 @@
    "slug": "humanitz"
   },
   {
+   "appid": 2482760,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 111.99
+     }
+    }
+   ],
+   "name": "Hunting Simulator 3",
+   "stores": {
+    "steam": {
+     "price": 111.99,
+     "regular": 139.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/2482760/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482760/1a9f19af74790e1981ddb42e627edb9c1a8a6e9f/header_alt_assets_1.jpg",
+   "slug": "hunting-simulator-3"
+  },
+  {
    "appid": 245390,
    "history": [
     {
@@ -3399,6 +3471,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/245390/header.jpg",
    "slug": "i-have-no-mouth-and-i-must-scream"
+  },
+  {
+   "appid": 5475960,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 23.79
+     }
+    }
+   ],
+   "name": "Incremental Traffic",
+   "stores": {
+    "steam": {
+     "price": 23.79,
+     "regular": 33.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/5475960/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5475960/dc29630dc6764bee4bfc041b42ebbbcfd1cb706a/header.jpg",
+   "slug": "incremental-traffic"
   },
   {
    "appid": 2353060,
@@ -3510,14 +3604,20 @@
      "p": {
       "steam": 3.49
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 34.99
+     }
     }
    ],
    "name": "Killing Floor",
    "stores": {
     "steam": {
-     "price": 3.49,
+     "price": 34.99,
      "regular": 34.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1250/"
     }
    },
@@ -3817,6 +3917,28 @@
    },
    "slug": "little-witch-academia-chamber-of-time",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/710470/header.jpg"
+  },
+  {
+   "appid": 2320980,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 73.86
+     }
+    }
+   ],
+   "name": "Loftia",
+   "stores": {
+    "steam": {
+     "price": 73.86,
+     "regular": 88.99,
+     "cut": 17,
+     "url": "https://store.steampowered.com/app/2320980/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/header.jpg",
+   "slug": "loftia"
   },
   {
    "appid": 2658450,
@@ -4313,6 +4435,28 @@
    "slug": "moon-sweepers"
   },
   {
+   "appid": 2350790,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 57.84
+     }
+    }
+   ],
+   "name": "Moonlighter 2: The Endless Vault",
+   "stores": {
+    "steam": {
+     "price": 57.84,
+     "regular": 88.99,
+     "cut": 35,
+     "url": "https://store.steampowered.com/app/2350790/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/header.jpg",
+   "slug": "moonlighter-2-the-endless-vault"
+  },
+  {
    "appid": 1971870,
    "history": [
     {
@@ -4421,6 +4565,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2111190/header.jpg",
    "slug": "mullet-madjack"
+  },
+  {
+   "appid": 5181520,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 14.39
+     }
+    }
+   ],
+   "name": "Mycelarium",
+   "stores": {
+    "steam": {
+     "price": 14.39,
+     "regular": 17.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/5181520/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181520/5b6220116b49c7e7a968cc608d32e47bc8fe722f/header.jpg",
+   "slug": "mycelarium"
   },
   {
    "appid": 3247750,
@@ -5237,6 +5403,28 @@
    "slug": "prince-of-persia-the-sands-of-time"
   },
   {
+   "appid": 4348910,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 40.49
+     }
+    }
+   ],
+   "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+   "stores": {
+    "steam": {
+     "price": 40.49,
+     "regular": 44.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/4348910/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/b241a3bc1cb144e70a4840157e127212738ea5b3/header_alt_assets_3.jpg",
+   "slug": "probably-stolen-cyberpunk-shopkeeper-sim"
+  },
+  {
    "appid": 1799840,
    "history": [
     {
@@ -5244,14 +5432,20 @@
      "p": {
       "steam": 54.39
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 63.99
+     }
     }
    ],
    "name": "Queen's Domain",
    "stores": {
     "steam": {
-     "price": 54.39,
+     "price": 63.99,
      "regular": 63.99,
-     "cut": 15,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1799840/"
     }
    },
@@ -5394,14 +5588,20 @@
      "p": {
       "steam": 124.75
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 249.5
+     }
     }
    ],
    "name": "Red Dead Redemption",
    "stores": {
     "steam": {
-     "price": 124.75,
+     "price": 249.5,
      "regular": 249.5,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2668510/"
     }
    },
@@ -5670,14 +5870,20 @@
      "p": {
       "steam": 12.49
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 124.99
+     }
     }
    ],
    "name": "Rise of the Tomb Raider™",
    "stores": {
     "steam": {
-     "price": 12.49,
+     "price": 124.99,
      "regular": 124.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/391220/"
     }
    },
@@ -5914,14 +6120,20 @@
      "p": {
       "steam": 16.64
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 166.49
+     }
     }
    ],
    "name": "Shadow of the Tomb Raider: Definitive Edition",
    "stores": {
     "steam": {
-     "price": 16.64,
+     "price": 166.49,
      "regular": 166.49,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/750920/"
     }
    },
@@ -6880,14 +7092,20 @@
      "p": {
       "steam": 8.34
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 83.49
+     }
     }
    ],
    "name": "Tomb Raider Game of the Year",
    "stores": {
     "steam": {
-     "price": 8.34,
+     "price": 83.49,
      "regular": 83.49,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/203160/"
     }
    },
@@ -6902,14 +7120,20 @@
      "p": {
       "steam": 17.79
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Tomb Raider I-III Remastered Starring Lara Croft",
    "stores": {
     "steam": {
-     "price": 17.79,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2478970/"
     }
    },
@@ -6924,14 +7148,20 @@
      "p": {
       "steam": 17.79
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Tomb Raider IV-VI Remastered",
    "stores": {
     "steam": {
-     "price": 17.79,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2525380/"
     }
    },
@@ -6981,6 +7211,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3493540/4c179a79a6286b15575ca3f1a6ca620e5d159b19/header.jpg",
    "slug": "transport-fever-3"
+  },
+  {
+   "appid": 690640,
+   "history": [
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 88.99
+     }
+    }
+   ],
+   "name": "Trine 4: The Nightmare Prince",
+   "stores": {
+    "steam": {
+     "price": 88.99,
+     "regular": 88.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/690640/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690640/64169d6388ed69eb94b7c9d77e4e7fb80f597025/header.jpg",
+   "slug": "trine-4-the-nightmare-prince"
   },
   {
    "appid": 1967610,
@@ -7164,14 +7416,20 @@
      "p": {
       "steam": 50.49
      }
+    },
+    {
+     "d": "2026-11-06",
+     "p": {
+      "steam": 40.39
+     }
     }
    ],
    "name": "Well Dweller",
    "stores": {
     "steam": {
-     "price": 50.49,
+     "price": 40.39,
      "regular": 50.49,
-     "cut": 0,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/3699590/"
     }
    },
