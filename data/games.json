@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:16:07+00:00",
+ "updated": "2026-11-07T15:42:15+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -5047,14 +5047,7 @@
     }
    ],
    "name": "Path of Exile 2",
-   "stores": {
-    "steam": {
-     "price": 79.8,
-     "regular": 79.8,
-     "cut": 0,
-     "url": "https://store.steampowered.com/app/2694490/"
-    }
-   },
+   "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/24eeddcbda17903f03d819588757e40845f8115f/header.jpg",
    "slug": "path-of-exile-2"
   },
@@ -5644,14 +5637,20 @@
      "p": {
       "steam": 38.99
      }
+    },
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "REKA",
    "stores": {
     "steam": {
-     "price": 38.99,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 35,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1737870/"
     }
    },
