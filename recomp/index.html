@@ -23,6 +23,17 @@
   .rc-desc { margin: 8px 0 10px; padding: 0 12px; font-size: 13px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .rc-strip { gap: 8px; }
   .rc-strip .linkbtn { flex: 1; text-align: center; text-decoration: none; }
+  .rc-feat { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); margin: 18px 0 4px; background: var(--surface); border: 1px solid var(--accent); border-radius: 10px; overflow: hidden; }
+  .rc-feat .cover { aspect-ratio: auto; min-height: 220px; }
+  .rc-feat-body { display: flex; flex-direction: column; gap: 8px; padding: 16px; min-width: 0; }
+  .rc-feat-badge { align-self: flex-start; font: 600 11px/1.5 var(--font-body); letter-spacing: 0.06em; text-transform: uppercase; background: var(--accent); color: var(--on-accent); padding: 1px 9px; border-radius: 3px; }
+  .rc-feat h2 { margin: 0; font: 700 24px/1.2 var(--font-display); letter-spacing: -0.01em; }
+  .rc-feat .rc-repo, .rc-feat .rc-tags, .rc-feat .rc-meta, .rc-feat .rc-desc { padding: 0; margin: 0; }
+  .rc-feat .rc-desc { -webkit-line-clamp: 4; font-size: 14px; }
+  .rc-nota { margin: 0; padding: 8px 12px; border-left: 3px solid var(--accent); background: var(--surface-2); border-radius: 0 6px 6px 0; font-size: 14px; }
+  .rc-feat-act { display: flex; gap: 8px; margin-top: auto; padding-top: 6px; }
+  .rc-feat-act .linkbtn { text-decoration: none; padding-left: 18px; padding-right: 18px; }
+  @media (max-width: 700px) { .rc-feat { grid-template-columns: 1fr; } .rc-feat .cover { min-height: 0; aspect-ratio: 460 / 215; } }
   .rc-repo { margin: 0; padding: 0 12px; font: 500 12px var(--font-data); color: var(--muted); overflow-wrap: anywhere; }
   .rc-meta { display: flex; flex-wrap: wrap; gap: 4px 12px; padding: 0 12px; font-size: 12px; color: var(--muted); }
   .rc-meta b { color: var(--fg); font-weight: 600; }
@@ -45,6 +56,8 @@
   <p class="crumb"><a href="../">← Todos os jogos</a></p>
   <h1 style="margin:0;font:700 28px/1.15 var(--font-display);letter-spacing:-0.01em">Jogos recompilados para PC</h1>
   <p class="foot" id="periodo">Carregando…</p>
+
+  <section id="destaque" aria-label="Escolha do editor" hidden></section>
 
   <label class="rc-search"><input id="q" type="search" placeholder="Buscar jogo" aria-label="Buscar jogo" autocomplete="off"></label>
 
@@ -136,31 +149,62 @@
   const passaExtra = g => (!state.soRelease || !!st(g).release) && (!state.soAtivos || (pushT(g) && Date.now() - pushT(g) < ANO && !st(g).archived));
   const passa = g => (state.plat === 'Todas' || (g.platform || 'Outros') === state.plat) && passaBusca(g) && passaExtra(g);
 
-  function linha(g) {
-    const cu = coverUrl(g), s = st(g), rl = repoLabel(g);
-    const capa = h('span', { class: 'cover' },
+  function capaDe(g) {
+    const cu = coverUrl(g);
+    return h('span', { class: 'cover' },
       cu ? [h('img', { class: 'bg', src: cu, alt: '', loading: 'lazy' }), h('img', { class: 'fg', src: cu, alt: g.name, loading: 'lazy' })]
          : h('span', { class: 'ph', style: 'background:var(--surface-2)', 'aria-hidden': 'true' }, (g.name || '?').charAt(0).toUpperCase()));
-    const pu = projectUrl(g), ru = releasesUrl(g);
-    const meta = [];
+  }
+  function metaDe(g) {
+    const s = st(g), meta = [];
     if (typeof s.stars === 'number') meta.push(h('span', { title: s.stars.toLocaleString('pt-BR') + ' estrelas no GitHub' }, h('span', { class: 'rc-star' }, '★ '), h('b', {}, fmtStars(s.stars))));
     if (s.release) meta.push(h('span', {}, 'Release ', h('b', {}, s.release), s.release_date ? ' · ' + ago(ts(s.release_date)) : ''));
     else if (typeof s.stars === 'number') meta.push(h('span', {}, 'Sem release'));
     if (s.pushed) meta.push(h('span', {}, 'Atividade ' + ago(ts(s.pushed))));
+    return meta;
+  }
+  function tagsDe(g) {
+    return [h('span', { class: 'lc-plat' }, g.platform || 'Outros'),
+      g.target ? h('span', { class: 'lc-tag' }, '→ ' + g.target) : null,
+      st(g).archived ? h('span', { class: 'lc-tag rc-tag-old' }, 'Arquivado') : null];
+  }
+  function botoesDe(g) {
+    const pu = projectUrl(g), ru = releasesUrl(g);
+    return [pu ? h('a', { class: 'linkbtn', href: pu, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Abrir o projeto ' + g.name }, 'Projeto') : null,
+      ru ? h('a', { class: 'linkbtn primary', href: ru, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Baixar a release de ' + g.name }, 'Baixar') : null];
+  }
+
+  function linha(g) {
+    const rl = repoLabel(g), meta = metaDe(g);
     return h('li', {},
       h('article', { class: 'card rc-card' },
-        capa,
+        capaDe(g),
         h('div', { class: 'titlerow' }, h('h3', { class: 'name', style: 'margin:0' }, g.name)),
         rl ? h('p', { class: 'rc-repo' }, rl) : null,
-        h('div', { class: 'rc-tags', style: 'margin-top:8px' },
-          h('span', { class: 'lc-plat' }, g.platform || 'Outros'),
-          g.target ? h('span', { class: 'lc-tag' }, '→ ' + g.target) : null,
-          s.archived ? h('span', { class: 'lc-tag rc-tag-old' }, 'Arquivado') : null),
-        g.description ? h('p', { class: 'rc-desc' }, g.description) : h('p', { class: 'rc-desc' }),
+        h('div', { class: 'rc-tags', style: 'margin-top:8px' }, tagsDe(g)),
+        h('p', { class: 'rc-desc' }, g.description || ''),
         meta.length ? h('div', { class: 'rc-meta', style: 'margin-bottom:12px' }, meta) : null,
-        h('div', { class: 'strip rc-strip' },
-          pu ? h('a', { class: 'linkbtn', href: pu, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Abrir o projeto ' + g.name }, 'Projeto') : null,
-          ru ? h('a', { class: 'linkbtn primary', href: ru, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Baixar a release de ' + g.name }, 'Baixar') : null)));
+        h('div', { class: 'strip rc-strip' }, botoesDe(g))));
+  }
+
+  function renderDestaque() {
+    const box = document.getElementById('destaque');
+    const alvo = norm(CFG.destaque || '').trim();
+    const g = alvo && jogos.find(x => norm(x.repo) === alvo);
+    if (!g) { box.hidden = true; return; }
+    const rl = repoLabel(g), meta = metaDe(g);
+    box.replaceChildren(h('article', { class: 'rc-feat' },
+      capaDe(g),
+      h('div', { class: 'rc-feat-body' },
+        h('span', { class: 'rc-feat-badge' }, '★ Escolha do editor'),
+        h('h2', {}, g.name),
+        rl ? h('p', { class: 'rc-repo' }, rl) : null,
+        h('div', { class: 'rc-tags' }, tagsDe(g)),
+        CFG.nota ? h('p', { class: 'rc-nota' }, CFG.nota) : null,
+        g.description ? h('p', { class: 'rc-desc' }, g.description) : null,
+        meta.length ? h('div', { class: 'rc-meta' }, meta) : null,
+        h('div', { class: 'rc-feat-act' }, botoesDe(g)))));
+    box.hidden = false;
   }
 
   function render() {
@@ -217,6 +261,7 @@
       const o = document.querySelector('#sort option[value="estrelas"]');
       for (const v of ['estrelas', 'atualizado', 'release']) document.querySelector('#sort option[value="' + v + '"]').disabled = true;
     }
+    renderDestaque();
     render();
   }).catch(() => {
     document.getElementById('periodo').textContent = 'Não consegui carregar o catálogo agora. Tente de novo em instantes.';
