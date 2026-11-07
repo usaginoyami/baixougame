@@ -63,6 +63,7 @@
 
   <section class="toolbar" aria-label="Filtros">
     <div id="chips-plat" class="chips" role="group" aria-label="Plataforma de origem"></div>
+    <div id="chips-dest" class="chips" role="group" aria-label="Portado para"></div>
     <div id="chips-extra" class="chips" role="group" aria-label="Filtros extras"></div>
     <label class="sort">Ordenar por
       <select id="sort">
@@ -124,7 +125,8 @@
     const y = Math.floor(d / 365); return 'há ' + y + (y === 1 ? ' ano' : ' anos');
   }
 
-  const state = { plat: 'Todas', q: '', sort: 'novos', soRelease: false, soAtivos: false };
+  const destino = g => (g.target || '').trim() || 'Windows';
+  const state = { dest: 'Todos', plat: 'Todas', q: '', sort: 'novos', soRelease: false, soAtivos: false };
   let jogos = [], stats = {};
   const st = g => stats[g.repo] || {};
   const pushT = g => ts(st(g).pushed);
@@ -147,7 +149,8 @@
   const texto = g => norm(g.name + ' ' + g.repo + ' ' + g.platform + ' ' + g.description);
   const passaBusca = g => !state.q || texto(g).includes(state.q);
   const passaExtra = g => (!state.soRelease || !!st(g).release) && (!state.soAtivos || (pushT(g) && Date.now() - pushT(g) < ANO && !st(g).archived));
-  const passa = g => (state.plat === 'Todas' || (g.platform || 'Outros') === state.plat) && passaBusca(g) && passaExtra(g);
+  const passaDest = g => state.dest === 'Todos' || destino(g) === state.dest;
+  const passa = g => passaDest(g) && (state.plat === 'Todas' || (g.platform || 'Outros') === state.plat) && passaBusca(g) && passaExtra(g);
 
   function capaDe(g) {
     const cu = coverUrl(g);
@@ -165,7 +168,7 @@
   }
   function tagsDe(g) {
     return [h('span', { class: 'lc-plat' }, g.platform || 'Outros'),
-      g.target ? h('span', { class: 'lc-tag' }, '→ ' + g.target) : null,
+      h('span', { class: 'lc-tag', title: 'Portado para ' + destino(g) }, '→ ' + destino(g)),
       st(g).archived ? h('span', { class: 'lc-tag rc-tag-old' }, 'Arquivado') : null];
   }
   function botoesDe(g) {
@@ -208,13 +211,22 @@
   }
 
   function render() {
-    const base = jogos.filter(g => passaBusca(g) && passaExtra(g));
+    const base = jogos.filter(g => passaBusca(g) && passaExtra(g) && passaDest(g));
     const plats = [...new Set(jogos.map(g => g.platform || 'Outros'))].sort((a, b) => a === 'Outros' ? 1 : b === 'Outros' ? -1 : a.localeCompare(b));
     const cp = document.getElementById('chips-plat');
     cp.replaceChildren(chip('Todas (' + base.length + ')', state.plat === 'Todas', () => { state.plat = 'Todas'; render(); }));
     for (const p of plats) {
       const n = base.filter(g => (g.platform || 'Outros') === p).length;
       cp.append(chip(p + ' (' + n + ')', state.plat === p, () => { state.plat = p; render(); }));
+    }
+    const baseD = jogos.filter(g => passaBusca(g) && passaExtra(g) && (state.plat === 'Todas' || (g.platform || 'Outros') === state.plat));
+    const dests = [...new Set(jogos.map(destino))].sort((a, b) => a === 'Windows' ? -1 : b === 'Windows' ? 1 : a.localeCompare(b, 'pt-BR'));
+    const cd = document.getElementById('chips-dest');
+    cd.replaceChildren(h('span', { class: 'foot', style: 'align-self:center' }, 'Portado para:'),
+      chip('Todos (' + baseD.length + ')', state.dest === 'Todos', () => { state.dest = 'Todos'; render(); }));
+    for (const d of dests) {
+      const n = baseD.filter(g => destino(g) === d).length;
+      cd.append(chip('→ ' + d + ' (' + n + ')', state.dest === d, () => { state.dest = d; render(); }));
     }
     const ce = document.getElementById('chips-extra');
     const temStats = Object.keys(stats).length > 0;
@@ -227,7 +239,7 @@
     cont.replaceChildren();
     const ord = sorters[state.sort] || sorters.nome;
     const lista = jogos.filter(passa).sort(ord);
-    if (!lista.length) { cont.append(h('p', { class: 'empty' }, 'Nenhum jogo encontrado. Troque a plataforma, a busca ou os filtros.')); return; }
+    if (!lista.length) { cont.append(h('p', { class: 'empty' }, 'Nenhum jogo encontrado. Troque a plataforma, o destino, a busca ou os filtros.')); return; }
     if (state.sort !== 'nome') {
       cont.append(h('section', { class: 'lc-month', 'aria-label': 'Jogos' },
         h('div', { class: 'group' }, h('h2', {}, document.getElementById('sort').selectedOptions[0].textContent), h('span', { class: 'count' }, lista.length)),
