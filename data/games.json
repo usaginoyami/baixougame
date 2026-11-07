@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:34:43+00:00",
+ "updated": "2026-11-07T22:55:21+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -149,6 +149,28 @@
    },
    "slug": "a-story-about-my-uncle",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/278360/header.jpg"
+  },
+  {
+   "appid": 1904480,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 44.39
+     }
+    }
+   ],
+   "name": "Absolum",
+   "stores": {
+    "steam": {
+     "price": 44.39,
+     "regular": 73.99,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/1904480/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/65f868078425ea29b87cb85075fcd1b3a8b71400/header.jpg",
+   "slug": "absolum"
   },
   {
    "appid": 2288340,
@@ -327,6 +349,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/57300/header.jpg",
    "slug": "amnesia-the-dark-descent"
+  },
+  {
+   "appid": 3274580,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 179.99
+     }
+    }
+   ],
+   "name": "Anno 117: Pax Romana",
+   "stores": {
+    "steam": {
+     "price": 179.99,
+     "regular": 299.99,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/3274580/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/038d88b3917b4f1c6919c8120adabf86a6702085/header_alt_assets_5.jpg",
+   "slug": "anno-117-pax-romana"
   },
   {
    "appid": 1808500,
@@ -1279,6 +1323,28 @@
    "slug": "clive-barkers-hellraiser-revival"
   },
   {
+   "appid": 3204330,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 53.99
+     }
+    }
+   ],
+   "name": "Condado da Fortuna",
+   "stores": {
+    "steam": {
+     "price": 53.99,
+     "regular": 59.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/3204330/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204330/ba8e20addca1be635f30f545236b1144b33d1a7d/header_alt_assets_3.jpg",
+   "slug": "condado-da-fortuna"
+  },
+  {
    "appid": 3669870,
    "history": [
     {
@@ -1305,6 +1371,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/1e0c76e4253d347bb1304c3f213570251d924edf/header.jpg",
    "slug": "control-resonant"
+  },
+  {
+   "appid": 3581230,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 53.49
+     }
+    }
+   ],
+   "name": "Cozy Game Restoration",
+   "stores": {
+    "steam": {
+     "price": 53.49,
+     "regular": 53.49,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3581230/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3581230/72723670e61f2e3c107ec8f34a4acb06a7e8db20/header.jpg",
+   "slug": "cozy-game-restoration"
   },
   {
    "appid": 4312190,
@@ -1671,6 +1759,28 @@
    "slug": "deadlock"
   },
   {
+   "appid": 3026450,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 19.49
+     }
+    }
+   ],
+   "name": "Deadly Days: Roadtrip",
+   "stores": {
+    "steam": {
+     "price": 19.49,
+     "regular": 29.99,
+     "cut": 35,
+     "url": "https://store.steampowered.com/app/3026450/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3026450/aa28ee2993252e3f93edda9835367e0e277f953e/header_alt_assets_6.jpg",
+   "slug": "deadly-days-roadtrip"
+  },
+  {
    "appid": 3280350,
    "history": [
     {
@@ -1823,6 +1933,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614570/header.jpg",
    "slug": "dishonored-death-of-the-outsidertm"
+  },
+  {
+   "appid": 4049180,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 68.95
+     }
+    }
+   ],
+   "name": "Disney•Pixar Toy Story 3 Complete Edition",
+   "stores": {
+    "steam": {
+     "price": 68.95,
+     "regular": 68.95,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4049180/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/8d4e4c2c303b6bca383f7d3473400236096fbca2/header.jpg",
+   "slug": "disney-pixar-toy-story-3-complete-edition"
   },
   {
    "appid": 2592160,
@@ -2195,6 +2327,36 @@
    "slug": "ea-sports-fctm-27"
   },
   {
+   "appid": 4915700,
+   "history": [],
+   "name": "Ebbtide",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4915700/b2005f59eb292ca2909fb1bab06976ee1f89c47e/header.jpg",
+   "slug": "ebbtide"
+  },
+  {
+   "appid": 2244210,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 182.1
+     }
+    }
+   ],
+   "name": "Echoes of Aincrad",
+   "stores": {
+    "steam": {
+     "price": 182.1,
+     "regular": 303.5,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/2244210/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/25fb6350451b21ca824562c8d1eebe89091347cc/header.jpg",
+   "slug": "echoes-of-aincrad"
+  },
+  {
    "appid": 1245620,
    "history": [
     {
@@ -2543,6 +2705,28 @@
    "slug": "farming-simulator-25"
   },
   {
+   "appid": 2492040,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 14.99
+     }
+    }
+   ],
+   "name": "FATAL FURY: City of the Wolves",
+   "stores": {
+    "steam": {
+     "price": 14.99,
+     "regular": 59.99,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/2492040/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2492040/20f8f1e03649d45e095315cc4a99104dda0364ab/header.jpg",
+   "slug": "fatal-fury-city-of-the-wolves"
+  },
+  {
    "appid": 4121170,
    "history": [
     {
@@ -2701,6 +2885,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/header.jpg",
    "slug": "final-fantasy-xvi"
+  },
+  {
+   "appid": 5160800,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 41.21
+     }
+    }
+   ],
+   "name": "Find The Needle",
+   "stores": {
+    "steam": {
+     "price": 41.21,
+     "regular": 48.49,
+     "cut": 15,
+     "url": "https://store.steampowered.com/app/5160800/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160800/9ad39ef753543a194a7546ee8a17dc4b821cd021/header.jpg",
+   "slug": "find-the-needle"
   },
   {
    "appid": 3108510,
@@ -3085,6 +3291,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/316790/header.jpg",
    "slug": "grim-fandango-remastered"
+  },
+  {
+   "appid": 2661300,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 149.0
+     }
+    }
+   ],
+   "name": "Grounded 2",
+   "stores": {
+    "steam": {
+     "price": 149.0,
+     "regular": 149.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2661300/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/91c758b9591805d15b26d9fa185a8b9ebab0a334/header.jpg",
+   "slug": "grounded-2"
   },
   {
    "appid": 5306540,
@@ -3551,6 +3779,28 @@
    "slug": "invokyr"
   },
   {
+   "appid": 2950790,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 29.99
+     }
+    }
+   ],
+   "name": "IRON NEST: Heavy Turret Simulator",
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 39.99,
+     "cut": 25,
+     "url": "https://store.steampowered.com/app/2950790/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/b8652fd325ab17681cc56447390e21fd387e3ff8/header_alt_assets_1.jpg",
+   "slug": "iron-nest-heavy-turret-simulator"
+  },
+  {
    "appid": 1153410,
    "history": [
     {
@@ -3867,6 +4117,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2719590/header.jpg",
    "slug": "light-no-fire"
+  },
+  {
+   "appid": 1677110,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 71.99
+     }
+    }
+   ],
+   "name": "Lightyear Frontier",
+   "stores": {
+    "steam": {
+     "price": 71.99,
+     "regular": 89.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/1677110/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677110/f4aec944f634f189990fe69e6d353b5609787955/header_alt_assets_7.jpg",
+   "slug": "lightyear-frontier"
   },
   {
    "appid": 2072450,
@@ -6058,6 +6330,28 @@
    "slug": "restory-chill-electronics-repairs"
   },
   {
+   "appid": 3552140,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 34.99
+     }
+    }
+   ],
+   "name": "Retro Rewind - Video Store Simulator",
+   "stores": {
+    "steam": {
+     "price": 34.99,
+     "regular": 49.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/3552140/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552140/a37a3b1c921e27ee498414e109b06ff29ae2add5/header_alt_assets_0.jpg",
+   "slug": "retro-rewind-video-store-simulator"
+  },
+  {
    "appid": 391220,
    "history": [
     {
@@ -6084,6 +6378,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/29279804029df9b7540caef5c086c9f0393e2e2d/header_alt_assets_0.jpg",
    "slug": "rise-of-the-tomb-raidertm"
+  },
+  {
+   "appid": 2448570,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 24.5
+     }
+    }
+   ],
+   "name": "Road Rash™: Edição de 30.º Aniversário",
+   "stores": {
+    "steam": {
+     "price": 24.5,
+     "regular": 49.0,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/2448570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/a12ed683c51938590f28400c89cd8c8204e1e8db/header.jpg",
+   "slug": "road-rashtm-edicao-de-30-o-aniversario"
   },
   {
    "appid": 1374490,
@@ -7510,6 +7826,28 @@
    "slug": "twisted-tower"
   },
   {
+   "appid": 2411200,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 65.56
+     }
+    }
+   ],
+   "name": "Underkeep",
+   "stores": {
+    "steam": {
+     "price": 65.56,
+     "regular": 77.14,
+     "cut": 15,
+     "url": "https://store.steampowered.com/app/2411200/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2411200/be22c58d9f42d3d349198e87b3c192998047b053/header.jpg",
+   "slug": "underkeep"
+  },
+  {
    "appid": 2381520,
    "history": [],
    "name": "Unrecord",
@@ -7588,6 +7926,28 @@
    },
    "slug": "vampyr",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427290/header.jpg"
+  },
+  {
+   "appid": 2615540,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 47.99
+     }
+    }
+   ],
+   "name": "VOID/BREAKER",
+   "stores": {
+    "steam": {
+     "price": 47.99,
+     "regular": 79.99,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/2615540/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/4f3789458cfd9c3375c2926620b19640135f7c4a/header_alt_assets_8.jpg",
+   "slug": "void-breaker"
   },
   {
    "appid": 1867240,
@@ -7942,6 +8302,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760480/47b68109d87a169725e5735d9beb472970003b8e/header.jpg",
    "slug": "you-are-empty-absolute-edition"
+  },
+  {
+   "appid": 1211600,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 23.09
+     }
+    }
+   ],
+   "name": "ZED ZONE",
+   "stores": {
+    "steam": {
+     "price": 23.09,
+     "regular": 38.49,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/1211600/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/aac7446006d1fb3898eccf697406d0c357cf20a3/header_alt_assets_2.jpg",
+   "slug": "zed-zone"
   }
  ]
 }
