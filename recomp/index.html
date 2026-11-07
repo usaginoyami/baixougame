@@ -20,9 +20,14 @@
   .rc-card .cover .bg { position: absolute; inset: -12px; width: calc(100% + 24px); height: calc(100% + 24px); object-fit: cover; filter: blur(14px) brightness(0.7); }
   .rc-card .cover .fg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
   .rc-tags { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 12px; }
-  .rc-desc { margin: 8px 0 12px; padding: 0 12px; font-size: 13px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .rc-desc { margin: 8px 0 10px; padding: 0 12px; font-size: 13px; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .rc-strip { gap: 8px; }
   .rc-strip .linkbtn { flex: 1; text-align: center; text-decoration: none; }
+  .rc-repo { margin: 0; padding: 0 12px; font: 500 12px var(--font-data); color: var(--muted); overflow-wrap: anywhere; }
+  .rc-meta { display: flex; flex-wrap: wrap; gap: 4px 12px; padding: 0 12px; font-size: 12px; color: var(--muted); }
+  .rc-meta b { color: var(--fg); font-weight: 600; }
+  .rc-star { color: var(--s3); }
+  .rc-tag-old { border: 1px solid var(--s3); color: var(--s3); background: transparent; }
   .rc-search { display: flex; margin: 12px 0 0; }
   .rc-search input { flex: 1; min-width: 0; padding: 9px 12px; font: inherit; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
   .rc-search input:focus { outline: none; border-color: var(--accent); }
@@ -45,11 +50,21 @@
 
   <section class="toolbar" aria-label="Filtros">
     <div id="chips-plat" class="chips" role="group" aria-label="Plataforma de origem"></div>
+    <div id="chips-extra" class="chips" role="group" aria-label="Filtros extras"></div>
+    <label class="sort">Ordenar por
+      <select id="sort">
+        <option value="nome">Nome (A→Z)</option>
+        <option value="estrelas">Mais estrelas</option>
+        <option value="atualizado">Atualizados recentemente</option>
+        <option value="release">Release mais recente</option>
+        <option value="novos">Adicionados por último</option>
+      </select>
+    </label>
   </section>
 
   <div id="lista" aria-live="polite"></div>
 
-  <p class="foot">Esta página lê o catálogo publicado pelo Usagi Game Launcher e se atualiza sozinha quando ele publica uma versão nova. Os projetos são de terceiros: confira o repositório antes de baixar e tenha sua própria cópia do jogo, quando o projeto exigir. Projeto independente, sem vínculo com as lojas, editoras ou autores dos ports.</p>
+  <p class="foot">Esta página lê o catálogo publicado pelo Usagi Game Launcher e se atualiza sozinha quando ele publica uma versão nova. Estrelas, atividade e releases são coletadas do GitHub uma vez por dia. Os projetos são de terceiros: confira o repositório antes de baixar e tenha sua própria cópia do jogo, quando o projeto exigir. Projeto independente, sem vínculo com as lojas, editoras ou autores dos ports.</p>
 </main>
 
 <script src="config.js"></script>
@@ -68,50 +83,88 @@
   const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const plural = n => n + (n === 1 ? ' jogo' : ' jogos');
   const httpsOnly = u => (/^https:\/\//i.test(u || '') ? u : '');
+  const ts = s => { const t = Date.parse(s || ''); return isNaN(t) ? 0 : t; };
+  const gh = g => /^[\w.-]+\/[\w.-]+$/.test(g.repo || '');
 
   function projectUrl(g) {
     if (httpsOnly(g.link)) return g.link;
     if (/^gl:/.test(g.repo)) return 'https://gitlab.com/' + g.repo.slice(3);
-    return /^[\w.-]+\/[\w.-]+$/.test(g.repo || '') ? 'https://github.com/' + g.repo : '';
+    return gh(g) ? 'https://github.com/' + g.repo : '';
   }
   function releasesUrl(g) {
-    if (httpsOnly(g.link) || /^gl:/.test(g.repo)) return '';
-    return projectUrl(g) ? projectUrl(g) + '/releases/latest' : '';
+    if (httpsOnly(g.link) || !gh(g)) return '';
+    return projectUrl(g) + '/releases/latest';
   }
   function coverUrl(g) {
     if (!g.cover) return '';
     return /^covers\/[\w.-]+$/.test(g.cover) ? CFG.base + g.cover : httpsOnly(g.cover);
   }
+  function repoLabel(g) { return /^gl:/.test(g.repo) ? g.repo.slice(3) : (gh(g) ? g.repo : ''); }
 
-  const state = { plat: 'Todas', q: '' };
-  let jogos = [];
+  const fmtStars = n => n >= 1000 ? (n / 1000).toLocaleString('pt-BR', { maximumFractionDigits: 1 }) + ' mil' : String(n);
+  function ago(t) {
+    const d = Math.floor((Date.now() - t) / 864e5);
+    if (d < 1) return 'hoje';
+    if (d === 1) return 'ontem';
+    if (d < 30) return 'há ' + d + ' dias';
+    if (d < 365) { const m = Math.floor(d / 30); return 'há ' + m + (m === 1 ? ' mês' : ' meses'); }
+    const y = Math.floor(d / 365); return 'há ' + y + (y === 1 ? ' ano' : ' anos');
+  }
+
+  const state = { plat: 'Todas', q: '', sort: 'nome', soRelease: false, soAtivos: false };
+  let jogos = [], stats = {};
+  const st = g => stats[g.repo] || {};
+  const pushT = g => ts(st(g).pushed);
+  const relT = g => ts(st(g).release_date);
+  const ANO = 365 * 864e5;
+
+  const sorters = {
+    nome: (a, b) => a.name.localeCompare(b.name, 'pt-BR'),
+    estrelas: (a, b) => (st(b).stars || 0) - (st(a).stars || 0) || sorters.nome(a, b),
+    atualizado: (a, b) => pushT(b) - pushT(a) || sorters.nome(a, b),
+    release: (a, b) => relT(b) - relT(a) || sorters.nome(a, b),
+    novos: (a, b) => ts(b.added_at) - ts(a.added_at) || sorters.nome(a, b)
+  };
 
   function chip(label, pressed, onclick) {
     const b = h('button', { class: 'chip', type: 'button', 'aria-pressed': String(pressed) }, label);
     b.addEventListener('click', onclick);
     return b;
   }
-  const passa = g => (state.plat === 'Todas' || g.platform === state.plat) && (!state.q || norm(g.name + ' ' + g.platform + ' ' + g.description).includes(state.q));
+  const texto = g => norm(g.name + ' ' + g.repo + ' ' + g.platform + ' ' + g.description);
+  const passaBusca = g => !state.q || texto(g).includes(state.q);
+  const passaExtra = g => (!state.soRelease || !!st(g).release) && (!state.soAtivos || (pushT(g) && Date.now() - pushT(g) < ANO && !st(g).archived));
+  const passa = g => (state.plat === 'Todas' || (g.platform || 'Outros') === state.plat) && passaBusca(g) && passaExtra(g);
 
   function linha(g) {
-    const cu = coverUrl(g);
+    const cu = coverUrl(g), s = st(g), rl = repoLabel(g);
     const capa = h('span', { class: 'cover' },
       cu ? [h('img', { class: 'bg', src: cu, alt: '', loading: 'lazy' }), h('img', { class: 'fg', src: cu, alt: g.name, loading: 'lazy' })]
          : h('span', { class: 'ph', style: 'background:var(--surface-2)', 'aria-hidden': 'true' }, (g.name || '?').charAt(0).toUpperCase()));
     const pu = projectUrl(g), ru = releasesUrl(g);
+    const meta = [];
+    if (typeof s.stars === 'number') meta.push(h('span', { title: s.stars.toLocaleString('pt-BR') + ' estrelas no GitHub' }, h('span', { class: 'rc-star' }, '★ '), h('b', {}, fmtStars(s.stars))));
+    if (s.release) meta.push(h('span', {}, 'Release ', h('b', {}, s.release), s.release_date ? ' · ' + ago(ts(s.release_date)) : ''));
+    else if (typeof s.stars === 'number') meta.push(h('span', {}, 'Sem release'));
+    if (s.pushed) meta.push(h('span', {}, 'Atividade ' + ago(ts(s.pushed))));
     return h('li', {},
       h('article', { class: 'card rc-card' },
         capa,
         h('div', { class: 'titlerow' }, h('h3', { class: 'name', style: 'margin:0' }, g.name)),
-        h('div', { class: 'rc-tags' }, h('span', { class: 'lc-plat' }, g.platform || 'Outros'), g.target ? h('span', { class: 'lc-tag' }, '→ ' + g.target) : null),
+        rl ? h('p', { class: 'rc-repo' }, rl) : null,
+        h('div', { class: 'rc-tags', style: 'margin-top:8px' },
+          h('span', { class: 'lc-plat' }, g.platform || 'Outros'),
+          g.target ? h('span', { class: 'lc-tag' }, '→ ' + g.target) : null,
+          s.archived ? h('span', { class: 'lc-tag rc-tag-old' }, 'Arquivado') : null),
         g.description ? h('p', { class: 'rc-desc' }, g.description) : h('p', { class: 'rc-desc' }),
+        meta.length ? h('div', { class: 'rc-meta', style: 'margin-bottom:12px' }, meta) : null,
         h('div', { class: 'strip rc-strip' },
           pu ? h('a', { class: 'linkbtn', href: pu, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Abrir o projeto ' + g.name }, 'Projeto') : null,
           ru ? h('a', { class: 'linkbtn primary', href: ru, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Baixar a release de ' + g.name }, 'Baixar') : null)));
   }
 
   function render() {
-    const base = jogos.filter(g => !state.q || norm(g.name + ' ' + g.platform + ' ' + g.description).includes(state.q));
+    const base = jogos.filter(g => passaBusca(g) && passaExtra(g));
     const plats = [...new Set(jogos.map(g => g.platform || 'Outros'))].sort((a, b) => a === 'Outros' ? 1 : b === 'Outros' ? -1 : a.localeCompare(b));
     const cp = document.getElementById('chips-plat');
     cp.replaceChildren(chip('Todas (' + base.length + ')', state.plat === 'Todas', () => { state.plat = 'Todas'; render(); }));
@@ -119,10 +172,24 @@
       const n = base.filter(g => (g.platform || 'Outros') === p).length;
       cp.append(chip(p + ' (' + n + ')', state.plat === p, () => { state.plat = p; render(); }));
     }
+    const ce = document.getElementById('chips-extra');
+    const temStats = Object.keys(stats).length > 0;
+    ce.hidden = !temStats;
+    ce.replaceChildren(
+      chip('Com release', state.soRelease, () => { state.soRelease = !state.soRelease; render(); }),
+      chip('Ativos no último ano', state.soAtivos, () => { state.soAtivos = !state.soAtivos; render(); }));
+
     const cont = document.getElementById('lista');
     cont.replaceChildren();
-    const lista = jogos.filter(passa);
-    if (!lista.length) { cont.append(h('p', { class: 'empty' }, 'Nenhum jogo encontrado. Troque a plataforma ou a busca.')); return; }
+    const ord = sorters[state.sort] || sorters.nome;
+    const lista = jogos.filter(passa).sort(ord);
+    if (!lista.length) { cont.append(h('p', { class: 'empty' }, 'Nenhum jogo encontrado. Troque a plataforma, a busca ou os filtros.')); return; }
+    if (state.sort !== 'nome') {
+      cont.append(h('section', { class: 'lc-month', 'aria-label': 'Jogos' },
+        h('div', { class: 'group' }, h('h2', {}, document.getElementById('sort').selectedOptions[0].textContent), h('span', { class: 'count' }, lista.length)),
+        h('ul', { class: 'grid' }, lista.map(linha))));
+      return;
+    }
     const grupos = state.plat === 'Todas' ? plats : [state.plat];
     for (const p of grupos) {
       const doGrupo = lista.filter(g => (g.platform || 'Outros') === p);
@@ -134,17 +201,25 @@
   }
 
   document.getElementById('q').addEventListener('input', e => { state.q = norm(e.target.value.trim()); render(); });
+  document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
 
-  fetch(CFG.base + 'catalog.json', { cache: 'no-cache' })
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(data => {
-      jogos = (data.games || []).filter(g => g && g.name && !g.adult).sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
-      const quando = data.updated ? new Date(data.updated).toLocaleDateString('pt-BR') : '';
-      document.getElementById('periodo').textContent = plural(jogos.length) + (quando ? '. Catálogo atualizado em ' + quando + '.' : '.');
-      render();
-    })
-    .catch(() => {
-      document.getElementById('periodo').textContent = 'Não consegui carregar o catálogo agora. Tente de novo em instantes.';
-    });
+  const getJson = url => fetch(url, { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  Promise.all([
+    getJson(CFG.base + 'catalog.json'),
+    getJson('../data/recomp-stats.json').catch(() => null)
+  ]).then(([data, extra]) => {
+    stats = (extra && extra.stats) || {};
+    jogos = (data.games || []).filter(g => g && g.name && !g.adult);
+    const quando = data.updated ? new Date(data.updated).toLocaleDateString('pt-BR') : '';
+    const est = extra && extra.updated ? ' Estrelas atualizadas em ' + new Date(extra.updated).toLocaleDateString('pt-BR') + '.' : '';
+    document.getElementById('periodo').textContent = plural(jogos.length) + (quando ? '. Catálogo atualizado em ' + quando + '.' : '.') + est;
+    if (!Object.keys(stats).length) {
+      const o = document.querySelector('#sort option[value="estrelas"]');
+      for (const v of ['estrelas', 'atualizado', 'release']) document.querySelector('#sort option[value="' + v + '"]').disabled = true;
+    }
+    render();
+  }).catch(() => {
+    document.getElementById('periodo').textContent = 'Não consegui carregar o catálogo agora. Tente de novo em instantes.';
+  });
 })();
 </script>
