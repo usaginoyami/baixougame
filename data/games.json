@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:42:15+00:00",
+ "updated": "2026-11-07T22:34:43+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1020,14 +1020,20 @@
      "p": {
       "steam": 62.29
      }
+    },
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Cairn",
    "stores": {
     "steam": {
-     "price": 62.29,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 30,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1588550/"
     }
    },
@@ -3567,6 +3573,28 @@
    "slug": "jdm-japanese-drift-master"
   },
   {
+   "appid": 2058180,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 199.95
+     }
+    }
+   ],
+   "name": "Judgment",
+   "stores": {
+    "steam": {
+     "price": 199.95,
+     "regular": 199.95,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2058180/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058180/header.jpg",
+   "slug": "judgment"
+  },
+  {
    "appid": 648350,
    "history": [
     {
@@ -3632,14 +3660,20 @@
      "p": {
       "steam": 5.59
      }
+    },
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 55.99
+     }
     }
    ],
    "name": "Killing Floor 2",
    "stores": {
     "steam": {
-     "price": 5.59,
+     "price": 55.99,
      "regular": 55.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/232090/"
     }
    },
@@ -3835,6 +3869,28 @@
    "slug": "light-no-fire"
   },
   {
+   "appid": 2072450,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 299.9
+     }
+    }
+   ],
+   "name": "Like a Dragon: Infinite Wealth",
+   "stores": {
+    "steam": {
+     "price": 299.9,
+     "regular": 299.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2072450/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/header.jpg",
+   "slug": "like-a-dragon-infinite-wealth"
+  },
+  {
    "appid": 335670,
    "history": [
     {
@@ -3969,6 +4025,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4767480/a34e3c4d4088e71c7d2cdc5445dc950abd2521db/header.jpg",
    "slug": "lords-of-the-fallen-ii"
+  },
+  {
+   "appid": 2058190,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 164.9
+     }
+    }
+   ],
+   "name": "Lost Judgment",
+   "stores": {
+    "steam": {
+     "price": 164.9,
+     "regular": 164.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2058190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058190/header.jpg",
+   "slug": "lost-judgment"
   },
   {
    "appid": 826940,
@@ -4195,6 +4273,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/31d5f5ef4a143bf915429e307f37cab6e2939678/header.jpg",
    "slug": "metal-gear-solid-master-collection-vol-2"
+  },
+  {
+   "appid": 2679460,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 299.9
+     }
+    }
+   ],
+   "name": "Metaphor: ReFantazio",
+   "stores": {
+    "steam": {
+     "price": 299.9,
+     "regular": 299.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2679460/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/header.jpg",
+   "slug": "metaphor-refantazio"
   },
   {
    "appid": 286690,
@@ -5100,6 +5200,102 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/621060/header.jpg",
    "slug": "pc-building-simulator"
+  },
+  {
+   "appid": 2161700,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "Persona 3 Reload",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2161700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg",
+   "slug": "persona-3-reload"
+  },
+  {
+   "appid": 1113000,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 99.9
+     }
+    }
+   ],
+   "name": "Persona 4 Golden",
+   "stores": {
+    "steam": {
+     "price": 99.9,
+     "regular": 99.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1113000/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113000/header.jpg",
+   "slug": "persona-4-golden"
+  },
+  {
+   "appid": 2963950,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 299.9
+     }
+    }
+   ],
+   "name": "Persona 4 Revival ",
+   "stores": {
+    "steam": {
+     "price": 299.9,
+     "regular": 299.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2963950/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963950/e83b7da1c2e9ddbed1a27038bd86e9714b2aa893/header.jpg",
+   "slug": "persona-4-revival"
+  },
+  {
+   "appid": 1687950,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 249.9
+     }
+    }
+   ],
+   "name": "Persona 5 Royal",
+   "stores": {
+    "steam": {
+     "price": 249.9,
+     "regular": 249.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1687950/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+   "slug": "persona-5-royal"
+  },
+  {
+   "appid": 2649560,
+   "history": [],
+   "name": "Persona 6",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2649560/96402e10ba89cccb7906eecd235d7d812f8f9eb0/header.jpg",
+   "slug": "persona-6"
   },
   {
    "appid": 4115450,
@@ -6138,6 +6334,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/86f9744a410121ff869cc19f63aa9e3dfcf54b8d/header_alt_assets_0.jpg",
    "slug": "shadow-of-the-tomb-raider-definitive-edition"
+  },
+  {
+   "appid": 1875830,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 299.9
+     }
+    }
+   ],
+   "name": "Shin Megami Tensei V: Vengeance",
+   "stores": {
+    "steam": {
+     "price": 299.9,
+     "regular": 299.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1875830/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875830/header.jpg",
+   "slug": "shin-megami-tensei-v-vengeance"
   },
   {
    "appid": 2124490,
@@ -7234,6 +7452,28 @@
    "slug": "trine-4-the-nightmare-prince"
   },
   {
+   "appid": 1853440,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 215.1
+     }
+    }
+   ],
+   "name": "Tropico 7",
+   "stores": {
+    "steam": {
+     "price": 215.1,
+     "regular": 239.0,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/1853440/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1853440/cfa41f10c2e878497d77e100f9be08224eb686b9/header.jpg",
+   "slug": "tropico-7"
+  },
+  {
    "appid": 1967610,
    "history": [],
    "name": "Turok: Origins",
@@ -7518,6 +7758,168 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/7dbbe47ac51463eb1627581f5c048b94ef856d5c/header.jpg",
    "slug": "wuchang-fallen-feathers"
+  },
+  {
+   "appid": 2988580,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 199.9
+     }
+    }
+   ],
+   "name": "Yakuza 0 Director's Cut",
+   "stores": {
+    "steam": {
+     "price": 199.9,
+     "regular": 199.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2988580/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988580/aaceda0f5c16fce191e63f7342d07323e86a1156/header.jpg",
+   "slug": "yakuza-0-directors-cut"
+  },
+  {
+   "appid": 1088710,
+   "history": [],
+   "name": "Yakuza 3 Remastered",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088710/header.jpg",
+   "slug": "yakuza-3-remastered"
+  },
+  {
+   "appid": 1105500,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 89.5
+     }
+    }
+   ],
+   "name": "Yakuza 4 Remastered",
+   "stores": {
+    "steam": {
+     "price": 89.5,
+     "regular": 89.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1105500/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105500/header.jpg",
+   "slug": "yakuza-4-remastered"
+  },
+  {
+   "appid": 1105510,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 89.5
+     }
+    }
+   ],
+   "name": "Yakuza 5 Remastered",
+   "stores": {
+    "steam": {
+     "price": 89.5,
+     "regular": 89.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1105510/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105510/header.jpg",
+   "slug": "yakuza-5-remastered"
+  },
+  {
+   "appid": 1388590,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 89.5
+     }
+    }
+   ],
+   "name": "Yakuza 6: The Song of Life",
+   "stores": {
+    "steam": {
+     "price": 89.5,
+     "regular": 89.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1388590/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388590/header.jpg",
+   "slug": "yakuza-6-the-song-of-life"
+  },
+  {
+   "appid": 3717330,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 11.5
+     }
+    }
+   ],
+   "name": "Yakuza Kiwami",
+   "stores": {
+    "steam": {
+     "price": 11.5,
+     "regular": 11.5,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3717330/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717330/07bf98df23eb154febbf878a79ff02b915b6cc43/header.jpg",
+   "slug": "yakuza-kiwami"
+  },
+  {
+   "appid": 3717340,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 90.9
+     }
+    }
+   ],
+   "name": "Yakuza Kiwami 2",
+   "stores": {
+    "steam": {
+     "price": 90.9,
+     "regular": 90.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3717340/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717340/894621031b664c828e8114c42934a098e38d182b/header.jpg",
+   "slug": "yakuza-kiwami-2"
+  },
+  {
+   "appid": 1235140,
+   "history": [
+    {
+     "d": "2026-11-07",
+     "p": {
+      "steam": 99.9
+     }
+    }
+   ],
+   "name": "Yakuza: Like a Dragon",
+   "stores": {
+    "steam": {
+     "price": 99.9,
+     "regular": 99.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1235140/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235140/header.jpg",
+   "slug": "yakuza-like-a-dragon"
   },
   {
    "appid": 4760480,
