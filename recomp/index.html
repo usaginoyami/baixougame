@@ -66,11 +66,11 @@
     <div id="chips-extra" class="chips" role="group" aria-label="Filtros extras"></div>
     <label class="sort">Ordenar por
       <select id="sort">
+        <option value="novos" selected>Adicionados por último</option>
         <option value="nome">Nome (A→Z)</option>
         <option value="estrelas">Mais estrelas</option>
         <option value="atualizado">Atualizados recentemente</option>
         <option value="release">Release mais recente</option>
-        <option value="novos">Adicionados por último</option>
       </select>
     </label>
   </section>
@@ -124,7 +124,7 @@
     const y = Math.floor(d / 365); return 'há ' + y + (y === 1 ? ' ano' : ' anos');
   }
 
-  const state = { plat: 'Todas', q: '', sort: 'nome', soRelease: false, soAtivos: false };
+  const state = { plat: 'Todas', q: '', sort: 'novos', soRelease: false, soAtivos: false };
   let jogos = [], stats = {};
   const st = g => stats[g.repo] || {};
   const pushT = g => ts(st(g).pushed);
