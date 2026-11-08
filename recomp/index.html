@@ -125,7 +125,20 @@
     const y = Math.floor(d / 365); return 'há ' + y + (y === 1 ? ' ano' : ' anos');
   }
 
-  const destino = g => (g.target || '').trim() || 'Windows';
+  // "Portado para" pode ter várias plataformas ("Windows, Android" ou lista); cada uma é uma categoria.
+  // Vazio quer dizer só Windows.
+  const CANON = { windows: 'Windows', linux: 'Linux', macos: 'macOS', android: 'Android', switch: 'Switch', navegador: 'Navegador' };
+  const destinos = g => {
+    const cache = g._destinos;
+    if (cache) return cache;
+    const partes = Array.isArray(g.target) ? g.target : String(g.target || '').split(/[,;]/);
+    const out = [];
+    for (const p of partes) {
+      const t = String(p).replace(/\s+/g, ' ').trim().slice(0, 30), nome = CANON[t.toLowerCase()] || t;
+      if (nome && !out.some(o => o.toLowerCase() === nome.toLowerCase())) out.push(nome);
+    }
+    return (g._destinos = out.length ? out.slice(0, 8) : ['Windows']);
+  };
   const state = { dest: 'Todos', plat: 'Todas', q: '', sort: 'novos', soRelease: false, soAtivos: false };
   let jogos = [], stats = {};
   const st = g => stats[g.repo] || {};
@@ -149,7 +162,7 @@
   const texto = g => norm(g.name + ' ' + g.repo + ' ' + g.platform + ' ' + g.description);
   const passaBusca = g => !state.q || texto(g).includes(state.q);
   const passaExtra = g => (!state.soRelease || !!st(g).release) && (!state.soAtivos || (pushT(g) && Date.now() - pushT(g) < ANO && !st(g).archived));
-  const passaDest = g => state.dest === 'Todos' || destino(g) === state.dest;
+  const passaDest = g => state.dest === 'Todos' || destinos(g).includes(state.dest);
   const passa = g => passaDest(g) && (state.plat === 'Todas' || (g.platform || 'Outros') === state.plat) && passaBusca(g) && passaExtra(g);
 
   function capaDe(g) {
@@ -168,7 +181,7 @@
   }
   function tagsDe(g) {
     return [h('span', { class: 'lc-plat' }, g.platform || 'Outros'),
-      h('span', { class: 'lc-tag', title: 'Portado para ' + destino(g) }, '→ ' + destino(g)),
+      ...destinos(g).map(d => h('span', { class: 'lc-tag', title: 'Portado para ' + d }, '→ ' + d)),
       st(g).archived ? h('span', { class: 'lc-tag rc-tag-old' }, 'Arquivado') : null];
   }
   function botoesDe(g) {
@@ -220,12 +233,12 @@
       cp.append(chip(p + ' (' + n + ')', state.plat === p, () => { state.plat = p; render(); }));
     }
     const baseD = jogos.filter(g => passaBusca(g) && passaExtra(g) && (state.plat === 'Todas' || (g.platform || 'Outros') === state.plat));
-    const dests = [...new Set(jogos.map(destino))].sort((a, b) => a === 'Windows' ? -1 : b === 'Windows' ? 1 : a.localeCompare(b, 'pt-BR'));
+    const dests = [...new Set(jogos.flatMap(destinos))].sort((a, b) => a === 'Windows' ? -1 : b === 'Windows' ? 1 : a.localeCompare(b, 'pt-BR'));
     const cd = document.getElementById('chips-dest');
     cd.replaceChildren(h('span', { class: 'foot', style: 'align-self:center' }, 'Portado para:'),
       chip('Todos (' + baseD.length + ')', state.dest === 'Todos', () => { state.dest = 'Todos'; render(); }));
     for (const d of dests) {
-      const n = baseD.filter(g => destino(g) === d).length;
+      const n = baseD.filter(g => destinos(g).includes(d)).length;
       cd.append(chip('→ ' + d + ' (' + n + ')', state.dest === d, () => { state.dest = d; render(); }));
     }
     const ce = document.getElementById('chips-extra');
