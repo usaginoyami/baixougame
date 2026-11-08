@@ -4,7 +4,7 @@
 window.RECOMP_CONFIG = {
   // ESCOLHA DO EDITOR: o repositório em destaque no topo da página, no formato "dono/repo"
   // (o mesmo que aparece no card; precisa estar no catálogo). Deixe "" para esconder o espaço.
-  destaque: "sostenesfreitas/ocarina-recomp",
+  destaque: "NotRexed/Hookshot",
   // Opcional: uma frase sua sobre o porquê da escolha. Deixe "" para não mostrar.
   nota: "",
 
