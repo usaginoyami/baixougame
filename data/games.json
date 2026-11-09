@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T15:09:57+00:00",
+ "updated": "2026-11-09T19:52:09+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -24,14 +24,20 @@
      "p": {
       "steam": 203.94
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 299.0
+     }
     }
    ],
    "name": "007 First Light",
    "stores": {
     "steam": {
-     "price": 203.94,
-     "regular": 339.9,
-     "cut": 40,
+     "price": 299.0,
+     "regular": 299.0,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3768760/"
     }
    },
@@ -108,14 +114,20 @@
      "p": {
       "steam": 53.97
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 179.9
+     }
     }
    ],
    "name": "A Plague Tale: Requiem",
    "stores": {
     "steam": {
-     "price": 53.97,
+     "price": 179.9,
      "regular": 179.9,
-     "cut": 70,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1182900/"
     }
    },
@@ -136,14 +148,20 @@
      "p": {
       "steam": 11.15
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 55.79
+     }
     }
    ],
    "name": "A Story About My Uncle",
    "stores": {
     "steam": {
-     "price": 11.15,
+     "price": 55.79,
      "regular": 55.79,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/278360/"
     }
    },
@@ -1320,14 +1338,20 @@
      "p": {
       "steam": 149.9
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 143.92
+     }
     }
    ],
    "name": "Clive Barker's Hellraiser: Revival",
    "stores": {
     "steam": {
-     "price": 149.9,
-     "regular": 149.9,
-     "cut": 0,
+     "price": 143.92,
+     "regular": 179.9,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/1551980/"
     }
    },
@@ -2004,14 +2028,20 @@
      "p": {
       "steam": 31.49
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 34.99
+     }
     }
    ],
    "name": "Divine Frequency",
    "stores": {
     "steam": {
-     "price": 31.49,
+     "price": 34.99,
      "regular": 34.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2548880/"
     }
    },
@@ -2238,14 +2268,20 @@
      "p": {
       "steam": 109.5
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 219.0
+     }
     }
    ],
    "name": "Dungeons 4",
    "stores": {
     "steam": {
-     "price": 109.5,
+     "price": 219.0,
      "regular": 219.0,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1643310/"
     }
    },
@@ -2266,14 +2302,20 @@
      "p": {
       "steam": 9.9
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 99.0
+     }
     }
    ],
    "name": "Dying Light",
    "stores": {
     "steam": {
-     "price": 9.9,
+     "price": 99.0,
      "regular": 99.0,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/239140/"
     }
    },
@@ -2288,14 +2330,20 @@
      "p": {
       "steam": 124.5
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 249.0
+     }
     }
    ],
    "name": "Dying Light: The Beast",
    "stores": {
     "steam": {
-     "price": 124.5,
+     "price": 249.0,
      "regular": 249.0,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3008130/"
     }
    },
@@ -2534,14 +2582,20 @@
      "p": {
       "steam": 20.79
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 25.99
+     }
     }
    ],
    "name": "Escape the Backrooms",
    "stores": {
     "steam": {
-     "price": 20.79,
+     "price": 25.99,
      "regular": 25.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1943950/"
     }
    },
@@ -3546,14 +3600,20 @@
      "p": {
       "steam": 36.99
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 3.69
+     }
     }
    ],
    "name": "Hitman: Absolution™",
    "stores": {
     "steam": {
-     "price": 36.99,
+     "price": 3.69,
      "regular": 36.99,
-     "cut": 0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/203140/"
     }
    },
@@ -4890,14 +4950,20 @@
      "p": {
       "steam": 159.0
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 119.25
+     }
     }
    ],
    "name": "Mortal Shell II",
    "stores": {
     "steam": {
-     "price": 159.0,
+     "price": 119.25,
      "regular": 159.0,
-     "cut": 0,
+     "cut": 25,
      "url": "https://store.steampowered.com/app/2584270/"
     }
    },
@@ -5076,14 +5142,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "Night in the Woods",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/481510/"
     }
    },
@@ -5126,14 +5198,20 @@
      "p": {
       "steam": 64.8
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 162.0
+     }
     }
    ],
    "name": "No Man's Sky",
    "stores": {
     "steam": {
-     "price": 64.8,
+     "price": 162.0,
      "regular": 162.0,
-     "cut": 60,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/275850/"
     }
    },
@@ -5426,14 +5504,20 @@
      "p": {
       "steam": 28.19
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 46.99
+     }
     }
    ],
    "name": "PAO PAO",
    "stores": {
     "steam": {
-     "price": 28.19,
+     "price": 46.99,
      "regular": 46.99,
-     "cut": 40,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3024130/"
     }
    },
@@ -5959,14 +6043,20 @@
      "p": {
       "steam": 19.49
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 29.99
+     }
     }
    ],
    "name": "R.E.P.O.",
    "stores": {
     "steam": {
-     "price": 19.49,
+     "price": 29.99,
      "regular": 29.99,
-     "cut": 35,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3241660/"
     }
    },
@@ -6319,14 +6409,20 @@
      "p": {
       "steam": 143.99
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 179.99
+     }
     }
    ],
    "name": "Resonance: A Plague Tale Legacy",
    "stores": {
     "steam": {
-     "price": 143.99,
+     "price": 179.99,
      "regular": 179.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2713000/"
     }
    },
@@ -6475,14 +6571,20 @@
      "p": {
       "steam": 59.99
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 119.99
+     }
     }
    ],
    "name": "Rust",
    "stores": {
     "steam": {
-     "price": 59.99,
+     "price": 119.99,
      "regular": 119.99,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/252490/"
     }
    },
@@ -7945,14 +8047,20 @@
      "p": {
       "steam": 13.99
      }
+    },
+    {
+     "d": "2026-11-09",
+     "p": {
+      "steam": 139.9
+     }
     }
    ],
    "name": "Vampyr",
    "stores": {
     "steam": {
-     "price": 13.99,
+     "price": 139.9,
      "regular": 139.9,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/427290/"
     }
    },
