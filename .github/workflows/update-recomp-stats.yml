@@ -4,7 +4,9 @@ name: Atualizar estrelas do Recomp
 # O catálogo vem do Usagi Game Launcher; este workflow só grava data/recomp-stats.json.
 on:
   schedule:
-    - cron: "43 9 * * *"   # todo dia às 06:43 no horário de Brasília
+     - cron: "43 9 * * *"
+    - cron: "43 15 * * *"
+    - cron: "43 21 * * *"   # todo dia às 06:43 no horário de Brasília
   workflow_dispatch:
 
 permissions:
