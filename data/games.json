@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T19:52:09+00:00",
+ "updated": "2026-11-10T17:05:14+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -532,14 +532,20 @@
      "p": {
       "steam": 224.99
      }
+    },
+    {
+     "d": "2026-11-10",
+     "p": {
+      "steam": 299.99
+     }
     }
    ],
    "name": "Assassin's Creed Black Flag Resynced",
    "stores": {
     "steam": {
-     "price": 224.99,
+     "price": 299.99,
      "regular": 299.99,
-     "cut": 25,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3751950/"
     }
    },
@@ -560,14 +566,20 @@
      "p": {
       "steam": 8.99
      }
+    },
+    {
+     "d": "2026-11-10",
+     "p": {
+      "steam": 29.99
+     }
     }
    ],
    "name": "Assassin’s Creed® Chronicles: China",
    "stores": {
     "steam": {
-     "price": 8.99,
+     "price": 29.99,
      "regular": 29.99,
-     "cut": 70,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/354380/"
     }
    },
@@ -588,14 +600,20 @@
      "p": {
       "steam": 8.99
      }
+    },
+    {
+     "d": "2026-11-10",
+     "p": {
+      "steam": 29.99
+     }
     }
    ],
    "name": "Assassin’s Creed® Chronicles: India",
    "stores": {
     "steam": {
-     "price": 8.99,
+     "price": 29.99,
      "regular": 29.99,
-     "cut": 70,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/359610/"
     }
    },
@@ -616,14 +634,20 @@
      "p": {
       "steam": 8.99
      }
+    },
+    {
+     "d": "2026-11-10",
+     "p": {
+      "steam": 29.99
+     }
     }
    ],
    "name": "Assassin’s Creed® Chronicles: Russia",
    "stores": {
     "steam": {
-     "price": 8.99,
+     "price": 29.99,
      "regular": 29.99,
-     "cut": 70,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/359600/"
     }
    },
@@ -5254,14 +5278,20 @@
      "p": {
       "steam": 43.64
      }
+    },
+    {
+     "d": "2026-11-10",
+     "p": {
+      "steam": 48.49
+     }
     }
    ],
    "name": "Nomad Drive",
    "stores": {
     "steam": {
-     "price": 43.64,
+     "price": 48.49,
      "regular": 48.49,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2223980/"
     }
    },
@@ -5877,14 +5907,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-10",
+     "p": {
+      "steam": 5.99
+     }
     }
    ],
    "name": "Prince of Persia: The Forgotten Sands™",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 5.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/33320/"
     }
    },
@@ -7369,14 +7405,20 @@
      "p": {
       "steam": 8.9
      }
+    },
+    {
+     "d": "2026-11-10",
+     "p": {
+      "steam": 89.0
+     }
     }
    ],
    "name": "Tchia",
    "stores": {
     "steam": {
-     "price": 8.9,
+     "price": 89.0,
      "regular": 89.0,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1496590/"
     }
    },
@@ -7463,14 +7505,20 @@
      "p": {
       "steam": 46.39
      }
+    },
+    {
+     "d": "2026-11-10",
+     "p": {
+      "steam": 57.99
+     }
     }
    ],
    "name": "The Boss Gangster: Criminal Empire",
    "stores": {
     "steam": {
-     "price": 46.39,
+     "price": 57.99,
      "regular": 57.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2774040/"
     }
    },
