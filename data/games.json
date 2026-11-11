@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:05:14+00:00",
+ "updated": "2026-11-11T17:12:31+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1418,14 +1418,20 @@
      "p": {
       "steam": 183.99
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 229.99
+     }
     }
    ],
    "name": "CONTROL Resonant",
    "stores": {
     "steam": {
-     "price": 183.99,
+     "price": 229.99,
      "regular": 229.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3669870/"
     }
    },
@@ -2160,14 +2166,20 @@
      "p": {
       "steam": 123.9
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 206.5
+     }
     }
    ],
    "name": "DRAGON BALL: Sparking! ZERO",
    "stores": {
     "steam": {
-     "price": 123.9,
+     "price": 206.5,
      "regular": 206.5,
-     "cut": 40,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1790600/"
     }
    },
@@ -2440,14 +2452,20 @@
      "p": {
       "steam": 182.1
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 303.5
+     }
     }
    ],
    "name": "Echoes of Aincrad",
    "stores": {
     "steam": {
-     "price": 182.1,
+     "price": 303.5,
      "regular": 303.5,
-     "cut": 40,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2244210/"
     }
    },
@@ -4348,14 +4366,20 @@
      "p": {
       "steam": 26.42
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 75.49
+     }
     }
    ],
    "name": "Little Witch Academia: Chamber of Time",
    "stores": {
     "steam": {
-     "price": 26.42,
+     "price": 75.49,
      "regular": 75.49,
-     "cut": 65,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/710470/"
     }
    },
@@ -5068,14 +5092,20 @@
      "p": {
       "steam": 14.39
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 17.99
+     }
     }
    ],
    "name": "Mycelarium",
    "stores": {
     "steam": {
-     "price": 14.39,
+     "price": 17.99,
      "regular": 17.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5181520/"
     }
    },
@@ -5130,14 +5160,20 @@
      "p": {
       "steam": 98.25
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 229.9
+     }
     }
    ],
    "name": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
    "stores": {
     "steam": {
-     "price": 98.25,
-     "regular": 327.5,
-     "cut": 70,
+     "price": 229.9,
+     "regular": 229.9,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1020790/"
     }
    },
@@ -6023,14 +6059,20 @@
      "p": {
       "steam": 40.49
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 44.99
+     }
     }
    ],
    "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
    "stores": {
     "steam": {
-     "price": 40.49,
+     "price": 44.99,
      "regular": 44.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/4348910/"
     }
    },
@@ -7411,14 +7453,20 @@
      "p": {
       "steam": 89.0
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 10.2
+     }
     }
    ],
    "name": "Tchia",
    "stores": {
     "steam": {
-     "price": 89.0,
-     "regular": 89.0,
-     "cut": 0,
+     "price": 10.2,
+     "regular": 102.0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/1496590/"
     }
    },
@@ -8067,14 +8115,20 @@
      "p": {
       "steam": 2.68
      }
+    },
+    {
+     "d": "2026-11-11",
+     "p": {
+      "steam": 26.89
+     }
     }
    ],
    "name": "Vampire's Fall: Origins",
    "stores": {
     "steam": {
-     "price": 2.68,
+     "price": 26.89,
      "regular": 26.89,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1167950/"
     }
    },
@@ -8480,14 +8534,7 @@
     }
    ],
    "name": "You Are Empty: Absolute Edition",
-   "stores": {
-    "steam": {
-     "price": 29.99,
-     "regular": 29.99,
-     "cut": 0,
-     "url": "https://store.steampowered.com/app/4760480/"
-    }
-   },
+   "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760480/47b68109d87a169725e5735d9beb472970003b8e/header.jpg",
    "slug": "you-are-empty-absolute-edition"
   },
