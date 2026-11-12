@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T17:12:31+00:00",
+ "updated": "2026-11-12T17:37:40+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1340,14 +1340,20 @@
      "p": {
       "steam": 159.2
      }
+    },
+    {
+     "d": "2026-11-12",
+     "p": {
+      "steam": 199.0
+     }
     }
    ],
    "name": "Clair Obscur: Expedition 33",
    "stores": {
     "steam": {
-     "price": 159.2,
+     "price": 199.0,
      "regular": 199.0,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1903340/"
     }
    },
@@ -1832,14 +1838,20 @@
      "p": {
       "steam": 19.49
      }
+    },
+    {
+     "d": "2026-11-12",
+     "p": {
+      "steam": 29.99
+     }
     }
    ],
    "name": "Deadly Days: Roadtrip",
    "stores": {
     "steam": {
-     "price": 19.49,
+     "price": 29.99,
      "regular": 29.99,
-     "cut": 35,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3026450/"
     }
    },
@@ -3720,14 +3732,20 @@
      "p": {
       "steam": 74.19
      }
+    },
+    {
+     "d": "2026-11-12",
+     "p": {
+      "steam": 87.29
+     }
     }
    ],
    "name": "Horses of Hoofprint Bay",
    "stores": {
     "steam": {
-     "price": 74.19,
+     "price": 87.29,
      "regular": 87.29,
-     "cut": 15,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3727090/"
     }
    },
@@ -3798,14 +3816,20 @@
      "p": {
       "steam": 111.99
      }
+    },
+    {
+     "d": "2026-11-12",
+     "p": {
+      "steam": 139.99
+     }
     }
    ],
    "name": "Hunting Simulator 3",
    "stores": {
     "steam": {
-     "price": 111.99,
+     "price": 139.99,
      "regular": 139.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2482760/"
     }
    },
@@ -7609,14 +7633,20 @@
      "p": {
       "steam": 149.0
      }
+    },
+    {
+     "d": "2026-11-12",
+     "p": {
+      "steam": 29.8
+     }
     }
    ],
    "name": "The Elder Scrolls V: Skyrim Special Edition",
    "stores": {
     "steam": {
-     "price": 149.0,
+     "price": 29.8,
      "regular": 149.0,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/489830/"
     }
    },
@@ -7805,14 +7835,20 @@
      "p": {
       "steam": 67.19
      }
+    },
+    {
+     "d": "2026-11-12",
+     "p": {
+      "steam": 83.99
+     }
     }
    ],
    "name": "The Wolf Among Us Remastered",
    "stores": {
     "steam": {
-     "price": 67.19,
+     "price": 83.99,
      "regular": 83.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3884860/"
     }
    },
