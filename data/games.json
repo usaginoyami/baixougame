@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T17:37:40+00:00",
+ "updated": "2026-11-13T17:15:05+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -4284,14 +4284,20 @@
      "p": {
       "steam": 71.99
      }
+    },
+    {
+     "d": "2026-11-13",
+     "p": {
+      "steam": 89.99
+     }
     }
    ],
    "name": "Lightyear Frontier",
    "stores": {
     "steam": {
-     "price": 71.99,
+     "price": 89.99,
      "regular": 89.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1677110/"
     }
    },
@@ -4718,13 +4724,19 @@
      "p": {
       "steam": 299.9
      }
+    },
+    {
+     "d": "2026-11-13",
+     "p": {
+      "steam": 167.9
+     }
     }
    ],
    "name": "Metaphor: ReFantazio",
    "stores": {
     "steam": {
-     "price": 299.9,
-     "regular": 299.9,
+     "price": 167.9,
+     "regular": 167.9,
      "cut": 0,
      "url": "https://store.steampowered.com/app/2679460/"
     }
@@ -5094,14 +5106,20 @@
      "p": {
       "steam": 32.46
      }
+    },
+    {
+     "d": "2026-11-13",
+     "p": {
+      "steam": 49.95
+     }
     }
    ],
    "name": "MULLET MADJACK",
    "stores": {
     "steam": {
-     "price": 32.46,
+     "price": 49.95,
      "regular": 49.95,
-     "cut": 35,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2111190/"
     }
    },
@@ -6567,14 +6585,20 @@
      "p": {
       "steam": 34.99
      }
+    },
+    {
+     "d": "2026-11-13",
+     "p": {
+      "steam": 49.99
+     }
     }
    ],
    "name": "Retro Rewind - Video Store Simulator",
    "stores": {
     "steam": {
-     "price": 34.99,
+     "price": 49.99,
      "regular": 49.99,
-     "cut": 30,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3552140/"
     }
    },
