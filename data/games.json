@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T15:51:50+00:00",
+ "updated": "2026-11-14T23:27:45+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1400,14 +1400,20 @@
      "p": {
       "steam": 4.19
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "Car Mechanic Simulator 2018",
    "stores": {
     "steam": {
-     "price": 4.19,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 93,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/645630/"
     }
    },
@@ -1422,14 +1428,20 @@
      "p": {
       "steam": 8.13
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 73.99
+     }
     }
    ],
    "name": "Car Mechanic Simulator 2021",
    "stores": {
     "steam": {
-     "price": 8.13,
+     "price": 73.99,
      "regular": 73.99,
-     "cut": 89,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1190000/"
     }
    },
@@ -1516,14 +1528,20 @@
      "p": {
       "steam": 7.12
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 47.49
+     }
     }
    ],
    "name": "Children of Morta",
    "stores": {
     "steam": {
-     "price": 7.12,
+     "price": 47.49,
      "regular": 47.49,
-     "cut": 85,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/330020/"
     }
    },
@@ -3518,14 +3536,20 @@
      "p": {
       "steam": 8.89
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Frostpunk",
    "stores": {
     "steam": {
-     "price": 8.89,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/323190/"
     }
    },
@@ -4440,14 +4464,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 39.99
+     }
     }
    ],
    "name": "IRON NEST: Heavy Turret Simulator",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 39.99,
      "regular": 39.99,
-     "cut": 25,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2950790/"
     }
    },
@@ -4880,14 +4910,20 @@
      "p": {
       "steam": 30.59
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 76.49
+     }
     }
    ],
    "name": "LISA: The Painful",
    "stores": {
     "steam": {
-     "price": 30.59,
+     "price": 76.49,
      "regular": 76.49,
-     "cut": 60,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/335670/"
     }
    },
@@ -4992,14 +5028,20 @@
      "p": {
       "steam": 108.0
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 180.0
+     }
     }
    ],
    "name": "LOLLIPOP CHAINSAW RePOP",
    "stores": {
     "steam": {
-     "price": 108.0,
+     "price": 180.0,
      "regular": 180.0,
-     "cut": 40,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2658450/"
     }
    },
@@ -5536,14 +5578,20 @@
      "p": {
       "steam": 4.1
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 41.0
+     }
     }
    ],
    "name": "Moonlighter",
    "stores": {
     "steam": {
-     "price": 4.1,
+     "price": 41.0,
      "regular": 41.0,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/606150/"
     }
    },
@@ -5558,14 +5606,20 @@
      "p": {
       "steam": 57.84
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Moonlighter 2: The Endless Vault",
    "stores": {
     "steam": {
-     "price": 57.84,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 35,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2350790/"
     }
    },
@@ -7385,14 +7439,20 @@
      "p": {
       "steam": 6.24
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 24.99
+     }
     }
    ],
    "name": "Rubber Bandits",
    "stores": {
     "steam": {
-     "price": 6.24,
+     "price": 24.99,
      "regular": 24.99,
-     "cut": 75,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1206610/"
     }
    },
@@ -8277,14 +8337,20 @@
      "p": {
       "steam": 3.29
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 32.99
+     }
     }
    ],
    "name": "Surgeon Simulator",
    "stores": {
     "steam": {
-     "price": 3.29,
+     "price": 32.99,
      "regular": 32.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/233720/"
     }
    },
@@ -8411,14 +8477,20 @@
      "p": {
       "steam": 45.89
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 101.99
+     }
     }
    ],
    "name": "The Alters",
    "stores": {
     "steam": {
-     "price": 45.89,
+     "price": 101.99,
      "regular": 101.99,
-     "cut": 55,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1601570/"
     }
    },
@@ -8807,14 +8879,20 @@
      "p": {
       "steam": 5.39
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "Thief Simulator",
    "stores": {
     "steam": {
-     "price": 5.39,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 91,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/704850/"
     }
    },
@@ -8829,14 +8907,20 @@
      "p": {
       "steam": 5.99
      }
+    },
+    {
+     "d": "2026-11-14",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "This War of Mine",
    "stores": {
     "steam": {
-     "price": 5.99,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/282070/"
     }
    },
