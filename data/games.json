@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:18:54+00:00",
+ "updated": "2026-11-14T15:51:50+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1173,7 +1173,8 @@
      "url": "https://store.steampowered.com/app/1942280/"
     }
    },
-   "slug": "brotato"
+   "slug": "brotato",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/bf970261a3a42f346624ae9c48b5b317fc724857/header_alt_assets_4.jpg"
   },
   {
    "appid": 225080,
@@ -1432,7 +1433,8 @@
      "url": "https://store.steampowered.com/app/1190000/"
     }
    },
-   "slug": "car-mechanic-simulator-2021"
+   "slug": "car-mechanic-simulator-2021",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190000/header.jpg"
   },
   {
    "appid": 4231820,
@@ -3527,7 +3529,8 @@
      "url": "https://store.steampowered.com/app/323190/"
     }
    },
-   "slug": "frostpunk"
+   "slug": "frostpunk",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg"
   },
   {
    "appid": 3010850,
@@ -7849,7 +7852,8 @@
      "url": "https://store.steampowered.com/app/1029690/"
     }
    },
-   "slug": "sniper-elite-5"
+   "slug": "sniper-elite-5",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029690/header.jpg"
   },
   {
    "appid": 1338770,
@@ -7984,7 +7988,8 @@
      "url": "https://store.steampowered.com/app/2475460/"
     }
    },
-   "slug": "sos-ops"
+   "slug": "sos-ops",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/05f15fe8ed14ea520693dcafc47c18cbeeb6c426/header.jpg"
   },
   {
    "appid": 207140,
