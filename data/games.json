@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:25:12+00:00",
+ "updated": "2026-11-16T19:39:16+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -292,14 +292,20 @@
      "p": {
       "steam": 104.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 35.66
+     }
     }
    ],
    "name": "Alpha Protocol™",
    "stores": {
     "steam": {
-     "price": 104.9,
+     "price": 35.66,
      "regular": 104.9,
-     "cut": 0,
+     "cut": 66,
      "url": "https://store.steampowered.com/app/34010/"
     }
    },
@@ -398,14 +404,20 @@
      "p": {
       "steam": 9.94
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 15.3
+     }
     }
    ],
    "name": "An Eggstremely Hard Game",
    "stores": {
     "steam": {
-     "price": 9.94,
+     "price": 15.3,
      "regular": 15.3,
-     "cut": 35,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/4112070/"
     }
    },
@@ -800,14 +812,20 @@
      "p": {
       "steam": 12.99
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 19.99
+     }
     }
    ],
    "name": "AVIÃOZINHO DO TRÁFICO 3:ABRI UM PORTAL PRO INFERNO NA FAVELA TENTANDO REVIVER MIT AIA E PRECISO FECHAR",
    "stores": {
     "steam": {
-     "price": 12.99,
+     "price": 19.99,
      "regular": 19.99,
-     "cut": 35,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3191050/"
     }
    },
@@ -878,14 +896,20 @@
      "p": {
       "steam": 89.5
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 26.85
+     }
     }
    ],
    "name": "Bayonetta",
    "stores": {
     "steam": {
-     "price": 89.5,
+     "price": 26.85,
      "regular": 89.5,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/460790/"
     }
    },
@@ -1046,14 +1070,20 @@
      "p": {
       "steam": 189.95
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 379.9
+     }
     }
    ],
    "name": "Borderlands 4",
    "stores": {
     "steam": {
-     "price": 189.95,
+     "price": 379.9,
      "regular": 379.9,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1285190/"
     }
    },
@@ -1068,14 +1098,20 @@
      "p": {
       "steam": 6.99
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 69.99
+     }
     }
    ],
    "name": "Borderlands Game of the Year Enhanced",
    "stores": {
     "steam": {
-     "price": 6.99,
+     "price": 69.99,
      "regular": 69.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/729040/"
     }
    },
@@ -1090,14 +1126,20 @@
      "p": {
       "steam": 9.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 99.0
+     }
     }
    ],
    "name": "Borderlands: The Pre-Sequel",
    "stores": {
     "steam": {
-     "price": 9.9,
+     "price": 99.0,
      "regular": 99.0,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/261640/"
     }
    },
@@ -1162,14 +1204,20 @@
      "p": {
       "steam": 8.49
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 16.99
+     }
     }
    ],
    "name": "Brotato",
    "stores": {
     "steam": {
-     "price": 8.49,
+     "price": 16.99,
      "regular": 16.99,
-     "cut": 50,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1942280/"
     }
    },
@@ -1684,14 +1732,20 @@
      "p": {
       "steam": 53.99
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "Condado da Fortuna",
    "stores": {
     "steam": {
-     "price": 53.99,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3204330/"
     }
    },
@@ -1790,14 +1844,20 @@
      "p": {
       "steam": 349.99
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 279.99
+     }
     }
    ],
    "name": "Crimson Desert Enhanced",
    "stores": {
     "steam": {
-     "price": 349.99,
+     "price": 279.99,
      "regular": 349.99,
-     "cut": 0,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/3321460/"
     }
    },
@@ -3676,14 +3736,20 @@
      "p": {
       "steam": 7.43
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 37.19
+     }
     }
    ],
    "name": "Goat Simulator",
    "stores": {
     "steam": {
-     "price": 7.43,
+     "price": 37.19,
      "regular": 37.19,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/265930/"
     }
    },
@@ -4152,14 +4218,20 @@
      "p": {
       "steam": 3.69
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 36.99
+     }
     }
    ],
    "name": "Hitman: Absolution™",
    "stores": {
     "steam": {
-     "price": 3.69,
+     "price": 36.99,
      "regular": 36.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/203140/"
     }
    },
@@ -4386,14 +4458,20 @@
      "p": {
       "steam": 23.79
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 33.99
+     }
     }
    ],
    "name": "Incremental Traffic",
    "stores": {
     "steam": {
-     "price": 23.79,
+     "price": 33.99,
      "regular": 33.99,
-     "cut": 30,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5475960/"
     }
    },
@@ -4520,14 +4598,20 @@
      "p": {
       "steam": 199.95
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 49.98
+     }
     }
    ],
    "name": "Judgment",
    "stores": {
     "steam": {
-     "price": 199.95,
+     "price": 49.98,
      "regular": 199.95,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/2058180/"
     }
    },
@@ -4650,14 +4734,20 @@
      "p": {
       "steam": 3.17
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 26.49
+     }
     }
    ],
    "name": "Knock'Em Out",
    "stores": {
     "steam": {
-     "price": 3.17,
+     "price": 26.49,
      "regular": 26.49,
-     "cut": 88,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2192900/"
     }
    },
@@ -4888,14 +4978,20 @@
      "p": {
       "steam": 299.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 59.98
+     }
     }
    ],
    "name": "Like a Dragon: Infinite Wealth",
    "stores": {
     "steam": {
-     "price": 299.9,
+     "price": 59.98,
      "regular": 299.9,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/2072450/"
     }
    },
@@ -5064,14 +5160,20 @@
      "p": {
       "steam": 164.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 32.98
+     }
     }
    ],
    "name": "Lost Judgment",
    "stores": {
     "steam": {
-     "price": 164.9,
+     "price": 32.98,
      "regular": 164.9,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/2058190/"
     }
    },
@@ -5662,14 +5764,20 @@
      "p": {
       "steam": 119.25
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 159.0
+     }
     }
    ],
    "name": "Mortal Shell II",
    "stores": {
     "steam": {
-     "price": 119.25,
+     "price": 159.0,
      "regular": 159.0,
-     "cut": 25,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2584270/"
     }
    },
@@ -5684,14 +5792,20 @@
      "p": {
       "steam": 47.99
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "MOTORSLICE",
    "stores": {
     "steam": {
-     "price": 47.99,
+     "price": 59.99,
      "regular": 59.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2830030/"
     }
    },
@@ -6349,14 +6463,20 @@
      "p": {
       "steam": 249.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 87.46
+     }
     }
    ],
    "name": "Persona 3 Reload",
    "stores": {
     "steam": {
-     "price": 249.9,
+     "price": 87.46,
      "regular": 249.9,
-     "cut": 0,
+     "cut": 65,
      "url": "https://store.steampowered.com/app/2161700/"
     }
    },
@@ -6371,14 +6491,20 @@
      "p": {
       "steam": 99.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 49.95
+     }
     }
    ],
    "name": "Persona 4 Golden",
    "stores": {
     "steam": {
-     "price": 99.9,
+     "price": 49.95,
      "regular": 99.9,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1113000/"
     }
    },
@@ -6415,14 +6541,20 @@
      "p": {
       "steam": 249.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 74.97
+     }
     }
    ],
    "name": "Persona 5 Royal",
    "stores": {
     "steam": {
-     "price": 249.9,
+     "price": 74.97,
      "regular": 249.9,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/1687950/"
     }
    },
@@ -6605,14 +6737,20 @@
      "p": {
       "steam": 30.59
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 33.99
+     }
     }
    ],
    "name": "Potato Please",
    "stores": {
     "steam": {
-     "price": 30.59,
+     "price": 33.99,
      "regular": 33.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5266240/"
     }
    },
@@ -6967,13 +7105,19 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 99.99
+     }
     }
    ],
    "name": "Rayman® Legends",
    "stores": {
     "steam": {
-     "price": 89.99,
-     "regular": 89.99,
+     "price": 99.99,
+     "regular": 99.99,
      "cut": 0,
      "url": "https://store.steampowered.com/app/242550/"
     }
@@ -6989,13 +7133,19 @@
      "p": {
       "steam": 59.99
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 49.99
+     }
     }
    ],
    "name": "Rayman® Origins",
    "stores": {
     "steam": {
-     "price": 59.99,
-     "regular": 59.99,
+     "price": 49.99,
+     "regular": 49.99,
      "cut": 0,
      "url": "https://store.steampowered.com/app/207490/"
     }
@@ -7695,14 +7845,20 @@
      "p": {
       "steam": 3.32
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 47.49
+     }
     }
    ],
    "name": "Severed Steel",
    "stores": {
     "steam": {
-     "price": 3.32,
+     "price": 47.49,
      "regular": 47.49,
-     "cut": 93,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1227690/"
     }
    },
@@ -7745,14 +7901,20 @@
      "p": {
       "steam": 299.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 89.97
+     }
     }
    ],
    "name": "Shin Megami Tensei V: Vengeance",
    "stores": {
     "steam": {
-     "price": 299.9,
+     "price": 89.97,
      "regular": 299.9,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/1875830/"
     }
    },
@@ -7987,14 +8149,20 @@
      "p": {
       "steam": 99.5
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 24.87
+     }
     }
    ],
    "name": "Sonic Mania",
    "stores": {
     "steam": {
-     "price": 99.5,
+     "price": 24.87,
      "regular": 99.5,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/584400/"
     }
    },
@@ -8059,14 +8227,20 @@
      "p": {
       "steam": 9.39
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 46.99
+     }
     }
    ],
    "name": "SpeedRunners",
    "stores": {
     "steam": {
-     "price": 9.39,
+     "price": 46.99,
      "regular": 46.99,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/207140/"
     }
    },
@@ -8365,14 +8539,20 @@
      "p": {
       "steam": 29.07
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 83.06
+     }
     }
    ],
    "name": "Survival: Fountain of Youth",
    "stores": {
     "steam": {
-     "price": 29.07,
+     "price": 83.06,
      "regular": 83.06,
-     "cut": 65,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1967630/"
     }
    },
@@ -8941,14 +9121,20 @@
      "p": {
       "steam": 29.98
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 149.9
+     }
     }
    ],
    "name": "Tiny Tina's Wonderlands",
    "stores": {
     "steam": {
-     "price": 29.98,
+     "price": 149.9,
      "regular": 149.9,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1286680/"
     }
    },
@@ -9521,14 +9707,20 @@
      "p": {
       "steam": 199.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 79.96
+     }
     }
    ],
    "name": "Yakuza 0 Director's Cut",
    "stores": {
     "steam": {
-     "price": 199.9,
+     "price": 79.96,
      "regular": 199.9,
-     "cut": 0,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/2988580/"
     }
    },
@@ -9551,14 +9743,20 @@
      "p": {
       "steam": 89.5
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 44.75
+     }
     }
    ],
    "name": "Yakuza 4 Remastered",
    "stores": {
     "steam": {
-     "price": 89.5,
+     "price": 44.75,
      "regular": 89.5,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1105500/"
     }
    },
@@ -9573,14 +9771,20 @@
      "p": {
       "steam": 89.5
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 44.75
+     }
     }
    ],
    "name": "Yakuza 5 Remastered",
    "stores": {
     "steam": {
-     "price": 89.5,
+     "price": 44.75,
      "regular": 89.5,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1105510/"
     }
    },
@@ -9595,14 +9799,20 @@
      "p": {
       "steam": 89.5
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 44.75
+     }
     }
    ],
    "name": "Yakuza 6: The Song of Life",
    "stores": {
     "steam": {
-     "price": 89.5,
+     "price": 44.75,
      "regular": 89.5,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1388590/"
     }
    },
@@ -9639,14 +9849,20 @@
      "p": {
       "steam": 90.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 45.45
+     }
     }
    ],
    "name": "Yakuza Kiwami 2",
    "stores": {
     "steam": {
-     "price": 90.9,
+     "price": 45.45,
      "regular": 90.9,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/3717340/"
     }
    },
@@ -9661,14 +9877,20 @@
      "p": {
       "steam": 99.9
      }
+    },
+    {
+     "d": "2026-11-16",
+     "p": {
+      "steam": 34.96
+     }
     }
    ],
    "name": "Yakuza: Like a Dragon",
    "stores": {
     "steam": {
-     "price": 99.9,
+     "price": 34.96,
      "regular": 99.9,
-     "cut": 0,
+     "cut": 65,
      "url": "https://store.steampowered.com/app/1235140/"
     }
    },
