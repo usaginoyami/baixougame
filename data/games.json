@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:36:34+00:00",
+ "updated": "2026-11-17T18:37:08+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1364,14 +1364,20 @@
      "p": {
       "steam": 28.99
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 8.69
+     }
     }
    ],
    "name": "Bullet Witch",
    "stores": {
     "steam": {
-     "price": 28.99,
+     "price": 8.69,
      "regular": 28.99,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/696180/"
     }
    },
@@ -2774,14 +2780,20 @@
      "p": {
       "steam": 87.29
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 96.99
+     }
     }
    ],
    "name": "DreamWorks Shrek 2 Remastered",
    "stores": {
     "steam": {
-     "price": 87.29,
+     "price": 96.99,
      "regular": 96.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2523740/"
     }
    },
@@ -2818,14 +2830,20 @@
      "p": {
       "steam": 34.76
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 53.49
+     }
     }
    ],
    "name": "Dungeon Rampage Remastered",
    "stores": {
     "steam": {
-     "price": 34.76,
+     "price": 53.49,
      "regular": 53.49,
-     "cut": 35,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3053950/"
     }
    },
@@ -2936,14 +2954,20 @@
      "p": {
       "steam": 244.3
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 349.0
+     }
     }
    ],
    "name": "DYNASTY WARRIORS: ORIGINS",
    "stores": {
     "steam": {
-     "price": 244.3,
+     "price": 349.0,
      "regular": 349.0,
-     "cut": 30,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2384580/"
     }
    },
@@ -4410,14 +4434,20 @@
      "p": {
       "steam": 88.99
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 75.59
+     }
     }
    ],
    "name": "HITMAN World of Assassination",
    "stores": {
     "steam": {
-     "price": 88.99,
-     "regular": 88.99,
-     "cut": 0,
+     "price": 75.59,
+     "regular": 188.99,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/1659040/"
     }
    },
@@ -5184,14 +5214,20 @@
      "p": {
       "steam": 249.9
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 124.95
+     }
     }
    ],
    "name": "Lies of P",
    "stores": {
     "steam": {
-     "price": 249.9,
+     "price": 124.95,
      "regular": 249.9,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1627720/"
     }
    },
@@ -5366,14 +5402,20 @@
      "p": {
       "steam": 73.86
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Loftia",
    "stores": {
     "steam": {
-     "price": 73.86,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 17,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2320980/"
     }
    },
@@ -8459,14 +8501,20 @@
      "p": {
       "steam": 11.56
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Sniper Elite 3",
    "stores": {
     "steam": {
-     "price": 11.56,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 87,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/238090/"
     }
    },
@@ -8481,14 +8529,20 @@
      "p": {
       "steam": 9.39
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 93.99
+     }
     }
    ],
    "name": "Sniper Elite 5",
    "stores": {
     "steam": {
-     "price": 9.39,
+     "price": 93.99,
      "regular": 93.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1029690/"
     }
    },
