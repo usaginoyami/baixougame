@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:26:06+00:00",
+ "updated": "2026-11-17T14:29:32+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -311,6 +311,28 @@
    },
    "slug": "alpha-protocoltm",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/34010/header.jpg"
+  },
+  {
+   "appid": 270880,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 16.74
+     }
+    }
+   ],
+   "name": "American Truck Simulator",
+   "stores": {
+    "steam": {
+     "price": 16.74,
+     "regular": 66.99,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/270880/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/a80e5a18363259677ca96c2a39503ea595d2a45f/header.jpg",
+   "slug": "american-truck-simulator"
   },
   {
    "appid": 239200,
@@ -1011,6 +1033,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1400830/d35a4cf4688c39e03524496896add1ae607dd32a/header.jpg",
    "slug": "billie-bust-up"
+  },
+  {
+   "appid": 582660,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 5.23
+     }
+    }
+   ],
+   "name": "Black Desert",
+   "stores": {
+    "steam": {
+     "price": 5.23,
+     "regular": 17.46,
+     "cut": 70,
+     "url": "https://store.steampowered.com/app/582660/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/3c4172635738d9e5901e340b28136745fd9e491a/header_alt_assets_27.jpg",
+   "slug": "black-desert"
   },
   {
    "appid": 2358720,
@@ -3093,6 +3137,28 @@
    "slug": "esoteric-ebb"
   },
   {
+   "appid": 227300,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 16.74
+     }
+    }
+   ],
+   "name": "Euro Truck Simulator 2",
+   "stores": {
+    "steam": {
+     "price": 16.74,
+     "regular": 66.99,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/227300/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg",
+   "slug": "euro-truck-simulator-2"
+  },
+  {
    "appid": 22300,
    "history": [
     {
@@ -3201,6 +3267,28 @@
    },
    "slug": "far-cry-3-blood-dragon",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233270/header.jpg"
+  },
+  {
+   "appid": 298110,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 17.99
+     }
+    }
+   ],
+   "name": "Far Cry® 4",
+   "stores": {
+    "steam": {
+     "price": 17.99,
+     "regular": 89.99,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/298110/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/731cff7e53820cb83436f93bfa86e493f6a0af45/header.jpg",
+   "slug": "far-cry-4"
   },
   {
    "appid": 3124540,
@@ -3433,6 +3521,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/595520/header.jpg",
    "slug": "final-fantasy-xii-the-zodiac-age"
+  },
+  {
+   "appid": 39210,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 52.99
+     }
+    }
+   ],
+   "name": "FINAL FANTASY XIV Online",
+   "stores": {
+    "steam": {
+     "price": 52.99,
+     "regular": 52.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/39210/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39210/header.jpg",
+   "slug": "final-fantasy-xiv-online"
   },
   {
    "appid": 2515020,
@@ -3927,6 +4037,28 @@
    },
    "slug": "grand-theft-auto-v-enhanced",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg"
+  },
+  {
+   "appid": 1547000,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 98.96
+     }
+    }
+   ],
+   "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+   "stores": {
+    "steam": {
+     "price": 98.96,
+     "regular": 299.9,
+     "cut": 67,
+     "url": "https://store.steampowered.com/app/1547000/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1547000/header.jpg",
+   "slug": "grand-theft-auto-san-andreas-the-definitive-edition"
   },
   {
    "appid": 1307710,
@@ -7058,6 +7190,28 @@
    "slug": "project-winter"
   },
   {
+   "appid": 108600,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 83.99
+     }
+    }
+   ],
+   "name": "Project Zomboid",
+   "stores": {
+    "steam": {
+     "price": 83.99,
+     "regular": 83.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/108600/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+   "slug": "project-zomboid"
+  },
+  {
    "appid": 1799840,
    "history": [
     {
@@ -7966,6 +8120,28 @@
    "slug": "shin-megami-tensei-v-vengeance"
   },
   {
+   "appid": 2138710,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 18.99
+     }
+    }
+   ],
+   "name": "Sifu",
+   "stores": {
+    "steam": {
+     "price": 18.99,
+     "regular": 75.99,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/2138710/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg",
+   "slug": "sifu"
+  },
+  {
    "appid": 2124490,
    "history": [
     {
@@ -8178,6 +8354,28 @@
    "slug": "solasta-ii"
   },
   {
+   "appid": 1237320,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 41.22
+     }
+    }
+   ],
+   "name": "Sonic Frontiers",
+   "stores": {
+    "steam": {
+     "price": 41.22,
+     "regular": 164.9,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/1237320/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237320/header.jpg",
+   "slug": "sonic-frontiers"
+  },
+  {
    "appid": 71340,
    "history": [],
    "name": "Sonic Generations Collection",
@@ -8212,6 +8410,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/584400/header.jpg",
    "slug": "sonic-mania"
+  },
+  {
+   "appid": 2486820,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 100.74
+     }
+    }
+   ],
+   "name": "Sonic Racing: CrossWorlds",
+   "stores": {
+    "steam": {
+     "price": 100.74,
+     "regular": 167.9,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/2486820/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/ee9b8f88d7d971723c3a08ebe87869797102e31e/header_alt_assets_17.jpg",
+   "slug": "sonic-racing-crossworlds"
   },
   {
    "appid": 1326470,
