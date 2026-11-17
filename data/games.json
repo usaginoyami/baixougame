@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:39:16+00:00",
+ "updated": "2026-11-17T14:26:06+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -3757,6 +3757,28 @@
    "slug": "goat-simulator"
   },
   {
+   "appid": 850190,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 26.69
+     }
+    }
+   ],
+   "name": "Goat Simulator 3",
+   "stores": {
+    "steam": {
+     "price": 26.69,
+     "regular": 88.99,
+     "cut": 70,
+     "url": "https://store.steampowered.com/app/850190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/0c1821676adac70274601698216078eb5d8961b0/header_alt_assets_8.jpg",
+   "slug": "goat-simulator-3"
+  },
+  {
    "appid": 1593500,
    "history": [
     {
@@ -4647,6 +4669,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/517630/header.jpg",
    "slug": "just-cause-4-reloaded"
+  },
+  {
+   "appid": 5037200,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 17.04
+     }
+    }
+   ],
+   "name": "just volleyball",
+   "stores": {
+    "steam": {
+     "price": 17.04,
+     "regular": 27.49,
+     "cut": 38,
+     "url": "https://store.steampowered.com/app/5037200/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/cd1b5a290d15e7379b31dcacc12f1e5b25d37577/header.jpg",
+   "slug": "just-volleyball"
   },
   {
    "appid": 1395560,
@@ -8728,6 +8772,28 @@
    "slug": "the-boss-gangster-criminal-empire"
   },
   {
+   "appid": 2698940,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 51.8
+     }
+    }
+   ],
+   "name": "The Crew Motorfest",
+   "stores": {
+    "steam": {
+     "price": 51.8,
+     "regular": 259.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/2698940/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/715d1f1e53a55a46ca00e689a1b7651c17fa592f/header.jpg",
+   "slug": "the-crew-motorfest"
+  },
+  {
    "appid": 67370,
    "history": [
     {
@@ -8841,13 +8907,19 @@
      "p": {
       "steam": 6.89
      }
+    },
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 4.19
+     }
     }
    ],
    "name": "THE KING OF FIGHTERS '98 ULTIMATE MATCH FINAL EDITION",
    "stores": {
     "steam": {
-     "price": 6.89,
-     "regular": 45.99,
+     "price": 4.19,
+     "regular": 27.99,
      "cut": 85,
      "url": "https://store.steampowered.com/app/222420/"
     }
