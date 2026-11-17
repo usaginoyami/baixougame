@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:29:32+00:00",
+ "updated": "2026-11-17T14:36:34+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -417,6 +417,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/57300/header.jpg",
    "slug": "amnesia-the-dark-descent"
+  },
+  {
+   "appid": 945360,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 14.99
+     }
+    }
+   ],
+   "name": "Among Us",
+   "stores": {
+    "steam": {
+     "price": 14.99,
+     "regular": 14.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/945360/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/d611f3f87743b5121532023b1d3ee2dd0e96e772/header.jpg",
+   "slug": "among-us"
   },
   {
    "appid": 4112070,
@@ -1663,6 +1685,28 @@
    "slug": "chrono-cross-the-radical-dreamers-edition"
   },
   {
+   "appid": 949230,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 132.29
+     }
+    }
+   ],
+   "name": "Cities: Skylines II",
+   "stores": {
+    "steam": {
+     "price": 132.29,
+     "regular": 188.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/949230/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg",
+   "slug": "cities-skylines-ii"
+  },
+  {
    "appid": 1903340,
    "history": [
     {
@@ -2425,6 +2469,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/header.jpg",
    "slug": "devil-may-cry-hd-collection"
+  },
+  {
+   "appid": 3687090,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 19.34
+     }
+    }
+   ],
+   "name": "Dice Hoarder",
+   "stores": {
+    "steam": {
+     "price": 19.34,
+     "regular": 21.49,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/3687090/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687090/af03fa8cadd860459554ac85a2e47c47190c9f90/header.jpg",
+   "slug": "dice-hoarder"
   },
   {
    "appid": 403640,
@@ -4903,6 +4969,28 @@
    "slug": "killing-floor-2"
   },
   {
+   "appid": 1771300,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 98.67
+     }
+    }
+   ],
+   "name": "Kingdom Come: Deliverance II",
+   "stores": {
+    "steam": {
+     "price": 98.67,
+     "regular": 299.0,
+     "cut": 67,
+     "url": "https://store.steampowered.com/app/1771300/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg",
+   "slug": "kingdom-come-deliverance-ii"
+  },
+  {
    "appid": 2192900,
    "history": [
     {
@@ -5355,6 +5443,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058190/header.jpg",
    "slug": "lost-judgment"
+  },
+  {
+   "appid": 238370,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 10.79
+     }
+    }
+   ],
+   "name": "Magicka 2",
+   "stores": {
+    "steam": {
+     "price": 10.79,
+     "regular": 53.99,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/238370/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238370/header.jpg",
+   "slug": "magicka-2"
   },
   {
    "appid": 826940,
@@ -5961,6 +6071,28 @@
    "slug": "mortal-shell-ii"
   },
   {
+   "appid": 3188660,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 149.99
+     }
+    }
+   ],
+   "name": "Motocross The Game",
+   "stores": {
+    "steam": {
+     "price": 149.99,
+     "regular": 149.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/3188660/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3188660/header.jpg",
+   "slug": "motocross-the-game"
+  },
+  {
    "appid": 2830030,
    "history": [
     {
@@ -6309,6 +6441,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5258340/11ce91f7fb2c45add1b4607a0ba1c26b1c0fcd31/header.jpg",
    "slug": "one-million-coins"
+  },
+  {
+   "appid": 5378110,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 17.14
+     }
+    }
+   ],
+   "name": "One More Lawn",
+   "stores": {
+    "steam": {
+     "price": 17.14,
+     "regular": 24.49,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/5378110/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/13e611ebe83aeaf0ebc0a23354e75cd2670c50ac/header.jpg",
+   "slug": "one-more-lawn"
   },
   {
    "appid": 2638890,
@@ -7210,6 +7364,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
    "slug": "project-zomboid"
+  },
+  {
+   "appid": 5455340,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 10.99
+     }
+    }
+   ],
+   "name": "Punch The Walls",
+   "stores": {
+    "steam": {
+     "price": 10.99,
+     "regular": 10.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/5455340/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5455340/c14ac79b12864823b5b0af44077d7abcc064f167/header.jpg",
+   "slug": "punch-the-walls"
   },
   {
    "appid": 1799840,
@@ -8276,6 +8452,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/544330/header.jpg"
   },
   {
+   "appid": 238090,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 11.56
+     }
+    }
+   ],
+   "name": "Sniper Elite 3",
+   "stores": {
+    "steam": {
+     "price": 11.56,
+     "regular": 88.99,
+     "cut": 87,
+     "url": "https://store.steampowered.com/app/238090/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238090/header.jpg",
+   "slug": "sniper-elite-3"
+  },
+  {
    "appid": 1029690,
    "history": [
     {
@@ -9170,6 +9368,28 @@
    "slug": "the-king-of-fighters-2002-unlimited-match"
   },
   {
+   "appid": 571260,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 18.74
+     }
+    }
+   ],
+   "name": "THE KING OF FIGHTERS XIV STEAM EDITION",
+   "stores": {
+    "steam": {
+     "price": 18.74,
+     "regular": 124.99,
+     "cut": 85,
+     "url": "https://store.steampowered.com/app/571260/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/571260/header.jpg",
+   "slug": "the-king-of-fighters-xiv-steam-edition"
+  },
+  {
    "appid": 612400,
    "history": [],
    "name": "The Last Night",
@@ -9886,6 +10106,28 @@
    "slug": "well-dweller"
   },
   {
+   "appid": 679110,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 6.99
+     }
+    }
+   ],
+   "name": "Werewolf: The Apocalypse - Earthblood",
+   "stores": {
+    "steam": {
+     "price": 6.99,
+     "regular": 69.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/679110/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/679110/header.jpg",
+   "slug": "werewolf-the-apocalypse-earthblood"
+  },
+  {
    "appid": 466130,
    "history": [
     {
@@ -9956,6 +10198,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/621830/header.jpg",
    "slug": "wrc-7-fia-world-rally-championship"
+  },
+  {
+   "appid": 1004750,
+   "history": [
+    {
+     "d": "2026-11-17",
+     "p": {
+      "steam": 6.99
+     }
+    }
+   ],
+   "name": "WRC 8 FIA World Rally Championship",
+   "stores": {
+    "steam": {
+     "price": 6.99,
+     "regular": 69.99,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/1004750/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004750/header.jpg",
+   "slug": "wrc-8-fia-world-rally-championship"
   },
   {
    "appid": 2277560,
