@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:37:08+00:00",
+ "updated": "2026-11-18T18:08:16+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -198,14 +198,20 @@
      "p": {
       "steam": 44.39
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 73.99
+     }
     }
    ],
    "name": "Absolum",
    "stores": {
     "steam": {
-     "price": 44.39,
+     "price": 73.99,
      "regular": 73.99,
-     "cut": 40,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1904480/"
     }
    },
@@ -476,14 +482,20 @@
      "p": {
       "steam": 179.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 299.99
+     }
     }
    ],
    "name": "Anno 117: Pax Romana",
    "stores": {
     "steam": {
-     "price": 179.99,
+     "price": 299.99,
      "regular": 299.99,
-     "cut": 40,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3274580/"
     }
    },
@@ -1012,14 +1024,20 @@
      "p": {
       "steam": 99.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 59.99
+     }
     }
    ],
    "name": "Beyond Good & Evil - 20th Anniversary Edition",
    "stores": {
     "steam": {
-     "price": 99.99,
+     "price": 59.99,
      "regular": 99.99,
-     "cut": 0,
+     "cut": 40,
      "url": "https://store.steampowered.com/app/2556990/"
     }
    },
@@ -1248,14 +1266,20 @@
      "p": {
       "steam": 4.97
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 16.59
+     }
     }
    ],
    "name": "Bright Memory",
    "stores": {
     "steam": {
-     "price": 4.97,
+     "price": 16.59,
      "regular": 16.59,
-     "cut": 70,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/955050/"
     }
    },
@@ -1676,14 +1700,20 @@
      "p": {
       "steam": 90.0
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 36.0
+     }
     }
    ],
    "name": "CHRONO CROSS: THE RADICAL DREAMERS EDITION",
    "stores": {
     "steam": {
-     "price": 90.0,
+     "price": 36.0,
      "regular": 90.0,
-     "cut": 0,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/1133760/"
     }
    },
@@ -2016,14 +2046,20 @@
      "p": {
       "steam": 6.9
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 115.0
+     }
     }
    ],
    "name": "CRYSTAR",
    "stores": {
     "steam": {
-     "price": 6.9,
+     "price": 115.0,
      "regular": 115.0,
-     "cut": 94,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/981750/"
     }
    },
@@ -3322,14 +3358,20 @@
      "p": {
       "steam": 59.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 14.99
+     }
     }
    ],
    "name": "Far Cry 3",
    "stores": {
     "steam": {
-     "price": 59.99,
+     "price": 14.99,
      "regular": 59.99,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/220240/"
     }
    },
@@ -3344,14 +3386,20 @@
      "p": {
       "steam": 44.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 11.24
+     }
     }
    ],
    "name": "Far Cry 3 - Blood Dragon",
    "stores": {
     "steam": {
-     "price": 44.99,
+     "price": 11.24,
      "regular": 44.99,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/233270/"
     }
    },
@@ -3532,14 +3580,20 @@
      "p": {
       "steam": 19.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 7.99
+     }
     }
    ],
    "name": "FINAL FANTASY VII",
    "stores": {
     "steam": {
-     "price": 19.99,
+     "price": 7.99,
      "regular": 19.99,
-     "cut": 0,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/3837340/"
     }
    },
@@ -3554,14 +3608,20 @@
      "p": {
       "steam": 219.9
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 32.98
+     }
     }
    ],
    "name": "FINAL FANTASY VII REBIRTH",
    "stores": {
     "steam": {
-     "price": 219.9,
+     "price": 32.98,
      "regular": 219.9,
-     "cut": 0,
+     "cut": 85,
      "url": "https://store.steampowered.com/app/2909400/"
     }
    },
@@ -3598,14 +3658,20 @@
      "p": {
       "steam": 165.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 49.79
+     }
     }
    ],
    "name": "FINAL FANTASY XII THE ZODIAC AGE",
    "stores": {
     "steam": {
-     "price": 165.99,
+     "price": 49.79,
      "regular": 165.99,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/595520/"
     }
    },
@@ -3642,14 +3708,20 @@
      "p": {
       "steam": 219.9
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 87.96
+     }
     }
    ],
    "name": "FINAL FANTASY XVI",
    "stores": {
     "steam": {
-     "price": 219.9,
+     "price": 87.96,
      "regular": 219.9,
-     "cut": 0,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/2515020/"
     }
    },
@@ -3708,14 +3780,20 @@
      "p": {
       "steam": 129.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 19.49
+     }
     }
    ],
    "name": "FOR HONOR™",
    "stores": {
     "steam": {
-     "price": 129.99,
+     "price": 19.49,
      "regular": 129.99,
-     "cut": 0,
+     "cut": 85,
      "url": "https://store.steampowered.com/app/304390/"
     }
    },
@@ -7021,14 +7099,20 @@
      "p": {
       "steam": 9.39
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 46.99
+     }
     }
    ],
    "name": "Plague Inc: Evolved",
    "stores": {
     "steam": {
-     "price": 9.39,
+     "price": 46.99,
      "regular": 46.99,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/246620/"
     }
    },
@@ -7087,14 +7171,20 @@
      "p": {
       "steam": 5.62
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 37.49
+     }
     }
    ],
    "name": "Possessor(s)",
    "stores": {
     "steam": {
-     "price": 5.62,
+     "price": 37.49,
      "regular": 37.49,
-     "cut": 85,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2132890/"
     }
    },
@@ -7255,14 +7345,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 5.99
+     }
     }
    ],
    "name": "Prince of Persia: The Two Thrones™",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 5.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/13530/"
     }
    },
@@ -7277,14 +7373,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 5.99
+     }
     }
    ],
    "name": "Prince of Persia: Warrior Within™",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 5.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/13500/"
     }
    },
@@ -7299,14 +7401,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 5.99
+     }
     }
    ],
    "name": "Prince of Persia®",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 5.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/19980/"
     }
    },
@@ -9307,14 +9415,20 @@
      "p": {
       "steam": 29.8
      }
+    },
+    {
+     "d": "2026-11-18",
+     "p": {
+      "steam": 149.0
+     }
     }
    ],
    "name": "The Elder Scrolls V: Skyrim Special Edition",
    "stores": {
     "steam": {
-     "price": 29.8,
+     "price": 149.0,
      "regular": 149.0,
-     "cut": 80,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/489830/"
     }
    },
