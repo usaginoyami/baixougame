@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:50:57+00:00",
+ "updated": "2026-11-21T16:49:05+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1156,14 +1156,20 @@
      "p": {
       "steam": 81.59
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 101.99
+     }
     }
    ],
    "name": "Bodycam",
    "stores": {
     "steam": {
-     "price": 81.59,
+     "price": 101.99,
      "regular": 101.99,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2406770/"
     }
    },
@@ -1552,14 +1558,20 @@
      "p": {
       "steam": 89.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 44.5
+     }
     }
    ],
    "name": "Capcom Beat 'Em Up Bundle",
    "stores": {
     "steam": {
-     "price": 89.0,
+     "price": 44.5,
      "regular": 89.0,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/885150/"
     }
    },
@@ -2588,14 +2600,20 @@
      "p": {
       "steam": 129.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 42.57
+     }
     }
    ],
    "name": "Devil May Cry HD Collection",
    "stores": {
     "steam": {
-     "price": 129.0,
+     "price": 42.57,
      "regular": 129.0,
-     "cut": 0,
+     "cut": 67,
      "url": "https://store.steampowered.com/app/631510/"
     }
    },
@@ -2610,14 +2628,20 @@
      "p": {
       "steam": 19.34
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 21.49
+     }
     }
    ],
    "name": "Dice Hoarder",
    "stores": {
     "steam": {
-     "price": 19.34,
+     "price": 21.49,
      "regular": 21.49,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3687090/"
     }
    },
@@ -3216,14 +3240,20 @@
      "p": {
       "steam": 42.79
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 53.49
+     }
     }
    ],
    "name": "Elven Huntress: Sunveil",
    "stores": {
     "steam": {
-     "price": 42.79,
+     "price": 53.49,
      "regular": 53.49,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/4725170/"
     }
    },
@@ -3610,13 +3640,19 @@
      "p": {
       "steam": 14.99
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 39.8
+     }
     }
    ],
    "name": "FATAL FURY: City of the Wolves",
    "stores": {
     "steam": {
-     "price": 14.99,
-     "regular": 59.99,
+     "price": 39.8,
+     "regular": 159.2,
      "cut": 75,
      "url": "https://store.steampowered.com/app/2492040/"
     }
@@ -3838,14 +3874,20 @@
      "p": {
       "steam": 41.21
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 48.49
+     }
     }
    ],
    "name": "Find The Needle",
    "stores": {
     "steam": {
-     "price": 41.21,
+     "price": 48.49,
      "regular": 48.49,
-     "cut": 15,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5160800/"
     }
    },
@@ -3938,14 +3980,20 @@
      "p": {
       "steam": 249.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 99.6
+     }
     }
    ],
    "name": "Forza Horizon 5",
    "stores": {
     "steam": {
-     "price": 249.0,
+     "price": 99.6,
      "regular": 249.0,
-     "cut": 0,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/1551360/"
     }
    },
@@ -3960,14 +4008,20 @@
      "p": {
       "steam": 299.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 224.25
+     }
     }
    ],
    "name": "Forza Horizon 6",
    "stores": {
     "steam": {
-     "price": 299.0,
+     "price": 224.25,
      "regular": 299.0,
-     "cut": 0,
+     "cut": 25,
      "url": "https://store.steampowered.com/app/2483190/"
     }
    },
@@ -4010,14 +4064,20 @@
      "p": {
       "steam": 299.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 209.3
+     }
     }
    ],
    "name": "Gears of War: E-Day",
    "stores": {
     "steam": {
-     "price": 299.0,
+     "price": 209.3,
      "regular": 299.0,
-     "cut": 0,
+     "cut": 30,
      "url": "https://store.steampowered.com/app/3010850/"
     }
    },
@@ -4436,14 +4496,20 @@
      "p": {
       "steam": 149.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 119.2
+     }
     }
    ],
    "name": "Grounded 2",
    "stores": {
     "steam": {
-     "price": 149.0,
+     "price": 119.2,
      "regular": 149.0,
-     "cut": 0,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/2661300/"
     }
    },
@@ -4584,14 +4650,20 @@
      "p": {
       "steam": 249.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 149.4
+     }
     }
    ],
    "name": "Halo: Campaign Evolved",
    "stores": {
     "steam": {
-     "price": 249.0,
+     "price": 149.4,
      "regular": 249.0,
-     "cut": 0,
+     "cut": 40,
      "url": "https://store.steampowered.com/app/2806050/"
     }
    },
@@ -5778,14 +5850,20 @@
      "p": {
       "steam": 75.49
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 11.32
+     }
     }
    ],
    "name": "Maneater",
    "stores": {
     "steam": {
-     "price": 75.49,
+     "price": 11.32,
      "regular": 75.49,
-     "cut": 0,
+     "cut": 85,
      "url": "https://store.steampowered.com/app/629820/"
     }
    },
@@ -8401,14 +8479,20 @@
      "p": {
       "steam": 239.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 223.3
+     }
     }
    ],
    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
    "stores": {
     "steam": {
-     "price": 239.0,
-     "regular": 239.0,
-     "cut": 0,
+     "price": 223.3,
+     "regular": 319.0,
+     "cut": 30,
      "url": "https://store.steampowered.com/app/1643320/"
     }
    },
@@ -8529,14 +8613,20 @@
      "p": {
       "steam": 109.99
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 38.49
+     }
     }
    ],
    "name": "Sea of Thieves: 2026 Edition",
    "stores": {
     "steam": {
-     "price": 109.99,
+     "price": 38.49,
      "regular": 109.99,
-     "cut": 0,
+     "cut": 65,
      "url": "https://store.steampowered.com/app/1172620/"
     }
    },
@@ -8869,14 +8959,20 @@
      "p": {
       "steam": 129.9
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 12.99
+     }
     }
    ],
    "name": "Sniper Ghost Warrior Contracts 2",
    "stores": {
     "steam": {
-     "price": 129.9,
+     "price": 12.99,
      "regular": 129.9,
-     "cut": 0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/1338770/"
     }
    },
@@ -9687,14 +9783,20 @@
      "p": {
       "steam": 3.0
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 20.0
+     }
     }
    ],
    "name": "THE KING OF FIGHTERS '97 GLOBAL MATCH",
    "stores": {
     "steam": {
-     "price": 3.0,
+     "price": 20.0,
      "regular": 20.0,
-     "cut": 85,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/702120/"
     }
    },
@@ -9737,14 +9839,20 @@
      "p": {
       "steam": 4.19
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 27.99
+     }
     }
    ],
    "name": "THE KING OF FIGHTERS 2002 UNLIMITED MATCH",
    "stores": {
     "steam": {
-     "price": 4.19,
+     "price": 27.99,
      "regular": 27.99,
-     "cut": 85,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/222440/"
     }
    },
@@ -9759,13 +9867,19 @@
      "p": {
       "steam": 18.74
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 22.49
+     }
     }
    ],
    "name": "THE KING OF FIGHTERS XIV STEAM EDITION",
    "stores": {
     "steam": {
-     "price": 18.74,
-     "regular": 124.99,
+     "price": 22.49,
+     "regular": 149.99,
      "cut": 85,
      "url": "https://store.steampowered.com/app/571260/"
     }
@@ -10505,14 +10619,20 @@
      "p": {
       "steam": 40.39
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 50.49
+     }
     }
    ],
    "name": "Well Dweller",
    "stores": {
     "steam": {
-     "price": 40.39,
+     "price": 50.49,
      "regular": 50.49,
-     "cut": 20,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3699590/"
     }
    },
