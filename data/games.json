@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T16:49:05+00:00",
+ "updated": "2026-11-22T00:34:06+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -438,14 +438,20 @@
      "p": {
       "steam": 14.99
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 8.99
+     }
     }
    ],
    "name": "Among Us",
    "stores": {
     "steam": {
-     "price": 14.99,
+     "price": 8.99,
      "regular": 14.99,
-     "cut": 0,
+     "cut": 40,
      "url": "https://store.steampowered.com/app/945360/"
     }
    },
@@ -961,6 +967,94 @@
    },
    "slug": "baldurs-gate-3",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg"
+  },
+  {
+   "appid": 1238860,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 9.95
+     }
+    }
+   ],
+   "name": "Battlefield 4™",
+   "stores": {
+    "steam": {
+     "price": 9.95,
+     "regular": 199.0,
+     "cut": 95,
+     "url": "https://store.steampowered.com/app/1238860/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238860/header.jpg",
+   "slug": "battlefield-4tm"
+  },
+  {
+   "appid": 1238840,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 9.95
+     }
+    }
+   ],
+   "name": "Battlefield™ 1",
+   "stores": {
+    "steam": {
+     "price": 9.95,
+     "regular": 199.0,
+     "cut": 95,
+     "url": "https://store.steampowered.com/app/1238840/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238840/header.jpg",
+   "slug": "battlefieldtm-1"
+  },
+  {
+   "appid": 1517290,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 12.45
+     }
+    }
+   ],
+   "name": "Battlefield™ 2042",
+   "stores": {
+    "steam": {
+     "price": 12.45,
+     "regular": 249.0,
+     "cut": 95,
+     "url": "https://store.steampowered.com/app/1517290/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/header.jpg",
+   "slug": "battlefieldtm-2042"
+  },
+  {
+   "appid": 1238810,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 11.45
+     }
+    }
+   ],
+   "name": "Battlefield™ V",
+   "stores": {
+    "steam": {
+     "price": 11.45,
+     "regular": 229.0,
+     "cut": 95,
+     "url": "https://store.steampowered.com/app/1238810/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg",
+   "slug": "battlefieldtm-v"
   },
   {
    "appid": 460790,
@@ -3767,6 +3861,28 @@
    "slug": "final-fantasy-vii-rebirth"
   },
   {
+   "appid": 1462040,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 31.48
+     }
+    }
+   ],
+   "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+   "stores": {
+    "steam": {
+     "price": 31.48,
+     "regular": 174.9,
+     "cut": 82,
+     "url": "https://store.steampowered.com/app/1462040/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg",
+   "slug": "final-fantasy-vii-remake-intergrade"
+  },
+  {
    "appid": 4354570,
    "history": [
     {
@@ -5199,6 +5315,28 @@
    "slug": "just-cause-4-reloaded"
   },
   {
+   "appid": 225540,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 6.44
+     }
+    }
+   ],
+   "name": "Just Cause™ 3",
+   "stores": {
+    "steam": {
+     "price": 6.44,
+     "regular": 42.99,
+     "cut": 85,
+     "url": "https://store.steampowered.com/app/225540/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225540/header.jpg",
+   "slug": "just-causetm-3"
+  },
+  {
    "appid": 5037200,
    "history": [
     {
@@ -6281,6 +6419,28 @@
    "slug": "minit"
   },
   {
+   "appid": 1233570,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 109.0
+     }
+    }
+   ],
+   "name": "Mirror's Edge™ Catalyst",
+   "stores": {
+    "steam": {
+     "price": 109.0,
+     "regular": 109.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1233570/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1233570/header.jpg",
+   "slug": "mirrors-edgetm-catalyst"
+  },
+  {
    "appid": 2246340,
    "history": [
     {
@@ -6653,6 +6813,28 @@
    "slug": "never-be-alone"
   },
   {
+   "appid": 524220,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 42.8
+     }
+    }
+   ],
+   "name": "NieR:Automata™",
+   "stores": {
+    "steam": {
+     "price": 42.8,
+     "regular": 107.0,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/524220/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/header.jpg",
+   "slug": "nier-automatatm"
+  },
+  {
    "appid": 481510,
    "history": [
     {
@@ -6900,14 +7082,20 @@
      "p": {
       "steam": 67.99
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 33.99
+     }
     }
    ],
    "name": "Outer Wilds",
    "stores": {
     "steam": {
-     "price": 67.99,
+     "price": 33.99,
      "regular": 67.99,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/753640/"
     }
    },
@@ -9252,6 +9440,50 @@
    "slug": "star-wars-galactic-racertm"
   },
   {
+   "appid": 1237980,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 11.8
+     }
+    }
+   ],
+   "name": "STAR WARS™ Battlefront",
+   "stores": {
+    "steam": {
+     "price": 11.8,
+     "regular": 59.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/1237980/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237980/header.jpg",
+   "slug": "star-warstm-battlefront"
+  },
+  {
+   "appid": 1237950,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 31.8
+     }
+    }
+   ],
+   "name": "STAR WARS™ Battlefront™ II",
+   "stores": {
+    "steam": {
+     "price": 31.8,
+     "regular": 159.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/1237950/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg",
+   "slug": "star-warstm-battlefronttm-ii"
+  },
+  {
    "appid": 413150,
    "history": [
     {
@@ -9331,14 +9563,20 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 44.99
+     }
     }
    ],
    "name": "Stray",
    "stores": {
     "steam": {
-     "price": 89.99,
+     "price": 44.99,
      "regular": 89.99,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1332010/"
     }
    },
@@ -10162,6 +10400,28 @@
    },
    "slug": "tiny-tinas-wonderlands",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286680/header.jpg"
+  },
+  {
+   "appid": 1237970,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 13.35
+     }
+    }
+   ],
+   "name": "Titanfall® 2",
+   "stores": {
+    "steam": {
+     "price": 13.35,
+     "regular": 89.0,
+     "cut": 85,
+     "url": "https://store.steampowered.com/app/1237970/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg",
+   "slug": "titanfall-2"
   },
   {
    "appid": 203160,
