@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T00:34:06+00:00",
+ "updated": "2026-11-22T00:38:16+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -967,6 +967,28 @@
    },
    "slug": "baldurs-gate-3",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg"
+  },
+  {
+   "appid": 1238820,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 9.95
+     }
+    }
+   ],
+   "name": "Battlefield 3™",
+   "stores": {
+    "steam": {
+     "price": 9.95,
+     "regular": 199.0,
+     "cut": 95,
+     "url": "https://store.steampowered.com/app/1238820/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238820/header.jpg",
+   "slug": "battlefield-3tm"
   },
   {
    "appid": 1238860,
