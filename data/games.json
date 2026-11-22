@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T00:38:16+00:00",
+ "updated": "2026-11-22T00:40:28+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -2537,6 +2537,50 @@
    },
    "slug": "dead-space",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg"
+  },
+  {
+   "appid": 17470,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 23.6
+     }
+    }
+   ],
+   "name": "Dead Space (2008)",
+   "stores": {
+    "steam": {
+     "price": 23.6,
+     "regular": 59.0,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/17470/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17470/header.jpg",
+   "slug": "dead-space-2008"
+  },
+  {
+   "appid": 47780,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 11.8
+     }
+    }
+   ],
+   "name": "Dead Space™ 2",
+   "stores": {
+    "steam": {
+     "price": 11.8,
+     "regular": 59.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/47780/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47780/header.jpg",
+   "slug": "dead-spacetm-2"
   },
   {
    "appid": 1238060,
@@ -6825,6 +6869,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1020790/header.jpg",
    "slug": "naruto-x-boruto-ultimate-ninja-storm-connections"
+  },
+  {
+   "appid": 1222680,
+   "history": [
+    {
+     "d": "2026-11-21",
+     "p": {
+      "steam": 13.95
+     }
+    }
+   ],
+   "name": "Need for Speed™ Heat",
+   "stores": {
+    "steam": {
+     "price": 13.95,
+     "regular": 279.0,
+     "cut": 95,
+     "url": "https://store.steampowered.com/app/1222680/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg",
+   "slug": "need-for-speedtm-heat"
   },
   {
    "appid": 2988120,
