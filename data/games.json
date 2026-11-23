@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:35:54+00:00",
+ "updated": "2026-11-23T22:39:00+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -2239,6 +2239,28 @@
    "slug": "control-resonant"
   },
   {
+   "appid": 1368140,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 55.99
+     }
+    }
+   ],
+   "name": "Corsair Cove",
+   "stores": {
+    "steam": {
+     "price": 55.99,
+     "regular": 79.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/1368140/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/cafda7c6ff9641cc9ede1823317b835a2b3f38ab/header.jpg",
+   "slug": "corsair-cove"
+  },
+  {
    "appid": 3581230,
    "history": [
     {
@@ -3343,6 +3365,14 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/header.jpg",
    "slug": "dressmaker"
+  },
+  {
+   "appid": 2870790,
+   "history": [],
+   "name": "Dumpster Gang",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2870790/ce7686f0081f5fd8a4d4a66e28ef473884cd504b/header_alt_assets_0.jpg",
+   "slug": "dumpster-gang"
   },
   {
    "appid": 3053950,
@@ -6807,6 +6837,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/eab057a82c52b9d60f383fc2a63e2c4024f0e734/header_alt_assets_1.jpg"
   },
   {
+   "appid": 2537590,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 209.99
+     }
+    }
+   ],
+   "name": "Microsoft Flight Simulator 2024",
+   "stores": {
+    "steam": {
+     "price": 209.99,
+     "regular": 299.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/2537590/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/header.jpg",
+   "slug": "microsoft-flight-simulator-2024"
+  },
+  {
    "appid": 241930,
    "history": [
     {
@@ -9124,6 +9176,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/a12ed683c51938590f28400c89cd8c8204e1e8db/header.jpg",
    "slug": "road-rashtm-edicao-de-30-o-aniversario"
+  },
+  {
+   "appid": 4697880,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 39.99
+     }
+    }
+   ],
+   "name": "Rock Band Simulator",
+   "stores": {
+    "steam": {
+     "price": 39.99,
+     "regular": 49.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/4697880/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/f877bbbcf9f2a65170626d39dce5740814cc3053/header.jpg",
+   "slug": "rock-band-simulator"
   },
   {
    "appid": 1206610,
@@ -11524,6 +11598,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/bb62feb8f59915d00bade38910f1bfdad5232b90/header_alt_assets_0.jpg",
    "slug": "wardogs"
+  },
+  {
+   "appid": 3115160,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 67.19
+     }
+    }
+   ],
+   "name": "Warhammer 40,000: Boltgun 2",
+   "stores": {
+    "steam": {
+     "price": 67.19,
+     "regular": 83.99,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/3115160/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3115160/c99bc374ca10d0335fe5e8f37942aea35419e4d4/header.jpg",
+   "slug": "warhammer-40-000-boltgun-2"
   },
   {
    "appid": 2272360,
