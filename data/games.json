@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:11:48+00:00",
+ "updated": "2026-11-23T20:04:22+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -30,14 +30,20 @@
      "p": {
       "steam": 299.0
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 149.5
+     }
     }
    ],
    "name": "007 First Light",
    "stores": {
     "steam": {
-     "price": 299.0,
+     "price": 149.5,
      "regular": 299.0,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/3768760/"
     }
    },
@@ -954,14 +960,20 @@
      "p": {
       "steam": 199.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 139.99
+     }
     }
    ],
    "name": "Baldur's Gate 3",
    "stores": {
     "steam": {
-     "price": 199.99,
+     "price": 139.99,
      "regular": 199.99,
-     "cut": 0,
+     "cut": 30,
      "url": "https://store.steampowered.com/app/1086940/"
     }
    },
@@ -1574,14 +1586,20 @@
      "p": {
       "steam": 7.54
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 75.49
+     }
     }
    ],
    "name": "Bulletstorm: Full Clip Edition",
    "stores": {
     "steam": {
-     "price": 7.54,
+     "price": 75.49,
      "regular": 75.49,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/501590/"
     }
    },
@@ -1630,14 +1648,20 @@
      "p": {
       "steam": 299.0
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 254.15
+     }
     }
    ],
    "name": "Call of Duty®: Modern Warfare® 4",
    "stores": {
     "steam": {
-     "price": 299.0,
+     "price": 254.15,
      "regular": 299.0,
-     "cut": 0,
+     "cut": 15,
      "url": "https://store.steampowered.com/app/4435490/"
     }
    },
@@ -1814,14 +1838,20 @@
      "p": {
       "steam": 59.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 14.99
+     }
     }
    ],
    "name": "Celeste",
    "stores": {
     "steam": {
-     "price": 59.99,
+     "price": 14.99,
      "regular": 59.99,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/504230/"
     }
    },
@@ -1960,14 +1990,20 @@
      "p": {
       "steam": 143.92
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 112.42
+     }
     }
    ],
    "name": "Clive Barker's Hellraiser: Revival",
    "stores": {
     "steam": {
-     "price": 143.92,
-     "regular": 179.9,
-     "cut": 20,
+     "price": 112.42,
+     "regular": 149.9,
+     "cut": 25,
      "url": "https://store.steampowered.com/app/1551980/"
     }
    },
@@ -2053,6 +2089,28 @@
    "slug": "condado-da-fortuna"
   },
   {
+   "appid": 224460,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 9.99
+     }
+    }
+   ],
+   "name": "Contrast",
+   "stores": {
+    "steam": {
+     "price": 9.99,
+     "regular": 19.99,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/224460/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/224460/header.jpg",
+   "slug": "contrast"
+  },
+  {
    "appid": 3669870,
    "history": [
     {
@@ -2072,14 +2130,20 @@
      "p": {
       "steam": 229.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 207.99
+     }
     }
    ],
    "name": "CONTROL Resonant",
    "stores": {
     "steam": {
-     "price": 229.99,
-     "regular": 229.99,
-     "cut": 0,
+     "price": 207.99,
+     "regular": 259.99,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/3669870/"
     }
    },
@@ -2328,14 +2392,20 @@
      "p": {
       "steam": 154.9
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 77.45
+     }
     }
    ],
    "name": "DARK SOULS™ II: Scholar of the First Sin",
    "stores": {
     "steam": {
-     "price": 154.9,
+     "price": 77.45,
      "regular": 154.9,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/335300/"
     }
    },
@@ -2350,14 +2420,20 @@
      "p": {
       "steam": 229.9
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 114.95
+     }
     }
    ],
    "name": "DARK SOULS™ III",
    "stores": {
     "steam": {
-     "price": 229.9,
+     "price": 114.95,
      "regular": 229.9,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/374320/"
     }
    },
@@ -2372,14 +2448,20 @@
      "p": {
       "steam": 154.9
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 77.45
+     }
     }
    ],
    "name": "DARK SOULS™: REMASTERED",
    "stores": {
     "steam": {
-     "price": 154.9,
+     "price": 77.45,
      "regular": 154.9,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/570940/"
     }
    },
@@ -2710,14 +2792,20 @@
      "p": {
       "steam": 199.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 19.99
+     }
     }
    ],
    "name": "Detroit: Become Human",
    "stores": {
     "steam": {
-     "price": 199.99,
+     "price": 19.99,
      "regular": 199.99,
-     "cut": 0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/1222140/"
     }
    },
@@ -2816,14 +2904,20 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 17.99
+     }
     }
    ],
    "name": "Dishonored 2",
    "stores": {
     "steam": {
-     "price": 89.99,
+     "price": 17.99,
      "regular": 89.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/403640/"
     }
    },
@@ -2838,14 +2932,20 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 17.99
+     }
     }
    ],
    "name": "Dishonored®: Death of the Outsider™",
    "stores": {
     "steam": {
-     "price": 89.99,
+     "price": 17.99,
      "regular": 89.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/614570/"
     }
    },
@@ -2938,14 +3038,20 @@
      "p": {
       "steam": 9.95
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 3.98
+     }
     }
    ],
    "name": "DOOM 64",
    "stores": {
     "steam": {
-     "price": 9.95,
+     "price": 3.98,
      "regular": 9.95,
-     "cut": 0,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/1148590/"
     }
    },
@@ -2960,14 +3066,20 @@
      "p": {
       "steam": 149.0
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 49.17
+     }
     }
    ],
    "name": "DOOM Eternal",
    "stores": {
     "steam": {
-     "price": 149.0,
+     "price": 49.17,
      "regular": 149.0,
-     "cut": 0,
+     "cut": 67,
      "url": "https://store.steampowered.com/app/782330/"
     }
    },
@@ -2982,14 +3094,20 @@
      "p": {
       "steam": 249.9
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 124.95
+     }
     }
    ],
    "name": "DOOM: The Dark Ages",
    "stores": {
     "steam": {
-     "price": 249.9,
+     "price": 124.95,
      "regular": 249.9,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/3017860/"
     }
    },
@@ -3068,14 +3186,20 @@
      "p": {
       "steam": 61.19
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 67.99
+     }
     }
    ],
    "name": "DREADMOOR",
    "stores": {
     "steam": {
-     "price": 61.19,
+     "price": 67.99,
      "regular": 67.99,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/3629430/"
     }
    },
@@ -3534,14 +3658,20 @@
      "p": {
       "steam": 73.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 47.35
+     }
     }
    ],
    "name": "Esoteric Ebb",
    "stores": {
     "steam": {
-     "price": 73.99,
+     "price": 47.35,
      "regular": 73.99,
-     "cut": 0,
+     "cut": 36,
      "url": "https://store.steampowered.com/app/2057760/"
     }
    },
@@ -3578,14 +3708,20 @@
      "p": {
       "steam": 39.0
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 9.75
+     }
     }
    ],
    "name": "Fallout 3",
    "stores": {
     "steam": {
-     "price": 39.0,
+     "price": 9.75,
      "regular": 39.0,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/22300/"
     }
    },
@@ -3600,14 +3736,20 @@
      "p": {
       "steam": 59.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 14.99
+     }
     }
    ],
    "name": "Fallout 4",
    "stores": {
     "steam": {
-     "price": 59.99,
+     "price": 14.99,
      "regular": 59.99,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/377160/"
     }
    },
@@ -3622,14 +3764,20 @@
      "p": {
       "steam": 39.0
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 9.75
+     }
     }
    ],
    "name": "Fallout: New Vegas",
    "stores": {
     "steam": {
-     "price": 39.0,
+     "price": 9.75,
      "regular": 39.0,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/22380/"
     }
    },
@@ -4354,14 +4502,20 @@
      "p": {
       "steam": 209.0
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 92.07
+     }
     }
    ],
    "name": "Ghostwire: Tokyo",
    "stores": {
     "steam": {
-     "price": 209.0,
-     "regular": 209.0,
-     "cut": 0,
+     "price": 92.07,
+     "regular": 279.0,
+     "cut": 67,
      "url": "https://store.steampowered.com/app/1475810/"
     }
    },
@@ -4404,14 +4558,20 @@
      "p": {
       "steam": 26.69
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "Goat Simulator 3",
    "stores": {
     "steam": {
-     "price": 26.69,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 70,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/850190/"
     }
    },
@@ -4566,14 +4726,20 @@
      "p": {
       "steam": 149.9
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 98.95
+     }
     }
    ],
    "name": "Grand Theft Auto V Enhanced",
    "stores": {
     "steam": {
-     "price": 149.9,
-     "regular": 149.9,
-     "cut": 0,
+     "price": 98.95,
+     "regular": 224.9,
+     "cut": 56,
      "url": "https://store.steampowered.com/app/3240220/"
     }
    },
@@ -4786,14 +4952,20 @@
      "p": {
       "steam": 124.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 99.99
+     }
     }
    ],
    "name": "Halloween: The Game",
    "stores": {
     "steam": {
-     "price": 124.99,
+     "price": 99.99,
      "regular": 124.99,
-     "cut": 0,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/3219630/"
     }
    },
@@ -4984,14 +5156,20 @@
      "p": {
       "steam": 249.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 24.99
+     }
     }
    ],
    "name": "Hogwarts Legacy",
    "stores": {
     "steam": {
-     "price": 249.99,
+     "price": 24.99,
      "regular": 249.99,
-     "cut": 0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/990080/"
     }
    },
@@ -5652,14 +5830,20 @@
      "p": {
       "steam": 299.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 209.99
+     }
     }
    ],
    "name": "LEGO® Batman™: Legacy of the Dark Knight",
    "stores": {
     "steam": {
-     "price": 299.99,
+     "price": 209.99,
      "regular": 299.99,
-     "cut": 0,
+     "cut": 30,
      "url": "https://store.steampowered.com/app/2215200/"
     }
    },
@@ -5674,14 +5858,20 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 17.99
+     }
     }
    ],
    "name": "LEGO® The Hobbit™",
    "stores": {
     "steam": {
-     "price": 89.99,
+     "price": 17.99,
      "regular": 89.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/285160/"
     }
    },
@@ -5696,14 +5886,20 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 17.99
+     }
     }
    ],
    "name": "LEGO® The Lord of the Rings™",
    "stores": {
     "steam": {
-     "price": 89.99,
+     "price": 17.99,
      "regular": 89.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/214510/"
     }
    },
@@ -6404,14 +6600,20 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 17.99
+     }
     }
    ],
    "name": "Middle-earth™: Shadow of Mordor™",
    "stores": {
     "steam": {
-     "price": 89.99,
+     "price": 17.99,
      "regular": 89.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/241930/"
     }
    },
@@ -6426,14 +6628,20 @@
      "p": {
       "steam": 229.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 22.99
+     }
     }
    ],
    "name": "Middle-earth™: Shadow of War™",
    "stores": {
     "steam": {
-     "price": 229.99,
+     "price": 22.99,
      "regular": 229.99,
-     "cut": 0,
+     "cut": 90,
      "url": "https://store.steampowered.com/app/356190/"
     }
    },
@@ -6620,14 +6828,20 @@
      "p": {
       "steam": 199.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 29.99
+     }
     }
    ],
    "name": "Mortal Kombat 1",
    "stores": {
     "steam": {
-     "price": 199.99,
+     "price": 29.99,
      "regular": 199.99,
-     "cut": 0,
+     "cut": 85,
      "url": "https://store.steampowered.com/app/1971870/"
     }
    },
@@ -7835,14 +8049,20 @@
      "p": {
       "steam": 89.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 23.99
+     }
     }
    ],
    "name": "Prey",
    "stores": {
     "steam": {
-     "price": 89.99,
-     "regular": 89.99,
-     "cut": 0,
+     "price": 23.99,
+     "regular": 119.99,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/480490/"
     }
    },
@@ -7969,14 +8189,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 5.99
+     }
     }
    ],
    "name": "Prince of Persia®: The Sands of Time",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 5.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/13600/"
     }
    },
@@ -8147,14 +8373,20 @@
      "p": {
       "steam": 119.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 23.99
+     }
     }
    ],
    "name": "RAGE 2",
    "stores": {
     "steam": {
-     "price": 119.99,
+     "price": 23.99,
      "regular": 119.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/548570/"
     }
    },
@@ -8293,14 +8525,20 @@
      "p": {
       "steam": 299.9
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 74.97
+     }
     }
    ],
    "name": "Red Dead Redemption 2",
    "stores": {
     "steam": {
-     "price": 299.9,
+     "price": 74.97,
      "regular": 299.9,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/1174180/"
     }
    },
@@ -9601,14 +9839,20 @@
      "p": {
       "steam": 249.9
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 124.95
+     }
     }
    ],
    "name": "Starfield",
    "stores": {
     "steam": {
-     "price": 249.9,
+     "price": 124.95,
      "regular": 249.9,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1716740/"
     }
    },
@@ -9947,14 +10191,20 @@
      "p": {
       "steam": 303.5
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 242.8
+     }
     }
    ],
    "name": "The Blood of Dawnwalker",
    "stores": {
     "steam": {
-     "price": 303.5,
+     "price": 242.8,
      "regular": 303.5,
-     "cut": 0,
+     "cut": 20,
      "url": "https://store.steampowered.com/app/3751260/"
     }
    },
@@ -10059,14 +10309,20 @@
      "p": {
       "steam": 149.0
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 90.73
+     }
     }
    ],
    "name": "The Elder Scrolls V: Skyrim Special Edition",
    "stores": {
     "steam": {
-     "price": 149.0,
-     "regular": 149.0,
-     "cut": 0,
+     "price": 90.73,
+     "regular": 274.95,
+     "cut": 67,
      "url": "https://store.steampowered.com/app/489830/"
     }
    },
@@ -10697,14 +10953,20 @@
      "p": {
       "steam": 134.99
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 6.74
+     }
     }
    ],
    "name": "TT Isle Of Man: Ride on the Edge 3",
    "stores": {
     "steam": {
-     "price": 134.99,
+     "price": 6.74,
      "regular": 134.99,
-     "cut": 0,
+     "cut": 95,
      "url": "https://store.steampowered.com/app/1924170/"
     }
    },
@@ -11044,6 +11306,14 @@
    "slug": "white-day-a-labyrinth-named-school"
   },
   {
+   "appid": 5189950,
+   "history": [],
+   "name": "Winx Club - Moonlight Quest",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189950/a88e7eae1eaf0b47c56b4e0ede9b2a24f618ec1d/header.jpg",
+   "slug": "winx-club-moonlight-quest"
+  },
+  {
    "appid": 699130,
    "history": [
     {
@@ -11051,14 +11321,20 @@
      "p": {
       "steam": 99.9
      }
+    },
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 24.97
+     }
     }
    ],
    "name": "World War Z",
    "stores": {
     "steam": {
-     "price": 99.9,
+     "price": 24.97,
      "regular": 99.9,
-     "cut": 0,
+     "cut": 75,
      "url": "https://store.steampowered.com/app/699130/"
     }
    },
