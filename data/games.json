@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:28:48+00:00",
+ "updated": "2026-11-23T22:32:32+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -195,6 +195,28 @@
    },
    "slug": "a-story-about-my-uncle",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/278360/header.jpg"
+  },
+  {
+   "appid": 2695430,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 79.95
+     }
+    }
+   ],
+   "name": "A.I.L.A",
+   "stores": {
+    "steam": {
+     "price": 79.95,
+     "regular": 79.95,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2695430/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2695430/header.jpg",
+   "slug": "a-i-l-a"
   },
   {
    "appid": 1904480,
@@ -839,6 +861,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg",
    "slug": "assetto-corsa"
+  },
+  {
+   "appid": 805550,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 31.8
+     }
+    }
+   ],
+   "name": "Assetto Corsa Competizione",
+   "stores": {
+    "steam": {
+     "price": 31.8,
+     "regular": 159.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/805550/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/header.jpg",
+   "slug": "assetto-corsa-competizione"
   },
   {
    "appid": 668580,
@@ -1605,6 +1649,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/501590/header.jpg",
    "slug": "bulletstorm-full-clip-edition"
+  },
+  {
+   "appid": 2397320,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 65.99
+     }
+    }
+   ],
+   "name": "Bus Simulator 27",
+   "stores": {
+    "steam": {
+     "price": 65.99,
+     "regular": 99.99,
+     "cut": 34,
+     "url": "https://store.steampowered.com/app/2397320/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2397320/da4a57428bac72569d83afcd0b7f5878c97a17f5/header.jpg",
+   "slug": "bus-simulator-27"
   },
   {
    "appid": 1588550,
@@ -3285,6 +3351,28 @@
    "slug": "dungeon-rampage-remastered"
   },
   {
+   "appid": 5200620,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 35.99
+     }
+    }
+   ],
+   "name": "Dungeonbound",
+   "stores": {
+    "steam": {
+     "price": 35.99,
+     "regular": 39.99,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/5200620/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200620/b3a32d9086038acf42c9457c2bc062f93d90ea3e/header.jpg",
+   "slug": "dungeonbound"
+  },
+  {
    "appid": 1643310,
    "history": [
     {
@@ -4247,6 +4335,28 @@
    "slug": "flyknight-enhanced-edition"
   },
   {
+   "appid": 1298140,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 57.99
+     }
+    }
+   ],
+   "name": "Fobia - St. Dinfna Hotel",
+   "stores": {
+    "steam": {
+     "price": 57.99,
+     "regular": 57.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1298140/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1298140/header.jpg",
+   "slug": "fobia-st-dinfna-hotel"
+  },
+  {
    "appid": 304390,
    "history": [
     {
@@ -4301,6 +4411,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527230/header.jpg",
    "slug": "for-the-king"
+  },
+  {
+   "appid": 3194360,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 35.99
+     }
+    }
+   ],
+   "name": "Formula Legends",
+   "stores": {
+    "steam": {
+     "price": 35.99,
+     "regular": 59.99,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/3194360/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3194360/28d6f3aa14926a8d40df0fe4c432cbe8343f77e2/header.jpg",
+   "slug": "formula-legends"
   },
   {
    "appid": 1551360,
@@ -5225,6 +5357,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/05ecc629bbeefe5b64ea3acc33da82009bccf968/header.jpg",
    "slug": "horses-of-hoofprint-bay"
+  },
+  {
+   "appid": 1271700,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 129.0
+     }
+    }
+   ],
+   "name": "HOT WHEELS UNLEASHED™",
+   "stores": {
+    "steam": {
+     "price": 129.0,
+     "regular": 129.0,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/1271700/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1271700/header.jpg",
+   "slug": "hot-wheels-unleashedtm"
   },
   {
    "appid": 3673060,
@@ -8394,6 +8548,28 @@
    "slug": "rage-2"
   },
   {
+   "appid": 4084710,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 199.99
+     }
+    }
+   ],
+   "name": "Rayman Legends Retold",
+   "stores": {
+    "steam": {
+     "price": 199.99,
+     "regular": 199.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4084710/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084710/4fc23980ce04f33d7dc91bf38d74591ec00015cb/header.jpg",
+   "slug": "rayman-legends-retold"
+  },
+  {
    "appid": 242550,
    "history": [
     {
@@ -9686,6 +9862,28 @@
    "slug": "speedrunners"
   },
   {
+   "appid": 2321960,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 79.99
+     }
+    }
+   ],
+   "name": "Spirit Crossing",
+   "stores": {
+    "steam": {
+     "price": 79.99,
+     "regular": 79.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/2321960/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321960/ef5229ee7c51162c7233296443ef0520408387cd/header.jpg",
+   "slug": "spirit-crossing"
+  },
+  {
    "appid": 4045720,
    "history": [],
    "name": "Squadron 42",
@@ -10064,6 +10262,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967630/94d9339bad3fa78e43853dffa04f18e859142dbd/header_alt_assets_9.jpg",
    "slug": "survival-fountain-of-youth"
+  },
+  {
+   "appid": 355060,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 9.95
+     }
+    }
+   ],
+   "name": "Sébastien Loeb Rally EVO",
+   "stores": {
+    "steam": {
+     "price": 9.95,
+     "regular": 99.5,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/355060/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/355060/header.jpg",
+   "slug": "sebastien-loeb-rally-evo"
   },
   {
    "appid": 1566200,
@@ -10874,6 +11094,28 @@
    "slug": "tomb-raider-legacy-of-atlantis"
   },
   {
+   "appid": 5185750,
+   "history": [
+    {
+     "d": "2026-11-23",
+     "p": {
+      "steam": 43.64
+     }
+    }
+   ],
+   "name": "Trafficity",
+   "stores": {
+    "steam": {
+     "price": 43.64,
+     "regular": 48.49,
+     "cut": 10,
+     "url": "https://store.steampowered.com/app/5185750/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185750/cba1f3195974a89cac41d5ae9c56e6bed1809b56/header.jpg",
+   "slug": "trafficity"
+  },
+  {
    "appid": 3493540,
    "history": [
     {
@@ -11276,6 +11518,14 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/679110/header.jpg",
    "slug": "werewolf-the-apocalypse-earthblood"
+  },
+  {
+   "appid": 2600920,
+   "history": [],
+   "name": "When Sirens Fall Silent",
+   "stores": {},
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2600920/aa6394d2ab5c438d364aa5dc2b3f3f9dc05e7d76/header.jpg",
+   "slug": "when-sirens-fall-silent"
   },
   {
    "appid": 466130,
