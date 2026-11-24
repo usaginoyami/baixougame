@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:12:30+00:00",
+ "updated": "2026-11-24T23:05:23+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1711,6 +1711,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2397320/da4a57428bac72569d83afcd0b7f5878c97a17f5/header.jpg",
    "slug": "bus-simulator-27"
+  },
+  {
+   "appid": 5513420,
+   "history": [
+    {
+     "d": "2026-11-24",
+     "p": {
+      "steam": 34.99
+     }
+    }
+   ],
+   "name": "C.L.T.",
+   "stores": {
+    "steam": {
+     "price": 34.99,
+     "regular": 49.99,
+     "cut": 30,
+     "url": "https://store.steampowered.com/app/5513420/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5513420/8e8eb9bd3f125a252747211b75492e9dffd6807c/header.jpg",
+   "slug": "c-l-t"
   },
   {
    "appid": 1588550,
@@ -7545,6 +7567,28 @@
    "slug": "nivalis-nights"
   },
   {
+   "appid": 5527800,
+   "history": [
+    {
+     "d": "2026-11-24",
+     "p": {
+      "steam": 21.99
+     }
+    }
+   ],
+   "name": "No Asteroids",
+   "stores": {
+    "steam": {
+     "price": 21.99,
+     "regular": 27.49,
+     "cut": 20,
+     "url": "https://store.steampowered.com/app/5527800/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/d62c870790fcce767edd856ce3e7e6df2a9b1395/header.jpg",
+   "slug": "no-asteroids"
+  },
+  {
    "appid": 275850,
    "history": [
     {
@@ -8010,6 +8054,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/621060/header.jpg",
    "slug": "pc-building-simulator"
+  },
+  {
+   "appid": 4990940,
+   "history": [
+    {
+     "d": "2026-11-24",
+     "p": {
+      "steam": 36.96
+     }
+    }
+   ],
+   "name": "PC Store Together",
+   "stores": {
+    "steam": {
+     "price": 36.96,
+     "regular": 43.49,
+     "cut": 15,
+     "url": "https://store.steampowered.com/app/4990940/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4990940/ed4ad9ac6b819d4ea1a94ea3cbfdc919713ab0da/header.jpg",
+   "slug": "pc-store-together"
   },
   {
    "appid": 2161700,

@@ -445,5 +445,8 @@
   {"appid": 2537590, "name": "Microsoft Flight Simulator 2024"},
   {"appid": 4697880, "name": "Rock Band Simulator"},
   {"appid": 1368140, "name": "Corsair Cove"},
-  {"appid": 3115160, "name": "Warhammer 40,000: Boltgun 2"}
+  {"appid": 3115160, "name": "Warhammer 40,000: Boltgun 2"},
+  {"appid": 5527800, "name": "No Asteroids"},
+  {"appid": 5513420, "name": "C.L.T."},
+  {"appid": 4990940, "name": "PC Store Together"}
 ]
