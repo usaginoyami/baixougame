@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:20:22+00:00",
+ "updated": "2026-11-26T19:04:31+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -2158,14 +2158,20 @@
      "p": {
       "steam": 9.49
      }
+    },
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 37.99
+     }
     }
    ],
    "name": "Clone Drone in the Danger Zone",
    "stores": {
     "steam": {
-     "price": 9.49,
+     "price": 37.99,
      "regular": 37.99,
-     "cut": 75,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/597170/"
     }
    },
@@ -2482,14 +2488,20 @@
      "p": {
       "steam": 36.99
      }
+    },
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 25.89
+     }
     }
    ],
    "name": "Cuphead",
    "stores": {
     "steam": {
-     "price": 36.99,
+     "price": 25.89,
      "regular": 36.99,
-     "cut": 0,
+     "cut": 30,
      "url": "https://store.steampowered.com/app/268910/"
     }
    },
@@ -3522,14 +3534,20 @@
      "p": {
       "steam": 219.0
      }
+    },
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 134.5
+     }
     }
    ],
    "name": "Dungeons 4",
    "stores": {
     "steam": {
-     "price": 219.0,
-     "regular": 219.0,
-     "cut": 0,
+     "price": 134.5,
+     "regular": 269.0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/1643310/"
     }
    },
@@ -7100,14 +7118,20 @@
      "p": {
       "steam": 32.99
      }
+    },
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 6.59
+     }
     }
    ],
    "name": "Minit",
    "stores": {
     "steam": {
-     "price": 32.99,
+     "price": 6.59,
      "regular": 32.99,
-     "cut": 0,
+     "cut": 80,
      "url": "https://store.steampowered.com/app/609490/"
     }
    },
@@ -7368,14 +7392,20 @@
      "p": {
       "steam": 58.73
      }
+    },
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 88.99
+     }
     }
    ],
    "name": "MOUSE: P.I. For Hire",
    "stores": {
     "steam": {
-     "price": 58.73,
+     "price": 88.99,
      "regular": 88.99,
-     "cut": 34,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2416450/"
     }
    },
@@ -7756,14 +7786,20 @@
      "p": {
       "steam": 17.14
      }
+    },
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 24.49
+     }
     }
    ],
    "name": "One More Lawn",
    "stores": {
     "steam": {
-     "price": 17.14,
+     "price": 24.49,
      "regular": 24.49,
-     "cut": 30,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5378110/"
     }
    },
@@ -8067,14 +8103,20 @@
      "p": {
       "steam": 29.99
      }
+    },
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 14.99
+     }
     }
    ],
    "name": "PAYDAY 2",
    "stores": {
     "steam": {
-     "price": 29.99,
+     "price": 14.99,
      "regular": 29.99,
-     "cut": 0,
+     "cut": 50,
      "url": "https://store.steampowered.com/app/218620/"
     }
    },
@@ -11539,14 +11581,20 @@
      "p": {
       "steam": 43.64
      }
+    },
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 48.49
+     }
     }
    ],
    "name": "Trafficity",
    "stores": {
     "steam": {
-     "price": 43.64,
+     "price": 48.49,
      "regular": 48.49,
-     "cut": 10,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/5185750/"
     }
    },
@@ -12384,7 +12432,14 @@
     }
    ],
    "name": "You Are Empty: Absolute Edition",
-   "stores": {},
+   "stores": {
+    "steam": {
+     "price": 29.99,
+     "regular": 29.99,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/4760480/"
+    }
+   },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760480/47b68109d87a169725e5735d9beb472970003b8e/header.jpg",
    "slug": "you-are-empty-absolute-edition"
   },
