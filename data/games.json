@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:12:21+00:00",
+ "updated": "2026-11-27T00:22:09+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -10,6 +10,28 @@
   "gmg": "Green Man Gaming"
  },
  "games": [
+  {
+   "appid": 2420110,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 124.95
+     }
+    }
+   ],
+   "name": " Horizon Forbidden West™ Edição Completa",
+   "stores": {
+    "steam": {
+     "price": 124.95,
+     "regular": 249.9,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/2420110/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/header.jpg",
+   "slug": "horizon-forbidden-westtm-edicao-completa"
+  },
   {
    "appid": 3768760,
    "history": [
@@ -2581,6 +2603,28 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg"
   },
   {
+   "appid": 767390,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 14.9
+     }
+    }
+   ],
+   "name": "Dakar 18",
+   "stores": {
+    "steam": {
+     "price": 14.9,
+     "regular": 149.0,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/767390/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/767390/header.jpg",
+   "slug": "dakar-18"
+  },
+  {
    "appid": 413410,
    "history": [
     {
@@ -2741,6 +2785,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2989180/header.jpg",
    "slug": "darwins-paradox"
+  },
+  {
+   "appid": 1259420,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 65.83
+     }
+    }
+   ],
+   "name": "Days Gone",
+   "stores": {
+    "steam": {
+     "price": 65.83,
+     "regular": 199.5,
+     "cut": 67,
+     "url": "https://store.steampowered.com/app/1259420/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg",
+   "slug": "days-gone"
   },
   {
    "appid": 221100,
@@ -3305,6 +3371,28 @@
    "slug": "dmc-devil-may-cry"
   },
   {
+   "appid": 2280,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 19.99
+     }
+    }
+   ],
+   "name": "DOOM + DOOM II",
+   "stores": {
+    "steam": {
+     "price": 19.99,
+     "regular": 49.99,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/2280/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2280/header.jpg",
+   "slug": "doom-doom-ii"
+  },
+  {
    "appid": 1148590,
    "history": [
     {
@@ -3557,6 +3645,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2870790/ce7686f0081f5fd8a4d4a66e28ef473884cd504b/header_alt_assets_0.jpg",
    "slug": "dumpster-gang"
+  },
+  {
+   "appid": 1172710,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 89.5
+     }
+    }
+   ],
+   "name": "Dune: Awakening",
+   "stores": {
+    "steam": {
+     "price": 89.5,
+     "regular": 179.0,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/1172710/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/header.jpg",
+   "slug": "dune-awakening"
   },
   {
    "appid": 3053950,
@@ -4065,6 +4175,28 @@
    "stores": {},
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4039200/0e30505cfcc40d2b2b5aa556ec66c22d4fb46c6f/header.jpg",
    "slug": "exterminauts"
+  },
+  {
+   "appid": 3059520,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 119.4
+     }
+    }
+   ],
+   "name": "F1® 25",
+   "stores": {
+    "steam": {
+     "price": 119.4,
+     "regular": 199.0,
+     "cut": 40,
+     "url": "https://store.steampowered.com/app/3059520/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/76dc8ac45f1bd6dec26e04434ca1c8814e7bb330/header.jpg",
+   "slug": "f1-25"
   },
   {
    "appid": 22300,
@@ -5281,6 +5413,28 @@
    "slug": "grim-fandango-remastered"
   },
   {
+   "appid": 962130,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 79.6
+     }
+    }
+   ],
+   "name": "Grounded",
+   "stores": {
+    "steam": {
+     "price": 79.6,
+     "regular": 199.0,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/962130/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg",
+   "slug": "grounded"
+  },
+  {
    "appid": 2661300,
    "history": [
     {
@@ -5951,6 +6105,28 @@
    "slug": "iron-nest-heavy-turret-simulator"
   },
   {
+   "appid": 1426210,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 39.8
+     }
+    }
+   ],
+   "name": "It Takes Two",
+   "stores": {
+    "steam": {
+     "price": 39.8,
+     "regular": 199.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/1426210/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
+   "slug": "it-takes-two"
+  },
+  {
    "appid": 1153410,
    "history": [
     {
@@ -6165,6 +6341,28 @@
    "slug": "kandidatos"
   },
   {
+   "appid": 1415140,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 1.74
+     }
+    }
+   ],
+   "name": "Kandidatos Kart",
+   "stores": {
+    "steam": {
+     "price": 1.74,
+     "regular": 3.49,
+     "cut": 50,
+     "url": "https://store.steampowered.com/app/1415140/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1415140/header.jpg",
+   "slug": "kandidatos-kart"
+  },
+  {
    "appid": 1250,
    "history": [
     {
@@ -6331,6 +6529,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1946700/ef7fe3781df901152466637907c583426c5ff473/header.jpg",
    "slug": "layers-of-fear"
+  },
+  {
+   "appid": 2399420,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 110.0
+     }
+    }
+   ],
+   "name": "Le Mans Ultimate",
+   "stores": {
+    "steam": {
+     "price": 110.0,
+     "regular": 200.0,
+     "cut": 45,
+     "url": "https://store.steampowered.com/app/2399420/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399420/f510badbf573eecdf529ae735a49331f4b9919be/header.jpg",
+   "slug": "le-mans-ultimate"
   },
   {
    "appid": 3836490,
@@ -6873,6 +7093,72 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/bdbf8be37e665ba0e6f44111e3665d280f13ed16/header.jpg",
    "slug": "marvels-guardians-of-the-galaxy"
+  },
+  {
+   "appid": 2651280,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 167.43
+     }
+    }
+   ],
+   "name": "Marvel's Spider-Man 2",
+   "stores": {
+    "steam": {
+     "price": 167.43,
+     "regular": 249.9,
+     "cut": 33,
+     "url": "https://store.steampowered.com/app/2651280/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg",
+   "slug": "marvels-spider-man-2"
+  },
+  {
+   "appid": 1817070,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 99.96
+     }
+    }
+   ],
+   "name": "Marvel’s Spider-Man Remastered",
+   "stores": {
+    "steam": {
+     "price": 99.96,
+     "regular": 249.9,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/1817070/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg",
+   "slug": "marvels-spider-man-remastered"
+  },
+  {
+   "appid": 1817190,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 79.96
+     }
+    }
+   ],
+   "name": "Marvel’s Spider-Man: Miles Morales",
+   "stores": {
+    "steam": {
+     "price": 79.96,
+     "regular": 199.9,
+     "cut": 60,
+     "url": "https://store.steampowered.com/app/1817190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/header.jpg",
+   "slug": "marvels-spider-man-miles-morales"
   },
   {
    "appid": 2362420,
@@ -7799,6 +8085,72 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/header.jpg",
    "slug": "need-for-speedtm-most-wanted"
+  },
+  {
+   "appid": 1262580,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 13.35
+     }
+    }
+   ],
+   "name": "Need for Speed™ Payback",
+   "stores": {
+    "steam": {
+     "price": 13.35,
+     "regular": 89.0,
+     "cut": 85,
+     "url": "https://store.steampowered.com/app/1262580/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/header.jpg",
+   "slug": "need-for-speedtm-payback"
+  },
+  {
+   "appid": 1262600,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 12.98
+     }
+    }
+   ],
+   "name": "Need for Speed™ Rivals",
+   "stores": {
+    "steam": {
+     "price": 12.98,
+     "regular": 59.0,
+     "cut": 78,
+     "url": "https://store.steampowered.com/app/1262600/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262600/header.jpg",
+   "slug": "need-for-speedtm-rivals"
+  },
+  {
+   "appid": 1846380,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 29.9
+     }
+    }
+   ],
+   "name": "Need for Speed™ Unbound",
+   "stores": {
+    "steam": {
+     "price": 29.9,
+     "regular": 299.0,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/1846380/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846380/eacea0635efb7af9054f6b299060fee32404ace7/header.jpg",
+   "slug": "need-for-speedtm-unbound"
   },
   {
    "appid": 2988120,
@@ -9622,6 +9974,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552140/a37a3b1c921e27ee498414e109b06ff29ae2add5/header_alt_assets_0.jpg",
    "slug": "retro-rewind-video-store-simulator"
+  },
+  {
+   "appid": 1346010,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 3.99
+     }
+    }
+   ],
+   "name": "RiMS Racing",
+   "stores": {
+    "steam": {
+     "price": 3.99,
+     "regular": 79.99,
+     "cut": 95,
+     "url": "https://store.steampowered.com/app/1346010/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1346010/header.jpg",
+   "slug": "rims-racing"
   },
   {
    "appid": 391220,
@@ -12024,6 +12398,28 @@
    "slug": "ultra-street-fighter-iv"
   },
   {
+   "appid": 1659420,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 65.96
+     }
+    }
+   ],
+   "name": "UNCHARTED™: Coleção Legado dos Ladrões",
+   "stores": {
+    "steam": {
+     "price": 65.96,
+     "regular": 199.9,
+     "cut": 67,
+     "url": "https://store.steampowered.com/app/1659420/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659420/header.jpg",
+   "slug": "unchartedtm-colecao-legado-dos-ladroes"
+  },
+  {
    "appid": 2411200,
    "history": [
     {
@@ -12386,6 +12782,28 @@
    "slug": "winx-club-moonlight-quest"
   },
   {
+   "appid": 281940,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 10.55
+     }
+    }
+   ],
+   "name": "Woolfe - The Red Hood Diaries",
+   "stores": {
+    "steam": {
+     "price": 10.55,
+     "regular": 32.99,
+     "cut": 68,
+     "url": "https://store.steampowered.com/app/281940/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281940/header.jpg",
+   "slug": "woolfe-the-red-hood-diaries"
+  },
+  {
    "appid": 699130,
    "history": [
     {
@@ -12434,6 +12852,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256330/header.jpg",
    "slug": "wrc-4-fia-world-rally-championship"
+  },
+  {
+   "appid": 354160,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 2.06
+     }
+    }
+   ],
+   "name": "WRC 5 FIA World Rally Championship",
+   "stores": {
+    "steam": {
+     "price": 2.06,
+     "regular": 20.69,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/354160/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/354160/header.jpg",
+   "slug": "wrc-5-fia-world-rally-championship"
   },
   {
    "appid": 621830,
