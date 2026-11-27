@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:04:31+00:00",
+ "updated": "2026-11-27T00:12:21+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -1697,6 +1697,28 @@
    "slug": "bulletstorm-full-clip-edition"
   },
   {
+   "appid": 1238080,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 27.25
+     }
+    }
+   ],
+   "name": "Burnout™ Paradise Remastered",
+   "stores": {
+    "steam": {
+     "price": 27.25,
+     "regular": 109.0,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/1238080/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238080/header.jpg",
+   "slug": "burnouttm-paradise-remastered"
+  },
+  {
    "appid": 2397320,
    "history": [
     {
@@ -2397,6 +2419,28 @@
    "slug": "crimson-desert-enhanced"
   },
   {
+   "appid": 1608070,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 76.96
+     }
+    }
+   ],
+   "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+   "stores": {
+    "steam": {
+     "price": 76.96,
+     "regular": 219.9,
+     "cut": 65,
+     "url": "https://store.steampowered.com/app/1608070/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1608070/header.jpg",
+   "slug": "crisis-core-final-fantasy-vii-reunion"
+  },
+  {
    "appid": 2101960,
    "history": [
     {
@@ -2563,6 +2607,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413410/header.jpg",
    "slug": "danganronpa-trigger-happy-havoc"
+  },
+  {
+   "appid": 236430,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 154.9
+     }
+    }
+   ],
+   "name": "DARK SOULS™ II",
+   "stores": {
+    "steam": {
+     "price": 154.9,
+     "regular": 154.9,
+     "cut": 0,
+     "url": "https://store.steampowered.com/app/236430/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236430/header.jpg",
+   "slug": "dark-soulstm-ii"
   },
   {
    "appid": 335300,
@@ -3217,6 +3283,28 @@
    "slug": "divine-frequency"
   },
   {
+   "appid": 220440,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 32.25
+     }
+    }
+   ],
+   "name": "DmC: Devil May Cry",
+   "stores": {
+    "steam": {
+     "price": 32.25,
+     "regular": 129.0,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/220440/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220440/header.jpg",
+   "slug": "dmc-devil-may-cry"
+  },
+  {
    "appid": 1148590,
    "history": [
     {
@@ -3713,6 +3801,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/25fb6350451b21ca824562c8d1eebe89091347cc/header.jpg",
    "slug": "echoes-of-aincrad"
+  },
+  {
+   "appid": 1238020,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 31.8
+     }
+    }
+   ],
+   "name": "Edição Digital Deluxe N7 de Mass Effect™ 3 (2012)",
+   "stores": {
+    "steam": {
+     "price": 31.8,
+     "regular": 159.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/1238020/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238020/header.jpg",
+   "slug": "edicao-digital-deluxe-n7-de-mass-effecttm-3-2012"
   },
   {
    "appid": 1245620,
@@ -5925,6 +6035,50 @@
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648350/header.jpg"
   },
   {
+   "appid": 6880,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 3.06
+     }
+    }
+   ],
+   "name": "Just Cause",
+   "stores": {
+    "steam": {
+     "price": 3.06,
+     "regular": 21.9,
+     "cut": 86,
+     "url": "https://store.steampowered.com/app/6880/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6880/header.jpg",
+   "slug": "just-cause"
+  },
+  {
+   "appid": 8190,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 6.49
+     }
+    }
+   ],
+   "name": "Just Cause 2",
+   "stores": {
+    "steam": {
+     "price": 6.49,
+     "regular": 64.9,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/8190/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8190/header.jpg",
+   "slug": "just-cause-2"
+  },
+  {
    "appid": 517630,
    "history": [],
    "name": "Just Cause 4 Reloaded",
@@ -6719,6 +6873,50 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/bdbf8be37e665ba0e6f44111e3665d280f13ed16/header.jpg",
    "slug": "marvels-guardians-of-the-galaxy"
+  },
+  {
+   "appid": 2362420,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 31.8
+     }
+    }
+   ],
+   "name": "Mass Effect 2 (2010) Edition",
+   "stores": {
+    "steam": {
+     "price": 31.8,
+     "regular": 159.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/2362420/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362420/header.jpg",
+   "slug": "mass-effect-2-2010-edition"
+  },
+  {
+   "appid": 1238000,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 41.8
+     }
+    }
+   ],
+   "name": "Mass Effect™: Andromeda Edição Deluxe",
+   "stores": {
+    "steam": {
+     "price": 41.8,
+     "regular": 209.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/1238000/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238000/8c7ff2de01854469c5202e522d8f8c00ab6ad052/header.jpg",
+   "slug": "mass-effecttm-andromeda-edicao-deluxe"
   },
   {
    "appid": 2492670,
@@ -7557,6 +7755,50 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg",
    "slug": "need-for-speedtm-heat"
+  },
+  {
+   "appid": 1328660,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 22.35
+     }
+    }
+   ],
+   "name": "Need for Speed™ Hot Pursuit Remastered",
+   "stores": {
+    "steam": {
+     "price": 22.35,
+     "regular": 149.0,
+     "cut": 85,
+     "url": "https://store.steampowered.com/app/1328660/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328660/header.jpg",
+   "slug": "need-for-speedtm-hot-pursuit-remastered"
+  },
+  {
+   "appid": 1262560,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 11.8
+     }
+    }
+   ],
+   "name": "Need for Speed™ Most Wanted",
+   "stores": {
+    "steam": {
+     "price": 11.8,
+     "regular": 59.0,
+     "cut": 80,
+     "url": "https://store.steampowered.com/app/1262560/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/header.jpg",
+   "slug": "need-for-speedtm-most-wanted"
   },
   {
    "appid": 2988120,
@@ -8828,6 +9070,28 @@
    },
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5455340/c14ac79b12864823b5b0af44077d7abcc064f167/header.jpg",
    "slug": "punch-the-walls"
+  },
+  {
+   "appid": 474960,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 18.24
+     }
+    }
+   ],
+   "name": "Quantum Break",
+   "stores": {
+    "steam": {
+     "price": 18.24,
+     "regular": 72.99,
+     "cut": 75,
+     "url": "https://store.steampowered.com/app/474960/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/474960/header.jpg",
+   "slug": "quantum-break"
   },
   {
    "appid": 1799840,
@@ -11738,6 +12002,28 @@
    "slug": "twisted-tower"
   },
   {
+   "appid": 45760,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 16.77
+     }
+    }
+   ],
+   "name": "Ultra Street Fighter® IV",
+   "stores": {
+    "steam": {
+     "price": 16.77,
+     "regular": 129.0,
+     "cut": 87,
+     "url": "https://store.steampowered.com/app/45760/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/45760/header.jpg",
+   "slug": "ultra-street-fighter-iv"
+  },
+  {
    "appid": 2411200,
    "history": [
     {
@@ -12126,6 +12412,28 @@
    },
    "slug": "world-war-z",
    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/b35277055fbb7e07c26c5e31e4398684c6461d53/header.jpg"
+  },
+  {
+   "appid": 256330,
+   "history": [
+    {
+     "d": "2026-11-26",
+     "p": {
+      "steam": 2.06
+     }
+    }
+   ],
+   "name": "WRC 4 FIA World Rally Championship",
+   "stores": {
+    "steam": {
+     "price": 2.06,
+     "regular": 20.69,
+     "cut": 90,
+     "url": "https://store.steampowered.com/app/256330/"
+    }
+   },
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256330/header.jpg",
+   "slug": "wrc-4-fia-world-rally-championship"
   },
   {
    "appid": 621830,
