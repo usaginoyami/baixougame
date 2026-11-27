@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:22:09+00:00",
+ "updated": "2026-11-27T19:02:13+00:00",
  "currency": "BRL",
  "sample": false,
  "stores": {
@@ -702,14 +702,20 @@
      "p": {
       "steam": 149.99
      }
+    },
+    {
+     "d": "2026-11-27",
+     "p": {
+      "steam": 104.99
+     }
     }
    ],
    "name": "Arma Reforger",
    "stores": {
     "steam": {
-     "price": 149.99,
+     "price": 104.99,
      "regular": 149.99,
-     "cut": 0,
+     "cut": 30,
      "url": "https://store.steampowered.com/app/1874880/"
     }
    },
@@ -2588,14 +2594,20 @@
      "p": {
       "steam": 199.9
      }
+    },
+    {
+     "d": "2026-11-27",
+     "p": {
+      "steam": 59.97
+     }
     }
    ],
    "name": "Cyberpunk 2077",
    "stores": {
     "steam": {
-     "price": 199.9,
+     "price": 59.97,
      "regular": 199.9,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/1091500/"
     }
    },
@@ -5642,14 +5654,20 @@
      "p": {
       "steam": 8.49
      }
+    },
+    {
+     "d": "2026-11-27",
+     "p": {
+      "steam": 9.99
+     }
     }
    ],
    "name": "HANDS OVER",
    "stores": {
     "steam": {
-     "price": 8.49,
+     "price": 9.99,
      "regular": 9.99,
-     "cut": 15,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/4661070/"
     }
    },
@@ -6140,14 +6158,20 @@
      "p": {
       "steam": 35.69
      }
+    },
+    {
+     "d": "2026-11-27",
+     "p": {
+      "steam": 101.99
+     }
     }
    ],
    "name": "JDM: Japanese Drift Master",
    "stores": {
     "steam": {
-     "price": 35.69,
+     "price": 101.99,
      "regular": 101.99,
-     "cut": 65,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/1153410/"
     }
    },
@@ -10875,14 +10899,20 @@
      "p": {
       "steam": 2.29
      }
+    },
+    {
+     "d": "2026-11-27",
+     "p": {
+      "steam": 22.99
+     }
     }
    ],
    "name": "SOS OPS!",
    "stores": {
     "steam": {
-     "price": 2.29,
+     "price": 22.99,
      "regular": 22.99,
-     "cut": 90,
+     "cut": 0,
      "url": "https://store.steampowered.com/app/2475460/"
     }
    },
@@ -11277,14 +11307,20 @@
      "p": {
       "steam": 59.99
      }
+    },
+    {
+     "d": "2026-11-27",
+     "p": {
+      "steam": 17.99
+     }
     }
    ],
    "name": "SUPERHOT",
    "stores": {
     "steam": {
-     "price": 59.99,
+     "price": 17.99,
      "regular": 59.99,
-     "cut": 0,
+     "cut": 70,
      "url": "https://store.steampowered.com/app/322500/"
     }
    },
@@ -11907,14 +11943,20 @@
      "p": {
       "steam": 59.99
      }
+    },
+    {
+     "d": "2026-11-27",
+     "p": {
+      "steam": 8.99
+     }
     }
    ],
    "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
    "stores": {
     "steam": {
-     "price": 59.99,
+     "price": 8.99,
      "regular": 59.99,
-     "cut": 0,
+     "cut": 85,
      "url": "https://store.steampowered.com/app/20920/"
     }
    },
@@ -11929,14 +11971,20 @@
      "p": {
       "steam": 159.99
      }
+    },
+    {
+     "d": "2026-11-27",
+     "p": {
+      "steam": 63.99
+     }
     }
    ],
    "name": "The Witcher 3: Wild Hunt — Remastered",
    "stores": {
     "steam": {
-     "price": 159.99,
+     "price": 63.99,
      "regular": 159.99,
-     "cut": 0,
+     "cut": 60,
      "url": "https://store.steampowered.com/app/292030/"
     }
    },
